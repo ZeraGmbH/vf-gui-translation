@@ -506,928 +506,984 @@
         <translation>Phase</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="225"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="224"/>
+        <source>UL1</source>
+        <comment>channel name</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/src/zeratranslation.cpp" line="226"/>
+        <source>UL2</source>
+        <comment>channel name</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/src/zeratranslation.cpp" line="228"/>
+        <source>UL3</source>
+        <comment>channel name</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/src/zeratranslation.cpp" line="230"/>
+        <source>IL1</source>
+        <comment>channel name</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/src/zeratranslation.cpp" line="232"/>
+        <source>IL2</source>
+        <comment>channel name</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/src/zeratranslation.cpp" line="234"/>
+        <source>IL3</source>
+        <comment>channel name</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/src/zeratranslation.cpp" line="236"/>
+        <source>UAUX</source>
+        <comment>channel name</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/src/zeratranslation.cpp" line="238"/>
+        <source>IAUX</source>
+        <comment>channel name</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/src/zeratranslation.cpp" line="242"/>
         <source>Vector diagram</source>
         <extracomment>polar (amplitude and phase) phasor diagram</extracomment>
         <translation>Vektordiagramm</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="226"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="243"/>
         <source>Actual values</source>
         <translation>Istwerte</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="227"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="244"/>
         <source>Oscilloscope plot</source>
         <translation>Kurvendarstellung</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="229"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="246"/>
         <source>Harmonics</source>
         <extracomment>FFT bar diagrams or tables that show the harmonic component distribution of the measured values</extracomment>
         <translation>Harmonische</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="231"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="248"/>
         <source>Power values</source>
         <extracomment>measuring mode dependent power values</extracomment>
         <translation>Leistungswerte</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="233"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="250"/>
         <source>Harmonic power values</source>
         <extracomment>FFT tables that show the real and imaginary parts of the measured power values</extracomment>
         <translation>Harmonische Leistung</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="235"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="252"/>
         <source>Error calculator</source>
         <extracomment>shows the deviation of measured energy between the reference device and the device under test</extracomment>
         <translation>Fehlerwerte</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="236"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="253"/>
         <source>Burden values</source>
         <translation>Bürdenwerte</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="237"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="254"/>
         <source>Transformer values</source>
         <translation>Stromwandlerwerte</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="239"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="256"/>
         <source>RMS values</source>
         <extracomment>effective values</extracomment>
         <translation>Effektivwerte</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="242"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="259"/>
         <source>Voltage-Burden</source>
         <translation>Spannungsbürde</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="243"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="260"/>
         <source>Current-Burden</source>
         <translation>Strombürde</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="244"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="261"/>
         <source>Nominal burden:</source>
         <translation>Nominalbürde:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="245"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="262"/>
         <source>Nominal range:</source>
         <translation>Nominalbereich:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="246"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="263"/>
         <source>Wire crosssection:</source>
         <translation>Kabelquerschnitt:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="247"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="264"/>
         <source>Wire length:</source>
         <translation>Kabellänge:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="250"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="267"/>
         <source>Reference values</source>
         <translation>Referenzwerte</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="253"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="270"/>
         <source>CED power values</source>
         <translation>WER-Leistungswerte</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="256"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="273"/>
         <source>Real</source>
         <comment>complex number part</comment>
         <translation>Realanteil</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="257"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="274"/>
         <source>Imaginary</source>
         <comment>complex number part</comment>
         <translation>Imaginäranteil</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="260"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="277"/>
         <source>TR1</source>
         <comment>transformer system 1</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="261"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="278"/>
         <source>X-Prim:</source>
         <translation>X-Prim:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="262"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="279"/>
         <source>X-Sec:</source>
         <translation>X-Sek:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="263"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="280"/>
         <source>Ms-Prim:</source>
         <translation>Xc-Prim:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="264"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="281"/>
         <source>Ms-Sec:</source>
         <translation>Xc-Sek:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="265"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="282"/>
         <source>Mp-Prim:</source>
         <translation>N-Prim:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="266"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="283"/>
         <source>Mp-Sec:</source>
         <translation>N-Sek:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="267"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="284"/>
         <source>crad</source>
         <comment>centiradian</comment>
         <translation>crad</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="268"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="285"/>
         <source>arcmin</source>
         <comment>arcminute</comment>
         <translation>arcmin</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="272"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="289"/>
         <source>RESMAN ident error</source>
         <extracomment>RESMAN = resource manager</extracomment>
         <translation>RESMAN-ident-Fehler</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="274"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="291"/>
         <source>RESMAN resourcetype not avail</source>
         <extracomment>RESMAN = resource manager</extracomment>
         <translation>RESMAN resource type not available</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="276"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="293"/>
         <source>RESMAN resource not avail</source>
         <extracomment>RESMAN = resource manager</extracomment>
         <translation>RESMAN resource not avail</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="278"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="295"/>
         <source>RESMAN resource Info error</source>
         <extracomment>RESMAN = resource manager</extracomment>
         <translation>RESMAN resource info error</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="280"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="297"/>
         <source>RESMAN set resource failed</source>
         <extracomment>RESMAN = resource manager</extracomment>
         <translation>RESMAN set resource failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="282"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="299"/>
         <source>RESMAN free resource failed</source>
         <extracomment>RESMAN = resource manager</extracomment>
         <translation>RESMAN free resource failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="284"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="301"/>
         <source>PCB dsp channel read failed</source>
         <translation>PCB dsp channel read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="285"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="302"/>
         <source>PCB alias read failed</source>
         <translation>PCB alias read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="286"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="303"/>
         <source>PCB sample rate read failed</source>
         <translation>PCB sample rate read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="287"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="304"/>
         <source>PCB unit read failed</source>
         <translation>PCB unit read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="288"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="305"/>
         <source>PCB range list read failed</source>
         <translation>PCB range list read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="289"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="306"/>
         <source>PCB range alias read failed</source>
         <translation>PCB range alias read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="290"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="307"/>
         <source>PCB range type read failed</source>
         <translation>PCB range type read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="291"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="308"/>
         <source>PCB range urvalue read failed</source>
         <translation>PCB range urvalue read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="292"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="309"/>
         <source>PCB range rejection read failed</source>
         <translation>PCB range rejection read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="293"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="310"/>
         <source>PCB range overload rejection failed</source>
         <translation>PCB range overload rejection failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="294"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="311"/>
         <source>PCB range avail info read failed</source>
         <translation>PCB range avail info read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="295"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="312"/>
         <source>PCB set range failed</source>
         <translation>PCB set range failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="296"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="313"/>
         <source>PCB get range failed</source>
         <translation>PCB get range failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="297"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="314"/>
         <source>PCB set measuring mode failed</source>
         <translation>PCB set measuring mode failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="298"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="315"/>
         <source>PCB read gain correction failed</source>
         <translation>PCB read gain correction failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="299"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="316"/>
         <source>PCB set gain node failed</source>
         <translation>PCB set gain node failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="300"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="317"/>
         <source>PCB read offset correction failed</source>
         <translation>PCB read offset correction failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="301"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="318"/>
         <source>PCB set offset node failed</source>
         <translation>PCB set offset node failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="302"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="319"/>
         <source>PCB read phase correction failed</source>
         <translation>PCB read phase correction failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="303"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="320"/>
         <source>PCB set phase node failed</source>
         <translation>PCB set phase node failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="304"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="321"/>
         <source>PCB read channel status failed</source>
         <translation>PCB read channel status failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="305"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="322"/>
         <source>PCB reset channel status failed</source>
         <translation>PCB reset channel status failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="306"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="323"/>
         <source>PCB formfactor read failed</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="307"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="324"/>
         <source>PCB register notifier failed</source>
         <translation>PCB register notifier failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="308"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="325"/>
         <source>PCB unregister notifier failed</source>
         <translation>PCB unregister notifier failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="309"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="326"/>
         <source>PCB set pll failed</source>
         <translation>PCB set pll failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="310"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="327"/>
         <source>PCB muxchannel read failed</source>
         <translation>PCB muxchannel read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="311"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="328"/>
         <source>PCB reference constant read failed</source>
         <translation>PCB reference constant read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="312"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="329"/>
         <source>PCB adjustment status read failed</source>
         <translation>PCB adjustment status read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="313"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="330"/>
         <source>PCB adjustment chksum read failed</source>
         <translation>PCB adjustment chksum read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="314"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="331"/>
         <source>PCB server version read failed</source>
         <translation>PCB server version read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="315"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="332"/>
         <source>PCB Controler version read failed</source>
         <translation>PCB Controler version read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="316"/>
-        <location filename="../gui/src/zeratranslation.cpp" line="317"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="333"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="334"/>
         <source>PCB FPGA version read failed</source>
         <translation>PCB FPGA version read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="318"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="335"/>
         <source>PCB error messages read failed</source>
         <translation>PCB error messages read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="319"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="336"/>
         <source>PCB adjustment computation failed</source>
         <translation>PCB adjustment computation failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="320"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="337"/>
         <source>PCB adjustment storage failed</source>
         <translation>PCB adjustment storage failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="321"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="338"/>
         <source>PCB adjustment status setting failed</source>
         <translation>PCB adjustment status setting failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="322"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="339"/>
         <source>PCB adjustment init failed</source>
         <translation>PCB adjustment init failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="324"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="341"/>
         <source>DSP read gain correction failed</source>
         <translation>DSP read gain correction faile</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="325"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="342"/>
         <source>DSP read phase correction failed</source>
         <translation>DSP read phase correction failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="326"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="343"/>
         <source>DSP read offset correction failed</source>
         <translation>DSP read offset correction failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="327"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="344"/>
         <source>DSP write gain correction failed</source>
         <translation>DSP write gain correction failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="328"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="345"/>
         <source>DSP write phase correction failed</source>
         <translation>DSP write phase correction failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="329"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="346"/>
         <source>DSP write offset corredction failed</source>
         <translation>DSP write offset corredction failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="330"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="347"/>
         <source>DSP write varlist failed</source>
         <translation>DSP write varlist failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="331"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="348"/>
         <source>DSP write cmdlist failed</source>
         <translation>DSP write cmdlist failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="332"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="349"/>
         <source>DSP measure activation failed</source>
         <translation>DSP measure activation failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="333"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="350"/>
         <source>DSP measure deactivation failed</source>
         <translation>DSP measure deactivation failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="334"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="351"/>
         <source>DSP data acquisition failed</source>
         <translation>DSP data acquisition failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="335"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="352"/>
         <source>DSP memory write failed</source>
         <translation>DSP memory write failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="336"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="353"/>
         <source>DSP subdc write failed</source>
         <translation>DSP subdc write failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="337"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="354"/>
         <source>DSP server version read failed</source>
         <translation>DSP server version read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="338"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="355"/>
         <source>DSP program version read failed</source>
         <translation>DSP program version read failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="339"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="356"/>
         <source>DSP setting sampling system failed</source>
         <translation>DSP setting sampling system failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="342"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="359"/>
         <source>SEC fetch ecalculator failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
         <translation>SEC fetch ecalculator failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="344"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="361"/>
         <source>SEC free ecalculator failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
         <translation>SEC free ecalculator failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="346"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="363"/>
         <source>SEC read register failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
         <translation>SEC read register failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="348"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="365"/>
         <source>SEC write register failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
         <translation>SEC write register failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="350"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="367"/>
         <source>SEC set sync failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
         <translation>SEC set sync failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="352"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="369"/>
         <source>SEC set mux failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
         <translation>SEC set mux failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="354"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="371"/>
         <source>SEC set cmdid failed</source>
         <extracomment>SEC = standard error calculator, cmdid = command id</extracomment>
         <translation>SEC set cmdid failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="356"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="373"/>
         <source>SEC start measure failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
         <translation>SEC start measure failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="358"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="375"/>
         <source>SEC stop measure failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
         <translation>SEC stop measure failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="360"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="377"/>
         <source>Interface JSON Document strange</source>
         <translation>Interface JSON document strange</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="361"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="378"/>
         <source>Ethernet interface listen failed</source>
         <translation>Ethernet interface listen failed</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="362"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="379"/>
         <source>Serial interface not connected</source>
         <translation>Serielle Schnittstelle nicht angeschlossen</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="364"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="381"/>
         <source>Actual Values not found</source>
         <translation>Istwerte nicht gefunden</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="365"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="382"/>
         <source>Release number not found</source>
         <translation>Versionsnummer nicht gefunden</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="368"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="385"/>
         <source>Device info</source>
         <translation>Geräteinformation</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="369"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="386"/>
         <source>Device log</source>
         <translation>Geräte-Logdatei</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="370"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="387"/>
         <source>License information</source>
         <translation>Lizenzinformation</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="371"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="388"/>
         <source>Serial number:</source>
         <translation>Seriennummer:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="372"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="389"/>
         <source>Operating system version:</source>
         <translation>Version Betriebssystem:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="373"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="390"/>
         <source>PCB server version:</source>
         <translation>Version des PCB-Servers:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="374"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="391"/>
         <source>DSP server version:</source>
         <translation>Version des DSP-Servers:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="375"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="392"/>
         <source>DSP firmware version:</source>
         <translation>Version der DSP-Firmware:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="376"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="393"/>
         <source>FPGA firmware version:</source>
         <translation>Version der FPGA-Firmware:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="377"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="394"/>
         <source>Microcontroller firmware version:</source>
         <translation>Version der Microcontroller-Firmware:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="378"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="395"/>
         <source>Adjustment status:</source>
         <translation>Status der Justierung:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="379"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="396"/>
         <source>Adjustment checksum:</source>
         <translation>Checksumme der Justierung:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="380"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="397"/>
         <source>IP addresses:</source>
         <translation>IP-Adressen:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="383"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="400"/>
         <source>Device notifications</source>
         <translation>Gerätehinweise</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="386"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="403"/>
         <source>Database Logging</source>
         <translation>Datenspeicherung</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="387"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="404"/>
         <source>Logging enabled:</source>
         <translation>Speicherung aktiviert:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="388"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="405"/>
         <source>Database location:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="389"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="406"/>
         <source>Database filename:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="390"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="407"/>
         <source>Filesystem info:</source>
         <translation>Dateisystem-Information:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="391"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="408"/>
         <source>Device name: &lt;b&gt;%1&lt;/b&gt;</source>
         <translation>Gerätename: &lt;b&gt;%1&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="392"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="409"/>
         <source>Filesystem type: &lt;b&gt;%1&lt;/b&gt;</source>
         <translation>Dateisystemtyp: &lt;b&gt;%1&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="394"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="411"/>
         <source>Space available: &lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</source>
         <extracomment>%1 = available, %2 = total, %3 = percentage available</extracomment>
         <translation>Verfügbarer Speicher: &lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="395"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="412"/>
         <source>Scheduled logging enabled:</source>
         <translation>Aufzeichnungsdauer aktiviert:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="397"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="414"/>
         <source>Logging Duration:</source>
         <extracomment>describes the duration of the recording</extracomment>
         <translation>Aufzeichnungsdauer:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="398"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="415"/>
         <source>Logger status:</source>
         <translation>Status der Speicherung:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="400"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="417"/>
         <source>Logging data</source>
         <extracomment>describes the ongoing task of recording data into a database</extracomment>
         <translation>Aufzeichnung</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="401"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="418"/>
         <source>Logging disabled</source>
         <translation>Aufzeichnung  inaktiv</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="402"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="419"/>
         <source>Database loaded</source>
         <translation>Datenbank geladen</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="403"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="420"/>
         <source>Database error</source>
         <translation>Datenbankfehler</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="404"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="421"/>
         <source>Database size:</source>
         <translation>Datenbankgröße:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="406"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="423"/>
         <source>Select recorded values:</source>
         <extracomment>the user can make a selection of values he wants to log into a database</extracomment>
         <translation>Zu speichernde Werte  auswählen:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="407"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="424"/>
         <source>Manage customer data:</source>
         <translation>Verwalten der Kundendaten:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="408"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="425"/>
         <source>Snapshot</source>
         <translation>Snapshot</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="411"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="428"/>
         <source>Regex search</source>
         <comment>regular expression search</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="412"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="429"/>
         <source>Available for recording</source>
         <comment>list of selectable elements</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="413"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="430"/>
         <source>Selected for recording</source>
         <comment>list of selected elements</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="414"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="431"/>
         <source>Description:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="415"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="432"/>
         <source>Unit:</source>
         <comment>SI or SI derived unit</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="418"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="435"/>
         <source>Customer data</source>
         <translation>Daten (Kd.)</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="419"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="436"/>
         <source>Customer</source>
         <translation>Kunde</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="421"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="438"/>
         <source>Meter information</source>
         <extracomment>power meter, not distance</extracomment>
         <translation>Zählerinformationen</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="422"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="439"/>
         <source>Location</source>
         <translation>Messstelle</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="423"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="440"/>
         <source>Power grid</source>
         <translation>Stromnetz</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="424"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="441"/>
         <source>Data Identifier:</source>
         <translation>Datenkennung:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="425"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="442"/>
         <source>Data Comment:</source>
         <translation>Datenkommentar:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="426"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="443"/>
         <source>Customer number:</source>
         <translation>Nummer (Kd.):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="427"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="444"/>
         <source>Customer First name:</source>
         <translation>Vorname (Kd.)::</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="428"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="445"/>
         <source>Customer Last name:</source>
         <translation>Nachname (Kd.):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="429"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="446"/>
         <source>Customer Country:</source>
         <translation>Land (Kd.)::</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="430"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="447"/>
         <source>Customer City:</source>
         <translation>Stadt (Kd.):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="431"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="448"/>
         <source>Customer ZIP code:</source>
         <comment>Postal code</comment>
         <translation>PLZ (Kd.):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="432"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="449"/>
         <source>Customer Street:</source>
         <translation>Straße (Kd.):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="433"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="450"/>
         <source>Customer Comment:</source>
         <translation>Kommentar (Kd.):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="434"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="451"/>
         <source>Location Identifier:</source>
         <translation>Kennung (Messstelle):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="435"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="452"/>
         <source>Location First name:</source>
         <translation>Vorname (Messtelle):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="436"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="453"/>
         <source>Location Last name:</source>
         <translation>Nachname (Messstelle):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="437"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="454"/>
         <source>LocationCountry:</source>
         <translation>Land (Messstelle):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="438"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="455"/>
         <source>Location City:</source>
         <translation>Stadt (Messstelle):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="439"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="456"/>
         <source>Location ZIP code:</source>
         <comment>Postal code</comment>
         <translation>PLZ (Messstelle):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="440"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="457"/>
         <source>Location Street:</source>
         <translation>Straße (Messstelle):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="441"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="458"/>
         <source>Location Comment:</source>
         <translation>Kommentar (Messstelle):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="442"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="459"/>
         <source>Meter Factory number:</source>
         <translation>Fabriknummer (Zähler):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="443"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="460"/>
         <source>Meter Manufacturer:</source>
         <translation>Hersteller (Zähler):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="444"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="461"/>
         <source>Meter Owner:</source>
         <translation>Eigentümer (Zähler):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="445"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="462"/>
         <source>Meter Comment:</source>
         <translation>Kommentar (Zähler):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="446"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="463"/>
         <source>Power grid Operator:</source>
         <translation>Netzbetreiber:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="447"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="464"/>
         <source>Power grid Supplier:</source>
         <translation>Energieversorger:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="448"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="465"/>
         <source>Power grid Comment:</source>
         <translation>Kommentar (Energienetz):</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="452"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="469"/>
         <source>New file</source>
         <extracomment>Button text, action to create a file</extracomment>
         <translation>Neue Datei erzeugen</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="453"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="470"/>
         <source>File name:</source>
         <translation>Dateiname:</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="454"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="471"/>
         <source>Search</source>
         <translation>Suche</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="456"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="473"/>
         <source>Clear</source>
         <extracomment>clears input field</extracomment>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="458"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="475"/>
         <source>Delete file</source>
         <extracomment>Button text, action to delete a file</extracomment>
         <translation>Datei löschen</translation>
     </message>
     <message>
-        <location filename="../gui/src/zeratranslation.cpp" line="460"/>
+        <location filename="../gui/src/zeratranslation.cpp" line="477"/>
         <source>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
         <extracomment>%1 the file that is about to be deleted</extracomment>
         <translation>Datei wirklich löschen &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
