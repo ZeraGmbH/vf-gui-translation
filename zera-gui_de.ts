@@ -1218,5 +1218,9 @@
         <extracomment>%1 the file that is about to be deleted</extracomment>
         <translation>Datei wirklich löschen &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
