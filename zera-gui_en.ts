@@ -978,20 +978,20 @@
     </message>
     <message>
         <source>Filesystem info:</source>
-        <translation>Filesystem info:</translation>
+        <translation type="vanished">Filesystem info:</translation>
     </message>
     <message>
         <source>Device name: &lt;b&gt;%1&lt;/b&gt;</source>
-        <translation>Device name: &lt;b&gt;%1&lt;/b&gt;</translation>
+        <translation type="vanished">Device name: &lt;b&gt;%1&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Filesystem type: &lt;b&gt;%1&lt;/b&gt;</source>
-        <translation>Filesystem type: &lt;b&gt;%1&lt;/b&gt;</translation>
+        <translation type="vanished">Filesystem type: &lt;b&gt;%1&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Space available: &lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</source>
         <extracomment>%1 = available, %2 = total, %3 = percentage available</extracomment>
-        <translation>Space available: &lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</translation>
+        <translation type="vanished">Space available: &lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</translation>
     </message>
     <message>
         <source>Scheduled logging enabled:</source>
@@ -1217,6 +1217,15 @@
     </message>
     <message>
         <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filesystem storage available:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</source>
+        <extracomment>%1 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
