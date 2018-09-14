@@ -1228,5 +1228,15 @@
         <extracomment>%1 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>[customer data is not available]</source>
+        <extracomment>when the system disabled the customer data management, the brackets are for visual distinction from other text</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[customer id is not set]</source>
+        <extracomment>when the customer number is empty, the brackets are for visual distinction from other text</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
