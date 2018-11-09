@@ -1241,5 +1241,13 @@
         <extracomment>when the customer number is empty, the brackets are for visual distinction from other text</extracomment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Lower error margin:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Upper error margin:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
