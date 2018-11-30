@@ -1249,5 +1249,13 @@
         <source>Upper error margin:</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>No database selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select file</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
