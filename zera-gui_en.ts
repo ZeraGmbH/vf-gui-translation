@@ -1254,5 +1254,10 @@
         <source>Select file</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>THDN:</source>
+        <extracomment>total harmonic distortion with noise</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
