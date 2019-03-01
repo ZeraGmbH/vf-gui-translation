@@ -1259,5 +1259,25 @@
         <extracomment>total harmonic distortion with noise</extracomment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Frequency input/output configuration:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>X-Ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>N-Sec</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>X-Prim</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>X-Sec</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
