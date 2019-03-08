@@ -232,6 +232,7 @@
     </message>
     <message>
         <source>Scale visualisation:</source>
+        <translatorcomment>Hier benötige ich den Kontext</translatorcomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -240,15 +241,15 @@
     </message>
     <message>
         <source>Absolute</source>
-        <translation type="unfinished"></translation>
+        <translation>Absolut</translation>
     </message>
     <message>
         <source>Logarithmic</source>
-        <translation type="unfinished"></translation>
+        <translation>Logarithmisch</translation>
     </message>
     <message>
         <source>Relative to channel limit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Relativ zum</translation>
     </message>
     <message>
         <source>Application Settings</source>
@@ -263,6 +264,7 @@
     </message>
     <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
+        <translatorcomment>Hier brauche ich Kontext und max. Zeichenlänge</translatorcomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -273,7 +275,7 @@
     <message>
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
-        <translation>Deutsch</translation>
+        <translation>Sprache:</translation>
     </message>
     <message>
         <source>Device settings</source>
@@ -313,7 +315,8 @@
     </message>
     <message>
         <source>seconds</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Kontext?</translatorcomment>
+        <translation type="unfinished">Sekunde(n)</translation>
     </message>
     <message>
         <source>Loading...</source>
@@ -426,49 +429,49 @@
         <source>UL1</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>UL1</translation>
     </message>
     <message>
         <source>UL2</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>UL2</translation>
     </message>
     <message>
         <source>UL3</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>UL3</translation>
     </message>
     <message>
         <source>IL1</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IL1</translation>
     </message>
     <message>
         <source>IL2</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IL2</translation>
     </message>
     <message>
         <source>IL3</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IL3</translation>
     </message>
     <message>
         <source>UAUX</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>UAUX</translation>
     </message>
     <message>
         <source>IAUX</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IAUX</translation>
     </message>
     <message>
         <source>Vector diagram</source>
@@ -974,11 +977,12 @@
     </message>
     <message>
         <source>Database location:</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Bitte prüfen, ob Textmenge ok.</translatorcomment>
+        <translation type="unfinished">Datenbank Speicherort:</translation>
     </message>
     <message>
         <source>Database filename:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Datenbank Dateiname:</translation>
     </message>
     <message>
         <source>Filesystem info:</source>
@@ -1052,16 +1056,16 @@
     <message>
         <source>Available for recording</source>
         <comment>list of selectable elements</comment>
-        <translation type="unfinished"></translation>
+        <translation>Zur Speicherung verfügbar</translation>
     </message>
     <message>
         <source>Selected for recording</source>
         <comment>list of selected elements</comment>
-        <translation type="unfinished"></translation>
+        <translation>Zur Speicherung ausgewählt</translation>
     </message>
     <message>
         <source>Description:</source>
-        <translation type="unfinished"></translation>
+        <translation>Beschreibung:</translation>
     </message>
     <message>
         <source>Unit:</source>
@@ -1221,10 +1225,11 @@
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Abbruch</translation>
     </message>
     <message>
         <source>Filesystem storage available:</source>
+        <translatorcomment>Kontext???</translatorcomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1252,20 +1257,20 @@
     </message>
     <message>
         <source>No database selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine Datenbank ausgewählt</translation>
     </message>
     <message>
         <source>Select file</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei auswählen</translation>
     </message>
     <message>
         <source>THDN:</source>
         <extracomment>total harmonic distortion with noise</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>THDN:</translation>
     </message>
     <message>
         <source>Frequency input/output configuration:</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfiguration Frequenzein-/ausgang:</translation>
     </message>
     <message>
         <source>X-Ratio</source>
@@ -1273,15 +1278,15 @@
     </message>
     <message>
         <source>N-Sec</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">N Sek</translation>
     </message>
     <message>
         <source>X-Prim</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">X Prim</translation>
     </message>
     <message>
         <source>X-Sec</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">X Sek</translation>
     </message>
 </context>
 </TS>

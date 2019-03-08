@@ -238,15 +238,15 @@
     </message>
     <message>
         <source>Absolute</source>
-        <translation type="unfinished"></translation>
+        <translation>Absolute</translation>
     </message>
     <message>
         <source>Logarithmic</source>
-        <translation type="unfinished"></translation>
+        <translation>Logarithmic</translation>
     </message>
     <message>
         <source>Relative to channel limit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Relative to channel limit</translation>
     </message>
     <message>
         <source>Application Settings</source>
@@ -270,7 +270,7 @@
     <message>
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Language:</translation>
     </message>
     <message>
         <source>Device settings</source>
@@ -310,7 +310,7 @@
     </message>
     <message>
         <source>seconds</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">second(s)</translation>
     </message>
     <message>
         <source>Loading...</source>
@@ -422,49 +422,49 @@
         <source>UL1</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>UL1</translation>
     </message>
     <message>
         <source>UL2</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>UL2</translation>
     </message>
     <message>
         <source>UL3</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>UL3</translation>
     </message>
     <message>
         <source>IL1</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IL1</translation>
     </message>
     <message>
         <source>IL2</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IL2</translation>
     </message>
     <message>
         <source>IL3</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IL3</translation>
     </message>
     <message>
         <source>UAUX</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>UAUX</translation>
     </message>
     <message>
         <source>IAUX</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IAUX</translation>
     </message>
     <message>
         <source>Vector diagram</source>
@@ -970,11 +970,11 @@
     </message>
     <message>
         <source>Database location:</source>
-        <translation type="unfinished"></translation>
+        <translation>Database location:</translation>
     </message>
     <message>
         <source>Database filename:</source>
-        <translation type="unfinished"></translation>
+        <translation>Database filename:</translation>
     </message>
     <message>
         <source>Filesystem info:</source>
@@ -1048,16 +1048,16 @@
     <message>
         <source>Available for recording</source>
         <comment>list of selectable elements</comment>
-        <translation type="unfinished"></translation>
+        <translation>Available for recording</translation>
     </message>
     <message>
         <source>Selected for recording</source>
         <comment>list of selected elements</comment>
-        <translation type="unfinished"></translation>
+        <translation>Selected for recording</translation>
     </message>
     <message>
         <source>Description:</source>
-        <translation type="unfinished"></translation>
+        <translation>Description:</translation>
     </message>
     <message>
         <source>Unit:</source>
@@ -1217,7 +1217,7 @@
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Cancel</translation>
     </message>
     <message>
         <source>Filesystem storage available:</source>
@@ -1248,36 +1248,36 @@
     </message>
     <message>
         <source>No database selected</source>
-        <translation type="unfinished"></translation>
+        <translation>No database selected</translation>
     </message>
     <message>
         <source>Select file</source>
-        <translation type="unfinished"></translation>
+        <translation>Select file</translation>
     </message>
     <message>
         <source>THDN:</source>
         <extracomment>total harmonic distortion with noise</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>THDN:</translation>
     </message>
     <message>
         <source>Frequency input/output configuration:</source>
-        <translation type="unfinished"></translation>
+        <translation>Frequency input/output configuration:</translation>
     </message>
     <message>
         <source>X-Ratio</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">X Ratio</translation>
     </message>
     <message>
         <source>N-Sec</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">N Sec</translation>
     </message>
     <message>
         <source>X-Prim</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">X Prim</translation>
     </message>
     <message>
         <source>X-Sec</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">X Sec</translation>
     </message>
 </context>
 </TS>
