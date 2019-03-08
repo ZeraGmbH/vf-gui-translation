@@ -272,7 +272,7 @@
     <message>
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Deutsch</translation>
     </message>
     <message>
         <source>Device settings</source>
