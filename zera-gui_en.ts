@@ -164,17 +164,17 @@
     <message>
         <source>BRD1</source>
         <comment>burden system name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Burden L1</translation>
     </message>
     <message>
         <source>BRD2</source>
         <comment>burden system name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Burden L2</translation>
     </message>
     <message>
         <source>BRD3</source>
         <comment>burden system name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Burden L3</translation>
     </message>
     <message>
         <source>Close</source>

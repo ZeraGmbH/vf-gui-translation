@@ -61,6 +61,7 @@
     <message>
         <source>L1</source>
         <comment>measuring system 1</comment>
+        <translatorcomment>Hier benötige ich den Kontext</translatorcomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -164,17 +165,17 @@
     <message>
         <source>BRD1</source>
         <comment>burden system name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Bürde L1</translation>
     </message>
     <message>
         <source>BRD2</source>
         <comment>burden system name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Bürde L2</translation>
     </message>
     <message>
         <source>BRD3</source>
         <comment>burden system name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Bürde L3</translation>
     </message>
     <message>
         <source>Close</source>
