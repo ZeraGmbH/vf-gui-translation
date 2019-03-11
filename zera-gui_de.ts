@@ -61,106 +61,105 @@
     <message>
         <source>L1</source>
         <comment>measuring system 1</comment>
-        <translatorcomment>Hier benötige ich den Kontext</translatorcomment>
-        <translation type="unfinished"></translation>
+        <translation>L1</translation>
     </message>
     <message>
         <source>L2</source>
         <comment>measuring system 2</comment>
-        <translation type="unfinished"></translation>
+        <translation>L2</translation>
     </message>
     <message>
         <source>L3</source>
         <comment>measuring system 3</comment>
-        <translation type="unfinished"></translation>
+        <translation>L3</translation>
     </message>
     <message>
         <source>AUX</source>
         <comment>auxiliary measuring system</comment>
-        <translation type="unfinished"></translation>
+        <translation>AUX</translation>
     </message>
     <message>
         <source>UPN</source>
         <comment>voltage pase to neutral</comment>
-        <translation type="unfinished"></translation>
+        <translation>UPN</translation>
     </message>
     <message>
         <source>UPP</source>
         <comment>voltage phase to phase</comment>
-        <translation type="unfinished"></translation>
+        <translation>UPP</translation>
     </message>
     <message>
         <source>kU</source>
         <comment>harmonic distortion on voltage</comment>
-        <translation type="unfinished"></translation>
+        <translation>kU</translation>
     </message>
     <message>
         <source>I</source>
         <comment>current</comment>
-        <translation type="unfinished"></translation>
+        <translation>I</translation>
     </message>
     <message>
         <source>kI</source>
         <comment>harmonic distortion on current</comment>
-        <translation type="unfinished"></translation>
+        <translation>kI</translation>
     </message>
     <message>
         <source>∠U</source>
         <comment>phase difference of voltage to reference channel</comment>
-        <translation type="unfinished"></translation>
+        <translation>∠U</translation>
     </message>
     <message>
         <source>∠I</source>
         <comment>phase difference of current to reference channel</comment>
-        <translation type="unfinished"></translation>
+        <translation>∠I</translation>
     </message>
     <message>
         <source>∠UI</source>
         <comment>phase difference</comment>
-        <translation type="unfinished"></translation>
+        <translation>∠UI</translation>
     </message>
     <message>
         <source>λ</source>
         <comment>power factor</comment>
-        <translation type="unfinished"></translation>
+        <translation>λ</translation>
     </message>
     <message>
         <source>P</source>
         <comment>active power</comment>
         <extracomment>needs to be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>P</translation>
     </message>
     <message>
         <source>Q</source>
         <comment>reactive power</comment>
         <extracomment>needs to be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Q</translation>
     </message>
     <message>
         <source>S</source>
         <comment>apparent power</comment>
         <extracomment>needs to be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
     <message>
         <source>F</source>
         <comment>frequency</comment>
-        <translation type="unfinished"></translation>
+        <translation>F</translation>
     </message>
     <message>
         <source>Sb</source>
         <comment>standard burden</comment>
-        <translation type="unfinished"></translation>
+        <translation>Sb</translation>
     </message>
     <message>
         <source>cos(β)</source>
         <comment>cosinus beta</comment>
-        <translation type="unfinished"></translation>
+        <translation>cos(β)</translation>
     </message>
     <message>
         <source>Sn</source>
         <comment>operating burden in %, relative to the nominal burden</comment>
-        <translation type="unfinished"></translation>
+        <translation>Sn</translation>
     </message>
     <message>
         <source>BRD1</source>
@@ -233,7 +232,7 @@
     <message>
         <source>Scale visualisation:</source>
         <translatorcomment>Hier benötige ich den Kontext</translatorcomment>
-        <translation type="unfinished"></translation>
+        <translation>Bereichsvisualisierung:</translation>
     </message>
     <message>
         <source>Logarithmic scale</source>
@@ -249,7 +248,7 @@
     </message>
     <message>
         <source>Relative to channel limit</source>
-        <translation type="unfinished">Relativ zum</translation>
+        <translation>Relativ zum Bereichsende</translation>
     </message>
     <message>
         <source>Application Settings</source>
@@ -264,8 +263,8 @@
     </message>
     <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
-        <translatorcomment>Hier brauche ich Kontext und max. Zeichenlänge</translatorcomment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Kontext - Application settings</translatorcomment>
+        <translation>Harm. Tabelle relativ zur Grundschwingung:</translation>
     </message>
     <message>
         <source>Decimal places:</source>
@@ -316,7 +315,7 @@
     <message>
         <source>seconds</source>
         <translatorcomment>Kontext?</translatorcomment>
-        <translation type="unfinished">Sekunde(n)</translation>
+        <translation>Sek</translation>
     </message>
     <message>
         <source>Loading...</source>
@@ -564,7 +563,8 @@
     <message>
         <source>TR1</source>
         <comment>transformer system 1</comment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Stromwandlerwerte</translatorcomment>
+        <translation>Messwandler</translation>
     </message>
     <message>
         <source>X-Prim:</source>
@@ -977,12 +977,13 @@
     </message>
     <message>
         <source>Database location:</source>
-        <translatorcomment>Bitte prüfen, ob Textmenge ok.</translatorcomment>
-        <translation type="unfinished">Datenbank Speicherort:</translation>
+        <translatorcomment>Datenspeicherung</translatorcomment>
+        <translation>DB Speicherort:</translation>
     </message>
     <message>
         <source>Database filename:</source>
-        <translation type="unfinished">Datenbank Dateiname:</translation>
+        <translatorcomment>Speicherung</translatorcomment>
+        <translation>DB Dateiname:</translation>
     </message>
     <message>
         <source>Filesystem info:</source>
@@ -1051,7 +1052,8 @@
     <message>
         <source>Regex search</source>
         <comment>regular expression search</comment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Verwaltung Kd daten</translatorcomment>
+        <translation>Suchbegriff eingeben</translation>
     </message>
     <message>
         <source>Available for recording</source>
@@ -1070,6 +1072,7 @@
     <message>
         <source>Unit:</source>
         <comment>SI or SI derived unit</comment>
+        <translatorcomment>Wo taucht dieser Text auf?</translatorcomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1230,7 +1233,7 @@
     <message>
         <source>Filesystem storage available:</source>
         <translatorcomment>Kontext???</translatorcomment>
-        <translation type="unfinished"></translation>
+        <translation>Verfügbarer Speicherplatz:</translation>
     </message>
     <message>
         <source>&lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</source>
@@ -1240,20 +1243,22 @@
     <message>
         <source>[customer data is not available]</source>
         <extracomment>when the system disabled the customer data management, the brackets are for visual distinction from other text</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>[Kundendaten stehen nicht zur Verfügung]</translation>
     </message>
     <message>
         <source>[customer id is not set]</source>
         <extracomment>when the customer number is empty, the brackets are for visual distinction from other text</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>[Kunden-ID wurde nicht angelegt]</translation>
     </message>
     <message>
         <source>Lower error margin:</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Fehlerwerte</translatorcomment>
+        <translation>Untere Fehlergrenze:</translation>
     </message>
     <message>
         <source>Upper error margin:</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Fehlerwerte</translatorcomment>
+        <translation>Obere Fehlergrenze:</translation>
     </message>
     <message>
         <source>No database selected</source>
@@ -1274,29 +1279,20 @@
     </message>
     <message>
         <source>X-Ratio</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Stromwandlerwerte</translatorcomment>
+        <translation>X Ratio</translation>
     </message>
     <message>
         <source>N-Sec</source>
-        <translation type="unfinished">N Sek</translation>
+        <translation>N Sek</translation>
     </message>
     <message>
         <source>X-Prim</source>
-        <translation type="unfinished">X Prim</translation>
+        <translation>X Prim</translation>
     </message>
     <message>
         <source>X-Sec</source>
-        <translation type="unfinished">X Sek</translation>
-    </message>
-    <message>
-        <source>Nominal frequency:</source>
-        <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Frequency output constant:</source>
-        <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>X Sek</translation>
     </message>
 </context>
 </TS>
