@@ -1279,5 +1279,15 @@
         <source>X-Sec</source>
         <translation type="unfinished">X Sec</translation>
     </message>
+    <message>
+        <source>Nominal frequency:</source>
+        <extracomment>Displayed in Frequency input/output configuration</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Frequency output constant:</source>
+        <extracomment>Displayed in Frequency input/output configuration</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
