@@ -1294,5 +1294,50 @@
         <source>X-Sec</source>
         <translation>X Sek</translation>
     </message>
+    <message>
+        <source>Nominal frequency:</source>
+        <extracomment>Displayed in Frequency input/output configuration</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Frequency output constant:</source>
+        <extracomment>Displayed in Frequency input/output configuration</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Continuous measurement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;directory name&gt;/&lt;filename&gt;</source>
+        <extracomment>placeholder text for the database path/filename</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select record name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current record name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preset record name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Custom record name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Preview:</source>
+        <extracomment>shows a preview of the database logger record name</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Regex search</source>
+        <extracomment>search customer data file via regular expression, see: https://en.wikipedia.org/wiki/Regular_expression</extracomment>
+        <translation type="unfinished">Suchbegriff eingeben</translation>
+    </message>
 </context>
 </TS>
