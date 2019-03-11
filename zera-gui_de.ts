@@ -1297,16 +1297,16 @@
     <message>
         <source>Nominal frequency:</source>
         <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Nominalfrequenz:</translation>
     </message>
     <message>
         <source>Frequency output constant:</source>
         <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Konstante Frequenzausgang:</translation>
     </message>
     <message>
         <source>Continuous measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Laufende Messung</translation>
     </message>
     <message>
         <source>&lt;directory name&gt;/&lt;filename&gt;</source>
@@ -1315,24 +1315,24 @@
     </message>
     <message>
         <source>Select record name</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Wählen Sie den Dateinamen</translation>
     </message>
     <message>
         <source>Current record name:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Aktueller Dateiname:</translation>
     </message>
     <message>
         <source>Preset record name:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Voreingestellter Dateiname:</translation>
     </message>
     <message>
         <source>Custom record name:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kundendateiname:</translation>
     </message>
     <message>
         <source>Preview:</source>
         <extracomment>shows a preview of the database logger record name</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Vorschau:</translation>
     </message>
     <message>
         <source>Regex search</source>

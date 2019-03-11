@@ -1282,16 +1282,16 @@
     <message>
         <source>Nominal frequency:</source>
         <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Nominal frequency:</translation>
     </message>
     <message>
         <source>Frequency output constant:</source>
         <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Frequency output constant:</translation>
     </message>
     <message>
         <source>Continuous measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Continuous measurement</translation>
     </message>
     <message>
         <source>&lt;directory name&gt;/&lt;filename&gt;</source>
@@ -1300,24 +1300,24 @@
     </message>
     <message>
         <source>Select record name</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Select file name</translation>
     </message>
     <message>
         <source>Current record name:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Current file name:</translation>
     </message>
     <message>
         <source>Preset record name:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Preset file name:</translation>
     </message>
     <message>
         <source>Custom record name:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Costumer file name:</translation>
     </message>
     <message>
         <source>Preview:</source>
         <extracomment>shows a preview of the database logger record name</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Preview:</translation>
     </message>
     <message>
         <source>Regex search</source>
