@@ -226,15 +226,6 @@
         <translation>Manuell:</translation>
     </message>
     <message>
-        <source>Peak values</source>
-        <translation type="vanished">Maximalwerte</translation>
-    </message>
-    <message>
-        <source>Scale visualisation:</source>
-        <translatorcomment>Hier benötige ich den Kontext</translatorcomment>
-        <translation type="vanished">Bereichsvisualisierung:</translation>
-    </message>
-    <message>
         <source>Logarithmic scale</source>
         <extracomment>range peak value diagram logarithmic scale visualisation</extracomment>
         <translation>Logarithmischer Maßstab</translation>
@@ -317,11 +308,6 @@
         <translation>Periodenzahl der Integrationszeit:</translation>
     </message>
     <message>
-        <source>seconds</source>
-        <translatorcomment>Kontext?</translatorcomment>
-        <translation type="vanished">Sek</translation>
-    </message>
-    <message>
         <source>Loading...</source>
         <translation>Lädt...</translation>
     </message>
@@ -352,21 +338,9 @@
         <translation>Vorbereitet</translation>
     </message>
     <message>
-        <source>Started</source>
-        <translation type="vanished">Gestartet</translation>
-    </message>
-    <message>
         <source>Ready</source>
         <extracomment>like finished</extracomment>
         <translation>Bereit</translation>
-    </message>
-    <message>
-        <source>Aborted</source>
-        <translation type="vanished">Abgebrochen</translation>
-    </message>
-    <message>
-        <source>Result:</source>
-        <translation type="vanished">Ergebnis:</translation>
     </message>
     <message>
         <source>Mode:</source>
@@ -990,23 +964,6 @@
         <translation>DB Dateiname:</translation>
     </message>
     <message>
-        <source>Filesystem info:</source>
-        <translation type="vanished">Dateisystem-Information:</translation>
-    </message>
-    <message>
-        <source>Device name: &lt;b&gt;%1&lt;/b&gt;</source>
-        <translation type="vanished">Gerätename: &lt;b&gt;%1&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>Filesystem type: &lt;b&gt;%1&lt;/b&gt;</source>
-        <translation type="vanished">Dateisystemtyp: &lt;b&gt;%1&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>Space available: &lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</source>
-        <extracomment>%1 = available, %2 = total, %3 = percentage available</extracomment>
-        <translation type="vanished">Verfügbarer Speicher: &lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</translation>
-    </message>
-    <message>
         <source>Scheduled logging enabled:</source>
         <translation>Aufzeichnungsdauer aktiviert:</translation>
     </message>
@@ -1201,34 +1158,6 @@
     <message>
         <source>Power grid Comment:</source>
         <translation>Kommentar (Energienetz):</translation>
-    </message>
-    <message>
-        <source>New file</source>
-        <extracomment>Button text, action to create a file</extracomment>
-        <translation type="vanished">Neue Datei erzeugen</translation>
-    </message>
-    <message>
-        <source>File name:</source>
-        <translation type="vanished">Dateiname:</translation>
-    </message>
-    <message>
-        <source>Search</source>
-        <translation type="vanished">Suche</translation>
-    </message>
-    <message>
-        <source>Clear</source>
-        <extracomment>clears input field</extracomment>
-        <translation type="vanished">Löschen</translation>
-    </message>
-    <message>
-        <source>Delete file</source>
-        <extracomment>Button text, action to delete a file</extracomment>
-        <translation type="vanished">Datei löschen</translation>
-    </message>
-    <message>
-        <source>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
-        <extracomment>%1 the file that is about to be deleted</extracomment>
-        <translation type="vanished">Datei wirklich löschen &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Cancel</source>

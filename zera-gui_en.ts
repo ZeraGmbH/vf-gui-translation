@@ -225,14 +225,6 @@
         <translation>Manual:</translation>
     </message>
     <message>
-        <source>Peak values</source>
-        <translation type="vanished">Peak values</translation>
-    </message>
-    <message>
-        <source>Scale visualisation:</source>
-        <translation type="vanished">Range visualisation:</translation>
-    </message>
-    <message>
         <source>Logarithmic scale</source>
         <extracomment>range peak value diagram logarithmic scale visualisation</extracomment>
         <translation>Logarithmic scale</translation>
@@ -313,10 +305,6 @@
         <translation>Integration period interval:</translation>
     </message>
     <message>
-        <source>seconds</source>
-        <translation type="vanished">sec</translation>
-    </message>
-    <message>
         <source>Loading...</source>
         <translation>Loading...</translation>
     </message>
@@ -347,21 +335,9 @@
         <translation>Prepared</translation>
     </message>
     <message>
-        <source>Started</source>
-        <translation type="vanished">Started</translation>
-    </message>
-    <message>
         <source>Ready</source>
         <extracomment>like finished</extracomment>
         <translation>Ready</translation>
-    </message>
-    <message>
-        <source>Aborted</source>
-        <translation type="vanished">Cancelled</translation>
-    </message>
-    <message>
-        <source>Result:</source>
-        <translation type="vanished">Result:</translation>
     </message>
     <message>
         <source>Mode:</source>
@@ -981,23 +957,6 @@
         <translation>DB filename:</translation>
     </message>
     <message>
-        <source>Filesystem info:</source>
-        <translation type="vanished">Filesystem info:</translation>
-    </message>
-    <message>
-        <source>Device name: &lt;b&gt;%1&lt;/b&gt;</source>
-        <translation type="vanished">Device name: &lt;b&gt;%1&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>Filesystem type: &lt;b&gt;%1&lt;/b&gt;</source>
-        <translation type="vanished">Filesystem type: &lt;b&gt;%1&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>Space available: &lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</source>
-        <extracomment>%1 = available, %2 = total, %3 = percentage available</extracomment>
-        <translation type="vanished">Space available: &lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</translation>
-    </message>
-    <message>
         <source>Scheduled logging enabled:</source>
         <translation>Scheduled logging enabled:</translation>
     </message>
@@ -1190,34 +1149,6 @@
     <message>
         <source>Power grid Comment:</source>
         <translation>Comment (power grid):</translation>
-    </message>
-    <message>
-        <source>New file</source>
-        <extracomment>Button text, action to create a file</extracomment>
-        <translation type="vanished">Create new file</translation>
-    </message>
-    <message>
-        <source>File name:</source>
-        <translation type="vanished">File name:</translation>
-    </message>
-    <message>
-        <source>Search</source>
-        <translation type="vanished">Search</translation>
-    </message>
-    <message>
-        <source>Clear</source>
-        <extracomment>clears input field</extracomment>
-        <translation type="vanished">Clear</translation>
-    </message>
-    <message>
-        <source>Delete file</source>
-        <extracomment>Button text, action to delete a file</extracomment>
-        <translation type="vanished">Delete file</translation>
-    </message>
-    <message>
-        <source>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
-        <extracomment>%1 the file that is about to be deleted</extracomment>
-        <translation type="vanished">Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Cancel</source>
