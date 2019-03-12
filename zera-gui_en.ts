@@ -1223,7 +1223,7 @@
     <message>
         <source>Frequency output constant:</source>
         <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation type="unfinished">Frequency output constant:</translation>
+        <translation>Constant reference meter:</translation>
     </message>
     <message>
         <source>Continuous measurement</source>
@@ -1237,22 +1237,22 @@
     <message>
         <source>Select record name</source>
         <extracomment>displayed in logger record name popup, visible when the user presses start or snapshot in the logger the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Select file name</translation>
+        <translation type="unfinished">Select recording</translation>
     </message>
     <message>
         <source>Current record name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Current file name:</translation>
+        <translation type="unfinished">Current recording:</translation>
     </message>
     <message>
         <source>Preset record name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Preset file name:</translation>
+        <translation type="unfinished">Preset recording:</translation>
     </message>
     <message>
         <source>Custom record name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Costumer file name:</translation>
+        <translation type="unfinished">Specified recording:</translation>
     </message>
     <message>
         <source>Preview:</source>
@@ -1262,72 +1262,72 @@
     <message>
         <source>Regex search</source>
         <extracomment>search customer data file via regular expression, see: https://en.wikipedia.org/wiki/Regular_expression</extracomment>
-        <translation type="unfinished">Search term</translation>
+        <translation>Search term</translation>
     </message>
     <message>
         <source>Peak values</source>
         <comment>range peak values</comment>
-        <translation type="unfinished">Peak values</translation>
+        <translation>Peak values</translation>
     </message>
     <message>
         <source>Scale visualisation:</source>
         <comment>e.g. linear, logscale, relative to channel limit</comment>
         <extracomment>range peak value diagram scale selection</extracomment>
-        <translation type="unfinished">Range visualisation:</translation>
+        <translation>Range visualisation:</translation>
     </message>
     <message>
         <source>seconds</source>
         <comment>integration interval</comment>
-        <translation type="unfinished">sec</translation>
+        <translation>sec</translation>
     </message>
     <message>
         <source>Started</source>
         <comment>measurement started</comment>
-        <translation type="unfinished">Started</translation>
+        <translation>Started</translation>
     </message>
     <message>
         <source>Aborted</source>
         <comment>measurement was aborted</comment>
-        <translation type="unfinished">Cancelled</translation>
+        <translation>Cancelled</translation>
     </message>
     <message>
         <source>Result:</source>
         <comment>error calculator result</comment>
-        <translation type="unfinished">Result:</translation>
+        <translation>Result:</translation>
     </message>
     <message>
         <source>New file</source>
         <comment>new customerdata file</comment>
         <extracomment>Button text, action to create a file</extracomment>
-        <translation type="unfinished">Create new file</translation>
+        <translation>Create new file</translation>
     </message>
     <message>
         <source>File name:</source>
         <comment>customerdata filename</comment>
-        <translation type="unfinished">File name:</translation>
+        <translation>File name:</translation>
     </message>
     <message>
         <source>Search</source>
         <comment>search for customerdata files</comment>
-        <translation type="unfinished">Search</translation>
+        <translation>Search</translation>
     </message>
     <message>
         <source>Clear</source>
         <comment>clear search field</comment>
         <extracomment>clears input field</extracomment>
-        <translation type="unfinished">Clear</translation>
+        <translation>Clear</translation>
     </message>
     <message>
         <source>Delete file</source>
         <comment>delete customerdata file</comment>
         <extracomment>Button text, action to delete a file</extracomment>
-        <translation type="unfinished">Delete file</translation>
+        <translation>Delete file</translation>
     </message>
     <message>
         <source>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
         <comment>confirmation to delete customerdata file</comment>
         <extracomment>%1 the file that is about to be deleted</extracomment>
-        <translation type="unfinished">Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
+        <translation>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
 </context>
 </TS>

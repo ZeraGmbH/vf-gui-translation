@@ -1236,7 +1236,7 @@
     <message>
         <source>Frequency output constant:</source>
         <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation type="unfinished">Konstante Frequenzausgang:</translation>
+        <translation>Prüfzählerkonstante:</translation>
     </message>
     <message>
         <source>Continuous measurement</source>
@@ -1250,22 +1250,22 @@
     <message>
         <source>Select record name</source>
         <extracomment>displayed in logger record name popup, visible when the user presses start or snapshot in the logger the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Wählen Sie den Dateinamen</translation>
+        <translation type="unfinished">Auswahl Aufzeichnung</translation>
     </message>
     <message>
         <source>Current record name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Aktueller Dateiname:</translation>
+        <translation type="unfinished">Aktuelle Aufzeichnung:</translation>
     </message>
     <message>
         <source>Preset record name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Voreingestellter Dateiname:</translation>
+        <translation type="unfinished">Vorgegebene Aufzeichnung:</translation>
     </message>
     <message>
         <source>Custom record name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Kundendateiname:</translation>
+        <translation type="unfinished">Spezifische Aufzeichnung:</translation>
     </message>
     <message>
         <source>Preview:</source>
@@ -1275,72 +1275,72 @@
     <message>
         <source>Regex search</source>
         <extracomment>search customer data file via regular expression, see: https://en.wikipedia.org/wiki/Regular_expression</extracomment>
-        <translation type="unfinished">Suchbegriff eingeben</translation>
+        <translation>Suchbegriff eingeben</translation>
     </message>
     <message>
         <source>Peak values</source>
         <comment>range peak values</comment>
-        <translation type="unfinished">Maximalwerte</translation>
+        <translation>Maximalwerte</translation>
     </message>
     <message>
         <source>Scale visualisation:</source>
         <comment>e.g. linear, logscale, relative to channel limit</comment>
         <extracomment>range peak value diagram scale selection</extracomment>
-        <translation type="unfinished">Bereichsvisualisierung:</translation>
+        <translation>Bereichsvisualisierung:</translation>
     </message>
     <message>
         <source>seconds</source>
         <comment>integration interval</comment>
-        <translation type="unfinished">Sek</translation>
+        <translation>Sek</translation>
     </message>
     <message>
         <source>Started</source>
         <comment>measurement started</comment>
-        <translation type="unfinished">Gestartet</translation>
+        <translation>Gestartet</translation>
     </message>
     <message>
         <source>Aborted</source>
         <comment>measurement was aborted</comment>
-        <translation type="unfinished">Abgebrochen</translation>
+        <translation>Abgebrochen</translation>
     </message>
     <message>
         <source>Result:</source>
         <comment>error calculator result</comment>
-        <translation type="unfinished">Ergebnis:</translation>
+        <translation>Ergebnis:</translation>
     </message>
     <message>
         <source>New file</source>
         <comment>new customerdata file</comment>
         <extracomment>Button text, action to create a file</extracomment>
-        <translation type="unfinished">Neue Datei erzeugen</translation>
+        <translation>Neue Datei erzeugen</translation>
     </message>
     <message>
         <source>File name:</source>
         <comment>customerdata filename</comment>
-        <translation type="unfinished">Dateiname:</translation>
+        <translation>Dateiname:</translation>
     </message>
     <message>
         <source>Search</source>
         <comment>search for customerdata files</comment>
-        <translation type="unfinished">Suche</translation>
+        <translation>Suche</translation>
     </message>
     <message>
         <source>Clear</source>
         <comment>clear search field</comment>
         <extracomment>clears input field</extracomment>
-        <translation type="unfinished">Löschen</translation>
+        <translation>Löschen</translation>
     </message>
     <message>
         <source>Delete file</source>
         <comment>delete customerdata file</comment>
         <extracomment>Button text, action to delete a file</extracomment>
-        <translation type="unfinished">Datei löschen</translation>
+        <translation>Datei löschen</translation>
     </message>
     <message>
         <source>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
         <comment>confirmation to delete customerdata file</comment>
         <extracomment>%1 the file that is about to be deleted</extracomment>
-        <translation type="unfinished">Datei wirklich löschen &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
+        <translation>Datei wirklich löschen &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
 </context>
 </TS>
