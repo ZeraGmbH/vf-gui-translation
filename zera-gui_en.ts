@@ -226,26 +226,30 @@
     </message>
     <message>
         <source>Peak values</source>
-        <translation>Peak values</translation>
+        <translation type="vanished">Peak values</translation>
     </message>
     <message>
         <source>Scale visualisation:</source>
-        <translation>Range visualisation:</translation>
+        <translation type="vanished">Range visualisation:</translation>
     </message>
     <message>
         <source>Logarithmic scale</source>
+        <extracomment>range peak value diagram logarithmic scale visualisation</extracomment>
         <translation>Logarithmic scale</translation>
     </message>
     <message>
         <source>Absolute</source>
+        <extracomment>range peak value diagram linear scale visualisation</extracomment>
         <translation>Absolute</translation>
     </message>
     <message>
         <source>Logarithmic</source>
+        <extracomment>range peak value diagram logarithmic scale visualisation</extracomment>
         <translation>Logarithmic</translation>
     </message>
     <message>
         <source>Relative to channel limit</source>
+        <extracomment>range peak value diagram relative to channel limit scale visualisation</extracomment>
         <translation>Relative to range limit</translation>
     </message>
     <message>
@@ -310,7 +314,7 @@
     </message>
     <message>
         <source>seconds</source>
-        <translation>sec</translation>
+        <translation type="vanished">sec</translation>
     </message>
     <message>
         <source>Loading...</source>
@@ -344,7 +348,7 @@
     </message>
     <message>
         <source>Started</source>
-        <translation>Started</translation>
+        <translation type="vanished">Started</translation>
     </message>
     <message>
         <source>Ready</source>
@@ -353,11 +357,11 @@
     </message>
     <message>
         <source>Aborted</source>
-        <translation>Cancelled</translation>
+        <translation type="vanished">Cancelled</translation>
     </message>
     <message>
         <source>Result:</source>
-        <translation>Result:</translation>
+        <translation type="vanished">Result:</translation>
     </message>
     <message>
         <source>Mode:</source>
@@ -1190,30 +1194,30 @@
     <message>
         <source>New file</source>
         <extracomment>Button text, action to create a file</extracomment>
-        <translation>Create new file</translation>
+        <translation type="vanished">Create new file</translation>
     </message>
     <message>
         <source>File name:</source>
-        <translation>File name:</translation>
+        <translation type="vanished">File name:</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Search</translation>
+        <translation type="vanished">Search</translation>
     </message>
     <message>
         <source>Clear</source>
         <extracomment>clears input field</extracomment>
-        <translation>Clear</translation>
+        <translation type="vanished">Clear</translation>
     </message>
     <message>
         <source>Delete file</source>
         <extracomment>Button text, action to delete a file</extracomment>
-        <translation>Delete file</translation>
+        <translation type="vanished">Delete file</translation>
     </message>
     <message>
         <source>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
         <extracomment>%1 the file that is about to be deleted</extracomment>
-        <translation>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
+        <translation type="vanished">Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -1221,6 +1225,7 @@
     </message>
     <message>
         <source>Filesystem storage available:</source>
+        <extracomment>amount of space available on the filesystem where the dabase is to be stored</extracomment>
         <translation>Available memory:</translation>
     </message>
     <message>
@@ -1300,18 +1305,22 @@
     </message>
     <message>
         <source>Select record name</source>
+        <extracomment>displayed in logger record name popup, visible when the user presses start or snapshot in the logger the record name is a database field that the user can use to search / filter different recordings</extracomment>
         <translation type="unfinished">Select file name</translation>
     </message>
     <message>
         <source>Current record name:</source>
+        <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
         <translation type="unfinished">Current file name:</translation>
     </message>
     <message>
         <source>Preset record name:</source>
+        <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
         <translation type="unfinished">Preset file name:</translation>
     </message>
     <message>
         <source>Custom record name:</source>
+        <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
         <translation type="unfinished">Costumer file name:</translation>
     </message>
     <message>
@@ -1323,6 +1332,71 @@
         <source>Regex search</source>
         <extracomment>search customer data file via regular expression, see: https://en.wikipedia.org/wiki/Regular_expression</extracomment>
         <translation type="unfinished">Search term</translation>
+    </message>
+    <message>
+        <source>Peak values</source>
+        <comment>range peak values</comment>
+        <translation type="unfinished">Peak values</translation>
+    </message>
+    <message>
+        <source>Scale visualisation:</source>
+        <comment>e.g. linear, logscale, relative to channel limit</comment>
+        <extracomment>range peak value diagram scale selection</extracomment>
+        <translation type="unfinished">Range visualisation:</translation>
+    </message>
+    <message>
+        <source>seconds</source>
+        <comment>integration interval</comment>
+        <translation type="unfinished">sec</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <comment>measurement started</comment>
+        <translation type="unfinished">Started</translation>
+    </message>
+    <message>
+        <source>Aborted</source>
+        <comment>measurement was aborted</comment>
+        <translation type="unfinished">Cancelled</translation>
+    </message>
+    <message>
+        <source>Result:</source>
+        <comment>error calculator result</comment>
+        <translation type="unfinished">Result:</translation>
+    </message>
+    <message>
+        <source>New file</source>
+        <comment>new customerdata file</comment>
+        <extracomment>Button text, action to create a file</extracomment>
+        <translation type="unfinished">Create new file</translation>
+    </message>
+    <message>
+        <source>File name:</source>
+        <comment>customerdata filename</comment>
+        <translation type="unfinished">File name:</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <comment>search for customerdata files</comment>
+        <translation type="unfinished">Search</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <comment>clear search field</comment>
+        <extracomment>clears input field</extracomment>
+        <translation type="unfinished">Clear</translation>
+    </message>
+    <message>
+        <source>Delete file</source>
+        <comment>delete customerdata file</comment>
+        <extracomment>Button text, action to delete a file</extracomment>
+        <translation type="unfinished">Delete file</translation>
+    </message>
+    <message>
+        <source>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
+        <comment>confirmation to delete customerdata file</comment>
+        <extracomment>%1 the file that is about to be deleted</extracomment>
+        <translation type="unfinished">Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
 </context>
 </TS>
