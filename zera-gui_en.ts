@@ -1237,22 +1237,22 @@
     <message>
         <source>Select record name</source>
         <extracomment>displayed in logger record name popup, visible when the user presses start or snapshot in the logger the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Select recording</translation>
+        <translation>Select record name</translation>
     </message>
     <message>
         <source>Current record name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Current recording:</translation>
+        <translation>Current record name:</translation>
     </message>
     <message>
         <source>Preset record name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Preset recording:</translation>
+        <translation>Preset record name:</translation>
     </message>
     <message>
         <source>Custom record name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Specified recording:</translation>
+        <translation>Specified record name:</translation>
     </message>
     <message>
         <source>Preview:</source>

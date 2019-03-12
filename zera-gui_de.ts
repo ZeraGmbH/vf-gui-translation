@@ -1250,22 +1250,22 @@
     <message>
         <source>Select record name</source>
         <extracomment>displayed in logger record name popup, visible when the user presses start or snapshot in the logger the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Auswahl Aufzeichnung</translation>
+        <translation>Auswahl Datensatzname</translation>
     </message>
     <message>
         <source>Current record name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Aktuelle Aufzeichnung:</translation>
+        <translation>Aktueller Datensatzname:</translation>
     </message>
     <message>
         <source>Preset record name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Vorgegebene Aufzeichnung:</translation>
+        <translation>Vorgegebener Datensatzname:</translation>
     </message>
     <message>
         <source>Custom record name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation type="unfinished">Spezifische Aufzeichnung:</translation>
+        <translation>Spezifischer Datensatzname:</translation>
     </message>
     <message>
         <source>Preview:</source>
