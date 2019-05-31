@@ -1342,5 +1342,30 @@
         <extracomment>%1 the file that is about to be deleted</extracomment>
         <translation>Datei wirklich löschen &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
+    <message>
+        <source>Duration:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start/Stop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Duration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start value:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>End value:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Energy register</source>
+        <extracomment>shows energy comparison between the reference device and the device under test&apos;s registers/display</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
