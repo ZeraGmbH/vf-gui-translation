@@ -1351,6 +1351,18 @@
     </message>
     <message>
         <source>Energy register</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pulse measurement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Power register</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Comparison measurements</source>
         <extracomment>shows energy comparison between the reference device and the device under test&apos;s registers/display</extracomment>
         <translation type="unfinished"></translation>
     </message>
