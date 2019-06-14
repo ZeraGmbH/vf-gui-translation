@@ -179,7 +179,6 @@
     <message>
         <source>Close</source>
         <comment>not open</comment>
-        <extracomment>as in &quot;close this view&quot;</extracomment>
         <translation>Close</translation>
     </message>
     <message>
@@ -1296,12 +1295,6 @@
         <translation>Result:</translation>
     </message>
     <message>
-        <source>New file</source>
-        <comment>new customerdata file</comment>
-        <extracomment>Button text, action to create a file</extracomment>
-        <translation>Create new file</translation>
-    </message>
-    <message>
         <source>File name:</source>
         <comment>customerdata filename</comment>
         <translation>File name:</translation>
@@ -1318,15 +1311,8 @@
         <translation>Clear</translation>
     </message>
     <message>
-        <source>Delete file</source>
-        <comment>delete customerdata file</comment>
-        <extracomment>Button text, action to delete a file</extracomment>
-        <translation>Delete file</translation>
-    </message>
-    <message>
         <source>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
         <comment>confirmation to delete customerdata file</comment>
-        <extracomment>%1 the file that is about to be deleted</extracomment>
         <translation>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
     <message>
@@ -1364,6 +1350,44 @@
     <message>
         <source>Comparison measurements</source>
         <extracomment>shows energy comparison between the reference device and the device under test&apos;s registers/display</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <extracomment>as in &quot;close this view&quot;</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Customer data files:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New</source>
+        <comment>new file</comment>
+        <extracomment>Button text, action to create a file</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <comment>edit file</comment>
+        <extracomment>Button text, action to edit a file</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set current</source>
+        <comment>Set file selected currently</comment>
+        <extracomment>Button text, action to select a file</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <comment>delete (file)</comment>
+        <extracomment>Button text, action to delete a file</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter:</source>
+        <extracomment>search customer data filter label</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
