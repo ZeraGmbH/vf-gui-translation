@@ -1150,7 +1150,7 @@
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Abbruch</translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <source>Filesystem storage available:</source>
