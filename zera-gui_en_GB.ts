@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en_GB">
+<TS version="2.0" language="en_GB">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -1015,7 +1015,7 @@
     <message>
         <source>Unit:</source>
         <comment>SI or SI derived unit</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Customer data</source>
@@ -1308,103 +1308,103 @@
     </message>
     <message>
         <source>Duration:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Start/Stop</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Duration</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Start value:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>End value:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Energy register</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Pulse measurement</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Power register</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Comparison measurements</source>
         <extracomment>shows energy comparison between the reference device and the device under test&apos;s registers/display</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>OK</source>
         <extracomment>as in &quot;close this view&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Customer data files:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>New</source>
         <comment>new file</comment>
         <extracomment>Button text, action to create a file</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Edit</source>
         <comment>edit file</comment>
         <extracomment>Button text, action to edit a file</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Set current</source>
         <comment>Set file selected currently</comment>
         <extracomment>Button text, action to select a file</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Delete</source>
         <comment>delete (file)</comment>
         <extracomment>Button text, action to delete a file</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Filter:</source>
         <extracomment>search customer data filter label</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Harmonic table</source>
         <comment>Tab text harmonic table</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Harmonic chart</source>
         <comment>Tab text harmonic chart</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Harmonic power table</source>
         <comment>Tab text harmonic power table</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Harmonic power chart</source>
         <comment>Tab text harmonic power chart</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Curves &amp; Harmonics</source>
         <extracomment>FFT bar diagrams or tables that show the harmonic component distribution of the measured values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 </TS>
