@@ -18,5 +18,5 @@ fi
 # Example 2: flag_en_US.png for zera-gui_en_US.ts
 # Example 3: flag_en_GB.png for zera-gui_en_GB.ts
 
-install -m 0644 ./region-flags/png/DE.png $1/flag_de.png
-install -m 0644 ./region-flags/png/US.png $1/flag_en.png
+install -m 0644 ./region-flags/png/DE.png $1/flag_de_DE.png
+install -m 0644 ./region-flags/png/GB.png $1/flag_en_GB.png
