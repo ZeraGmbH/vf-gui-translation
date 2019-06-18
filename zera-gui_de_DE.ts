@@ -250,13 +250,8 @@
         <translation>Programmeinstellungen</translation>
     </message>
     <message>
-        <source>Display Harmonics as table:</source>
-        <extracomment>used for a yes / no configuration element</extracomment>
-        <translatorcomment>Aus Application Settings</translatorcomment>
-        <translation>Darstellung der Harmonischen als Tabelle:</translation>
-    </message>
-    <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
+        <extracomment>used for a yes / no configuration element</extracomment>
         <translatorcomment>Kontext - Application settings</translatorcomment>
         <translation>Harm. Tabelle relativ zur Grundschwingung:</translation>
     </message>
@@ -461,11 +456,6 @@
     <message>
         <source>Oscilloscope plot</source>
         <translation>Kurvendarstellung</translation>
-    </message>
-    <message>
-        <source>Harmonics</source>
-        <extracomment>FFT bar diagrams or tables that show the harmonic component distribution of the measured values</extracomment>
-        <translation>Harmonische</translation>
     </message>
     <message>
         <source>Power values</source>
@@ -1401,6 +1391,31 @@
     <message>
         <source>Filter:</source>
         <extracomment>search customer data filter label</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Harmonic table</source>
+        <comment>Tab text harmonic table</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Harmonic chart</source>
+        <comment>Tab text harmonic chart</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Harmonic power table</source>
+        <comment>Tab text harmonic power table</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Harmonic power chart</source>
+        <comment>Tab text harmonic power chart</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Curves &amp; Harmonics</source>
+        <extracomment>FFT bar diagrams or tables that show the harmonic component distribution of the measured values</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
