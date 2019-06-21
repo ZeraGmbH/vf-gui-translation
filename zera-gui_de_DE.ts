@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.0" language="de_DE">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -1229,7 +1229,7 @@
     </message>
     <message>
         <source>Continuous measurement</source>
-        <translation>Laufende Messung</translation>
+        <translation>fortlaufend</translation>
     </message>
     <message>
         <source>&lt;directory name&gt;/&lt;filename&gt;</source>
