@@ -515,16 +515,6 @@
         <translation>CED power values</translation>
     </message>
     <message>
-        <source>Real</source>
-        <comment>complex number part</comment>
-        <translation>Real part</translation>
-    </message>
-    <message>
-        <source>Imaginary</source>
-        <comment>complex number part</comment>
-        <translation>Imaginary part</translation>
-    </message>
-    <message>
         <source>TR1</source>
         <comment>transformer system 1</comment>
         <translation>Instrument transformer</translation>
@@ -1405,6 +1395,11 @@
         <source>Curves &amp; Harmonics</source>
         <extracomment>FFT bar diagrams or tables that show the harmonic component distribution of the measured values</extracomment>
         <translation></translation>
+    </message>
+    <message>
+        <source>Measuring modes:</source>
+        <comment>label for measuring mode selectors</comment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

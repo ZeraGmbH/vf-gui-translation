@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de_DE">
+<TS version="2.1" language="de_DE">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -516,16 +516,6 @@
     <message>
         <source>CED power values</source>
         <translation>WER-Leistungswerte</translation>
-    </message>
-    <message>
-        <source>Real</source>
-        <comment>complex number part</comment>
-        <translation>Realanteil</translation>
-    </message>
-    <message>
-        <source>Imaginary</source>
-        <comment>complex number part</comment>
-        <translation>Imaginäranteil</translation>
     </message>
     <message>
         <source>TR1</source>
@@ -1418,6 +1408,11 @@
         <source>Curves &amp; Harmonics</source>
         <extracomment>FFT bar diagrams or tables that show the harmonic component distribution of the measured values</extracomment>
         <translation>Kurven &amp; Harmonische</translation>
+    </message>
+    <message>
+        <source>Measuring modes:</source>
+        <comment>label for measuring mode selectors</comment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
