@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.0" language="de_DE">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -1412,7 +1412,7 @@
     <message>
         <source>Measuring modes:</source>
         <comment>label for measuring mode selectors</comment>
-        <translation type="unfinished"></translation>
+        <translation>Messarten:</translation>
     </message>
 </context>
 </TS>

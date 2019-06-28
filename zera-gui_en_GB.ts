@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en_GB">
+<TS version="2.0" language="en_GB">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -1212,7 +1212,7 @@
     <message>
         <source>&lt;directory name&gt;/&lt;filename&gt;</source>
         <extracomment>placeholder text for the database path/filename</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Select record name</source>
@@ -1399,7 +1399,7 @@
     <message>
         <source>Measuring modes:</source>
         <comment>label for measuring mode selectors</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 </TS>
