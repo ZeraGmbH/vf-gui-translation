@@ -486,11 +486,11 @@
         <translation>Effektivwerte</translation>
     </message>
     <message>
-        <source>Voltage-Burden</source>
+        <source>Voltage Burden</source>
         <translation>Spannungsbürde</translation>
     </message>
     <message>
-        <source>Current-Burden</source>
+        <source>Current Burden</source>
         <translation>Strombürde</translation>
     </message>
     <message>

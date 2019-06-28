@@ -483,12 +483,12 @@
         <translation>RMS values</translation>
     </message>
     <message>
-        <source>Voltage-Burden</source>
+        <source>Voltage Burden</source>
         <translation>Voltage burden</translation>
     </message>
     <message>
-        <source>Current-Burden</source>
-        <translation>Current-burden</translation>
+        <source>Current Burden</source>
+        <translation>Current burden</translation>
     </message>
     <message>
         <source>Nominal burden:</source>
