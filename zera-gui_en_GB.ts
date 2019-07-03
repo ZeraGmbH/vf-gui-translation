@@ -1392,7 +1392,7 @@
         <translation></translation>
     </message>
     <message>
-        <source>Curves &amp; Harmonics</source>
+        <source>Harmonics &amp; Curves</source>
         <extracomment>FFT bar diagrams or tables that show the harmonic component distribution of the measured values</extracomment>
         <translation></translation>
     </message>

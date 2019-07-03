@@ -1405,9 +1405,9 @@
         <translation>Harmonische Leistung Diagramm</translation>
     </message>
     <message>
-        <source>Curves &amp; Harmonics</source>
+        <source>Harmonics &amp; Curves</source>
         <extracomment>FFT bar diagrams or tables that show the harmonic component distribution of the measured values</extracomment>
-        <translation>Kurven &amp; Harmonische</translation>
+        <translation>Harmonische &amp; Kurven</translation>
     </message>
     <message>
         <source>Measuring modes:</source>
