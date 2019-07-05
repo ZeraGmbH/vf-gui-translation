@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="en_GB">
+<TS version="2.1" language="en_GB">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -481,14 +481,6 @@
         <source>RMS values</source>
         <extracomment>effective values</extracomment>
         <translation>RMS values</translation>
-    </message>
-    <message>
-        <source>Voltage Burden</source>
-        <translation>Voltage burden</translation>
-    </message>
-    <message>
-        <source>Current Burden</source>
-        <translation>Current burden</translation>
     </message>
     <message>
         <source>Nominal burden:</source>
@@ -1400,6 +1392,16 @@
         <source>Measuring modes:</source>
         <comment>label for measuring mode selectors</comment>
         <translation></translation>
+    </message>
+    <message>
+        <source>Voltage Burden</source>
+        <comment>Tab title current burden</comment>
+        <translation type="unfinished">Voltage burden</translation>
+    </message>
+    <message>
+        <source>Current Burden</source>
+        <comment>Tab title current burden</comment>
+        <translation type="unfinished">Current burden</translation>
     </message>
 </context>
 </TS>
