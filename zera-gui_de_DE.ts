@@ -939,9 +939,9 @@
         <translation>Aufzeichnungsdauer aktiviert:</translation>
     </message>
     <message>
-        <source>Logging Duration:</source>
+        <source>Logging Duration [hh:mm:ss]:</source>
         <extracomment>describes the duration of the recording</extracomment>
-        <translation>Aufzeichnungsdauer:</translation>
+        <translation>Aufzeichnungsdauer [hh:mm:ss]:</translation>
     </message>
     <message>
         <source>Logger status:</source>

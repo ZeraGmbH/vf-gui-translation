@@ -933,9 +933,9 @@
         <translation>Scheduled logging enabled:</translation>
     </message>
     <message>
-        <source>Logging Duration:</source>
+        <source>Logging Duration [hh:mm:ss]:</source>
         <extracomment>describes the duration of the recording</extracomment>
-        <translation>Logging Duration:</translation>
+        <translation>Logging Duration [hh:mm:ss]:</translation>
     </message>
     <message>
         <source>Logger status:</source>
