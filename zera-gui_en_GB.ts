@@ -1248,11 +1248,6 @@
         <translation>Range visualisation:</translation>
     </message>
     <message>
-        <source>seconds</source>
-        <comment>integration interval</comment>
-        <translation>sec</translation>
-    </message>
-    <message>
         <source>Started</source>
         <comment>measurement started</comment>
         <translation>Started</translation>
@@ -1402,6 +1397,16 @@
         <source>Current Burden</source>
         <comment>Tab title current burden</comment>
         <translation type="unfinished">Current burden</translation>
+    </message>
+    <message>
+        <source>seconds</source>
+        <comment>integration time interval unit</comment>
+        <translation type="unfinished">sec</translation>
+    </message>
+    <message>
+        <source>periods</source>
+        <comment>integration period interval unit</comment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

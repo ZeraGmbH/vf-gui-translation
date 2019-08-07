@@ -1261,11 +1261,6 @@
         <translation>Bereichsvisualisierung:</translation>
     </message>
     <message>
-        <source>seconds</source>
-        <comment>integration interval</comment>
-        <translation>Sek</translation>
-    </message>
-    <message>
         <source>Started</source>
         <comment>measurement started</comment>
         <translation>Gestartet</translation>
@@ -1415,6 +1410,16 @@
         <source>Current Burden</source>
         <comment>Tab title current burden</comment>
         <translation type="unfinished">Strombürde</translation>
+    </message>
+    <message>
+        <source>seconds</source>
+        <comment>integration time interval unit</comment>
+        <translation type="unfinished">Sek</translation>
+    </message>
+    <message>
+        <source>periods</source>
+        <comment>integration period interval unit</comment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
