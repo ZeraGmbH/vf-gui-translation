@@ -1134,7 +1134,7 @@
     <message>
         <source>&lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</source>
         <extracomment>%1 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>[customer data is not available]</source>
@@ -1391,22 +1391,22 @@
     <message>
         <source>Voltage Burden</source>
         <comment>Tab title current burden</comment>
-        <translation type="unfinished">Voltage burden</translation>
+        <translation>Voltage burden</translation>
     </message>
     <message>
         <source>Current Burden</source>
         <comment>Tab title current burden</comment>
-        <translation type="unfinished">Current burden</translation>
+        <translation>Current burden</translation>
     </message>
     <message>
         <source>seconds</source>
         <comment>integration time interval unit</comment>
-        <translation type="unfinished">sec</translation>
+        <translation>s</translation>
     </message>
     <message>
         <source>periods</source>
         <comment>integration period interval unit</comment>
-        <translation type="unfinished"></translation>
+        <translation>periods</translation>
     </message>
 </context>
 </TS>
