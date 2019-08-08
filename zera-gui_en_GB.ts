@@ -1127,16 +1127,6 @@
         <translation>Cancel</translation>
     </message>
     <message>
-        <source>Filesystem storage available:</source>
-        <extracomment>amount of space available on the filesystem where the dabase is to be stored</extracomment>
-        <translation>Available memory:</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</source>
-        <extracomment>%1 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
-        <translation></translation>
-    </message>
-    <message>
         <source>[customer data is not available]</source>
         <extracomment>when the system disabled the customer data management, the brackets are for visual distinction from other text</extracomment>
         <translation>[customer data is not available]</translation>
@@ -1407,6 +1397,11 @@
         <source>periods</source>
         <comment>integration period interval unit</comment>
         <translation>periods</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;%1MB&lt;/b&gt; (available &lt;b&gt;%2GB&lt;/b&gt; of &lt;b&gt;%3GB&lt;/b&gt; / %4%)</source>
+        <extracomment>%1 = database size %2 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

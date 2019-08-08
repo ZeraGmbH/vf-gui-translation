@@ -965,10 +965,6 @@
         <translation>Datenbankfehler</translation>
     </message>
     <message>
-        <source>Database size:</source>
-        <translation>DB-Größe:</translation>
-    </message>
-    <message>
         <source>Select recorded values:</source>
         <extracomment>the user can make a selection of values he wants to log into a database</extracomment>
         <translation>Zu speichernde Werte  auswählen:</translation>
@@ -1133,17 +1129,6 @@
     <message>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
-    </message>
-    <message>
-        <source>Filesystem storage available:</source>
-        <extracomment>amount of space available on the filesystem where the dabase is to be stored</extracomment>
-        <translatorcomment>Kontext???</translatorcomment>
-        <translation>Verfügbarer Speicherplatz:</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1GB&lt;/b&gt; of &lt;b&gt;%2GB&lt;/b&gt; (%3%)</source>
-        <extracomment>%1 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
-        <translation>&lt;b&gt;%1GB&lt;/b&gt; von &lt;b&gt;%2GB&lt;/b&gt; (%3%)</translation>
     </message>
     <message>
         <source>[customer data is not available]</source>
@@ -1420,6 +1405,15 @@
         <source>periods</source>
         <comment>integration period interval unit</comment>
         <translation>Perioden</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;%1MB&lt;/b&gt; (available &lt;b&gt;%2GB&lt;/b&gt; of &lt;b&gt;%3GB&lt;/b&gt; / %4%)</source>
+        <extracomment>%1 = database size %2 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>DB size:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
