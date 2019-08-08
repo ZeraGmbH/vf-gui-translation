@@ -1401,7 +1401,7 @@
     <message>
         <source>&lt;b&gt;%1MB&lt;/b&gt; (available &lt;b&gt;%2GB&lt;/b&gt; of &lt;b&gt;%3GB&lt;/b&gt; / %4%)</source>
         <extracomment>%1 = database size %2 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 </TS>
