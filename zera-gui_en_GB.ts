@@ -921,7 +921,7 @@
         <translation>Logging enabled:</translation>
     </message>
     <message>
-        <source>Database location:</source>
+        <source>DB location:</source>
         <translation>DB location:</translation>
     </message>
     <message>
@@ -959,8 +959,8 @@
         <translation>Database error</translation>
     </message>
     <message>
-        <source>Database size:</source>
-        <translation>Database size:</translation>
+        <source>DB size:</source>
+        <translation>DB size:</translation>
     </message>
     <message>
         <source>Select recorded values:</source>

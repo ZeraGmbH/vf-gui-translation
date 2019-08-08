@@ -925,7 +925,7 @@
         <translation>Speicherung aktiviert:</translation>
     </message>
     <message>
-        <source>Database location:</source>
+        <source>DB location:</source>
         <translatorcomment>Datenspeicherung</translatorcomment>
         <translation>DB Speicherort:</translation>
     </message>
@@ -966,7 +966,7 @@
     </message>
     <message>
         <source>Database size:</source>
-        <translation>Datenbankgröße:</translation>
+        <translation>DB-Größe:</translation>
     </message>
     <message>
         <source>Select recorded values:</source>
