@@ -1418,37 +1418,37 @@
     <message>
         <source>QREF</source>
         <comment>Referenz-Modus = reference mode</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>REF1</source>
         <comment>reference channel 1</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>REF2</source>
         <comment>reference channel 2</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>REF3</source>
         <comment>reference channel 3</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>REF4</source>
         <comment>reference channel 4</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>REF5</source>
         <comment>reference channel 5</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>REF6</source>
         <comment>reference channel 6</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 </TS>
