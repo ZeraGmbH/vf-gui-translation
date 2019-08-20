@@ -1306,10 +1306,6 @@
         <translation>Energieregister</translation>
     </message>
     <message>
-        <source>Pulse measurement</source>
-        <translation>Impulsmessung</translation>
-    </message>
-    <message>
         <source>Power register</source>
         <translation>Leistungsregister</translation>
     </message>
@@ -1449,6 +1445,15 @@
         <source>REF6</source>
         <comment>reference channel 6</comment>
         <translation></translation>
+    </message>
+    <message>
+        <source>Meter test</source>
+        <extracomment>Comparison tabs label texts</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Energy comparison</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
