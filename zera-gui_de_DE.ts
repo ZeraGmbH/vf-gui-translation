@@ -1449,11 +1449,11 @@
     <message>
         <source>Meter test</source>
         <extracomment>Comparison tabs label texts</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Zählerprüfung</translation>
     </message>
     <message>
         <source>Energy comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Energievergleich</translation>
     </message>
 </context>
 </TS>
