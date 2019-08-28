@@ -1443,5 +1443,10 @@
         <source>Energy comparison</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Show AUX phase values:</source>
+        <extracomment>Settings show/hide AUX phases</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
