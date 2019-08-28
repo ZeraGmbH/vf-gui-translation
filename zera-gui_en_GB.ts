@@ -1446,7 +1446,7 @@
     <message>
         <source>Show AUX phase values:</source>
         <extracomment>Settings show/hide AUX phases</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 </TS>
