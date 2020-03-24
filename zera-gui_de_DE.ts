@@ -1460,5 +1460,17 @@
         <extracomment>Settings show/hide AUX phases</extracomment>
         <translation>AUX Messwerte anzeigen:</translation>
     </message>
+    <message>
+        <source>Not adjusted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wrong serial number</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
