@@ -1462,15 +1462,15 @@
     </message>
     <message>
         <source>Not adjusted</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht justiert</translation>
     </message>
     <message>
         <source>Wrong version</source>
-        <translation type="unfinished"></translation>
+        <translation>Falsche Version</translation>
     </message>
     <message>
         <source>Wrong serial number</source>
-        <translation type="unfinished"></translation>
+        <translation>Falsche Seriennummer</translation>
     </message>
 </context>
 </TS>
