@@ -1460,5 +1460,10 @@
         <source>Wrong serial number</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Network settings</source>
+        <extracomment>settings specific to the network</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
