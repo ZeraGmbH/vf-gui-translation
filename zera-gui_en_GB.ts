@@ -1463,7 +1463,7 @@
     <message>
         <source>Network settings</source>
         <extracomment>settings specific to the network</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 </TS>

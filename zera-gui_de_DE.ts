@@ -1475,7 +1475,7 @@
     <message>
         <source>Network settings</source>
         <extracomment>settings specific to the network</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Netzwerkeinstellungen</translation>
     </message>
 </context>
 </TS>
