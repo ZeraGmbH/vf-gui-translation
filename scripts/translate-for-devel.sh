@@ -11,15 +11,10 @@
 # The suggested workfow is:
 #
 # * create and checkout working branches (based upon latest master!)
-#   * vf-qmllibs (suggested the one you are working on - not the copy in
-#     submodule containe in this repo)
 #   * in this repo
-#   * the repo to add Z.tr (only if it is other than vf-qmllibs)
+#   * the repo to add Z.tr
 # * Add Z.tr in cpp/qml sources
-# * Add new texts to translate in
-#   vf-qmllibs/src/libs/zeraTranslation/src/zeratranslation.cpp
-# * Push changes in vf-qmllibs
-# * Fetch/check vf-qmllibs in submodule (src-folder)
+# * Add new texts to translate in src/lib/zeratranslation.cpp
 # * Run this script
 # * Open *.ts files with qtlinguist and check if the added texts appear
 # * If there are cycles left do translations (or just mark as translated
@@ -41,5 +36,5 @@ base_path="`dirname $0`/.."
 cd "$base_path"
 
 # To have one helper script only we do both lupdate & lrelease
-find -maxdepth 1 -name '*.ts' | xargs $lupdate -no-obsolete -locations none -no-ui-lines -pro src/libs/zeraTranslation/lupdate.pro -ts
+find -maxdepth 1 -name '*.ts' | xargs $lupdate -no-obsolete -locations none -no-ui-lines -pro src/lib/lupdate.pro -ts
 $lrelease *.ts
