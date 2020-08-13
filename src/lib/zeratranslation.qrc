@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>src/qml/TranslationHelper.qml</file>
+        <file>qml/TranslationHelper.qml</file>
     </qresource>
 </RCC>

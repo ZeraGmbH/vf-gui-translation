@@ -1,27 +1,21 @@
 #include "zeratranslationplugin.h"
 #include "zeratranslation.h"
-#include <QCoreApplication>
 #include <QtQml/QtQml>
 
-void ZeraTranslationPlugin::init()
+bool ZeraTranslationPlugin::wasRegistered = false;
+
+void ZeraTranslationPlugin::registerQml()
 {
-    ZeraTranslationPlugin* obj= new ZeraTranslationPlugin();
-    obj->registerTypes("ZeraTranslation");
+    // we are a singleton so ensure we are registerd once only
+    if(!wasRegistered) {
+        ZeraTranslation* zeraTranslation = ZeraTranslation::getInstance();
+        zeraTranslation->changeLanguage("C");
+
+        // Register internal worker not intended for external use
+        qmlRegisterSingletonType<ZeraTranslation>("ZeraTranslationBackend", 1, 0, "ZTR", ZeraTranslation::getStaticInstance);
+        // Register our magic Z.tr("<text-to-translate>")
+        qmlRegisterSingletonType(QUrl("qrc:/qml/TranslationHelper.qml"), "ZeraTranslation", 1, 0, "Z");
+
+        wasRegistered = true;
+    }
 }
-
-
-
-void ZeraTranslationPlugin::registerTypes(const char* uri) {
-    ZeraTranslation* zeraTranslation=ZeraTranslation::getInstance();
-    zeraTranslation->changeLanguage("C");
-    // Register internal worker not intended for external use
-    qmlRegisterSingletonType<ZeraTranslation>(QString().append(uri).append("backend").toLatin1(), 1, 0, "ZTR", ZeraTranslation::getStaticInstance);
-    // Register our magic Z.tr("<text-to-translate>")
-    qmlRegisterSingletonType(QUrl("qrc:/src/qml/TranslationHelper.qml"), uri, 1, 0, "Z");
-}
-
-
-static void init(){
-    ZeraTranslationPlugin::init();
-}
-Q_COREAPP_STARTUP_FUNCTION(init)

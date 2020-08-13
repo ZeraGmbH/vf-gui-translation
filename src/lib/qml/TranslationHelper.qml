@@ -1,7 +1,7 @@
 pragma Singleton
 
 import QtQuick 2.0
-import ZeraTranslationbackend 1.0
+import ZeraTranslationBackend 1.0
 
 // Translation frontend implementing Z.tr("<text-to-translate>") and Z.changeLanguage(<new-language>)
 Item {
