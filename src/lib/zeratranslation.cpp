@@ -244,6 +244,49 @@ void ZeraTranslation::reloadStringTable()
     insert("seconds", tr("seconds", "integration time interval unit"));
     insert("periods", tr("periods", "integration period interval unit"));
 
+    // Network settings
+    //: available devices AvailableDevDialog.qml
+    insert("Device Binding", tr("Device Binding"));
+    //: list of devices header
+    insert("Devices: ", tr("Devices: "));
+    //: AvailableApDialog.qml Wifi password access point
+    insert("Wifi Password", tr("Wifi Password"));
+    //: AvailableApDialog.qml Networks?
+    insert("Networks: ", tr("Networks: "));
+    //: EthernetSettings.qml Header text
+    insert("Ethernet Connection Settings", tr("Ethernet Connection Settings"));
+    //: EthernetSettings.qml Ethernet connection name
+    insert("Connection name", tr("Connection name"));
+    //: EthernetSettings.qml IPv4 sub-header
+    insert("IPv4", tr("IPv4"));
+    //: connection mode DHCP/Manual
+    insert("Mode", tr("Mode"));
+    //: connection Manual fixed IP address
+    insert("IP", tr("IP"));
+    //: connection Manual fixed IP subnetmask
+    insert("Subnetmask", tr("Subnetmask"));
+    //: EthernetSettings.qml IPv6 sub-header
+    insert("IPv6", tr("IPv6"));
+    //: EthernetSettings.qml IPv6 error field IP
+    insert("IPV6 IP", tr("IPV6 IP"));
+    //: EthernetSettings.qml IPv6 error field subnetmask
+    insert("IPV6 Subnetmask", tr("IPV6 Subnetmask"));
+    //: EthernetSettings.qml IPv4 error field IP
+    insert("IPV4 IP", tr("IPV4 IP"));
+    //: EthernetSettings.qml IPv4 error field subnetmask
+    insert("IPV4 Subnetmask", tr("IPV4 Subnetmask"));
+    //: EthernetSettings.qml error header
+    insert("Network settings", tr("Network settings"));
+    //: EthernetSettings.qml error text intro
+    insert("invalid settings in field: ", tr("invalid settings in field: "));
+    //: SmartConnect.qml Wifi password header
+    insert("Wifi password", tr("Wifi password"));
+    //: SmartConnect.qml Wifi password
+    insert("Password: ", tr("Password: "));
+    //: SmartConnect.qml Wifi password
+    insert("Device: ", tr("Device: "));
+
+
     //main.qml
     insert("Loading...", tr("Loading..."));
     //: progress of loading %1 of %2 objects
