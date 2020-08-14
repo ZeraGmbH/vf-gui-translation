@@ -19,9 +19,10 @@
 # * Open *.ts files with qtlinguist and check if the added texts appear
 # * If there are cycles left do translations (or just mark as translated
 #   for english texts) - but be aware not to tell C.Molke that you did
-# * Run this script
-# * Copy *.qm to the path translaton files are expected usually
-#   /home/operator/translations
+# * Run this script e.g
+#
+#   translate-for-devel.sh /home/operator/translations
+#
 # * If you did translations test if they appear as expected and- VERY
 #   IMPORTANT - don't ruin layouts
 # * If all tests succeed: Send out PRs
@@ -37,4 +38,15 @@ cd "$base_path"
 
 # To have one helper script only we do both lupdate & lrelease
 find -maxdepth 1 -name '*.ts' | xargs $lupdate -no-obsolete -locations none -no-ui-lines -pro src/lib/lupdate.pro -ts
-$lrelease *.ts
+
+# Do lrelease only if a path to copy is set
+if [ ! "x$1" = "x" ]; then
+    $lrelease *.ts
+    if [ -d "$1" ]; then
+        cp -f *.qm $1
+    else
+        echo
+        echo "$1 is not a path cannot copy files !!!"
+        echo
+    fi
+fi
