@@ -20,6 +20,17 @@ set(CMAKE_AUTORCC ON)
 # Qt5 libs
 find_package(Qt5 "5.12.0" COMPONENTS Qml Quick CONFIG REQUIRED)
 
+# This is a dummy target introduced to
+# * Drop a note once zeratranslation.cpp was changed
+# * Add ts-files to qt-creator to make search (& replace) work for ts-files either
+add_custom_target(ts_files
+    COMMAND echo "zeratranslation.cpp was changed. You might want to run scripts/translate-for-devel.sh"
+    DEPENDS ${PROJECT_SOURCE_DIR}/src/lib/zeratranslation.cpp
+    SOURCES
+        ${CMAKE_CURRENT_SOURCE_DIR}/zera-gui_de_DE.ts
+        ${CMAKE_CURRENT_SOURCE_DIR}/zera-gui_en_GB.ts
+)
+
 add_subdirectory(src)
 
 # spawn out some info on configuration
