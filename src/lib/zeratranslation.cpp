@@ -248,23 +248,23 @@ void ZeraTranslation::reloadStringTable()
     //: available devices AvailableDevDialog.qml
     insert("Device Binding", tr("Device Binding"));
     //: list of devices header
-    insert("Devices: ", tr("Devices: "));
+    insert("Devices:", tr("Devices:"));
     //: AvailableApDialog.qml Wifi password access point
     insert("Wifi Password", tr("Wifi Password"));
     //: AvailableApDialog.qml Networks?
-    insert("Networks: ", tr("Networks: "));
+    insert("Networks:", tr("Networks:"));
     //: EthernetSettings.qml Header text
     insert("Ethernet Connection Settings", tr("Ethernet Connection Settings"));
     //: EthernetSettings.qml Ethernet connection name
-    insert("Connection name", tr("Connection name"));
+    insert("Connection name:", tr("Connection name:"));
     //: EthernetSettings.qml IPv4 sub-header
     insert("IPv4", tr("IPv4"));
     //: connection mode DHCP/Manual
-    insert("Mode", tr("Mode"));
+    insert("Mode:", tr("Mode:"));
     //: connection Manual fixed IP address
-    insert("IP", tr("IP"));
+    insert("IP:", tr("IP:"));
     //: connection Manual fixed IP subnetmask
-    insert("Subnetmask", tr("Subnetmask"));
+    insert("Subnetmask:", tr("Subnetmask:"));
     //: EthernetSettings.qml IPv6 sub-header
     insert("IPv6", tr("IPv6"));
     //: EthernetSettings.qml IPv6 error field IP
@@ -279,12 +279,25 @@ void ZeraTranslation::reloadStringTable()
     insert("Network settings", tr("Network settings"));
     //: EthernetSettings.qml error text intro
     insert("invalid settings in field: ", tr("invalid settings in field: "));
+
+    //: DeviceDialog.qml header
+    insert("Select device", tr("Select device"));
+
     //: SmartConnect.qml Wifi password header
     insert("Wifi password", tr("Wifi password"));
     //: SmartConnect.qml Wifi password
-    insert("Password: ", tr("Password: "));
+    insert("Password:", tr("Password:"));
     //: SmartConnect.qml Wifi password
-    insert("Device: ", tr("Device: "));
+    insert("Device:", tr("Device:"));
+
+    //: WifiSettings.qml Header text
+    insert("Wifi Connection Settings", tr("Wifi Connection Settings"));
+    //: WifiSettings.qml SSID field
+    insert("SSID:", tr("SSID:"));
+    //: EthernetSettings.qml error SSID
+    insert("SSID", tr("SSID"));
+    //: EthernetSettings.qml error SSID
+    insert("Password", tr("Password"));
 
 
     //main.qml
