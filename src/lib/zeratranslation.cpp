@@ -294,10 +294,13 @@ void ZeraTranslation::reloadStringTable()
     insert("Wifi Connection Settings", tr("Wifi Connection Settings"));
     //: WifiSettings.qml SSID field
     insert("SSID:", tr("SSID:"));
+    //: WifiSettings.qml SSID select dialog header
+    insert("Wifi SSID", tr("Wifi SSID"));
     //: EthernetSettings.qml error SSID
     insert("SSID", tr("SSID"));
     //: EthernetSettings.qml error SSID
     insert("Password", tr("Password"));
+
 
 
     //main.qml

@@ -1587,5 +1587,10 @@ EthernetSettings.qml error header</extracomment>
         <extracomment>EthernetSettings.qml error SSID</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Wifi SSID</source>
+        <extracomment>WifiSettings.qml SSID select dialog header</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>

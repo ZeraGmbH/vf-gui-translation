@@ -1599,5 +1599,10 @@ EthernetSettings.qml error header</extracomment>
         <extracomment>EthernetSettings.qml error SSID</extracomment>
         <translation>Passwort</translation>
     </message>
+    <message>
+        <source>Wifi SSID</source>
+        <extracomment>WifiSettings.qml SSID select dialog header</extracomment>
+        <translation>WLAN SSID</translation>
+    </message>
 </context>
 </TS>
