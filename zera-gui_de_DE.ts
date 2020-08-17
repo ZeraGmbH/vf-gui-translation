@@ -1474,8 +1474,135 @@
     </message>
     <message>
         <source>Network settings</source>
-        <extracomment>settings specific to the network</extracomment>
+        <extracomment>settings specific to the network
+----------
+EthernetSettings.qml error header</extracomment>
         <translation>Netzwerkeinstellungen</translation>
+    </message>
+    <message>
+        <source>Device Binding</source>
+        <extracomment>available devices AvailableDevDialog.qml</extracomment>
+        <translation>Gerätebinding</translation>
+    </message>
+    <message>
+        <source>Wifi Password</source>
+        <extracomment>AvailableApDialog.qml Wifi password access point</extracomment>
+        <translation>WLAN Passwort</translation>
+    </message>
+    <message>
+        <source>Ethernet Connection Settings</source>
+        <extracomment>EthernetSettings.qml Header text</extracomment>
+        <translation>Einstellungen Kabelnetzwerk</translation>
+    </message>
+    <message>
+        <source>Connection name:</source>
+        <extracomment>EthernetSettings.qml Ethernet connection name</extracomment>
+        <translation>Verbindungsname:</translation>
+    </message>
+    <message>
+        <source>IPv4</source>
+        <extracomment>EthernetSettings.qml IPv4 sub-header</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>IPv6</source>
+        <extracomment>EthernetSettings.qml IPv6 sub-header</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>IPV6 IP</source>
+        <extracomment>EthernetSettings.qml IPv6 error field IP</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>IPV6 Subnetmask</source>
+        <extracomment>EthernetSettings.qml IPv6 error field subnetmask</extracomment>
+        <translation>IPV6 Subnetmaske</translation>
+    </message>
+    <message>
+        <source>IPV4 IP</source>
+        <extracomment>EthernetSettings.qml IPv4 error field IP</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>IPV4 Subnetmask</source>
+        <extracomment>EthernetSettings.qml IPv4 error field subnetmask</extracomment>
+        <translation>IPV6 Subnetmask</translation>
+    </message>
+    <message>
+        <source>invalid settings in field: </source>
+        <extracomment>EthernetSettings.qml error text intro</extracomment>
+        <translation>ungültige Einstellungen in Feld: </translation>
+    </message>
+    <message>
+        <source>Wifi password</source>
+        <extracomment>SmartConnect.qml Wifi password header</extracomment>
+        <translation>WLAN Passwort</translation>
+    </message>
+    <message>
+        <source>Password:</source>
+        <extracomment>SmartConnect.qml Wifi password</extracomment>
+        <translation>Passwort:</translation>
+    </message>
+    <message>
+        <source>Device:</source>
+        <extracomment>SmartConnect.qml Wifi password</extracomment>
+        <translation>Gerät:</translation>
+    </message>
+    <message>
+        <source>Wifi Connection Settings</source>
+        <extracomment>WifiSettings.qml Header text</extracomment>
+        <translation>WLAN Einstellungen</translation>
+    </message>
+    <message>
+        <source>Devices:</source>
+        <extracomment>list of devices header</extracomment>
+        <translation>Geräte:</translation>
+    </message>
+    <message>
+        <source>Networks:</source>
+        <extracomment>AvailableApDialog.qml Networks?</extracomment>
+        <translation>Netzwerke:</translation>
+    </message>
+    <message>
+        <source>Mode:</source>
+        <extracomment>connection mode DHCP/Manual</extracomment>
+        <translation>Modus:</translation>
+    </message>
+    <message>
+        <source>IP:</source>
+        <extracomment>connection Manual fixed IP address</extracomment>
+        <translation>IP:</translation>
+    </message>
+    <message>
+        <source>Subnetmask:</source>
+        <extracomment>connection Manual fixed IP subnetmask</extracomment>
+        <translation>Subnetzmaske:</translation>
+    </message>
+    <message>
+        <source>Select device</source>
+        <extracomment>DeviceDialog.qml header</extracomment>
+        <translation>Gerät auswahlen</translation>
+    </message>
+    <message>
+        <source>SSID:</source>
+        <extracomment>WifiSettings.qml SSID field</extracomment>
+        <translation>SSID:</translation>
+    </message>
+    <message>
+        <source>SSID</source>
+        <extracomment>EthernetSettings.qml error SSID</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <extracomment>EthernetSettings.qml error SSID</extracomment>
+        <translation>Passwort</translation>
+    </message>
+    <message>
+        <source>Wifi SSID</source>
+        <extracomment>WifiSettings.qml SSID select dialog header</extracomment>
+        <translation>WLAN SSID</translation>
     </message>
 </context>
 </TS>

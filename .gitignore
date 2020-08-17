@@ -10,3 +10,4 @@ Thumbs.db
 *.qm
 *.png
 *.svg
+CMakeLists.txt.user*
