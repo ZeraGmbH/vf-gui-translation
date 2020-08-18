@@ -1604,5 +1604,25 @@ EthernetSettings.qml error header</extracomment>
         <extracomment>WifiSettings.qml SSID select dialog header</extracomment>
         <translation>WLAN SSID</translation>
     </message>
+    <message>
+        <source>Client</source>
+        <extracomment>WifiSettings.qml Mode ComboBox</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hotspot</source>
+        <extracomment>WifiSettings.qml Mode ComboBox</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Automatic (DHCP)</source>
+        <extracomment>EthernetSettings.qml Mode ComboBox</extracomment>
+        <translation>Automatisch (DHCP)</translation>
+    </message>
+    <message>
+        <source>Manual</source>
+        <extracomment>EthernetSettings.qml Mode ComboBox</extracomment>
+        <translation>Manuell</translation>
+    </message>
 </context>
 </TS>

@@ -296,10 +296,18 @@ void ZeraTranslation::reloadStringTable()
     insert("SSID:", tr("SSID:"));
     //: WifiSettings.qml SSID select dialog header
     insert("Wifi SSID", tr("Wifi SSID"));
+    //: WifiSettings.qml Mode ComboBox
+    insert("Client", tr("Client"));
+    //: WifiSettings.qml Mode ComboBox
+    insert("Hotspot", tr("Hotspot"));
     //: EthernetSettings.qml error SSID
     insert("SSID", tr("SSID"));
     //: EthernetSettings.qml error SSID
     insert("Password", tr("Password"));
+    //: EthernetSettings.qml Mode ComboBox
+    insert("Automatic (DHCP)", tr("Automatic (DHCP)"));
+    //: EthernetSettings.qml Mode ComboBox
+    insert("Manual", tr("Manual"));
 
 
 
