@@ -309,6 +309,18 @@ void ZeraTranslation::reloadStringTable()
     //: EthernetSettings.qml Mode ComboBox
     insert("Manual", tr("Manual"));
 
+    //: ConnectionTree.qml group Ethernet
+    insert("ETHERNET", tr("Ethernet"));
+    //: ConnectionTree.qml group Ethernet
+    insert("WIFI", tr("Wifi"));
+    //: ConnectionTree.qml group Ethernet
+    insert("HOTSPOT", tr("Hotspot"));
+    //: ConnectionTree.qml group Ethernet
+    insert("VPN", tr("VPN"));
+    //: ConnectionTree.qml group Ethernet
+    insert("BLUETOOTH", tr("Bluetooth"));
+    //: ConnectionTree.qml 'show all' checkbox
+    insert("Show all", tr("Show all"));
 
 
     //main.qml

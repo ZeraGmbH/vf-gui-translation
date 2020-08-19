@@ -1611,7 +1611,9 @@ EthernetSettings.qml error header</extracomment>
     </message>
     <message>
         <source>Hotspot</source>
-        <extracomment>WifiSettings.qml Mode ComboBox</extracomment>
+        <extracomment>WifiSettings.qml Mode ComboBox
+----------
+ConnectionTree.qml group Ethernet</extracomment>
         <translation></translation>
     </message>
     <message>
@@ -1623,6 +1625,31 @@ EthernetSettings.qml error header</extracomment>
         <source>Manual</source>
         <extracomment>EthernetSettings.qml Mode ComboBox</extracomment>
         <translation>Manuell</translation>
+    </message>
+    <message>
+        <source>Ethernet</source>
+        <extracomment>ConnectionTree.qml group Ethernet</extracomment>
+        <translation>Kabelnetzwerk</translation>
+    </message>
+    <message>
+        <source>Wifi</source>
+        <extracomment>ConnectionTree.qml group Ethernet</extracomment>
+        <translation>WLAN</translation>
+    </message>
+    <message>
+        <source>VPN</source>
+        <extracomment>ConnectionTree.qml group Ethernet</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Bluetooth</source>
+        <extracomment>ConnectionTree.qml group Ethernet</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <extracomment>ConnectionTree.qml &apos;show all&apos; checkbox</extracomment>
+        <translation>Alle anzeigen</translation>
     </message>
 </context>
 </TS>
