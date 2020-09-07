@@ -18,7 +18,6 @@ include(GenerateExportHeader)
 generate_export_header(ZeraTranslation)
 
 install(FILES
-   "${CMAKE_CURRENT_BINARY_DIR}/ZeraTranslationConfig.cmake"
     ${CMAKE_CURRENT_BINARY_DIR}/zeratranslation_export.h
     DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/ZeraTranslation
 )
@@ -28,9 +27,8 @@ install(FILES
 target_include_directories(ZeraTranslation
     PUBLIC # consumer
         $<INSTALL_INTERFACE:include/ZeraTranslation>
-    PRIVATE # build
         $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
-        # generated export header
+        #generated export header
         $<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}>
 )
 
