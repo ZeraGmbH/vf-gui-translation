@@ -634,13 +634,26 @@ void ZeraTranslation::reloadStringTable()
     //: the record name is a database field that the user can use to search / filter different recordings
     insert("Select record name", tr("Select record name"));
     //: the record name is a database field that the user can use to search / filter different recordings
-    insert("Current record name:", tr("Current record name:"));
+    insert("Current name:", tr("Current name:"));
     //: the record name is a database field that the user can use to search / filter different recordings
-    insert("Preset record name:", tr("Preset record name:"));
+    insert("Default name:", tr("Default name:"));
     //: the record name is a database field that the user can use to search / filter different recordings
-    insert("Custom record name:", tr("Custom record name:"));
+    insert("Custom name:", tr("Custom name:"));
     //: shows a preview of the database logger record name
     insert("Preview:", tr("Preview:"));
+
+    //LoggerMenu.qml
+    //: displayed when user presses logger button
+    //: text displayed in record name menu entry when no record was set yet
+    insert("-- no record --", tr("-- no record --"));
+    //: take snapshot menu entry
+    insert("Take snapshot", tr("Take snapshot"));
+    //: start logging menu entry
+    insert("Start logging", tr("Start logging"));
+    //: stop logging menu entry
+    insert("Stop logging", tr("Stop logging"));
+    //: menu entry to open logger settings
+    insert("Settings...", tr("Settings..."));
 
     //CustomerDataEntry.qml
     insert("Customer data", tr("Customer data"));

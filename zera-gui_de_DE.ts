@@ -1210,19 +1210,19 @@
         <translation>Auswahl Datensatzname</translation>
     </message>
     <message>
-        <source>Current record name:</source>
+        <source>Current name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation>Aktueller Datensatzname:</translation>
+        <translation>Aktueller Name:</translation>
     </message>
     <message>
-        <source>Preset record name:</source>
+        <source>Default name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation>Vorgegebener Datensatzname:</translation>
+        <translation>Standard Name:</translation>
     </message>
     <message>
-        <source>Custom record name:</source>
+        <source>Custom name:</source>
         <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation>Spezifischer Datensatzname:</translation>
+        <translation>Benutzerdefinierter Name:</translation>
     </message>
     <message>
         <source>Preview:</source>
@@ -1650,6 +1650,31 @@ ConnectionTree.qml group Ethernet</extracomment>
         <source>Show all</source>
         <extracomment>ConnectionTree.qml &apos;show all&apos; checkbox</extracomment>
         <translation>Alle anzeigen</translation>
+    </message>
+    <message>
+        <source>Take snapshot</source>
+        <extracomment>take snapshot menu entry</extracomment>
+        <translation>Momentaufnahme</translation>
+    </message>
+    <message>
+        <source>Start logging</source>
+        <extracomment>start logging menu entry</extracomment>
+        <translation>Protokollierung beginnen</translation>
+    </message>
+    <message>
+        <source>Stop logging</source>
+        <extracomment>stop logging menu entry</extracomment>
+        <translation>Protokollierung beenden</translation>
+    </message>
+    <message>
+        <source>Settings...</source>
+        <extracomment>menu entry to open logger settings</extracomment>
+        <translation>Einstellungen...</translation>
+    </message>
+    <message>
+        <source>-- no record --</source>
+        <extracomment>displayed when user presses logger button text displayed in record name menu entry when no record was set yet</extracomment>
+        <translation>-- kein Datensatz --</translation>
     </message>
 </context>
 </TS>
