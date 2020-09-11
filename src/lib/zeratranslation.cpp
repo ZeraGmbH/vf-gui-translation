@@ -378,7 +378,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Start value:", tr("Start value:"));
     insert("End value:", tr("End value:"));
 
-    //FftModulePage.qml
+    //FftTabPage.qml
     //: text must be short enough to fit
     insert("Amp", tr("Amp", "Amplitude of the phasor"));
     //: text must be short enough to fit
@@ -388,7 +388,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Harmonic table", tr("Harmonic table", "Tab text harmonic table"));
     insert("Harmonic chart", tr("Harmonic chart", "Tab text harmonic chart"));
 
-    //HarmonicPowerModulePage.qml
+    //HarmonicPowerTabPage.qml
     insert("Harmonic power table", tr("Harmonic power table", "Tab text harmonic power table"));
     insert("Harmonic power chart", tr("Harmonic power chart", "Tab text harmonic power chart"));
 
@@ -452,7 +452,7 @@ void ZeraTranslation::reloadStringTable()
     //CEDPageModel.qml
     insert("CED power values", tr("CED power values"));
 
-    //HarmonicPowerModulePage.qml
+    //HarmonicPowerTabPage.qml
     insert("Measuring modes:", tr("Measuring modes:", "label for measuring mode selectors"));
 
     //TransformerModulePage.qml
