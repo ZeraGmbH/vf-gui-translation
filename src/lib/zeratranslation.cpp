@@ -633,12 +633,12 @@ void ZeraTranslation::reloadStringTable()
     //: displayed in logger record name popup, visible when the user presses start or snapshot in the logger
     //: the record name is a database field that the user can use to search / filter different recordings
     insert("Select record name", tr("Select record name"));
-    //: the record name is a database field that the user can use to search / filter different recordings
+    //: Label for current record name
     insert("Current name:", tr("Current name:"));
-    //: the record name is a database field that the user can use to search / filter different recordings
-    insert("Default name:", tr("Default name:"));
-    //: the record name is a database field that the user can use to search / filter different recordings
-    insert("Custom name:", tr("Custom name:"));
+    //: Label to apply default record name as current
+    insert("Set default name:", tr("Set default name:"));
+    //: Header for list of existing record names. Operator can select one of them to make it current record name
+    insert("Select existing:", tr("Select existing:"));
     //: shows a preview of the database logger record name
     insert("Preview:", tr("Preview:"));
 

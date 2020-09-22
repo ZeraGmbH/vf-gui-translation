@@ -1203,18 +1203,13 @@
     </message>
     <message>
         <source>Current name:</source>
-        <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
+        <extracomment>Label for current record name</extracomment>
         <translation>Current name:</translation>
     </message>
     <message>
-        <source>Default name:</source>
-        <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation>Default name:</translation>
-    </message>
-    <message>
-        <source>Custom name:</source>
-        <extracomment>the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation>Custom name:</translation>
+        <source>Set default name:</source>
+        <extracomment>Label to apply default record name as current</extracomment>
+        <translation>Set default name:</translation>
     </message>
     <message>
         <source>Preview:</source>
@@ -1662,6 +1657,11 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>-- no record --</source>
         <extracomment>displayed when user presses logger button text displayed in record name menu entry when no record was set yet</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Select existing:</source>
+        <extracomment>Header for list of existing record names. Operator can select one of them to make it current record name</extracomment>
         <translation></translation>
     </message>
 </context>
