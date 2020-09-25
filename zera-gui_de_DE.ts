@@ -1137,8 +1137,13 @@
     </message>
     <message>
         <source>[customer id is not set]</source>
-        <extracomment>when the customer number is empty, the brackets are for visual distinction from other text</extracomment>
+        <extracomment>when the customer id is empty, the brackets are for visual distinction from other text</extracomment>
         <translation>[Kunden-ID wurde nicht angelegt]</translation>
+    </message>
+    <message>
+        <source>[customer number is not set]</source>
+        <extracomment>when the customer number is empty, the brackets are for visual distinction from other text</extracomment>
+        <translation>[Kunden-Nummer wurde nicht angelegt]</translation>
     </message>
     <message>
         <source>Lower error margin:</source>

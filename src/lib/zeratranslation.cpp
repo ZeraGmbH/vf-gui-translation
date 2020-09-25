@@ -612,8 +612,10 @@ void ZeraTranslation::reloadStringTable()
     insert("Snapshot", tr("Snapshot"));
     //: when the system disabled the customer data management, the brackets are for visual distinction from other text
     insert("[customer data is not available]", tr("[customer data is not available]"));
-    //: when the customer number is empty, the brackets are for visual distinction from other text
+    //: when the customer id is empty, the brackets are for visual distinction from other text
     insert("[customer id is not set]", tr("[customer id is not set]"));
+    //: when the customer number is empty, the brackets are for visual distinction from other text
+    insert("[customer number is not set]", tr("[customer number is not set]"));
     //: placeholder text for the database path/filename
     insert("<directory name>/<filename>", tr("<directory name>/<filename>"));
 
