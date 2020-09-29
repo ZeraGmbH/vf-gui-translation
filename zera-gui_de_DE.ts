@@ -1689,7 +1689,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Harmonic values only</source>
         <extracomment>menu radio button to select content-set harmonic values</extracomment>
-        <translation>Nur harmonische</translation>
+        <translation>Nur Harmonische</translation>
     </message>
     <message>
         <source>Sample values only</source>
