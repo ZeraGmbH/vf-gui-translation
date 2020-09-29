@@ -1669,5 +1669,45 @@ ConnectionTree.qml group Ethernet</extracomment>
         <extracomment>Header for list of existing record names. Operator can select one of them to make it current record name</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Actual values only</source>
+        <extracomment>menu radio button to select content-set actual values</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Harmonic values only</source>
+        <extracomment>menu radio button to select content-set harmonic values</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Sample values only</source>
+        <extracomment>menu radio button to select content-set sample values</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Comparison measuement results only</source>
+        <extracomment>menu radio button to select content-set comparison measurement values</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Burden values only</source>
+        <extracomment>menu radio button to select content-set burden values</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Transformer values only</source>
+        <extracomment>menu radio button to select content-set transformer values</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>DC-Reference values only</source>
+        <extracomment>menu radio button to select content-set dc-reference values</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>All data</source>
+        <extracomment>menu radio button to select content-set dc-reference values</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>

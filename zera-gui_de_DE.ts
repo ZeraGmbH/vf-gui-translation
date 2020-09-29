@@ -1681,5 +1681,45 @@ ConnectionTree.qml group Ethernet</extracomment>
         <extracomment>Header for list of existing record names. Operator can select one of them to make it current record name</extracomment>
         <translation>Vorhandenen Datensatz auswählen:</translation>
     </message>
+    <message>
+        <source>Actual values only</source>
+        <extracomment>menu radio button to select content-set actual values</extracomment>
+        <translation>Nur Istwerte</translation>
+    </message>
+    <message>
+        <source>Harmonic values only</source>
+        <extracomment>menu radio button to select content-set harmonic values</extracomment>
+        <translation>Nur harmonische</translation>
+    </message>
+    <message>
+        <source>Sample values only</source>
+        <extracomment>menu radio button to select content-set sample values</extracomment>
+        <translation>Nur Kurvenabtastung</translation>
+    </message>
+    <message>
+        <source>Comparison measuement results only</source>
+        <extracomment>menu radio button to select content-set comparison measurement values</extracomment>
+        <translation>Nur Ergebnisse Vergleichsmessung</translation>
+    </message>
+    <message>
+        <source>Burden values only</source>
+        <extracomment>menu radio button to select content-set burden values</extracomment>
+        <translation>Nur Bürdenwerte</translation>
+    </message>
+    <message>
+        <source>Transformer values only</source>
+        <extracomment>menu radio button to select content-set transformer values</extracomment>
+        <translation>Nur Stromwandlerwerte</translation>
+    </message>
+    <message>
+        <source>DC-Reference values only</source>
+        <extracomment>menu radio button to select content-set dc-reference values</extracomment>
+        <translation>Nur DC-Referenzmessung</translation>
+    </message>
+    <message>
+        <source>All data</source>
+        <extracomment>menu radio button to select content-set dc-reference values</extracomment>
+        <translation>Alle Daten</translation>
+    </message>
 </context>
 </TS>
