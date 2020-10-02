@@ -644,6 +644,26 @@ void ZeraTranslation::reloadStringTable()
     //: shows a preview of the database logger record name
     insert("Preview:", tr("Preview:"));
 
+    //LoggerCustomDataSelector.qml
+    //: logger custom data selector view header
+    insert("Select custom data contents", tr("Select custom data contents"));
+    //: button to select content-set actual values
+    insert("ZeraActualValues", tr("Actual values"));
+    //: button to select content-set harmonic values
+    insert("ZeraHarmonics", tr("Harmonic values"));
+    //: button to select content-set sample values
+    insert("ZeraCurves", tr("Sample values"));
+    //: button to select content-set comparison measurement values
+    insert("ZeraComparison", tr("Comparison measuement results"));
+    //: button to select content-set burden values
+    insert("ZeraBurden", tr("Burden values"));
+    //: button to select content-set transformer values
+    insert("ZeraTransformer", tr("Transformer values"));
+    //: button to select content-set dc-reference values
+    insert("ZeraDCReference", tr("DC-Reference values"));
+    //: button to select content-set dc-reference values
+    insert("ZeraAll", tr("All"));
+
     //LoggerMenu.qml
     //: displayed when user presses logger button
     //: text displayed in record name menu entry when no record was set yet
@@ -657,21 +677,24 @@ void ZeraTranslation::reloadStringTable()
     //: menu entry to open logger settings
     insert("Settings...", tr("Settings..."));
     //: menu radio button to select content-set actual values
-    insert("ZeraActualValues", tr("Actual values only"));
+    insert("MenuZeraActualValues", tr("Actual values only"));
     //: menu radio button to select content-set harmonic values
-    insert("ZeraHarmonics", tr("Harmonic values only"));
+    insert("MenuZeraHarmonics", tr("Harmonic values only"));
     //: menu radio button to select content-set sample values
-    insert("ZeraCurves", tr("Sample values only"));
+    insert("MenuZeraCurves", tr("Sample values only"));
     //: menu radio button to select content-set comparison measurement values
-    insert("ZeraComparison", tr("Comparison measuement results only"));
+    insert("MenuZeraComparison", tr("Comparison measuement results only"));
     //: menu radio button to select content-set burden values
-    insert("ZeraBurden", tr("Burden values only"));
+    insert("MenuZeraBurden", tr("Burden values only"));
     //: menu radio button to select content-set transformer values
-    insert("ZeraTransformer", tr("Transformer values only"));
+    insert("MenuZeraTransformer", tr("Transformer values only"));
     //: menu radio button to select content-set dc-reference values
-    insert("ZeraDCReference", tr("DC-Reference values only"));
-    //: menu radio button to select content-set dc-reference values
-    insert("ZeraAll", tr("All data"));
+    insert("MenuZeraDCReference", tr("DC-Reference values only"));
+    //: menu radio button to select all values
+    insert("MenuZeraAll", tr("All data"));
+    //: menu radio button to select custom content-sets values
+    insert("Custom data", tr("Custom data"));
+
 
     //CustomerDataEntry.qml
     insert("Customer data", tr("Customer data"));
