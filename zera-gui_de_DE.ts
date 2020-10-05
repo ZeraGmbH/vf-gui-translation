@@ -1759,5 +1759,13 @@ ConnectionTree.qml group Ethernet</extracomment>
         <extracomment>button to select content-set dc-reference values</extracomment>
         <translation>Alle</translation>
     </message>
+    <message>
+        <source>internal</source>
+        <translation>intern</translation>
+    </message>
+    <message>
+        <source>external</source>
+        <translation>extern</translation>
+    </message>
 </context>
 </TS>

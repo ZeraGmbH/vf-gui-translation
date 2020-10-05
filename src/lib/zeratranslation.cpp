@@ -622,6 +622,11 @@ void ZeraTranslation::reloadStringTable()
     //LoggerDbSearchDialog.qml
     insert("Select file", tr("Select file"));
 
+    //LoggerDbSearchDialog.qml
+    //:Select db location: internal storage
+    insert("internal", tr("internal"));
+    //:Select db location: external storage e.g memory stick
+    insert("external", tr("external"));
 
     //LoggerDatasetSelector.qml
     insert("Regex search", tr("Regex search", "regular expression search"));
