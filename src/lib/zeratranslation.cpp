@@ -636,17 +636,17 @@ void ZeraTranslation::reloadStringTable()
     //:shown in the value selection dialog of the database logger
     insert("Unit:", tr("Unit:", "SI or SI derived unit"));
 
-    //LoggerRecordNamePopup.qml
-    //: displayed in logger record name popup, visible when the user presses start or snapshot in the logger
-    //: the record name is a database field that the user can use to search / filter different recordings
-    insert("Select record name", tr("Select record name"));
-    //: Label for current record name
+    //LoggerSessionNamePopup.qml
+    //: displayed in logger session name popup, visible when the user presses start or snapshot in the logger
+    //: the session name is a database field that the user can use to search / filter different sessions
+    insert("Select session name", tr("Select session name"));
+    //: Label for current session name
     insert("Current name:", tr("Current name:"));
-    //: Label to apply default record name as current
+    //: Label to apply default session name as current
     insert("Set default name:", tr("Set default name:"));
-    //: Header for list of existing record names. Operator can select one of them to make it current record name
+    //: Header for list of existing session names. Operator can select one of them to make it current session name
     insert("Select existing:", tr("Select existing:"));
-    //: shows a preview of the database logger record name
+    //: shows a preview of the database logger session name
     insert("Preview:", tr("Preview:"));
 
     //LoggerCustomDataSelector.qml
@@ -671,8 +671,8 @@ void ZeraTranslation::reloadStringTable()
 
     //LoggerMenu.qml
     //: displayed when user presses logger button
-    //: text displayed in record name menu entry when no record was set yet
-    insert("-- no record --", tr("-- no record --"));
+    //: text displayed in session name menu entry when no session was set yet
+    insert("-- no session --", tr("-- no session --"));
     //: take snapshot menu entry
     insert("Take snapshot", tr("Take snapshot"));
     //: start logging menu entry

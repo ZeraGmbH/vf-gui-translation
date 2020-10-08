@@ -35,8 +35,8 @@ target_include_directories(ZeraTranslation
 # additional compiler options
 target_compile_options(ZeraTranslation PRIVATE -Wall)
 
-# some target magic added by qtcreator
-target_compile_definitions(ZeraTranslation PRIVATE $<$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>:QT_QML_DEBUG>)
+# add Qml-Debug for Bebug build envirionemt only
+target_compile_definitions(ZeraTranslation PRIVATE $<$<CONFIG:Debug>:QT_QML_DEBUG>)
 
 target_link_libraries(ZeraTranslation
     PRIVATE

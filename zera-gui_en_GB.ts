@@ -1205,23 +1205,23 @@
         <translation></translation>
     </message>
     <message>
-        <source>Select record name</source>
-        <extracomment>displayed in logger record name popup, visible when the user presses start or snapshot in the logger the record name is a database field that the user can use to search / filter different recordings</extracomment>
-        <translation>Select record name</translation>
+        <source>Select session name</source>
+        <extracomment>displayed in logger session name popup, visible when the user presses start or snapshot in the logger the session name is a database field that the user can use to search / filter different sessions</extracomment>
+        <translation>Select session name</translation>
     </message>
     <message>
         <source>Current name:</source>
-        <extracomment>Label for current record name</extracomment>
+        <extracomment>Label for current session name</extracomment>
         <translation>Current name:</translation>
     </message>
     <message>
         <source>Set default name:</source>
-        <extracomment>Label to apply default record name as current</extracomment>
+        <extracomment>Label to apply default session name as current</extracomment>
         <translation>Set default name:</translation>
     </message>
     <message>
         <source>Preview:</source>
-        <extracomment>shows a preview of the database logger record name</extracomment>
+        <extracomment>shows a preview of the database logger session name</extracomment>
         <translation>Preview:</translation>
     </message>
     <message>
@@ -1663,13 +1663,13 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>-- no record --</source>
-        <extracomment>displayed when user presses logger button text displayed in record name menu entry when no record was set yet</extracomment>
+        <source>-- no session --</source>
+        <extracomment>displayed when user presses logger button text displayed in session name menu entry when no session was set yet</extracomment>
         <translation></translation>
     </message>
     <message>
         <source>Select existing:</source>
-        <extracomment>Header for list of existing record names. Operator can select one of them to make it current record name</extracomment>
+        <extracomment>Header for list of existing session names. Operator can select one of them to make it current session name</extracomment>
         <translation></translation>
     </message>
     <message>
