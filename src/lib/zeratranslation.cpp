@@ -698,7 +698,7 @@ void ZeraTranslation::reloadStringTable()
     //: menu radio button to select all values
     insert("MenuZeraAll", tr("All data"));
     //: menu radio button to select custom content-sets values
-    insert("Custom data", tr("Custom data"));
+    insert("MenuZeraCustom", tr("Custom data"));
 
 
     //CustomerDataEntry.qml
