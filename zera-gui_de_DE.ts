@@ -256,11 +256,6 @@
         <translation>Harm. Tabelle relativ zur Grundschwingung:</translation>
     </message>
     <message>
-        <source>Decimal places:</source>
-        <extracomment>number of decimals after the decimal separator</extracomment>
-        <translation>Nachkommastellen:</translation>
-    </message>
-    <message>
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
         <translation>Sprache:</translation>
@@ -1207,25 +1202,14 @@
         <translation>fortlaufend</translation>
     </message>
     <message>
-        <source>&lt;directory name&gt;/&lt;filename&gt;</source>
-        <extracomment>placeholder text for the database path/filename</extracomment>
-        <translatorcomment>&lt;Pfad&gt;/&lt;Dateiname&gt;</translatorcomment>
-        <translation></translation>
-    </message>
-    <message>
         <source>Select session name</source>
         <extracomment>displayed in logger session name popup, visible when the user presses start or snapshot in the logger the session name is a database field that the user can use to search / filter different sessions</extracomment>
-        <translation>Auswahl Sitzungsname</translation>
+        <translation>Auswahl Sitzung</translation>
     </message>
     <message>
         <source>Current name:</source>
-        <extracomment>Label for current session name</extracomment>
+        <extracomment>label for current session name</extracomment>
         <translation>Aktueller Name:</translation>
-    </message>
-    <message>
-        <source>Set default name:</source>
-        <extracomment>Label to apply default session name as current</extracomment>
-        <translation>Standard Name setzen:</translation>
     </message>
     <message>
         <source>Preview:</source>
@@ -1266,18 +1250,13 @@
     <message>
         <source>File name:</source>
         <comment>customerdata filename</comment>
+        <extracomment>label text add customer data</extracomment>
         <translation>Dateiname:</translation>
     </message>
     <message>
         <source>Search</source>
         <comment>search for customerdata files</comment>
         <translation>Suche</translation>
-    </message>
-    <message>
-        <source>Clear</source>
-        <comment>clear search field</comment>
-        <extracomment>clears input field</extracomment>
-        <translation>Löschen</translation>
     </message>
     <message>
         <source>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
@@ -1323,37 +1302,9 @@
         <translation></translation>
     </message>
     <message>
-        <source>Customer data files:</source>
-        <translation>Dateien Kundendaten:</translation>
-    </message>
-    <message>
-        <source>New</source>
-        <comment>new file</comment>
-        <extracomment>Button text, action to create a file</extracomment>
-        <translation>Neu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <comment>edit file</comment>
-        <extracomment>Button text, action to edit a file</extracomment>
-        <translation>Bearbeiten</translation>
-    </message>
-    <message>
-        <source>Set current</source>
-        <comment>Set file selected currently</comment>
-        <extracomment>Button text, action to select a file</extracomment>
-        <translation>Aktiv</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <comment>delete (file)</comment>
-        <extracomment>Button text, action to delete a file</extracomment>
-        <translation>Entfernen</translation>
-    </message>
-    <message>
-        <source>Filter:</source>
-        <extracomment>search customer data filter label</extracomment>
-        <translation></translation>
+        <source>Edit customer data</source>
+        <extracomment>header text customer data browser</extracomment>
+        <translation>Kundendaten bearbeiten</translation>
     </message>
     <message>
         <source>Harmonic table</source>
@@ -1681,7 +1632,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Select existing:</source>
-        <extracomment>Header for list of existing session names. Operator can select one of them to make it current session name</extracomment>
+        <extracomment>header for list of existing session names. Operator can select one of them to make it current session name</extracomment>
         <translation>Vorhandene Sitzung auswählen:</translation>
     </message>
     <message>
@@ -1766,6 +1717,131 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>external</source>
         <translation>extern</translation>
+    </message>
+    <message>
+        <source>Max decimals total:</source>
+        <extracomment>max number total decimals for displayed values</extracomment>
+        <translation>Maximale Dezimalstellen gesamt:</translation>
+    </message>
+    <message>
+        <source>Max places after the decimal point:</source>
+        <extracomment>max number of decimals after the decimal separator</extracomment>
+        <translation>Nachkommastellen maximal:</translation>
+    </message>
+    <message>
+        <source>Add new session</source>
+        <extracomment>header view &apos;Add new session&apos;</extracomment>
+        <translation>Neue Sitzung erstellen</translation>
+    </message>
+    <message>
+        <source>Session name:</source>
+        <extracomment>add new session view: label session name</extracomment>
+        <translation>Sitzungsname:</translation>
+    </message>
+    <message>
+        <source>Select customer data:</source>
+        <extracomment>add new session view: label list cutomer data to select entry from</extracomment>
+        <translation>Kundendaten auswählen:</translation>
+    </message>
+    <message>
+        <source>-- no customer --</source>
+        <extracomment>add new session view: list entry to select no customer data</extracomment>
+        <translation>-- kein Kunde --</translation>
+    </message>
+    <message>
+        <source>Session </source>
+        <extracomment>default prefix for auto session name</extracomment>
+        <translation>Sitzung </translation>
+    </message>
+    <message>
+        <source>Export...</source>
+        <extracomment>Logger menu entry export</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <extracomment>button import cutomer data</extracomment>
+        <translation>Import</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <extracomment>button import cutomer data</extracomment>
+        <translation>Export</translation>
+    </message>
+    <message>
+        <source>Create Customer data file</source>
+        <extracomment>header text popup new customer data</extracomment>
+        <translation>Kundendaten erstellen</translation>
+    </message>
+    <message>
+        <source>Export stored data</source>
+        <extracomment>header text view export data</extracomment>
+        <translation>Gepeicherte Daten exportieren</translation>
+    </message>
+    <message>
+        <source>Export type:</source>
+        <extracomment>label combobox export type (MTVisXML/SQLiteDB...)</extracomment>
+        <translation>Export Typ:</translation>
+    </message>
+    <message>
+        <source>MtVis XML</source>
+        <extracomment>entry combobox export type MTVis Part 1</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>MtVis XML - requires stored sessions</source>
+        <extracomment>entry combobox export type in case no sessions stored yet</extracomment>
+        <translation>MTVis XML - erfordert gepeicherte Sitzung(en)</translation>
+    </message>
+    <message>
+        <source>SQLite DB (complete)</source>
+        <extracomment>entry combobox export type complete SQLite database</extracomment>
+        <translation>SQLite DB (komplette Datenbank)</translation>
+    </message>
+    <message>
+        <source>Export name:</source>
+        <extracomment>label edit field export name</extracomment>
+        <translation>Export Name:</translation>
+    </message>
+    <message>
+        <source>Name of export path</source>
+        <extracomment>edit field export name: Text displayed in case MTVis export is selected and field is empty (placeholder text)</extracomment>
+        <translation>Pfadname Export</translation>
+    </message>
+    <message>
+        <source>Target drive:</source>
+        <extracomment>label combobox target drive (visible only if multiple sicks / partitions are mounted)</extracomment>
+        <translation>Zielllaufwerk:</translation>
+    </message>
+    <message>
+        <source>Please select a session first...</source>
+        <extracomment>button text MTVis export type selected but no session active currently</extracomment>
+        <translation>Sitzung selektieren (notwendig für Export)</translation>
+    </message>
+    <message>
+        <source>Cannot export - drive removed?</source>
+        <extracomment>Text set in case export cannot be started (TODO)</extracomment>
+        <translation>Exportieren nicht möglich - wurde das Ziellaufwerk entfernt?</translation>
+    </message>
+    <message>
+        <source>Export failed - drive removed?</source>
+        <extracomment>Text set in case MTVis export failed (TODO)</extracomment>
+        <translation>Fehler beim Export - wurde das Ziellaufwerk entfernt?</translation>
+    </message>
+    <message>
+        <source>Copy failed - drive removed?</source>
+        <extracomment>Text set in case SQLite file export (copy) failed (TODO)</extracomment>
+        <translation>Fehler beim Kopieren - wurde das Ziellaufwerk entfernt?</translation>
+    </message>
+    <message>
+        <source>filename</source>
+        <extracomment>placeholder text for the database filename</extracomment>
+        <translation>Dateiname</translation>
+    </message>
+    <message>
+        <source>Session:</source>
+        <extracomment>entry combobox export type MTVis Part 2</extracomment>
+        <translation>Sitzung:</translation>
     </message>
 </context>
 </TS>

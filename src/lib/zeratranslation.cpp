@@ -210,8 +210,11 @@ void ZeraTranslation::reloadStringTable()
     insert("Application Settings", tr("Application Settings"));
     //: used for a yes / no configuration element
     insert("Display harmonic tables relative to the fundamental oscillation:", tr("Display harmonic tables relative to the fundamental oscillation:"));
-    //: number of decimals after the decimal separator
-    insert("Decimal places:", tr("Decimal places:"));
+    //: max number total decimals for displayed values
+    insert("Max decimals total:", tr("Max decimals total:"));
+    //: max number of decimals after the decimal separator
+    insert("Max places after the decimal point:", tr("Max places after the decimal point:"));
+
     //: used for the selection of language via country flag
     insert("Language:", tr("Language:"));
     //: settings specific to the hardware
@@ -616,8 +619,8 @@ void ZeraTranslation::reloadStringTable()
     insert("[customer id is not set]", tr("[customer id is not set]"));
     //: when the customer number is empty, the brackets are for visual distinction from other text
     insert("[customer number is not set]", tr("[customer number is not set]"));
-    //: placeholder text for the database path/filename
-    insert("<directory name>/<filename>", tr("<directory name>/<filename>"));
+    //: placeholder text for the database filename
+    insert("filename", tr("filename"));
 
     //LoggerDbSearchDialog.qml
     insert("Select file", tr("Select file"));
@@ -636,18 +639,30 @@ void ZeraTranslation::reloadStringTable()
     //:shown in the value selection dialog of the database logger
     insert("Unit:", tr("Unit:", "SI or SI derived unit"));
 
-    //LoggerSessionNamePopup.qml
+    //LoggerSessionNameSelector.qml
     //: displayed in logger session name popup, visible when the user presses start or snapshot in the logger
     //: the session name is a database field that the user can use to search / filter different sessions
     insert("Select session name", tr("Select session name"));
-    //: Label for current session name
+    //: label for current session name
     insert("Current name:", tr("Current name:"));
-    //: Label to apply default session name as current
-    insert("Set default name:", tr("Set default name:"));
-    //: Header for list of existing session names. Operator can select one of them to make it current session name
+    //: header for list of existing session names. Operator can select one of them to make it current session name
     insert("Select existing:", tr("Select existing:"));
     //: shows a preview of the database logger session name
     insert("Preview:", tr("Preview:"));
+
+    // LoggerSessionNew.qml
+    //: header view 'Add new session'
+    insert("Add new session", tr("Add new session"));
+    //: add new session view: label session name
+    insert("Session name:", tr("Session name:"));
+    //: add new session view: label list cutomer data to select entry from
+    insert("Select customer data:", tr("Select customer data:"));
+    //: add new session view: list entry to select no customer data
+    insert("-- no customer --", tr("-- no customer --"));
+
+    // LoggerSessionNameWithMacrosPopup.qml
+    //: default prefix for auto session name
+    insert("Session ", tr("Session "));
 
     //LoggerCustomDataSelector.qml
     //: logger custom data selector view header
@@ -681,6 +696,8 @@ void ZeraTranslation::reloadStringTable()
     insert("Stop logging", tr("Stop logging"));
     //: menu entry to open logger settings
     insert("Settings...", tr("Settings..."));
+    //: Logger menu entry export
+    insert("Export...", tr("Export..."));
     //: menu radio button to select content-set actual values
     insert("MenuZeraActualValues", tr("Actual values only"));
     //: menu radio button to select content-set harmonic values
@@ -735,26 +752,49 @@ void ZeraTranslation::reloadStringTable()
     insert("PAR_PowerGridComment", tr("Power grid Comment:"));
 
     //CustomerDataBrowser.qml
-
-    insert("Customer data files:", tr("Customer data files:"));
-    //: Button text, action to create a file
-    insert("New", tr("New", "new file"));
-    //: Button text, action to edit a file
-    insert("Edit", tr("Edit", "edit file"));
-    //: Button text, action to select a file
-    insert("Set current", tr("Set current", "Set file selected currently"));
-    //: Button text, action to delete a file
-    insert("Delete", tr("Delete", "delete (file)"));
+    //: header text customer data browser
+    insert("Edit customer data", tr("Edit customer data"));
+    //: button import cutomer data
+    insert("Import", tr("Import"));
+    //: button import cutomer data
+    insert("Export", tr("Export"));
+    //: label text add customer data
     insert("File name:", tr("File name:", "customerdata filename"));
     insert("Search", tr("Search", "search for customerdata files"));
-    //: clears input field
-    insert("Clear", tr("Clear", "clear search field"));
 
     insert("Really delete file <b>'%1'</b>?", tr("Really delete file <b>'%1'</b>?", "confirmation to delete customerdata file"));
     //: search customer data file via regular expression, see: https://en.wikipedia.org/wiki/Regular_expression
     insert("Regex search", tr("Regex search"));
-    //: search customer data filter label
-    insert("Filter:", tr("Filter:"));
+    //: header text popup new customer data
+    insert("Create Customer data file", tr("Create Customer data file"));
+
+    // LoggerExport.qml
+    //: header text view export data
+    insert("Export stored data", tr("Export stored data"));
+    //: label combobox export type (MTVisXML/SQLiteDB...)
+    insert("Export type:", tr("Export type:"));
+    //: entry combobox export type MTVis Part 1
+    insert("MtVis XML", tr("MtVis XML"));
+    //: entry combobox export type MTVis Part 2
+    insert("Session:", tr("Session:"));
+    //: entry combobox export type in case no sessions stored yet
+    insert("MtVis XML - requires stored sessions", tr("MtVis XML - requires stored sessions"));
+    //: entry combobox export type complete SQLite database
+    insert("SQLite DB (complete)", tr("SQLite DB (complete)"));
+    //: label edit field export name
+    insert("Export name:", tr("Export name:"));
+    //: edit field export name: Text displayed in case MTVis export is selected and field is empty (placeholder text)
+    insert("Name of export path", tr("Name of export path"));
+    //: label combobox target drive (visible only if multiple sicks / partitions are mounted)
+    insert("Target drive:", tr("Target drive:"));
+    //: button text MTVis export type selected but no session active currently
+    insert("Please select a session first...", tr("Please select a session first..."));
+    //: Text set in case export cannot be started (TODO)
+    insert("Cannot export - drive removed?", tr("Cannot export - drive removed?"));
+    //: Text set in case MTVis export failed (TODO)
+    insert("Export failed - drive removed?", tr("Export failed - drive removed?"));
+    //: Text set in case SQLite file export (copy) failed (TODO)
+    insert("Copy failed - drive removed?", tr("Copy failed - drive removed?"));
 
 
     emit sigLanguageChanged();
