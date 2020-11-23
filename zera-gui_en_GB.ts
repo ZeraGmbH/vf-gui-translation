@@ -1832,5 +1832,10 @@ ConnectionTree.qml group Ethernet</extracomment>
         <extracomment>entry combobox export type MTVis Part 2</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>unnamed</source>
+        <extracomment>in drive select combo for partitions without name</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>

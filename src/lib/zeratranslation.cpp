@@ -796,6 +796,9 @@ void ZeraTranslation::reloadStringTable()
     //: Text set in case SQLite file export (copy) failed (TODO)
     insert("Copy failed - drive removed?", tr("Copy failed - drive removed?"));
 
+    // MountedDrivesCombo.qml
+    //: in drive select combo for partitions without name
+    insert("unnamed", tr("unnamed"));
 
     emit sigLanguageChanged();
 }
