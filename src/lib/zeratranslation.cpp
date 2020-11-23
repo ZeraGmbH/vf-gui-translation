@@ -597,7 +597,7 @@ void ZeraTranslation::reloadStringTable()
     insert("DB location:", tr("DB location:"));
     insert("Database filename:", tr("Database filename:"));
     //: %1 = database size %2 = filesystem storage available, %2 = total, %3 = percentage available
-    insert("<b>%1MB</b> (available <b>%2GB</b> of <b>%3GB</b> / %4%)", tr("<b>%1MB</b> (available <b>%2GB</b> of <b>%3GB</b> / %4%)"));
+    insert("<b>%1MB</b> (available <b>%2GB</b> / %3%)", tr("<b>%1MB</b> (available <b>%2GB</b> / %3%)"));
     insert("Scheduled logging enabled:", tr("Scheduled logging enabled:"));
     //: describes the duration of the recording
     insert("Logging Duration [hh:mm:ss]:", tr("Logging Duration [hh:mm:ss]:"));
