@@ -976,36 +976,6 @@
         <translation>Snapshot</translation>
     </message>
     <message>
-        <source>Regex search</source>
-        <comment>regular expression search</comment>
-        <translatorcomment>Verwaltung Kd daten</translatorcomment>
-        <translation>Suchbegriff eingeben</translation>
-    </message>
-    <message>
-        <source>Available for recording</source>
-        <comment>list of selectable elements</comment>
-        <translation>Zur Speicherung verfügbar</translation>
-    </message>
-    <message>
-        <source>Selected for recording</source>
-        <comment>list of selected elements</comment>
-        <translation>Zur Speicherung ausgewählt</translation>
-    </message>
-    <message>
-        <source>Description:</source>
-        <translation>Beschreibung:</translation>
-    </message>
-    <message>
-        <source>Unit:</source>
-        <comment>SI or SI derived unit</comment>
-        <translatorcomment>Wo taucht dieser Text auf?</translatorcomment>
-        <translation>Einheit:</translation>
-    </message>
-    <message>
-        <source>Customer data</source>
-        <translation>Daten (Kd.)</translation>
-    </message>
-    <message>
         <source>Customer</source>
         <translation>Kunde</translation>
     </message>
@@ -1217,11 +1187,6 @@
         <translation>Vorschau:</translation>
     </message>
     <message>
-        <source>Regex search</source>
-        <extracomment>search customer data file via regular expression, see: https://en.wikipedia.org/wiki/Regular_expression</extracomment>
-        <translation>Suchbegriff eingeben</translation>
-    </message>
-    <message>
         <source>Peak values</source>
         <comment>range peak values</comment>
         <translation>Maximalwerte</translation>
@@ -1257,11 +1222,6 @@
         <source>Search</source>
         <comment>search for customerdata files</comment>
         <translation>Suche</translation>
-    </message>
-    <message>
-        <source>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
-        <comment>confirmation to delete customerdata file</comment>
-        <translation>Datei wirklich löschen &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Duration:</source>
@@ -1300,11 +1260,6 @@
         <source>OK</source>
         <extracomment>as in &quot;close this view&quot;</extracomment>
         <translation></translation>
-    </message>
-    <message>
-        <source>Edit customer data</source>
-        <extracomment>header text customer data browser</extracomment>
-        <translation>Kundendaten bearbeiten</translation>
     </message>
     <message>
         <source>Harmonic table</source>
@@ -1847,6 +1802,51 @@ ConnectionTree.qml group Ethernet</extracomment>
         <source>&lt;b&gt;%1MB&lt;/b&gt; (available &lt;b&gt;%2GB&lt;/b&gt; / %3%)</source>
         <extracomment>%1 = database size %2 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
         <translation>&lt;b&gt;%1MB&lt;/b&gt; (verfügbar &lt;b&gt;%2GB&lt;/b&gt; / %3%)</translation>
+    </message>
+    <message>
+        <source>Delete session</source>
+        <extracomment>delete session confirmation popup header</extracomment>
+        <translation>Sitzung löschen</translation>
+    </message>
+    <message>
+        <source>Please confirm that you want to delete session &lt;b&gt;&apos;%1&apos;&lt;/b&gt;</source>
+        <extracomment>delete session confirmation popup header</extracomment>
+        <translation>Bitte bestätigen Sie, dass sie die Sitzung &lt;b&gt;&apos;%1&apos;&lt;/b&gt; löschen möchten</translation>
+    </message>
+    <message>
+        <source>Import customer data files</source>
+        <extracomment>header import customer data popup</extracomment>
+        <translation>Kundendatendateien importieren</translation>
+    </message>
+    <message>
+        <source>Device export found:</source>
+        <extracomment>label import customer data device select combo</extracomment>
+        <translation>Kundendateien von Gerät:</translation>
+    </message>
+    <message>
+        <source>Delete current files first</source>
+        <extracomment>import customer data popup option checkbox text</extracomment>
+        <translation>Vorhandene Dateien löschen</translation>
+    </message>
+    <message>
+        <source>Overwrite current files with imported ones</source>
+        <extracomment>import customer data popup option checkbox text</extracomment>
+        <translation>Vorhandene überschreiben</translation>
+    </message>
+    <message>
+        <source>Delete customer data file</source>
+        <extracomment>customer data delete file confirmation popup header</extracomment>
+        <translation>Kundendatendatei löschen</translation>
+    </message>
+    <message>
+        <source>Please confirm that you want to delete &lt;b&gt;&apos;%1&apos;&lt;/b&gt;</source>
+        <extracomment>customer data delete file confirmation text</extracomment>
+        <translation>Bitte bestätigen Sie, dass &lt;b&gt;&apos;%1&apos;&lt;/b&gt; gelöscht werden soll</translation>
+    </message>
+    <message>
+        <source>Customer data files</source>
+        <extracomment>header text customer data browser</extracomment>
+        <translation>Kundendatendateien importieren</translation>
     </message>
 </context>
 </TS>

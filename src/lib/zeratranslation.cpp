@@ -631,14 +631,6 @@ void ZeraTranslation::reloadStringTable()
     //:Select db location: external storage e.g memory stick
     insert("external", tr("external"));
 
-    //LoggerDatasetSelector.qml
-    insert("Regex search", tr("Regex search", "regular expression search"));
-    insert("Available for recording", tr("Available for recording", "list of selectable elements"));
-    insert("Selected for recording", tr("Selected for recording", "list of selected elements"));
-    insert("Description:", tr("Description:"));
-    //:shown in the value selection dialog of the database logger
-    insert("Unit:", tr("Unit:", "SI or SI derived unit"));
-
     //LoggerSessionNameSelector.qml
     //: displayed in logger session name popup, visible when the user presses start or snapshot in the logger
     //: the session name is a database field that the user can use to search / filter different sessions
@@ -649,6 +641,10 @@ void ZeraTranslation::reloadStringTable()
     insert("Select existing:", tr("Select existing:"));
     //: shows a preview of the database logger session name
     insert("Preview:", tr("Preview:"));
+    //: delete session confirmation popup header
+    insert("Delete session", tr("Delete session"));
+    //: delete session confirmation popup header
+    insert("Please confirm that you want to delete session <b>'%1'</b>", tr("Please confirm that you want to delete session <b>'%1'</b>"));
 
     // LoggerSessionNew.qml
     //: header view 'Add new session'
@@ -719,7 +715,6 @@ void ZeraTranslation::reloadStringTable()
 
 
     //CustomerDataEntry.qml
-    insert("Customer data", tr("Customer data"));
     insert("Customer", tr("Customer"));
     //: power meter, not distance
     insert("Meter information", tr("Meter information"));
@@ -753,7 +748,7 @@ void ZeraTranslation::reloadStringTable()
 
     //CustomerDataBrowser.qml
     //: header text customer data browser
-    insert("Edit customer data", tr("Edit customer data"));
+    insert("Customer data files", tr("Customer data files"));
     //: button import cutomer data
     insert("Import", tr("Import"));
     //: button import cutomer data
@@ -761,10 +756,20 @@ void ZeraTranslation::reloadStringTable()
     //: label text add customer data
     insert("File name:", tr("File name:", "customerdata filename"));
     insert("Search", tr("Search", "search for customerdata files"));
+    //: header import customer data popup
+    insert("Import customer data files", tr("Import customer data files"));
+    //: label import customer data device select combo
+    insert("Device export found:", tr("Device export found:"));
+    //: import customer data popup option checkbox text
+    insert("Delete current files first", tr("Delete current files first"));
+    //: import customer data popup option checkbox text
+    insert("Overwrite current files with imported ones", tr("Overwrite current files with imported ones"));
+    //: customer data delete file confirmation popup header
+    insert("Delete customer data file", tr("Delete customer data file"));
+    //: customer data delete file confirmation text
+    insert("Please confirm that you want to delete <b>'%1'</b>", tr("Please confirm that you want to delete <b>'%1'</b>"));
 
-    insert("Really delete file <b>'%1'</b>?", tr("Really delete file <b>'%1'</b>?", "confirmation to delete customerdata file"));
-    //: search customer data file via regular expression, see: https://en.wikipedia.org/wiki/Regular_expression
-    insert("Regex search", tr("Regex search"));
+
     //: header text popup new customer data
     insert("Create Customer data file", tr("Create Customer data file"));
 

@@ -974,34 +974,6 @@
         <translation>Snapshot</translation>
     </message>
     <message>
-        <source>Regex search</source>
-        <comment>regular expression search</comment>
-        <translation>Search term</translation>
-    </message>
-    <message>
-        <source>Available for recording</source>
-        <comment>list of selectable elements</comment>
-        <translation>Available for recording</translation>
-    </message>
-    <message>
-        <source>Selected for recording</source>
-        <comment>list of selected elements</comment>
-        <translation>Selected for recording</translation>
-    </message>
-    <message>
-        <source>Description:</source>
-        <translation>Description:</translation>
-    </message>
-    <message>
-        <source>Unit:</source>
-        <comment>SI or SI derived unit</comment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Customer data</source>
-        <translation>Data (customer)</translation>
-    </message>
-    <message>
         <source>Customer</source>
         <translation>Customer</translation>
     </message>
@@ -1210,11 +1182,6 @@
         <translation>Preview:</translation>
     </message>
     <message>
-        <source>Regex search</source>
-        <extracomment>search customer data file via regular expression, see: https://en.wikipedia.org/wiki/Regular_expression</extracomment>
-        <translation>Search term</translation>
-    </message>
-    <message>
         <source>Peak values</source>
         <comment>range peak values</comment>
         <translation>Peak values</translation>
@@ -1252,11 +1219,6 @@
         <translation>Search</translation>
     </message>
     <message>
-        <source>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
-        <comment>confirmation to delete customerdata file</comment>
-        <translation>Really delete file &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
-    </message>
-    <message>
         <source>Duration:</source>
         <translation></translation>
     </message>
@@ -1292,11 +1254,6 @@
     <message>
         <source>OK</source>
         <extracomment>as in &quot;close this view&quot;</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Edit customer data</source>
-        <extracomment>header text customer data browser</extracomment>
         <translation></translation>
     </message>
     <message>
@@ -1835,6 +1792,51 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>&lt;b&gt;%1MB&lt;/b&gt; (available &lt;b&gt;%2GB&lt;/b&gt; / %3%)</source>
         <extracomment>%1 = database size %2 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Delete session</source>
+        <extracomment>delete session confirmation popup header</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Please confirm that you want to delete session &lt;b&gt;&apos;%1&apos;&lt;/b&gt;</source>
+        <extracomment>delete session confirmation popup header</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Import customer data files</source>
+        <extracomment>header import customer data popup</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Device export found:</source>
+        <extracomment>label import customer data device select combo</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Delete current files first</source>
+        <extracomment>import customer data popup option checkbox text</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Overwrite current files with imported ones</source>
+        <extracomment>import customer data popup option checkbox text</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Delete customer data file</source>
+        <extracomment>customer data delete file confirmation popup header</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Please confirm that you want to delete &lt;b&gt;&apos;%1&apos;&lt;/b&gt;</source>
+        <extracomment>customer data delete file confirmation text</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Customer data files</source>
+        <extracomment>header text customer data browser</extracomment>
         <translation></translation>
     </message>
 </context>
