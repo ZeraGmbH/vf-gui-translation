@@ -1795,26 +1795,6 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Delete session</source>
-        <extracomment>delete session confirmation popup header</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Please confirm that you want to delete session &lt;b&gt;&apos;%1&apos;&lt;/b&gt;</source>
-        <extracomment>delete session confirmation popup header</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Import customer data files</source>
-        <extracomment>header import customer data popup</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Device export found:</source>
-        <extracomment>label import customer data device select combo</extracomment>
-        <translation></translation>
-    </message>
-    <message>
         <source>Delete current files first</source>
         <extracomment>import customer data popup option checkbox text</extracomment>
         <translation></translation>
@@ -1825,18 +1805,40 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Delete customer data file</source>
-        <extracomment>customer data delete file confirmation popup header</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Please confirm that you want to delete &lt;b&gt;&apos;%1&apos;&lt;/b&gt;</source>
+        <source>Delete &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
         <extracomment>customer data delete file confirmation text</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Customer data files</source>
+        <source>Delete</source>
+        <extracomment>customer data delete file button text</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Delete session &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
+        <extracomment>delete session confirmation popup header</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Confirmation</source>
+        <extracomment>delete session confirmation popup header
+----------
+customer data delete file confirmation popup header</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Customer data</source>
         <extracomment>header text customer data browser</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Import customer data</source>
+        <extracomment>header import customer data popup</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Files found from device:</source>
+        <extracomment>label import customer data device select combo</extracomment>
         <translation></translation>
     </message>
 </context>

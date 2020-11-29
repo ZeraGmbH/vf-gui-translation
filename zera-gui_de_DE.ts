@@ -1804,26 +1804,6 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation>&lt;b&gt;%1MB&lt;/b&gt; (verfügbar &lt;b&gt;%2GB&lt;/b&gt; / %3%)</translation>
     </message>
     <message>
-        <source>Delete session</source>
-        <extracomment>delete session confirmation popup header</extracomment>
-        <translation>Sitzung löschen</translation>
-    </message>
-    <message>
-        <source>Please confirm that you want to delete session &lt;b&gt;&apos;%1&apos;&lt;/b&gt;</source>
-        <extracomment>delete session confirmation popup header</extracomment>
-        <translation>Bitte bestätigen Sie, dass sie die Sitzung &lt;b&gt;&apos;%1&apos;&lt;/b&gt; löschen möchten</translation>
-    </message>
-    <message>
-        <source>Import customer data files</source>
-        <extracomment>header import customer data popup</extracomment>
-        <translation>Kundendatendateien importieren</translation>
-    </message>
-    <message>
-        <source>Device export found:</source>
-        <extracomment>label import customer data device select combo</extracomment>
-        <translation>Kundendateien von Gerät:</translation>
-    </message>
-    <message>
         <source>Delete current files first</source>
         <extracomment>import customer data popup option checkbox text</extracomment>
         <translation>Vorhandene Dateien löschen</translation>
@@ -1834,19 +1814,41 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation>Vorhandene überschreiben</translation>
     </message>
     <message>
-        <source>Delete customer data file</source>
-        <extracomment>customer data delete file confirmation popup header</extracomment>
-        <translation>Kundendatendatei löschen</translation>
-    </message>
-    <message>
-        <source>Please confirm that you want to delete &lt;b&gt;&apos;%1&apos;&lt;/b&gt;</source>
+        <source>Delete &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
         <extracomment>customer data delete file confirmation text</extracomment>
-        <translation>Bitte bestätigen Sie, dass &lt;b&gt;&apos;%1&apos;&lt;/b&gt; gelöscht werden soll</translation>
+        <translation>&lt;b&gt;&apos;%1&apos;&lt;/b&gt; löschen?</translation>
     </message>
     <message>
-        <source>Customer data files</source>
+        <source>Delete</source>
+        <extracomment>customer data delete file button text</extracomment>
+        <translation>Löschen</translation>
+    </message>
+    <message>
+        <source>Delete session &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
+        <extracomment>delete session confirmation popup header</extracomment>
+        <translation>Sitzung &lt;b&gt;&apos;%1&apos;&lt;/b&gt; löschen?</translation>
+    </message>
+    <message>
+        <source>Confirmation</source>
+        <extracomment>delete session confirmation popup header
+----------
+customer data delete file confirmation popup header</extracomment>
+        <translation>Sicherheitsabfrage</translation>
+    </message>
+    <message>
+        <source>Customer data</source>
         <extracomment>header text customer data browser</extracomment>
-        <translation>Kundendatendateien importieren</translation>
+        <translation>Kundendaten</translation>
+    </message>
+    <message>
+        <source>Import customer data</source>
+        <extracomment>header import customer data popup</extracomment>
+        <translation>Kundendaten importieren</translation>
+    </message>
+    <message>
+        <source>Files found from device:</source>
+        <extracomment>label import customer data device select combo</extracomment>
+        <translation>Dateien gefunden von Gerät:</translation>
     </message>
 </context>
 </TS>

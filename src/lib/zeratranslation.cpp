@@ -642,9 +642,9 @@ void ZeraTranslation::reloadStringTable()
     //: shows a preview of the database logger session name
     insert("Preview:", tr("Preview:"));
     //: delete session confirmation popup header
-    insert("Delete session", tr("Delete session"));
+    insert("Confirmation", tr("Confirmation"));
     //: delete session confirmation popup header
-    insert("Please confirm that you want to delete session <b>'%1'</b>", tr("Please confirm that you want to delete session <b>'%1'</b>"));
+    insert("Delete session <b>'%1'</b>?", tr("Delete session <b>'%1'</b>?"));
 
     // LoggerSessionNew.qml
     //: header view 'Add new session'
@@ -748,7 +748,7 @@ void ZeraTranslation::reloadStringTable()
 
     //CustomerDataBrowser.qml
     //: header text customer data browser
-    insert("Customer data files", tr("Customer data files"));
+    insert("Customer data", tr("Customer data"));
     //: button import cutomer data
     insert("Import", tr("Import"));
     //: button import cutomer data
@@ -757,17 +757,19 @@ void ZeraTranslation::reloadStringTable()
     insert("File name:", tr("File name:", "customerdata filename"));
     insert("Search", tr("Search", "search for customerdata files"));
     //: header import customer data popup
-    insert("Import customer data files", tr("Import customer data files"));
+    insert("Import customer data", tr("Import customer data"));
     //: label import customer data device select combo
-    insert("Device export found:", tr("Device export found:"));
+    insert("Files found from device:", tr("Files found from device:"));
     //: import customer data popup option checkbox text
     insert("Delete current files first", tr("Delete current files first"));
     //: import customer data popup option checkbox text
     insert("Overwrite current files with imported ones", tr("Overwrite current files with imported ones"));
     //: customer data delete file confirmation popup header
-    insert("Delete customer data file", tr("Delete customer data file"));
+    insert("Confirmation", tr("Confirmation"));
     //: customer data delete file confirmation text
-    insert("Please confirm that you want to delete <b>'%1'</b>", tr("Please confirm that you want to delete <b>'%1'</b>"));
+    insert("Delete <b>'%1'</b>?", tr("Delete <b>'%1'</b>?"));
+    //: customer data delete file button text
+    insert("Delete", tr("Delete"));
 
 
     //: header text popup new customer data
