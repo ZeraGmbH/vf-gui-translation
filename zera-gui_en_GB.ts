@@ -1124,10 +1124,6 @@
         <translation>No database selected</translation>
     </message>
     <message>
-        <source>Select file</source>
-        <translation>Select file</translation>
-    </message>
-    <message>
         <source>THDN:</source>
         <extracomment>total harmonic distortion with noise</extracomment>
         <translation>THDN:</translation>
@@ -1839,6 +1835,15 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Files found from device:</source>
         <extracomment>label import customer data device select combo</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Databases</source>
+        <extracomment>database search / delete view header</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Delete database &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
         <translation></translation>
     </message>
 </context>

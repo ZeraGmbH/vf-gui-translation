@@ -623,13 +623,14 @@ void ZeraTranslation::reloadStringTable()
     insert("filename", tr("filename"));
 
     //LoggerDbSearchDialog.qml
-    insert("Select file", tr("Select file"));
-
-    //LoggerDbSearchDialog.qml
+    //: database search / delete view header
+    insert("Databases", tr("Databases"));
     //:Select db location: internal storage
     insert("internal", tr("internal"));
     //:Select db location: external storage e.g memory stick
     insert("external", tr("external"));
+    //:Delete database confirmation text - %1 is replaced by database filename
+    insert("Delete database <b>'%1'</b>?", tr("Delete database <b>'%1'</b>?"));
 
     //LoggerSessionNameSelector.qml
     //: displayed in logger session name popup, visible when the user presses start or snapshot in the logger
