@@ -957,10 +957,6 @@
         <translation>Database error</translation>
     </message>
     <message>
-        <source>DB size:</source>
-        <translation>DB size:</translation>
-    </message>
-    <message>
         <source>Select recorded values:</source>
         <extracomment>the user can make a selection of values he wants to log into a database</extracomment>
         <translation>Select recorded values:</translation>
@@ -1844,6 +1840,16 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Delete database &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Create database</source>
+        <extracomment>popup create database header</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>free</source>
+        <extracomment>in drive select combo free memory label</extracomment>
         <translation></translation>
     </message>
 </context>

@@ -1308,10 +1308,6 @@
         <translation>Perioden</translation>
     </message>
     <message>
-        <source>DB size:</source>
-        <translation>DB Größe:</translation>
-    </message>
-    <message>
         <source>QREF</source>
         <comment>Referenz-Modus = reference mode</comment>
         <translation></translation>
@@ -1854,6 +1850,16 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Delete database &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
         <translation>Datenbank &lt;b&gt;&apos;%1&apos;&lt;/b&gt; löschen?</translation>
+    </message>
+    <message>
+        <source>Create database</source>
+        <extracomment>popup create database header</extracomment>
+        <translation>Neu Datenbank anlegen</translation>
+    </message>
+    <message>
+        <source>free</source>
+        <extracomment>in drive select combo free memory label</extracomment>
+        <translation>frei</translation>
     </message>
 </context>
 </TS>

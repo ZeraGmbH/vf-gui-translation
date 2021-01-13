@@ -608,7 +608,6 @@ void ZeraTranslation::reloadStringTable()
     insert("No database selected", tr("No database selected"));
     insert("Database loaded", tr("Database loaded"));
     insert("Database error", tr("Database error"));
-    insert("DB size:", tr("DB size:"));
     //: the user can make a selection of values he wants to log into a database
     insert("Select recorded values:", tr("Select recorded values:"));
     insert("Manage customer data:", tr("Manage customer data:"));
@@ -621,6 +620,8 @@ void ZeraTranslation::reloadStringTable()
     insert("[customer number is not set]", tr("[customer number is not set]"));
     //: placeholder text for the database filename
     insert("filename", tr("filename"));
+    //: popup create database header
+    insert("Create database", tr("Create database"));
 
     //LoggerDbSearchDialog.qml
     //: database search / delete view header
@@ -807,6 +808,8 @@ void ZeraTranslation::reloadStringTable()
     // MountedDrivesCombo.qml
     //: in drive select combo for partitions without name
     insert("unnamed", tr("unnamed"));
+    //: in drive select combo free memory label
+    insert("free", tr("free"));
 
     emit sigLanguageChanged();
 }
