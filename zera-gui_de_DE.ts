@@ -1854,7 +1854,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Create database</source>
         <extracomment>popup create database header</extracomment>
-        <translation>Neu Datenbank anlegen</translation>
+        <translation>Neue Datenbank anlegen</translation>
     </message>
     <message>
         <source>free</source>
