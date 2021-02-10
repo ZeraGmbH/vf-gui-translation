@@ -1164,7 +1164,7 @@
         <translation>Prüfzählerkonstante:</translation>
     </message>
     <message>
-        <source>Continuous measurement</source>
+        <source>continuous</source>
         <translation>fortlaufend</translation>
     </message>
     <message>
@@ -1860,6 +1860,10 @@ customer data delete file confirmation popup header</extracomment>
         <source>free</source>
         <extracomment>in drive select combo free memory label</extracomment>
         <translation>frei</translation>
+    </message>
+    <message>
+        <source>Count:</source>
+        <translation>Anzahl:</translation>
     </message>
 </context>
 </TS>

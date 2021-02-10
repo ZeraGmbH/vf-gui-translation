@@ -1155,8 +1155,8 @@
         <translation>Constant reference meter:</translation>
     </message>
     <message>
-        <source>Continuous measurement</source>
-        <translation>Continuous measurement</translation>
+        <source>continuous</source>
+        <translation>continuous</translation>
     </message>
     <message>
         <source>Select session name</source>
@@ -1850,6 +1850,10 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>free</source>
         <extracomment>in drive select combo free memory label</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Count:</source>
         <translation></translation>
     </message>
 </context>
