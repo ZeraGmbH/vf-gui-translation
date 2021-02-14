@@ -1862,8 +1862,8 @@ customer data delete file confirmation popup header</extracomment>
         <translation>frei</translation>
     </message>
     <message>
-        <source>Count:</source>
-        <translation>Anzahl:</translation>
+        <source>Measurement count:</source>
+        <translation>Anzahl Messungen:</translation>
     </message>
 </context>
 </TS>

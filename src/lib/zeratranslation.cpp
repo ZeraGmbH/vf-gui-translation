@@ -373,7 +373,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Lower error margin:", tr("Lower error margin:"));
     insert("Upper error margin:", tr("Upper error margin:"));
     insert("continuous", tr("continuous"));
-    insert("Count:", tr("Count:"));
+    insert("Measurement count:", tr("Measurement count:"));
 
     //ErrorRegisterModulePage.qml
     insert("Duration:", tr("Duration:"));
