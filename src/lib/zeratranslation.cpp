@@ -673,7 +673,7 @@ void ZeraTranslation::reloadStringTable()
     //: button to select content-set sample values
     insert("ZeraCurves", tr("Sample values"));
     //: button to select content-set comparison measurement values
-    insert("ZeraComparison", tr("Comparison measuement results"));
+    insert("ZeraComparison", tr("Comparison measurement results"));
     //: button to select content-set burden values
     insert("ZeraBurden", tr("Burden values"));
     //: button to select content-set transformer values
@@ -704,7 +704,7 @@ void ZeraTranslation::reloadStringTable()
     //: menu radio button to select content-set sample values
     insert("MenuZeraCurves", tr("Sample values only"));
     //: menu radio button to select content-set comparison measurement values
-    insert("MenuZeraComparison", tr("Comparison measuement results only"));
+    insert("MenuZeraComparison", tr("Comparison measurement results only"));
     //: menu radio button to select content-set burden values
     insert("MenuZeraBurden", tr("Burden values only"));
     //: menu radio button to select content-set transformer values

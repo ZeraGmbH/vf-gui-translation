@@ -1584,7 +1584,7 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Comparison measuement results only</source>
+        <source>Comparison measurement results only</source>
         <extracomment>menu radio button to select content-set comparison measurement values</extracomment>
         <translation></translation>
     </message>
@@ -1629,7 +1629,7 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Comparison measuement results</source>
+        <source>Comparison measurement results</source>
         <extracomment>button to select content-set comparison measurement values</extracomment>
         <translation></translation>
     </message>
