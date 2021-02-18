@@ -1853,7 +1853,31 @@ customer data delete file confirmation popup header</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Measurement count:</source>
+        <source>Count / Pause:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Count:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Passed:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Failed:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Mean:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Stddev. n:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Stddev. n-1:</source>
         <translation></translation>
     </message>
 </context>

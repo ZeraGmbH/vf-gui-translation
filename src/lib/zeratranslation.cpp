@@ -373,7 +373,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Lower error margin:", tr("Lower error margin:"));
     insert("Upper error margin:", tr("Upper error margin:"));
     insert("continuous", tr("continuous"));
-    insert("Measurement count:", tr("Measurement count:"));
+    insert("Count / Pause:", tr("Count / Pause:"));
 
     //ErrorRegisterModulePage.qml
     insert("Duration:", tr("Duration:"));
@@ -381,6 +381,14 @@ void ZeraTranslation::reloadStringTable()
     insert("Duration", tr("Duration"));
     insert("Start value:", tr("Start value:"));
     insert("End value:", tr("End value:"));
+
+    //ErrorRegisterModulePage.qml
+    insert("Count:", tr("Count:"));
+    insert("Passed:", tr("Passed:"));
+    insert("Failed:", tr("Failed:"));
+    insert("Mean:", tr("Mean:"));
+    insert("Stddev. n:", tr("Stddev. n:"));
+    insert("Stddev. n-1:", tr("Stddev. n-1:"));
 
     //FftTabPage.qml
     //: text must be short enough to fit
