@@ -1862,8 +1862,32 @@ customer data delete file confirmation popup header</extracomment>
         <translation>frei</translation>
     </message>
     <message>
-        <source>Measurement count:</source>
-        <translation>Anzahl Messungen:</translation>
+        <source>Count / Pause:</source>
+        <translation>Anzahl / Pause:</translation>
+    </message>
+    <message>
+        <source>Count:</source>
+        <translation>Anzahl:</translation>
+    </message>
+    <message>
+        <source>Passed:</source>
+        <translation>Gut:</translation>
+    </message>
+    <message>
+        <source>Failed:</source>
+        <translation>Schlecht:</translation>
+    </message>
+    <message>
+        <source>Mean:</source>
+        <translation>Mittel:</translation>
+    </message>
+    <message>
+        <source>Stddev. n:</source>
+        <translation>Stdabw. n:</translation>
+    </message>
+    <message>
+        <source>Stddev. n-1:</source>
+        <translation>Stdabw. n-1:</translation>
     </message>
 </context>
 </TS>
