@@ -807,12 +807,12 @@ void ZeraTranslation::reloadStringTable()
     insert("Target drive:", tr("Target drive:"));
     //: button text MTVis export type selected but no session active currently
     insert("Please select a session first...", tr("Please select a session first..."));
-    //: Text set in case export cannot be started (TODO)
-    insert("Cannot export - drive removed?", tr("Cannot export - drive removed?"));
-    //: Text set in case MTVis export failed (TODO)
-    insert("Export failed - drive removed?", tr("Export failed - drive removed?"));
-    //: Text set in case SQLite file export (copy) failed (TODO)
-    insert("Copy failed - drive removed?", tr("Copy failed - drive removed?"));
+    //: Text set in case MTVis export failed
+    insert("Export failed - drive full or removed?", tr("Export failed - drive full or removed?"));
+    //: Text set in case MTVis export failed
+    insert("Import failed - drive removed?", tr("Import failed - drive removed?"));
+    //: Text set in case SQLite file export (copy) failed
+    insert("Copy failed - drive full or removed?", tr("Copy failed - drive full or removed?"));
     //: Header text in wait export popup
     insert("Exporting customer data...", tr("Exporting customer data..."));
     //: Header text in wait import popup

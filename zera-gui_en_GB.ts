@@ -1752,18 +1752,13 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Cannot export - drive removed?</source>
-        <extracomment>Text set in case export cannot be started (TODO)</extracomment>
+        <source>Export failed - drive full or removed?</source>
+        <extracomment>Text set in case MTVis export failed</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Export failed - drive removed?</source>
-        <extracomment>Text set in case MTVis export failed (TODO)</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Copy failed - drive removed?</source>
-        <extracomment>Text set in case SQLite file export (copy) failed (TODO)</extracomment>
+        <source>Copy failed - drive full or removed?</source>
+        <extracomment>Text set in case SQLite file export (copy) failed</extracomment>
         <translation></translation>
     </message>
     <message>
@@ -1898,6 +1893,11 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Importing customer data...</source>
         <extracomment>Header text in wait import popup</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Import failed - drive removed?</source>
+        <extracomment>Text set in case MTVis export failed</extracomment>
         <translation></translation>
     </message>
 </context>

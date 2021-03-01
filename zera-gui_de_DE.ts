@@ -1761,19 +1761,14 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation>Sitzung selektieren (notwendig für Export)</translation>
     </message>
     <message>
-        <source>Cannot export - drive removed?</source>
-        <extracomment>Text set in case export cannot be started (TODO)</extracomment>
-        <translation>Exportieren nicht möglich - wurde das Ziellaufwerk entfernt?</translation>
+        <source>Export failed - drive full or removed?</source>
+        <extracomment>Text set in case MTVis export failed</extracomment>
+        <translation>Fehler beim Export - Ziellaufwerk voll oder entfernt?</translation>
     </message>
     <message>
-        <source>Export failed - drive removed?</source>
-        <extracomment>Text set in case MTVis export failed (TODO)</extracomment>
-        <translation>Fehler beim Export - wurde das Ziellaufwerk entfernt?</translation>
-    </message>
-    <message>
-        <source>Copy failed - drive removed?</source>
-        <extracomment>Text set in case SQLite file export (copy) failed (TODO)</extracomment>
-        <translation>Fehler beim Kopieren - wurde das Ziellaufwerk entfernt?</translation>
+        <source>Copy failed - drive full or removed?</source>
+        <extracomment>Text set in case SQLite file export (copy) failed</extracomment>
+        <translation>Fehler beim Kopieren - Ziellaufwerk voll oder entfernt?</translation>
     </message>
     <message>
         <source>filename</source>
@@ -1908,6 +1903,11 @@ customer data delete file confirmation popup header</extracomment>
         <source>Importing customer data...</source>
         <extracomment>Header text in wait import popup</extracomment>
         <translation>Importiere Kundendaten...</translation>
+    </message>
+    <message>
+        <source>Import failed - drive removed?</source>
+        <extracomment>Text set in case MTVis export failed</extracomment>
+        <translation>Fehler beim Import - wurde das Ziellaufwerk entfernt?</translation>
     </message>
 </context>
 </TS>
