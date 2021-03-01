@@ -1904,5 +1904,10 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>Header text in wait export popup</extracomment>
         <translation>Exportiere Datenbank...</translation>
     </message>
+    <message>
+        <source>Importing customer data...</source>
+        <extracomment>Header text in wait import popup</extracomment>
+        <translation>Importiere Kundendaten...</translation>
+    </message>
 </context>
 </TS>

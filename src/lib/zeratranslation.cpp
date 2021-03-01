@@ -815,6 +815,8 @@ void ZeraTranslation::reloadStringTable()
     insert("Copy failed - drive removed?", tr("Copy failed - drive removed?"));
     //: Header text in wait export popup
     insert("Exporting customer data...", tr("Exporting customer data..."));
+    //: Header text in wait import popup
+    insert("Importing customer data...", tr("Importing customer data..."));
     //: Header text in wait export popup
     insert("Exporting MTVis XML...", tr("Exporting MTVis XML..."));
     //: Header text in wait export popup

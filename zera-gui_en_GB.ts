@@ -1895,5 +1895,10 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>Header text in wait export popup</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Importing customer data...</source>
+        <extracomment>Header text in wait import popup</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>
