@@ -1880,5 +1880,20 @@ customer data delete file confirmation popup header</extracomment>
         <source>Stddev. n-1:</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Exporting customer data...</source>
+        <extracomment>Header text in wait export popup</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Exporting MTVis XML...</source>
+        <extracomment>Header text in wait export popup</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Exporting database...</source>
+        <extracomment>Header text in wait export popup</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>

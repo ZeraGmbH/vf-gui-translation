@@ -813,6 +813,12 @@ void ZeraTranslation::reloadStringTable()
     insert("Export failed - drive removed?", tr("Export failed - drive removed?"));
     //: Text set in case SQLite file export (copy) failed (TODO)
     insert("Copy failed - drive removed?", tr("Copy failed - drive removed?"));
+    //: Header text in wait export popup
+    insert("Exporting customer data...", tr("Exporting customer data..."));
+    //: Header text in wait export popup
+    insert("Exporting MTVis XML...", tr("Exporting MTVis XML..."));
+    //: Header text in wait export popup
+    insert("Exporting database...", tr("Exporting database..."));
 
     // MountedDrivesCombo.qml
     //: in drive select combo for partitions without name
