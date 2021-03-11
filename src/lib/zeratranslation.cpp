@@ -208,6 +208,8 @@ void ZeraTranslation::reloadStringTable()
     //Settings.qml
     //: settings specific to the GUI application
     insert("Application Settings", tr("Application Settings"));
+    //: used for a yes / no configuration element for view peristency
+    insert("Remember measurements viewed:", tr("Remember measurements viewed:"));
     //: used for a yes / no configuration element
     insert("Display harmonic tables relative to the fundamental oscillation:", tr("Display harmonic tables relative to the fundamental oscillation:"));
     //: max number total decimals for displayed values

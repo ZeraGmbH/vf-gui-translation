@@ -1909,5 +1909,10 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>Text set in case MTVis export failed</extracomment>
         <translation>Fehler beim Import - wurde das Ziellaufwerk entfernt?</translation>
     </message>
+    <message>
+        <source>Remember measurements viewed:</source>
+        <extracomment>used for a yes / no configuration element for view peristency</extracomment>
+        <translation>Zuletzt angezeigte Messungen merken:</translation>
+    </message>
 </context>
 </TS>

@@ -1900,5 +1900,10 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>Text set in case MTVis export failed</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Remember measurements viewed:</source>
+        <extracomment>used for a yes / no configuration element for view peristency</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>
