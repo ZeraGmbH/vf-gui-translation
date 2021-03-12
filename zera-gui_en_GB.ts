@@ -1905,5 +1905,20 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>used for a yes / no configuration element for view peristency</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>ON</source>
+        <extracomment>ComboBox: I-vector ON</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>OFF</source>
+        <extracomment>ComboBox: I-vector ON</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Max. val</source>
+        <extracomment>ComboBox: Scale to max. value</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>

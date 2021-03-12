@@ -1914,5 +1914,20 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>used for a yes / no configuration element for view peristency</extracomment>
         <translation>Zuletzt angezeigte Messungen merken:</translation>
     </message>
+    <message>
+        <source>ON</source>
+        <extracomment>ComboBox: I-vector ON</extracomment>
+        <translation>AN</translation>
+    </message>
+    <message>
+        <source>OFF</source>
+        <extracomment>ComboBox: I-vector ON</extracomment>
+        <translation>AUS</translation>
+    </message>
+    <message>
+        <source>Max. val</source>
+        <extracomment>ComboBox: Scale to max. value</extracomment>
+        <translation>Max. Wert</translation>
+    </message>
 </context>
 </TS>

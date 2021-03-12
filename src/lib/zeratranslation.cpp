@@ -402,6 +402,14 @@ void ZeraTranslation::reloadStringTable()
     insert("Harmonic table", tr("Harmonic table", "Tab text harmonic table"));
     insert("Harmonic chart", tr("Harmonic chart", "Tab text harmonic chart"));
 
+    //VectorModulePage.qml
+    //: ComboBox: I-vector ON
+    insert("ON", tr("ON"));
+    //: ComboBox: I-vector ON
+    insert("OFF", tr("OFF"));
+    //: ComboBox: Scale to max. value
+    insert("Max. val", tr("Max. val"));
+
     //HarmonicPowerTabPage.qml
     insert("Harmonic power table", tr("Harmonic power table", "Tab text harmonic power table"));
     insert("Harmonic power chart", tr("Harmonic power chart", "Tab text harmonic power chart"));
