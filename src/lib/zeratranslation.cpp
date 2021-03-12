@@ -408,9 +408,9 @@ void ZeraTranslation::reloadStringTable()
     //: ComboBox: I-vector ON
     insert("OFF", tr("OFF"));
     //: ComboBox: Scale to max. range
-    insert("Max. range", tr("Max. range"));
+    insert("Ranges", tr("Ranges"));
     //: ComboBox: Scale to max. value
-    insert("Max. value", tr("Max. value"));
+    insert("Maximum", tr("Maximum"));
 
     //HarmonicPowerTabPage.qml
     insert("Harmonic power table", tr("Harmonic power table", "Tab text harmonic power table"));
