@@ -1916,7 +1916,12 @@ customer data delete file confirmation popup header</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Max. val</source>
+        <source>Max. range</source>
+        <extracomment>ComboBox: Scale to max. range</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Max. value</source>
         <extracomment>ComboBox: Scale to max. value</extracomment>
         <translation></translation>
     </message>
