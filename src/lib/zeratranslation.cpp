@@ -389,6 +389,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Passed:", tr("Passed:"));
     insert("Failed:", tr("Failed:"));
     insert("Mean:", tr("Mean:"));
+    insert("Range:", tr("Range:"));
     insert("Stddev. n:", tr("Stddev. n:"));
     insert("Stddev. n-1:", tr("Stddev. n-1:"));
 

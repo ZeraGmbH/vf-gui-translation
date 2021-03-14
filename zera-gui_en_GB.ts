@@ -1925,5 +1925,9 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>ComboBox: Scale to max. range</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Range:</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>
