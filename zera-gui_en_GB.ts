@@ -1519,7 +1519,7 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Wifi</source>
+        <source>WIFI</source>
         <extracomment>ConnectionTree.qml group Ethernet</extracomment>
         <translation></translation>
     </message>
@@ -1901,11 +1901,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Remember measurements viewed:</source>
-        <extracomment>used for a yes / no configuration element for view peristency</extracomment>
-        <translation></translation>
-    </message>
-    <message>
         <source>ON</source>
         <extracomment>ComboBox: I-vector ON</extracomment>
         <translation></translation>
@@ -1927,6 +1922,16 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Range:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Wifi</source>
+        <extracomment>SUggested default</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Autoconnect:</source>
+        <extracomment>Checkbox for auto-connection</extracomment>
         <translation></translation>
     </message>
 </context>

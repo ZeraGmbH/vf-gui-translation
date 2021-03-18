@@ -1528,7 +1528,7 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation>Kabelnetzwerk</translation>
     </message>
     <message>
-        <source>Wifi</source>
+        <source>WIFI</source>
         <extracomment>ConnectionTree.qml group Ethernet</extracomment>
         <translation>WLAN</translation>
     </message>
@@ -1910,11 +1910,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation>Fehler beim Import - wurde das Ziellaufwerk entfernt?</translation>
     </message>
     <message>
-        <source>Remember measurements viewed:</source>
-        <extracomment>used for a yes / no configuration element for view peristency</extracomment>
-        <translation>Zuletzt angezeigte Messungen merken:</translation>
-    </message>
-    <message>
         <source>ON</source>
         <extracomment>ComboBox: I-vector ON</extracomment>
         <translation>AN</translation>
@@ -1937,6 +1932,16 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Range:</source>
         <translation>Spannw.:</translation>
+    </message>
+    <message>
+        <source>Wifi</source>
+        <extracomment>SUggested default</extracomment>
+        <translation>Wlan</translation>
+    </message>
+    <message>
+        <source>Autoconnect:</source>
+        <extracomment>Checkbox for auto-connection</extracomment>
+        <translation>Automatisch verbinden:</translation>
     </message>
 </context>
 </TS>
