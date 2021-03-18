@@ -208,8 +208,6 @@ void ZeraTranslation::reloadStringTable()
     //Settings.qml
     //: settings specific to the GUI application
     insert("Application Settings", tr("Application Settings"));
-    //: used for a yes / no configuration element for view peristency
-    insert("Remember measurements viewed:", tr("Remember measurements viewed:"));
     //: used for a yes / no configuration element
     insert("Display harmonic tables relative to the fundamental oscillation:", tr("Display harmonic tables relative to the fundamental oscillation:"));
     //: max number total decimals for displayed values
@@ -313,11 +311,15 @@ void ZeraTranslation::reloadStringTable()
     insert("Automatic (DHCP)", tr("Automatic (DHCP)"));
     //: EthernetSettings.qml Mode ComboBox
     insert("Manual", tr("Manual"));
+    //: SUggested default
+    insert("Wifi", tr("Wifi"));
+    //: Checkbox for auto-connection
+    insert("Autoconnect:", tr("Autoconnect:"));
 
     //: ConnectionTree.qml group Ethernet
     insert("ETHERNET", tr("Ethernet"));
     //: ConnectionTree.qml group Ethernet
-    insert("WIFI", tr("Wifi"));
+    insert("WIFI", tr("WIFI"));
     //: ConnectionTree.qml group Ethernet
     insert("HOTSPOT", tr("Hotspot"));
     //: ConnectionTree.qml group Ethernet
