@@ -415,6 +415,9 @@ void ZeraTranslation::reloadStringTable()
     //: ComboBox: Scale to max. value
     insert("Maximum", tr("Maximum"));
 
+    //PowerModulePage.qml
+    insert("ext.", tr("ext."));
+
     //HarmonicPowerTabPage.qml
     insert("Harmonic power table", tr("Harmonic power table", "Tab text harmonic power table"));
     insert("Harmonic power chart", tr("Harmonic power chart", "Tab text harmonic power chart"));

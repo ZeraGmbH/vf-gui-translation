@@ -1934,5 +1934,9 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>Checkbox for auto-connection</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>ext.</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>
