@@ -1943,5 +1943,15 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>ConnectionTree.qml &apos;show all&apos; checkbox</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Brightness currents:</source>
+        <extracomment>Color themes popup adjust brightness for current</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Brightness black:</source>
+        <extracomment>Color themes popup adjust brightness for current</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>

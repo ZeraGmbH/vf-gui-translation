@@ -1952,5 +1952,15 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>ConnectionTree.qml &apos;show all&apos; checkbox</extracomment>
         <translation>Netzmaske:</translation>
     </message>
+    <message>
+        <source>Brightness currents:</source>
+        <extracomment>Color themes popup adjust brightness for current</extracomment>
+        <translation>Helligkeit Ströme:</translation>
+    </message>
+    <message>
+        <source>Brightness black:</source>
+        <extracomment>Color themes popup adjust brightness for current</extracomment>
+        <translation>Helligkeit Schwarz:</translation>
+    </message>
 </context>
 </TS>

@@ -232,6 +232,10 @@ void ZeraTranslation::reloadStringTable()
     insert("Frequency input/output configuration:", tr("Frequency input/output configuration:"));
     //: Settings show/hide AUX phases
     insert("Show AUX phase values:", tr("Show AUX phase values:"));
+    //: Color themes popup adjust brightness for current
+    insert("Brightness currents:", tr("Brightness currents:"));
+    //: Color themes popup adjust brightness for current
+    insert("Brightness black:", tr("Brightness black:"));
 
     //: Displayed in Frequency input/output configuration
     insert("Nominal frequency:", tr("Nominal frequency:"));
