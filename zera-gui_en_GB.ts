@@ -1534,11 +1534,6 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Show all</source>
-        <extracomment>ConnectionTree.qml &apos;show all&apos; checkbox</extracomment>
-        <translation></translation>
-    </message>
-    <message>
         <source>Take snapshot</source>
         <extracomment>take snapshot menu entry</extracomment>
         <translation></translation>
@@ -1936,6 +1931,16 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>ext.</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Connection Information</source>
+        <extracomment>ConnectionInfo.qml header</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Netmask:</source>
+        <extracomment>ConnectionTree.qml &apos;show all&apos; checkbox</extracomment>
         <translation></translation>
     </message>
 </context>

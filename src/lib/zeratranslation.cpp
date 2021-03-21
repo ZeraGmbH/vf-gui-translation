@@ -326,9 +326,11 @@ void ZeraTranslation::reloadStringTable()
     insert("VPN", tr("VPN"));
     //: ConnectionTree.qml group Ethernet
     insert("BLUETOOTH", tr("Bluetooth"));
-    //: ConnectionTree.qml 'show all' checkbox
-    insert("Show all", tr("Show all"));
 
+    //: ConnectionInfo.qml header
+    insert("Connection Information", tr("Connection Information"));
+    //: ConnectionTree.qml 'show all' checkbox
+    insert("Netmask:", tr("Netmask:"));
 
     //main.qml
     insert("Loading...", tr("Loading..."));
