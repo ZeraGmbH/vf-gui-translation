@@ -714,6 +714,8 @@ void ZeraTranslation::reloadStringTable()
     insert("ZeraDCReference", tr("DC-Reference values"));
     //: button to select content-set dc-reference values
     insert("ZeraAll", tr("All"));
+    //: logger custom data selector get back to menu button
+    insert("Back", tr("Back"));
 
     //LoggerMenu.qml
     //: displayed when user presses logger button

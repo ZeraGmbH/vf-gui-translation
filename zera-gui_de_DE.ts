@@ -1962,5 +1962,10 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>Color themes popup adjust brightness for current</extracomment>
         <translation>Helligkeit Schwarz:</translation>
     </message>
+    <message>
+        <source>Back</source>
+        <extracomment>logger custom data selector get back to menu button</extracomment>
+        <translation>Zurück</translation>
+    </message>
 </context>
 </TS>

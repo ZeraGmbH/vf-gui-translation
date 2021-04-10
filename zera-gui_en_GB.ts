@@ -1953,5 +1953,10 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>Color themes popup adjust brightness for current</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Back</source>
+        <extracomment>logger custom data selector get back to menu button</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>
