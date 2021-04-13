@@ -333,8 +333,10 @@ void ZeraTranslation::reloadStringTable()
 
     //: ConnectionInfo.qml header
     insert("Connection Information", tr("Connection Information"));
-    //: ConnectionTree.qml 'show all' checkbox
+    //: ConnectionTree.qml netmask header
     insert("Netmask:", tr("Netmask:"));
+    //: ConnectionTree.qml 'show all' checkbox
+    insert("Show all", tr("Show all"));
 
     //main.qml
     insert("Loading...", tr("Loading..."));
