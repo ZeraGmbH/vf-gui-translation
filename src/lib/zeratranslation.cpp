@@ -214,6 +214,12 @@ void ZeraTranslation::reloadStringTable()
     insert("Max decimals total:", tr("Max decimals total:"));
     //: max number of decimals after the decimal separator
     insert("Max places after the decimal point:", tr("Max places after the decimal point:"));
+    //: WebGL IPs 'or'separator
+    insert("or", tr("or"));
+    //: WebGL inactive label
+    insert("Remote web (experimental):", tr("Remote web (experimental):"));
+    //: WebGL active label
+    insert("Browser addresses:", tr("Browser addresses:"));
 
     //: used for the selection of language via country flag
     insert("Language:", tr("Language:"));
