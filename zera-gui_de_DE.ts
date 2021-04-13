@@ -1968,6 +1968,21 @@ customer data delete file confirmation popup header</extracomment>
         <translation>Zurück</translation>
     </message>
     <message>
+        <source>or</source>
+        <extracomment>WebGL IPs &apos;or&apos;separator</extracomment>
+        <translation>oder</translation>
+    </message>
+    <message>
+        <source>Remote web (experimental):</source>
+        <extracomment>WebGL inactive label</extracomment>
+        <translation>Browser Fernzugriff (experimentell):</translation>
+    </message>
+    <message>
+        <source>Browser addresses:</source>
+        <extracomment>WebGL active label</extracomment>
+        <translation>Adressen Browser:</translation>
+    </message>
+    <message>
         <source>Show all</source>
         <extracomment>ConnectionTree.qml &apos;show all&apos; checkbox</extracomment>
         <translation>Alle anzeigen</translation>
