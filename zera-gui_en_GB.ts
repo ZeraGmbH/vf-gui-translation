@@ -1940,7 +1940,7 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Netmask:</source>
-        <extracomment>ConnectionTree.qml &apos;show all&apos; checkbox</extracomment>
+        <extracomment>ConnectionTree.qml netmask header</extracomment>
         <translation></translation>
     </message>
     <message>
@@ -1956,6 +1956,11 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Back</source>
         <extracomment>logger custom data selector get back to menu button</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <extracomment>ConnectionTree.qml &apos;show all&apos; checkbox</extracomment>
         <translation></translation>
     </message>
 </context>
