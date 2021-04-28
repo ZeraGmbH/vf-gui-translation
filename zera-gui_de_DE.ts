@@ -1713,7 +1713,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Export stored data</source>
         <extracomment>header text view export data</extracomment>
-        <translation>Gepeicherte Daten exportieren</translation>
+        <translation>Gespeicherte Daten exportieren</translation>
     </message>
     <message>
         <source>Export type:</source>
