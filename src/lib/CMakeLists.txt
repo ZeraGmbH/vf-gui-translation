@@ -1,3 +1,10 @@
+find_package(Qt5QuickCompiler CONFIG REQUIRED)
+if("${CMAKE_BUILD_TYPE}" STREQUAL "Debug")
+    qt5_add_resources(PLUGIN_RESOURCES ${CMAKE_CURRENT_LIST_DIR}/zeratranslation.qrc)
+else()
+    qtquick_compiler_add_resources(PLUGIN_RESOURCES ${CMAKE_CURRENT_LIST_DIR}/zeratranslation.qrc)
+endif()
+
 # lib target
 add_library(ZeraTranslation
     SHARED
@@ -7,7 +14,7 @@ add_library(ZeraTranslation
         # sources
         zeratranslation.cpp
         zeratranslationplugin.cpp
-        zeratranslation.qrc
+        ${PLUGIN_RESOURCES}
 )
 add_library(ZeraTranslation::ZeraTranslation ALIAS ZeraTranslation)
 set_target_properties(ZeraTranslation PROPERTIES VERSION ${PROJECT_VERSION})
