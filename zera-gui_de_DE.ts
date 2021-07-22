@@ -907,10 +907,6 @@
         <translation>Checksumme der Justierung:</translation>
     </message>
     <message>
-        <source>IP addresses:</source>
-        <translation>IP-Adressen:</translation>
-    </message>
-    <message>
         <source>Device notifications</source>
         <translation>Gerätehinweise</translation>
     </message>
@@ -1986,6 +1982,18 @@ customer data delete file confirmation popup header</extracomment>
         <source>Show all</source>
         <extracomment>ConnectionTree.qml &apos;show all&apos; checkbox</extracomment>
         <translation>Alle anzeigen</translation>
+    </message>
+    <message>
+        <source>CPU-board number</source>
+        <translation>CPU-Karte Nummer</translation>
+    </message>
+    <message>
+        <source>CPU-board assembly</source>
+        <translation>CPU-Karte Montage</translation>
+    </message>
+    <message>
+        <source>CPU-board date</source>
+        <translation>CPU-Karte Datum</translation>
     </message>
 </context>
 </TS>

@@ -611,7 +611,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Actual Values not found", tr("Actual Values not found"));
     insert("Release number not found", tr("Release number not found"));
 
-    //StatusView.qml
+    //DeviceInformation.qml
     insert("Device info", tr("Device info"));
     insert("Device log", tr("Device log"));
     insert("License information", tr("License information"));
@@ -627,7 +627,9 @@ void ZeraTranslation::reloadStringTable()
     insert("Wrong version", tr("Wrong version"));
     insert("Wrong serial number", tr("Wrong serial number"));
     insert("Adjustment checksum:", tr("Adjustment checksum:"));
-    insert("IP addresses:", tr("IP addresses:"));
+    insert("CPU-board number", tr("CPU-board number"));
+    insert("CPU-board assembly", tr("CPU-board assembly"));
+    insert("CPU-board date", tr("CPU-board date"));
 
     //Notifications.qml
     insert("Device notifications", tr("Device notifications"));

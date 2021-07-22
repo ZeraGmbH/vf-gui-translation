@@ -903,10 +903,6 @@
         <translation>Adjustment checksum:</translation>
     </message>
     <message>
-        <source>IP addresses:</source>
-        <translation>IP addresses:</translation>
-    </message>
-    <message>
         <source>Device notifications</source>
         <translation>Device notifications</translation>
     </message>
@@ -1976,6 +1972,18 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Show all</source>
         <extracomment>ConnectionTree.qml &apos;show all&apos; checkbox</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>CPU-board number</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>CPU-board assembly</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>CPU-board date</source>
         <translation></translation>
     </message>
 </context>
