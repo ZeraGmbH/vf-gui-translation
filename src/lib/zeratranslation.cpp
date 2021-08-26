@@ -172,15 +172,12 @@ void ZeraTranslation::reloadStringTable()
     insert("Accept", tr("Accept"));
     insert("Cancel", tr("Cancel"));
     insert("Save", tr("Save"));
-    insert("Default session", tr("Default session"));
-    insert("Reference session", tr("Reference session"));
+    //: default session
+    insert("Default", tr("Default"));
     //: changing energy direction session
-    insert("CED session", tr("CED session"));
-    insert("mt310s2-meas-session.json", tr("Default session"));
-    insert("com5003-meas-session.json", tr("Default session"));
-    insert("com5003-ref-session.json", tr("Reference session"));
+    insert("Changing energy direction", tr("Changing energy direction"));
     //: changing energy direction session
-    insert("com5003-ced-session.json", tr("CED session"));
+    insert("Reference", tr("Reference"));
 
     //RangeMenu.qml
     //: used for a yes / no configuration element

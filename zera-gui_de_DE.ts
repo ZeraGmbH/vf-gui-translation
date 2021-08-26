@@ -190,20 +190,6 @@
         <translation>Speichern</translation>
     </message>
     <message>
-        <source>Default session</source>
-        <translation>Standardsitzung</translation>
-    </message>
-    <message>
-        <source>Reference session</source>
-        <translation>Referenzmessung</translation>
-    </message>
-    <message>
-        <source>CED session</source>
-        <extracomment>changing energy direction session</extracomment>
-        <translatorcomment>WER = Wechselnde EnergieRichtung</translatorcomment>
-        <translation>WER-Sitzung</translation>
-    </message>
-    <message>
         <source>Range automatic:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
         <translation>Bereichsautomatik:</translation>
@@ -2008,6 +1994,21 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Frequency:</source>
         <translation>Frequenz:</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <extracomment>default session</extracomment>
+        <translation>Standard</translation>
+    </message>
+    <message>
+        <source>Changing energy direction</source>
+        <extracomment>changing energy direction session</extracomment>
+        <translation>Wechselnde Energierichtung</translation>
+    </message>
+    <message>
+        <source>Reference</source>
+        <extracomment>changing energy direction session</extracomment>
+        <translation>Referenz</translation>
     </message>
 </context>
 </TS>

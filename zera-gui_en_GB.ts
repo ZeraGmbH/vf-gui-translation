@@ -190,19 +190,6 @@
         <translation>Save</translation>
     </message>
     <message>
-        <source>Default session</source>
-        <translation>Default session</translation>
-    </message>
-    <message>
-        <source>Reference session</source>
-        <translation>Reference measurement</translation>
-    </message>
-    <message>
-        <source>CED session</source>
-        <extracomment>changing energy direction session</extracomment>
-        <translation>CED session</translation>
-    </message>
-    <message>
         <source>Range automatic:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
         <translation>Range automatic:</translation>
@@ -1998,6 +1985,21 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Frequency:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <extracomment>default session</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Changing energy direction</source>
+        <extracomment>changing energy direction session</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Reference</source>
+        <extracomment>changing energy direction session</extracomment>
         <translation></translation>
     </message>
 </context>
