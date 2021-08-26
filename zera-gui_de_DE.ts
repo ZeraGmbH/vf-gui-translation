@@ -500,10 +500,6 @@
         <translation>Kabellänge:</translation>
     </message>
     <message>
-        <source>Reference values</source>
-        <translation>Referenzwerte</translation>
-    </message>
-    <message>
         <source>CED power values</source>
         <translation>WER-Leistungswerte</translation>
     </message>
@@ -1599,11 +1595,6 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation>Nur Stromwandlerwerte</translation>
     </message>
     <message>
-        <source>DC-Reference values only</source>
-        <extracomment>menu radio button to select content-set dc-reference values</extracomment>
-        <translation>Nur DC-Referenzmessung</translation>
-    </message>
-    <message>
         <source>All data</source>
         <extracomment>menu radio button to select all values</extracomment>
         <translation>Alle Daten</translation>
@@ -1632,11 +1623,6 @@ ConnectionTree.qml group Ethernet</extracomment>
         <source>Comparison measurement results</source>
         <extracomment>button to select content-set comparison measurement values</extracomment>
         <translation>Ergebnisse Vergleichsmessung</translation>
-    </message>
-    <message>
-        <source>DC-Reference values</source>
-        <extracomment>button to select content-set dc-reference values</extracomment>
-        <translation>DC-Referenzmessung</translation>
     </message>
     <message>
         <source>All</source>
@@ -1994,6 +1980,34 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>CPU-board date</source>
         <translation>CPU-Karte Datum</translation>
+    </message>
+    <message>
+        <source>DC reference values</source>
+        <extracomment>button to select content-set dc-reference values</extracomment>
+        <translation>DC Referenzwerte</translation>
+    </message>
+    <message>
+        <source>Quartz reference measurement</source>
+        <translation>Quartz-Referenzmessung</translation>
+    </message>
+    <message>
+        <source>Quartz reference values</source>
+        <extracomment>button to select content-set dc-reference values</extracomment>
+        <translation>Quartz-Referenzwerte</translation>
+    </message>
+    <message>
+        <source>DC reference values only</source>
+        <extracomment>menu radio button to select content-set dc-reference values</extracomment>
+        <translation>Nur DC-Referenzwerte</translation>
+    </message>
+    <message>
+        <source>Quartz reference values only</source>
+        <extracomment>menu radio button to select content-set dc-reference values</extracomment>
+        <translation>Nur Quartz-Referenzwerte</translation>
+    </message>
+    <message>
+        <source>Frequency:</source>
+        <translation>Frequenz:</translation>
     </message>
 </context>
 </TS>

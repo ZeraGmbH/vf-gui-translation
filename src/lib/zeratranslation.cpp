@@ -400,6 +400,9 @@ void ZeraTranslation::reloadStringTable()
     insert("Start value:", tr("Start value:"));
     insert("End value:", tr("End value:"));
 
+    //ErrorCalculatorModulePage.qml
+    insert("Frequency:", tr("Frequency:"));
+
     //ErrorRegisterModulePage.qml
     insert("Count:", tr("Count:"));
     insert("Passed:", tr("Passed:"));
@@ -491,7 +494,9 @@ void ZeraTranslation::reloadStringTable()
     insert("Wire length:", tr("Wire length:"));
 
     //ReferencePageModel.qml
-    insert("Reference values", tr("Reference values"));
+    insert("DC reference values", tr("DC reference values"));
+    //QuartzModulePage.qml
+    insert("Quartz reference measurement", tr("Quartz reference measurement"));
 
     //CEDPageModel.qml
     insert("CED power values", tr("CED power values"));
@@ -721,7 +726,9 @@ void ZeraTranslation::reloadStringTable()
     //: button to select content-set transformer values
     insert("ZeraTransformer", tr("Transformer values"));
     //: button to select content-set dc-reference values
-    insert("ZeraDCReference", tr("DC-Reference values"));
+    insert("ZeraDCReference", tr("DC reference values"));
+    //: button to select content-set dc-reference values
+    insert("ZeraQuartzReference", tr("Quartz reference values"));
     //: button to select content-set dc-reference values
     insert("ZeraAll", tr("All"));
     //: logger custom data selector get back to menu button
@@ -754,7 +761,9 @@ void ZeraTranslation::reloadStringTable()
     //: menu radio button to select content-set transformer values
     insert("MenuZeraTransformer", tr("Transformer values only"));
     //: menu radio button to select content-set dc-reference values
-    insert("MenuZeraDCReference", tr("DC-Reference values only"));
+    insert("MenuZeraDCReference", tr("DC reference values only"));
+    //: menu radio button to select content-set dc-reference values
+    insert("MenuZeraQuartzReference", tr("Quartz reference values only"));
     //: menu radio button to select all values
     insert("MenuZeraAll", tr("All data"));
     //: menu radio button to select custom content-sets values
