@@ -863,6 +863,10 @@ void ZeraTranslation::reloadStringTable()
     insert("Exporting MTVis XML...", tr("Exporting MTVis XML..."));
     //: Header text in wait export popup
     insert("Exporting database...", tr("Exporting database..."));
+    //: warning prefix
+    insert("Warning:", tr("Warning:"));
+    //: error prefix
+    insert("Error:", tr("Error:"));
 
     // MountedDrivesCombo.qml
     //: in drive select combo for partitions without name

@@ -2002,5 +2002,15 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>changing energy direction session</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Warning:</source>
+        <extracomment>warning prefix</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Error:</source>
+        <extracomment>error prefix</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>
