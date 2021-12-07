@@ -2020,5 +2020,78 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>error prefix</extracomment>
         <translation>Fehler:</translation>
     </message>
+    <message>
+        <source>Not connected</source>
+        <translation>Nicht verbunden</translation>
+    </message>
+    <message>
+        <source>Serial SCPI</source>
+        <translation>SCPI seriell</translation>
+    </message>
+    <message>
+        <source>Source device</source>
+        <translation>Quelle</translation>
+    </message>
+    <message>
+        <source>Scanning for source device...</source>
+        <translation>Suche nach Quelle...</translation>
+    </message>
+    <message>
+        <source>Opening SCPI serial...</source>
+        <translation>Öffne SCPI seriell...</translation>
+    </message>
+    <message>
+        <source>Disconnect source...</source>
+        <translation>Löse Verbindung zur Quelle...</translation>
+    </message>
+    <message>
+        <source>Disconnect SCPI serial...</source>
+        <translation>Löse Verbindung zu SCPI seriell...</translation>
+    </message>
+    <message>
+        <source>No source found</source>
+        <translation>Es konnte keine Quelle gefunden werden</translation>
+    </message>
+    <message>
+        <source>Source switch off failed</source>
+        <translation>Fehler beim Abschalten der Quelle</translation>
+    </message>
+    <message>
+        <source>Switch on failed</source>
+        <translation>Einschalten der Quelle ist fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>Switch off failed</source>
+        <translation>Ausschalten der Quelle ist fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>Switching on %1...</source>
+        <translation>Schalte %1 ein...</translation>
+    </message>
+    <message>
+        <source>Switching off %1...</source>
+        <translation>Schalte %1 aus...</translation>
+    </message>
+    <message>
+        <source>On</source>
+        <translation>Ein</translation>
+    </message>
+    <message>
+        <source>symmetric</source>
+        <translation>symmetrisch</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Aus</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>keine</translation>
+    </message>
+    <message>
+        <source>Source control</source>
+        <extracomment>control one or more source devices</extracomment>
+        <translation>Quellensteuerung</translation>
+    </message>
 </context>
 </TS>

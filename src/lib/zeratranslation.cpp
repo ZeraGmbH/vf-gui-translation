@@ -469,6 +469,8 @@ void ZeraTranslation::reloadStringTable()
     insert("Error calculator", tr("Error calculator"));
     //: shows energy comparison between the reference device and the device under test's registers/display
     insert("Comparison measurements", tr("Comparison measurements"));
+    //: control one or more source devices
+    insert("Source control", tr("Source control"));
 
     //ComparisonTabsView.qml
     //: Comparison tabs label texts
@@ -873,6 +875,27 @@ void ZeraTranslation::reloadStringTable()
     insert("unnamed", tr("unnamed"));
     //: in drive select combo free memory label
     insert("free", tr("free"));
+
+    // SerialSettings.qml
+    insert("Not connected", tr("Not connected"));
+    insert("Serial SCPI", tr("Serial SCPI"));
+    insert("Serial SCPI", tr("Serial SCPI"));
+    insert("Source device", tr("Source device"));
+    insert("Scanning for source device...", tr("Scanning for source device..."));
+    insert("Opening SCPI serial...", tr("Opening SCPI serial..."));
+    insert("Disconnect source...", tr("Disconnect source..."));
+    insert("Disconnect SCPI serial...", tr("Disconnect SCPI serial..."));
+    insert("No source found", tr("No source found"));
+    insert("Source switch off failed", tr("Source switch off failed"));
+    insert("Switch on failed", tr("Switch on failed"));
+    insert("Switch off failed", tr("Switch off failed"));
+    insert("Switching on %1...", tr("Switching on %1..."));
+    insert("Switching off %1...", tr("Switching off %1..."));
+    insert("none", tr("none"));
+    insert("On", tr("On"));
+    insert("symmetric", tr("symmetric"));
+    insert("Off", tr("Off"));
+    insert("Frequency:", tr("Frequency:"));
 
     emit sigLanguageChanged();
 }

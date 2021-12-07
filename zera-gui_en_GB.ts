@@ -2012,5 +2012,78 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>error prefix</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Not connected</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Serial SCPI</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Source device</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Scanning for source device...</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Opening SCPI serial...</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Disconnect source...</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Disconnect SCPI serial...</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>No source found</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Source switch off failed</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Switch on failed</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Switch off failed</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Switching on %1...</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Switching off %1...</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>On</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>symmetric</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Source control</source>
+        <extracomment>control one or more source devices</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>
