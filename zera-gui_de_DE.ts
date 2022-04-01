@@ -1951,11 +1951,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation>Adressen Browser:</translation>
     </message>
     <message>
-        <source>Show all</source>
-        <extracomment>ConnectionTree.qml &apos;show all&apos; checkbox</extracomment>
-        <translation>Alle anzeigen</translation>
-    </message>
-    <message>
         <source>CPU-board number</source>
         <translation>CPU-Karte Nummer</translation>
     </message>
@@ -2092,6 +2087,16 @@ customer data delete file confirmation popup header</extracomment>
         <source>Source control</source>
         <extracomment>control one or more source devices</extracomment>
         <translation>Quellensteuerung</translation>
+    </message>
+    <message>
+        <source>Add Ethernet...</source>
+        <extracomment>ConnectionTree.qml add entry</extracomment>
+        <translation>Ethernet hinzufügen...</translation>
+    </message>
+    <message>
+        <source>Add Wifi (hotspot)...</source>
+        <extracomment>ConnectionTree.qml add entry</extracomment>
+        <translation>WLAN (hotspot) hinzufügen...</translation>
     </message>
 </context>
 </TS>

@@ -338,8 +338,10 @@ void ZeraTranslation::reloadStringTable()
     insert("Connection Information", tr("Connection Information"));
     //: ConnectionTree.qml netmask header
     insert("Netmask:", tr("Netmask:"));
-    //: ConnectionTree.qml 'show all' checkbox
-    insert("Show all", tr("Show all"));
+    //: ConnectionTree.qml add entry
+    insert("Add Ethernet...", tr("Add Ethernet..."));
+    //: ConnectionTree.qml add entry
+    insert("Add Wifi (hotspot)...", tr("Add Wifi (hotspot)..."));
 
     //main.qml
     insert("Loading...", tr("Loading..."));
