@@ -1416,11 +1416,6 @@ EthernetSettings.qml error header</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Wifi Connection Settings</source>
-        <extracomment>WifiSettings.qml Header text</extracomment>
-        <translation></translation>
-    </message>
-    <message>
         <source>Devices:</source>
         <extracomment>list of devices header</extracomment>
         <translation></translation>
@@ -2086,8 +2081,23 @@ customer data delete file confirmation popup header</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Add Wifi (hotspot)...</source>
+        <source>Add Hotspot...</source>
         <extracomment>ConnectionTree.qml add entry</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Add Wifi...</source>
+        <extracomment>ConnectionTree.qml add entry</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hotspot Settings</source>
+        <extracomment>WifiSettings.qml Header text hotspot</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Wifi Settings</source>
+        <extracomment>WifiSettings.qml Header text wifi</extracomment>
         <translation></translation>
     </message>
 </context>

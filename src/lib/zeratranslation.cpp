@@ -300,8 +300,10 @@ void ZeraTranslation::reloadStringTable()
     //: SmartConnect.qml Wifi password
     insert("Device:", tr("Device:"));
 
-    //: WifiSettings.qml Header text
-    insert("Wifi Connection Settings", tr("Wifi Connection Settings"));
+    //: WifiSettings.qml Header text hotspot
+    insert("Hotspot Settings", tr("Hotspot Settings"));
+    //: WifiSettings.qml Header text wifi
+    insert("Wifi Settings", tr("Wifi Settings"));
     //: WifiSettings.qml SSID field
     insert("SSID:", tr("SSID:"));
     //: WifiSettings.qml SSID select dialog header
@@ -341,7 +343,9 @@ void ZeraTranslation::reloadStringTable()
     //: ConnectionTree.qml add entry
     insert("Add Ethernet...", tr("Add Ethernet..."));
     //: ConnectionTree.qml add entry
-    insert("Add Wifi (hotspot)...", tr("Add Wifi (hotspot)..."));
+    insert("Add Hotspot...", tr("Add Hotspot..."));
+    //: ConnectionTree.qml add entry
+    insert("Add Wifi...", tr("Add Wifi..."));
 
     //main.qml
     insert("Loading...", tr("Loading..."));

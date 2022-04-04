@@ -1424,11 +1424,6 @@ EthernetSettings.qml error header</extracomment>
         <translation>Gerät:</translation>
     </message>
     <message>
-        <source>Wifi Connection Settings</source>
-        <extracomment>WifiSettings.qml Header text</extracomment>
-        <translation>WLAN Einstellungen</translation>
-    </message>
-    <message>
         <source>Devices:</source>
         <extracomment>list of devices header</extracomment>
         <translation>Geräte:</translation>
@@ -2094,9 +2089,24 @@ customer data delete file confirmation popup header</extracomment>
         <translation>Ethernet hinzufügen...</translation>
     </message>
     <message>
-        <source>Add Wifi (hotspot)...</source>
+        <source>Add Hotspot...</source>
         <extracomment>ConnectionTree.qml add entry</extracomment>
-        <translation>WLAN (hotspot) hinzufügen...</translation>
+        <translation>Hotspot hinzufügen...</translation>
+    </message>
+    <message>
+        <source>Add Wifi...</source>
+        <extracomment>ConnectionTree.qml add entry</extracomment>
+        <translation>WLAN hinzufügen...</translation>
+    </message>
+    <message>
+        <source>Hotspot Settings</source>
+        <extracomment>WifiSettings.qml Header text hotspot</extracomment>
+        <translation>Einstellungen Hotspot</translation>
+    </message>
+    <message>
+        <source>Wifi Settings</source>
+        <extracomment>WifiSettings.qml Header text wifi</extracomment>
+        <translation>Einstellungen WLAN</translation>
     </message>
 </context>
 </TS>
