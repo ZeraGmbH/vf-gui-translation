@@ -2108,5 +2108,20 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>WifiSettings.qml Header text wifi</extracomment>
         <translation>Einstellungen WLAN</translation>
     </message>
+    <message>
+        <source>Phase1</source>
+        <comment>Letter or number for phase e.g euro: 1 / us: A</comment>
+        <translation>1</translation>
+    </message>
+    <message>
+        <source>Phase2</source>
+        <comment>Letter or number for phase e.g euro: 2 / us: B</comment>
+        <translation>2</translation>
+    </message>
+    <message>
+        <source>Phase3</source>
+        <comment>Letter or number for phase e.g euro: 3 / us: C</comment>
+        <translation>3</translation>
+    </message>
 </context>
 </TS>

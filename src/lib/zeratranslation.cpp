@@ -134,6 +134,10 @@ void ZeraTranslation::reloadStringTable()
     insert("L3", tr("L3", "measuring system 3"));
     insert("AUX", tr("AUX", "auxiliary measuring system"));
 
+    insert("Phase1", tr("Phase1", "Letter or number for phase e.g euro: 1 / us: A"));
+    insert("Phase2", tr("Phase2", "Letter or number for phase e.g euro: 2 / us: B"));
+    insert("Phase3", tr("Phase3", "Letter or number for phase e.g euro: 3 / us: C"));
+
     insert("REF1", tr("REF1", "reference channel 1"));
     insert("REF2", tr("REF2", "reference channel 2"));
     insert("REF3", tr("REF3", "reference channel 3"));

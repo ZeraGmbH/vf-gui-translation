@@ -61,37 +61,37 @@
     <message>
         <source>L1</source>
         <comment>measuring system 1</comment>
-        <translation>L1</translation>
+        <translation>A</translation>
     </message>
     <message>
         <source>L2</source>
         <comment>measuring system 2</comment>
-        <translation>L2</translation>
+        <translation>B</translation>
     </message>
     <message>
         <source>L3</source>
         <comment>measuring system 3</comment>
-        <translation>L3</translation>
+        <translation>C</translation>
     </message>
     <message>
         <source>AUX</source>
         <comment>auxiliary measuring system</comment>
-        <translation>AUX</translation>
+        <translation>D</translation>
     </message>
     <message>
         <source>UPN</source>
         <comment>voltage pase to neutral</comment>
-        <translation>UPN</translation>
+        <translation>VΦN</translation>
     </message>
     <message>
         <source>UPP</source>
         <comment>voltage phase to phase</comment>
-        <translation>UPP</translation>
+        <translation>VΦΦ</translation>
     </message>
     <message>
         <source>kU</source>
         <comment>harmonic distortion on voltage</comment>
-        <translation>THD U</translation>
+        <translation>THD V</translation>
     </message>
     <message>
         <source>I</source>
@@ -106,22 +106,22 @@
     <message>
         <source>∠U</source>
         <comment>phase difference of voltage to reference channel</comment>
-        <translation>∠U</translation>
+        <translation>ΘV</translation>
     </message>
     <message>
         <source>∠I</source>
         <comment>phase difference of current to reference channel</comment>
-        <translation>∠I</translation>
+        <translation>ΘI</translation>
     </message>
     <message>
         <source>∠UI</source>
         <comment>phase difference</comment>
-        <translation>∠UI</translation>
+        <translation>ΘVI</translation>
     </message>
     <message>
         <source>λ</source>
         <comment>power factor</comment>
-        <translation>λ</translation>
+        <translation>PF</translation>
     </message>
     <message>
         <source>P</source>
@@ -269,7 +269,7 @@
         <source>System colors:</source>
         <extracomment>System = measuring system</extracomment>
         <translatorcomment>Britisches Englisch: colours (mit U)</translatorcomment>
-        <translation>Phase colours:</translation>
+        <translation>Phase colors:</translation>
     </message>
     <message>
         <source>Integration time interval:</source>
@@ -379,49 +379,49 @@
         <source>UL1</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation>UL1</translation>
+        <translation>Van</translation>
     </message>
     <message>
         <source>UL2</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation>UL2</translation>
+        <translation>Vbn</translation>
     </message>
     <message>
         <source>UL3</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation>UL3</translation>
+        <translation>Vcn</translation>
     </message>
     <message>
         <source>IL1</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation>IL1</translation>
+        <translation>Ia</translation>
     </message>
     <message>
         <source>IL2</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation>IL2</translation>
+        <translation>Ib</translation>
     </message>
     <message>
         <source>IL3</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation>IL3</translation>
+        <translation>Ic</translation>
     </message>
     <message>
         <source>UAUX</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation>UAUX</translation>
+        <translation>Vdn</translation>
     </message>
     <message>
         <source>IAUX</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation>IAUX</translation>
+        <translation>Id</translation>
     </message>
     <message>
         <source>Vector diagram</source>
@@ -2099,6 +2099,21 @@ customer data delete file confirmation popup header</extracomment>
         <source>Wifi Settings</source>
         <extracomment>WifiSettings.qml Header text wifi</extracomment>
         <translation></translation>
+    </message>
+    <message>
+        <source>Phase1</source>
+        <comment>Letter or number for phase e.g euro: 1 / us: A</comment>
+        <translation>A</translation>
+    </message>
+    <message>
+        <source>Phase2</source>
+        <comment>Letter or number for phase e.g euro: 2 / us: B</comment>
+        <translation>B</translation>
+    </message>
+    <message>
+        <source>Phase3</source>
+        <comment>Letter or number for phase e.g euro: 3 / us: C</comment>
+        <translation>C</translation>
     </message>
 </context>
 </TS>
