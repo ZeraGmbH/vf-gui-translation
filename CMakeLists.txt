@@ -29,6 +29,7 @@ add_custom_target(ts_files
     SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/zera-gui_de_DE.ts
         ${CMAKE_CURRENT_SOURCE_DIR}/zera-gui_en_GB.ts
+        ${CMAKE_CURRENT_SOURCE_DIR}/zera-gui_en_US.ts
 )
 
 add_subdirectory(src)
