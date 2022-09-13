@@ -33,7 +33,7 @@ install(FILES
 # where to find headers
 target_include_directories(ZeraTranslation
     PUBLIC # consumer
-        $<INSTALL_INTERFACE:include/ZeraTranslation>
+        $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}/ZeraTranslation>
         $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
         #generated export header
         $<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}>
@@ -73,7 +73,7 @@ include(CMakePackageConfigHelpers)
 write_basic_package_version_file(
     ZeraTranslationConfigVersion.cmake
     VERSION ${PACKAGE_VERSION}
-    COMPATIBILITY SameMinorVersion
+    COMPATIBILITY SameMajorVersion
 )
 
 # configure ZeraTranslationConfig.cmake
