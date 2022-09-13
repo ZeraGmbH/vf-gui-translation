@@ -91,7 +91,7 @@
     <message>
         <source>kU</source>
         <comment>harmonic distortion on voltage</comment>
-        <translation>kU</translation>
+        <translation>THD U</translation>
     </message>
     <message>
         <source>I</source>
@@ -101,7 +101,7 @@
     <message>
         <source>kI</source>
         <comment>harmonic distortion on current</comment>
-        <translation>kI</translation>
+        <translation>THD I</translation>
     </message>
     <message>
         <source>∠U</source>
@@ -435,7 +435,7 @@
     </message>
     <message>
         <source>Oscilloscope plot</source>
-        <translation>Curve display</translation>
+        <translation>Waveforms</translation>
     </message>
     <message>
         <source>Power values</source>
@@ -1250,7 +1250,7 @@
     <message>
         <source>Harmonics &amp; Curves</source>
         <extracomment>FFT bar diagrams or tables that show the harmonic component distribution of the measured values</extracomment>
-        <translation></translation>
+        <translation>Harmonics &amp; Waveforms</translation>
     </message>
     <message>
         <source>Measuring modes:</source>
