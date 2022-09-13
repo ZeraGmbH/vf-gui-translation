@@ -464,6 +464,25 @@ void ZeraTranslation::reloadStringTable()
     //: text must be short enough to fit
     insert("IAUX", tr("IAUX", "channel name"));
 
+    //: text must be short enough to fit
+    insert("P1", tr("P1", "harmonic power label active / phase 1"));
+    //: text must be short enough to fit
+    insert("Q1", tr("Q1", "harmonic power label reactive / phase 1"));
+    //: text must be short enough to fit
+    insert("S1", tr("S1", "harmonic power label aparent / phase 1"));
+    //: text must be short enough to fit
+    insert("P2", tr("P2", "harmonic power label active / phase 2"));
+    //: text must be short enough to fit
+    insert("Q2", tr("Q2", "harmonic power label reactive / phase 2"));
+    //: text must be short enough to fit
+    insert("S2", tr("S2", "harmonic power label aparent / phase 2"));
+    //: text must be short enough to fit
+    insert("P3", tr("P3", "harmonic power label active / phase 3"));
+    //: text must be short enough to fit
+    insert("Q3", tr("Q3", "harmonic power label reactive / phase 3"));
+    //: text must be short enough to fit
+    insert("S3", tr("S3", "harmonic power label aparent / phase 3"));
+
     //MeasurementPageModel.qml
     //: polar (amplitude and phase) phasor diagram
     insert("Vector diagram", tr("Vector diagram"));

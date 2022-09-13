@@ -2123,5 +2123,59 @@ customer data delete file confirmation popup header</extracomment>
         <comment>Letter or number for phase e.g euro: 3 / us: C</comment>
         <translation>3</translation>
     </message>
+    <message>
+        <source>P1</source>
+        <comment>harmonic power label active / phase 1</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Q1</source>
+        <comment>harmonic power label reactive / phase 1</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>S1</source>
+        <comment>harmonic power label aparent / phase 1</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>P2</source>
+        <comment>harmonic power label active / phase 2</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Q2</source>
+        <comment>harmonic power label reactive / phase 2</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>S2</source>
+        <comment>harmonic power label aparent / phase 2</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>P3</source>
+        <comment>harmonic power label active / phase 3</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Q3</source>
+        <comment>harmonic power label reactive / phase 3</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>S3</source>
+        <comment>harmonic power label aparent / phase 3</comment>
+        <extracomment>text must be short enough to fit</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>
