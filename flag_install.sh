@@ -21,3 +21,4 @@ fi
 install -m 0644 ./region-flags/png/DE.png $1/flag_de_DE.png
 install -m 0644 ./region-flags/png/GB.png $1/flag_en_GB.png
 install -m 0644 ./region-flags/png/US.png $1/flag_en_US.png
+install -m 0644 ./region-flags/png/FR.png $1/flag_fr_FR.png
