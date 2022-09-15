@@ -37,7 +37,9 @@ base_path="`dirname $0`/.."
 cd "$base_path"
 
 # To have one helper script only we do both lupdate & lrelease
-find -maxdepth 1 -name '*.ts' | xargs $lupdate -no-obsolete -locations none -no-ui-lines -pro src/lib/lupdate.pro -ts
+for lang in de_DE en_GB en_US fr_FR; do
+    $lupdate -no-obsolete -locations none -no-ui-lines -pro src/lib/lupdate.pro -ts zera-gui_${lang}.ts
+done
 
 # Do lrelease only if a path to copy is set
 if [ ! "x$1" = "x" ]; then
