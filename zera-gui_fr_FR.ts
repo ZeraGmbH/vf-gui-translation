@@ -6,62 +6,62 @@
     <message>
         <source>4LW</source>
         <comment>4 Leiter Wirkleistung = 4 wire active power</comment>
-        <translation type="unfinished"></translation>
+        <translation>4FA</translation>
     </message>
     <message>
         <source>3LW</source>
         <comment>3 Leiter Wirkleistung = 3 wire active power</comment>
-        <translation type="unfinished"></translation>
+        <translation>3FA</translation>
     </message>
     <message>
         <source>2LW</source>
         <comment>2 Leiter Wirkleistung = 2 wire active power</comment>
-        <translation type="unfinished"></translation>
+        <translation>2FA</translation>
     </message>
     <message>
         <source>4LB</source>
         <comment>4 Leiter Blindleistung = 4 wire reactive power</comment>
-        <translation type="unfinished"></translation>
+        <translation>4FR</translation>
     </message>
     <message>
         <source>4LBK</source>
         <comment>4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial zero conductor</comment>
-        <translation type="unfinished"></translation>
+        <translation>4FRA</translation>
     </message>
     <message>
         <source>3LB</source>
         <comment>3 Leiter Blindleistung = 3 wire reactive power</comment>
-        <translation type="unfinished"></translation>
+        <translation>3FR</translation>
     </message>
     <message>
         <source>2LB</source>
         <comment>2 Leiter Blindleistung = 2 wire reactive power</comment>
-        <translation type="unfinished"></translation>
+        <translation>2FR</translation>
     </message>
     <message>
         <source>4LS</source>
         <comment>4 Leiter Scheinleistung = 4 wire apparent power</comment>
-        <translation type="unfinished"></translation>
+        <translation>4FA</translation>
     </message>
     <message>
         <source>4LSg</source>
         <comment>4 Leiter Scheinleistung geometrisch = 4 wire apparent power geometric</comment>
-        <translation type="unfinished"></translation>
+        <translation>4FAg</translation>
     </message>
     <message>
         <source>2LS</source>
         <comment>2 Leiter Scheinleistung = 2 wire apparent power</comment>
-        <translation type="unfinished"></translation>
+        <translation>2FA</translation>
     </message>
     <message>
         <source>2LSg</source>
         <comment>2 Leiter Scheinleistung geometrisch = 2 wire apparent power geometric</comment>
-        <translation type="unfinished"></translation>
+        <translation>2FAg</translation>
     </message>
     <message>
         <source>QREF</source>
         <comment>Referenz-Modus = reference mode</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">QREF</translation>
     </message>
     <message>
         <source>L1</source>
@@ -86,47 +86,47 @@
     <message>
         <source>Phase1</source>
         <comment>Letter or number for phase e.g euro: 1 / us: A</comment>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>Phase2</source>
         <comment>Letter or number for phase e.g euro: 2 / us: B</comment>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <source>Phase3</source>
         <comment>Letter or number for phase e.g euro: 3 / us: C</comment>
-        <translation type="unfinished"></translation>
+        <translation>3</translation>
     </message>
     <message>
         <source>REF1</source>
         <comment>reference channel 1</comment>
-        <translation type="unfinished"></translation>
+        <translation>REF1</translation>
     </message>
     <message>
         <source>REF2</source>
         <comment>reference channel 2</comment>
-        <translation type="unfinished"></translation>
+        <translation>REF2</translation>
     </message>
     <message>
         <source>REF3</source>
         <comment>reference channel 3</comment>
-        <translation type="unfinished"></translation>
+        <translation>REF3</translation>
     </message>
     <message>
         <source>REF4</source>
         <comment>reference channel 4</comment>
-        <translation type="unfinished"></translation>
+        <translation>REF4</translation>
     </message>
     <message>
         <source>REF5</source>
         <comment>reference channel 5</comment>
-        <translation type="unfinished"></translation>
+        <translation>REF5</translation>
     </message>
     <message>
         <source>REF6</source>
         <comment>reference channel 6</comment>
-        <translation type="unfinished"></translation>
+        <translation>REF6</translation>
     </message>
     <message>
         <source>UPN</source>
@@ -229,39 +229,39 @@
     <message>
         <source>OK</source>
         <extracomment>as in &quot;close this view&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Close</source>
         <comment>not open</comment>
-        <translation type="unfinished"></translation>
+        <translation>Fermer</translation>
     </message>
     <message>
         <source>Accept</source>
-        <translation type="unfinished"></translation>
+        <translation>Accepter</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Enregistrer</translation>
     </message>
     <message>
         <source>Default</source>
         <extracomment>default session</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">(par)Défaut</translation>
     </message>
     <message>
         <source>Changing energy direction</source>
         <extracomment>changing energy direction session</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Changement/Changer? de direction de l&apos;énergie</translation>
     </message>
     <message>
         <source>Reference</source>
         <extracomment>changing energy direction session</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Référence</translation>
     </message>
     <message>
         <source>Range automatic:</source>
@@ -271,7 +271,7 @@
     <message>
         <source>Overload</source>
         <extracomment>measurement channel range overload, e.g. the range is configured for 5V measurement and the measured input voltage is &gt;5V</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Surchage(r)</translation>
     </message>
     <message>
         <source>Range grouping:</source>
@@ -282,7 +282,7 @@
         <source>Manual:</source>
         <comment>not automatic</comment>
         <extracomment>manual channel range selection, used when range automatic is disabled</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Manuel:</translation>
     </message>
     <message>
         <source>Peak values</source>
@@ -303,7 +303,7 @@
     <message>
         <source>Absolute</source>
         <extracomment>range peak value diagram linear scale visualisation</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Absolu(e)</translation>
     </message>
     <message>
         <source>Logarithmic</source>
@@ -318,7 +318,7 @@
     <message>
         <source>Application Settings</source>
         <extracomment>settings specific to the GUI application</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Para</translation>
     </message>
     <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
@@ -333,12 +333,12 @@
     <message>
         <source>Max places after the decimal point:</source>
         <extracomment>max number of decimals after the decimal separator</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Max de places après le point décimal:</translation>
     </message>
     <message>
         <source>or</source>
         <extracomment>WebGL IPs &apos;or&apos;separator</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>ou</translation>
     </message>
     <message>
         <source>Remote web (experimental):</source>
@@ -348,24 +348,24 @@
     <message>
         <source>Browser addresses:</source>
         <extracomment>WebGL active label</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Addresses du navigateur:</translation>
     </message>
     <message>
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Langue:</translation>
     </message>
     <message>
         <source>Device settings</source>
         <extracomment>settings specific to the hardware</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Réglages de l&apos;appareil</translation>
     </message>
     <message>
         <source>Network settings</source>
         <extracomment>settings specific to the network
 ----------
 EthernetSettings.qml error header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Réglages du réseau</translation>
     </message>
     <message>
         <source>PLL channel:</source>
@@ -429,42 +429,42 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>seconds</source>
         <comment>integration time interval unit</comment>
-        <translation type="unfinished"></translation>
+        <translation>secondes</translation>
     </message>
     <message>
         <source>periods</source>
         <comment>integration period interval unit</comment>
-        <translation type="unfinished"></translation>
+        <translation>périodes</translation>
     </message>
     <message>
         <source>Device Binding</source>
         <extracomment>available devices AvailableDevDialog.qml</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Appareils </translation>
     </message>
     <message>
         <source>Devices:</source>
         <extracomment>list of devices header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Appareils:</translation>
     </message>
     <message>
         <source>Wifi Password</source>
         <extracomment>AvailableApDialog.qml Wifi password access point</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Mot de passe Wifi</translation>
     </message>
     <message>
         <source>Networks:</source>
         <extracomment>AvailableApDialog.qml Networks?</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Réseaux:</translation>
     </message>
     <message>
         <source>Ethernet Connection Settings</source>
         <extracomment>EthernetSettings.qml Header text</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Paramètres de la Connexion Ethernet</translation>
     </message>
     <message>
         <source>Connection name:</source>
         <extracomment>EthernetSettings.qml Ethernet connection name</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Nom de la connexion:</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -474,7 +474,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>Mode:</source>
         <extracomment>connection mode DHCP/Manual</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Mode:</translation>
     </message>
     <message>
         <source>IP:</source>
@@ -519,22 +519,22 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>Select device</source>
         <extracomment>DeviceDialog.qml header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner l&apos;appareil</translation>
     </message>
     <message>
         <source>Wifi password</source>
         <extracomment>SmartConnect.qml Wifi password header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Mot de passe Wifi</translation>
     </message>
     <message>
         <source>Password:</source>
         <extracomment>SmartConnect.qml Wifi password</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Mot de passe:</translation>
     </message>
     <message>
         <source>Device:</source>
         <extracomment>SmartConnect.qml Wifi password</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Appareil:</translation>
     </message>
     <message>
         <source>Hotspot Settings</source>
@@ -544,7 +544,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>Wifi Settings</source>
         <extracomment>WifiSettings.qml Header text wifi</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Paramètres Wifi</translation>
     </message>
     <message>
         <source>SSID:</source>
@@ -559,7 +559,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>Client</source>
         <extracomment>WifiSettings.qml Mode ComboBox</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Client</translation>
     </message>
     <message>
         <source>Hotspot</source>
@@ -576,7 +576,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Password</source>
         <extracomment>EthernetSettings.qml error SSID</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Mot de passe</translation>
     </message>
     <message>
         <source>Automatic (DHCP)</source>
@@ -586,12 +586,12 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Manual</source>
         <extracomment>EthernetSettings.qml Mode ComboBox</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Manuel</translation>
     </message>
     <message>
         <source>Wifi</source>
         <extracomment>SUggested default</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Wifi</translation>
     </message>
     <message>
         <source>Autoconnect:</source>
@@ -601,12 +601,12 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Ethernet</source>
         <extracomment>ConnectionTree.qml group Ethernet</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ethernet</translation>
     </message>
     <message>
         <source>WIFI</source>
         <extracomment>ConnectionTree.qml group Ethernet</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>WIFI</translation>
     </message>
     <message>
         <source>VPN</source>
@@ -616,12 +616,12 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Bluetooth</source>
         <extracomment>ConnectionTree.qml group Ethernet</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Bluetooth</translation>
     </message>
     <message>
         <source>Connection Information</source>
         <extracomment>ConnectionInfo.qml header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Information de connexion</translation>
     </message>
     <message>
         <source>Netmask:</source>
@@ -641,22 +641,22 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Add Wifi...</source>
         <extracomment>ConnectionTree.qml add entry</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter Wifi...</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Chargement...</translation>
     </message>
     <message>
         <source>Loading: %1/%2</source>
         <extracomment>progress of loading %1 of %2 objects</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Chargement:%1/%2</translation>
     </message>
     <message>
         <source>Pages</source>
         <comment>view pages</comment>
         <extracomment>the measurement view pages e.g. &quot;Vector Diagram&quot;, &quot;Oscilloscope view&quot;, etc.</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Pages</translation>
     </message>
     <message>
         <source>Range</source>
@@ -681,7 +681,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Ready</source>
         <extracomment>like finished</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Prêt</translation>
     </message>
     <message>
         <source>Aborted</source>
@@ -691,13 +691,13 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Result:</source>
         <comment>error calculator result</comment>
-        <translation type="unfinished"></translation>
+        <translation>Résultat:</translation>
     </message>
     <message>
         <source>Mode:</source>
         <comment>error calculator</comment>
         <extracomment>switch between time based and period based measurement</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Mode:</translation>
     </message>
     <message>
         <source>Reference input:</source>
@@ -717,7 +717,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Energy:</source>
         <extracomment>energy to compare</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Énergie:</translation>
     </message>
     <message>
         <source>MRate:</source>
@@ -734,7 +734,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>energy</source>
-        <translation type="unfinished"></translation>
+        <translation>énergie</translation>
     </message>
     <message>
         <source>mrate</source>
@@ -758,7 +758,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Duration:</source>
-        <translation type="unfinished"></translation>
+        <translation>Durée:</translation>
     </message>
     <message>
         <source>Start/Stop</source>
@@ -766,19 +766,19 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Durée</translation>
     </message>
     <message>
         <source>Start value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valeur de départ:</translation>
     </message>
     <message>
         <source>End value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Valeur finale:</translation>
     </message>
     <message>
         <source>Frequency:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fréquence:</translation>
     </message>
     <message>
         <source>Count:</source>
@@ -818,7 +818,7 @@ ConnectionTree.qml group Ethernet</extracomment>
         <source>Phase</source>
         <comment>Phase of the phasor</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Phase</translation>
     </message>
     <message>
         <source>THDN:</source>
@@ -853,7 +853,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Maximum</source>
         <extracomment>ComboBox: Scale to max. value</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Maximum</translation>
     </message>
     <message>
         <source>ext.</source>
@@ -979,7 +979,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Actual values</source>
         <extracomment>button to select content-set actual values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs actuelles</translation>
     </message>
     <message>
         <source>Oscilloscope plot</source>
@@ -1619,39 +1619,39 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>filename</source>
         <extracomment>placeholder text for the database filename</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Nom du fichier</translation>
     </message>
     <message>
         <source>Create database</source>
         <extracomment>popup create database header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Créer base de données</translation>
     </message>
     <message>
         <source>Databases</source>
         <extracomment>database search / delete view header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Bases de données</translation>
     </message>
     <message>
         <source>internal</source>
-        <translation type="unfinished"></translation>
+        <translation>interne</translation>
     </message>
     <message>
         <source>external</source>
-        <translation type="unfinished"></translation>
+        <translation>externe</translation>
     </message>
     <message>
         <source>Delete database &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Supprimer base de données&lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Select session name</source>
         <extracomment>displayed in logger session name popup, visible when the user presses start or snapshot in the logger the session name is a database field that the user can use to search / filter different sessions</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner nom de session</translation>
     </message>
     <message>
         <source>Current name:</source>
         <extracomment>label for current session name</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Nom actuel:</translation>
     </message>
     <message>
         <source>Select existing:</source>
@@ -1668,37 +1668,37 @@ ConnectionTree.qml group Ethernet</extracomment>
         <extracomment>delete session confirmation popup header
 ----------
 customer data delete file confirmation popup header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Confirmation</translation>
     </message>
     <message>
         <source>Delete session &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
         <extracomment>delete session confirmation popup header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Supprimer session &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Add new session</source>
         <extracomment>header view &apos;Add new session&apos;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter nouvelle session</translation>
     </message>
     <message>
         <source>Session name:</source>
         <extracomment>add new session view: label session name</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Nom de session:</translation>
     </message>
     <message>
         <source>Select customer data:</source>
         <extracomment>add new session view: label list cutomer data to select entry from</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner données du client:</translation>
     </message>
     <message>
         <source>-- no customer --</source>
         <extracomment>add new session view: list entry to select no customer data</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-- aucun/pas de client --</translation>
     </message>
     <message>
         <source>Session </source>
         <extracomment>default prefix for auto session name</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Session</translation>
     </message>
     <message>
         <source>Select custom data contents</source>
@@ -1733,12 +1733,12 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Back</source>
         <extracomment>logger custom data selector get back to menu button</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Retour</translation>
     </message>
     <message>
         <source>-- no session --</source>
         <extracomment>displayed when user presses logger button text displayed in session name menu entry when no session was set yet</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">-- pas de session --</translation>
     </message>
     <message>
         <source>Take snapshot</source>
@@ -1842,23 +1842,23 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Customer number:</source>
-        <translation type="unfinished"></translation>
+        <translation>Numéro du client:</translation>
     </message>
     <message>
         <source>Customer First name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Prénom du client:</translation>
     </message>
     <message>
         <source>Customer Last name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom de famille du client:</translation>
     </message>
     <message>
         <source>Customer Country:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pays du client:</translation>
     </message>
     <message>
         <source>Customer City:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ville du client:</translation>
     </message>
     <message>
         <source>Customer ZIP code:</source>
@@ -1867,11 +1867,11 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Customer Street:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rue du client:</translation>
     </message>
     <message>
         <source>Customer Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Commentaire du client:</translation>
     </message>
     <message>
         <source>Location Identifier:</source>
@@ -1953,12 +1953,12 @@ customer data delete file confirmation popup header</extracomment>
         <source>File name:</source>
         <comment>customerdata filename</comment>
         <extracomment>label text add customer data</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Nom du fichier:</translation>
     </message>
     <message>
         <source>Search</source>
         <comment>search for customerdata files</comment>
-        <translation type="unfinished"></translation>
+        <translation>Chercher</translation>
     </message>
     <message>
         <source>Import customer data</source>
@@ -1973,7 +1973,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Delete current files first</source>
         <extracomment>import customer data popup option checkbox text</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Supprimer d&apos;abord les fichiers actuels</translation>
     </message>
     <message>
         <source>Overwrite current files with imported ones</source>
@@ -1983,17 +1983,17 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Delete &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
         <extracomment>customer data delete file confirmation text</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Supprimer &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Delete</source>
         <extracomment>customer data delete file button text</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Supprimer</translation>
     </message>
     <message>
         <source>Create Customer data file</source>
         <extracomment>header text popup new customer data</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Créer </translation>
     </message>
     <message>
         <source>Export stored data</source>
@@ -2003,7 +2003,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Export type:</source>
         <extracomment>label combobox export type (MTVisXML/SQLiteDB...)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">E</translation>
     </message>
     <message>
         <source>MtVis XML</source>
@@ -2013,7 +2013,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Session:</source>
         <extracomment>entry combobox export type MTVis Part 2</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Session:</translation>
     </message>
     <message>
         <source>MtVis XML - requires stored sessions</source>
@@ -2043,7 +2043,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Please select a session first...</source>
         <extracomment>button text MTVis export type selected but no session active currently</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Veuillez d&apos;abord sélectionner une session...</translation>
     </message>
     <message>
         <source>Export failed - drive full or removed?</source>
@@ -2063,7 +2063,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Exporting customer data...</source>
         <extracomment>Header text in wait export popup</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Exportation des données du client...</translation>
     </message>
     <message>
         <source>Importing customer data...</source>
@@ -2078,17 +2078,17 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Exporting database...</source>
         <extracomment>Header text in wait export popup</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Exportation base de données...</translation>
     </message>
     <message>
         <source>Warning:</source>
         <extracomment>warning prefix</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Avertissement:</translation>
     </message>
     <message>
         <source>Error:</source>
         <extracomment>error prefix</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Erreur:</translation>
     </message>
     <message>
         <source>unnamed</source>
@@ -2098,11 +2098,11 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>free</source>
         <extracomment>in drive select combo free memory label</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>libre</translation>
     </message>
     <message>
         <source>Not connected</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Non connecté(e)</translation>
     </message>
     <message>
         <source>Serial SCPI</source>
@@ -2154,19 +2154,19 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>none</source>
-        <translation type="unfinished"></translation>
+        <translation>aucun</translation>
     </message>
     <message>
         <source>On</source>
-        <translation type="unfinished"></translation>
+        <translation>On</translation>
     </message>
     <message>
         <source>symmetric</source>
-        <translation type="unfinished"></translation>
+        <translation>symmétrique</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Off</translation>
     </message>
 </context>
 </TS>
