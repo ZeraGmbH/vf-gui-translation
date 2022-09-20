@@ -66,22 +66,22 @@
     <message>
         <source>L1</source>
         <comment>measuring system 1</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">L1</translation>
     </message>
     <message>
         <source>L2</source>
         <comment>measuring system 2</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">L2</translation>
     </message>
     <message>
         <source>L3</source>
         <comment>measuring system 3</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">L3</translation>
     </message>
     <message>
         <source>AUX</source>
         <comment>auxiliary measuring system</comment>
-        <translation type="unfinished"></translation>
+        <translation>AUX</translation>
     </message>
     <message>
         <source>Phase1</source>
@@ -146,7 +146,7 @@
     <message>
         <source>I</source>
         <comment>current</comment>
-        <translation type="unfinished"></translation>
+        <translation>I</translation>
     </message>
     <message>
         <source>kI</source>
@@ -177,24 +177,24 @@
         <source>P</source>
         <comment>active power</comment>
         <extracomment>needs to be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>P</translation>
     </message>
     <message>
         <source>Q</source>
         <comment>reactive power</comment>
         <extracomment>needs to be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Q</translation>
     </message>
     <message>
         <source>S</source>
         <comment>apparent power</comment>
         <extracomment>needs to be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>F</source>
         <comment>frequency</comment>
-        <translation type="unfinished"></translation>
+        <translation>F</translation>
     </message>
     <message>
         <source>Sb</source>
@@ -204,7 +204,7 @@
     <message>
         <source>cos(β)</source>
         <comment>cosinus beta</comment>
-        <translation type="unfinished"></translation>
+        <translation>cos(β)</translation>
     </message>
     <message>
         <source>Sn</source>
@@ -251,12 +251,12 @@
     <message>
         <source>Default</source>
         <extracomment>default session</extracomment>
-        <translation type="unfinished">(par)Défaut</translation>
+        <translation>Défaut</translation>
     </message>
     <message>
         <source>Changing energy direction</source>
         <extracomment>changing energy direction session</extracomment>
-        <translation type="unfinished">Changement/Changer? de direction de l&apos;énergie</translation>
+        <translation>Changement de direction de l&apos;énergie</translation>
     </message>
     <message>
         <source>Reference</source>
@@ -266,7 +266,7 @@
     <message>
         <source>Range automatic:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Automatique gamme/intervalle:</translation>
     </message>
     <message>
         <source>Overload</source>
@@ -276,7 +276,7 @@
     <message>
         <source>Range grouping:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Regroupement de plages intervalles gammes:</translation>
     </message>
     <message>
         <source>Manual:</source>
@@ -287,18 +287,18 @@
     <message>
         <source>Peak values</source>
         <comment>range peak values</comment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs crêtes</translation>
     </message>
     <message>
         <source>Scale visualisation:</source>
         <comment>e.g. linear, logscale, relative to channel limit</comment>
         <extracomment>range peak value diagram scale selection</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Visualisation de l&apos;échelle :</translation>
     </message>
     <message>
         <source>Logarithmic scale</source>
         <extracomment>range peak value diagram logarithmic scale visualisation</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Échelle logarithmique</translation>
     </message>
     <message>
         <source>Absolute</source>
@@ -308,32 +308,32 @@
     <message>
         <source>Logarithmic</source>
         <extracomment>range peak value diagram logarithmic scale visualisation</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Logarithmique</translation>
     </message>
     <message>
         <source>Relative to channel limit</source>
         <extracomment>range peak value diagram relative to channel limit scale visualisation</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Relatif à la limite du canal</translation>
     </message>
     <message>
         <source>Application Settings</source>
         <extracomment>settings specific to the GUI application</extracomment>
-        <translation type="unfinished">Para</translation>
+        <translation>Réglages de l&apos;application</translation>
     </message>
     <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Afficher les tableaux harmoniques relatifs à l&apos;oscillation fondamentale :</translation>
     </message>
     <message>
         <source>Max decimals total:</source>
         <extracomment>max number total decimals for displayed values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Max total des décimales:</translation>
     </message>
     <message>
         <source>Max places after the decimal point:</source>
         <extracomment>max number of decimals after the decimal separator</extracomment>
-        <translation type="unfinished">Max de places après le point décimal:</translation>
+        <translation>Max places après le point décimal:</translation>
     </message>
     <message>
         <source>or</source>
@@ -343,7 +343,7 @@
     <message>
         <source>Remote web (experimental):</source>
         <extracomment>WebGL inactive label</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Web distant (expérimental):</translation>
     </message>
     <message>
         <source>Browser addresses:</source>
@@ -358,73 +358,73 @@
     <message>
         <source>Device settings</source>
         <extracomment>settings specific to the hardware</extracomment>
-        <translation type="unfinished">Réglages de l&apos;appareil</translation>
+        <translation>Réglages de l&apos;appareil</translation>
     </message>
     <message>
         <source>Network settings</source>
         <extracomment>settings specific to the network
 ----------
 EthernetSettings.qml error header</extracomment>
-        <translation type="unfinished">Réglages du réseau</translation>
+        <translation>Réglages réseau</translation>
     </message>
     <message>
         <source>PLL channel:</source>
         <extracomment>measurement channel the phase locked loop uses as base</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PLL</translation>
     </message>
     <message>
         <source>PLL channel automatic:</source>
         <extracomment>automatic phase locked loop channel selection</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PLL canal automatique:</translation>
     </message>
     <message>
         <source>DFT reference channel:</source>
         <extracomment>dft phase reference channel</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DFT canal de référence:</translation>
     </message>
     <message>
         <source>System colors:</source>
         <extracomment>System = measuring system</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Couleurs du système:</translation>
     </message>
     <message>
         <source>Frequency input/output configuration:</source>
-        <translation type="unfinished"></translation>
+        <translation>Configuration de fréquence entrée/sortie:</translation>
     </message>
     <message>
         <source>Show AUX phase values:</source>
         <extracomment>Settings show/hide AUX phases</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Afficher les valeurs de la phase AUX :</translation>
     </message>
     <message>
         <source>Brightness currents:</source>
         <extracomment>Color themes popup adjust brightness for current</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Luminosité courantes:</translation>
     </message>
     <message>
         <source>Brightness black:</source>
         <extracomment>Color themes popup adjust brightness for current</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Luminosité noire:</translation>
     </message>
     <message>
         <source>Nominal frequency:</source>
         <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Fréquence nominale:</translation>
     </message>
     <message>
         <source>Frequency output constant:</source>
         <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Fréquence sortie constante:</translation>
     </message>
     <message>
         <source>Integration time interval:</source>
         <extracomment>time based integration interval</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Intégration intervalle de temps:</translation>
     </message>
     <message>
         <source>Integration period interval:</source>
         <extracomment>measurement period based integration interval</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Integration intervalle période:</translation>
     </message>
     <message>
         <source>seconds</source>
@@ -439,7 +439,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>Device Binding</source>
         <extracomment>available devices AvailableDevDialog.qml</extracomment>
-        <translation type="unfinished">Appareils </translation>
+        <translation type="unfinished">Liaison appareil</translation>
     </message>
     <message>
         <source>Devices:</source>
@@ -469,7 +469,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>IPv4</source>
         <extracomment>EthernetSettings.qml IPv4 sub-header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IPv4</translation>
     </message>
     <message>
         <source>Mode:</source>
@@ -479,42 +479,42 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>IP:</source>
         <extracomment>connection Manual fixed IP address</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IP:</translation>
     </message>
     <message>
         <source>Subnetmask:</source>
         <extracomment>connection Manual fixed IP subnetmask</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Masque de sous-réseau:</translation>
     </message>
     <message>
         <source>IPv6</source>
         <extracomment>EthernetSettings.qml IPv6 sub-header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IPv6</translation>
     </message>
     <message>
         <source>IPV6 IP</source>
         <extracomment>EthernetSettings.qml IPv6 error field IP</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IPV6 IP</translation>
     </message>
     <message>
         <source>IPV6 Subnetmask</source>
         <extracomment>EthernetSettings.qml IPv6 error field subnetmask</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IPV6 Masque de sous-réseau</translation>
     </message>
     <message>
         <source>IPV4 IP</source>
         <extracomment>EthernetSettings.qml IPv4 error field IP</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IPV4 IP</translation>
     </message>
     <message>
         <source>IPV4 Subnetmask</source>
         <extracomment>EthernetSettings.qml IPv4 error field subnetmask</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>IPV4 Masque de sous-réseau</translation>
     </message>
     <message>
         <source>invalid settings in field: </source>
         <extracomment>EthernetSettings.qml error text intro</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Reǵlalges invalides dans le champ:</translation>
     </message>
     <message>
         <source>Select device</source>
@@ -539,7 +539,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>Hotspot Settings</source>
         <extracomment>WifiSettings.qml Header text hotspot</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Réglages Hotspot</translation>
     </message>
     <message>
         <source>Wifi Settings</source>
@@ -549,12 +549,12 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>SSID:</source>
         <extracomment>WifiSettings.qml SSID field</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>SSID:</translation>
     </message>
     <message>
         <source>Wifi SSID</source>
         <extracomment>WifiSettings.qml SSID select dialog header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Wifi SSID</translation>
     </message>
     <message>
         <source>Client</source>
@@ -566,12 +566,12 @@ EthernetSettings.qml error header</extracomment>
         <extracomment>WifiSettings.qml Mode ComboBox
 ----------
 ConnectionTree.qml group Ethernet</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Hotspot</translation>
     </message>
     <message>
         <source>SSID</source>
         <extracomment>EthernetSettings.qml error SSID</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>SSID</translation>
     </message>
     <message>
         <source>Password</source>
@@ -581,7 +581,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Automatic (DHCP)</source>
         <extracomment>EthernetSettings.qml Mode ComboBox</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Automatique (DHCP)</translation>
     </message>
     <message>
         <source>Manual</source>
@@ -596,7 +596,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Autoconnect:</source>
         <extracomment>Checkbox for auto-connection</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Autoconnexion:</translation>
     </message>
     <message>
         <source>Ethernet</source>
@@ -611,7 +611,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>VPN</source>
         <extracomment>ConnectionTree.qml group Ethernet</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>VPN</translation>
     </message>
     <message>
         <source>Bluetooth</source>
@@ -626,17 +626,17 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Netmask:</source>
         <extracomment>ConnectionTree.qml netmask header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Masque de réseau:</translation>
     </message>
     <message>
         <source>Add Ethernet...</source>
         <extracomment>ConnectionTree.qml add entry</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter Ethernet...</translation>
     </message>
     <message>
         <source>Add Hotspot...</source>
         <extracomment>ConnectionTree.qml add entry</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter Hotspot...</translation>
     </message>
     <message>
         <source>Add Wifi...</source>
@@ -662,7 +662,7 @@ ConnectionTree.qml group Ethernet</extracomment>
         <source>Range</source>
         <comment>measuring range</comment>
         <extracomment>settings for range automatic etc.</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Gamme Intervalle Plage</translation>
     </message>
     <message>
         <source>Idle</source>
@@ -676,7 +676,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Started</source>
         <comment>measurement started</comment>
-        <translation type="unfinished"></translation>
+        <translation>Commencé</translation>
     </message>
     <message>
         <source>Ready</source>
@@ -686,7 +686,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Aborted</source>
         <comment>measurement was aborted</comment>
-        <translation type="unfinished"></translation>
+        <translation>Interrompu</translation>
     </message>
     <message>
         <source>Result:</source>
@@ -702,17 +702,17 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Reference input:</source>
         <extracomment>reference channel selection</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Entrée de référence:</translation>
     </message>
     <message>
         <source>Device input:</source>
         <extracomment>device input selection (e.g. scanning head)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Entrée de l&apos;appareil:</translation>
     </message>
     <message>
         <source>DUT constant:</source>
         <extracomment>device under test constat</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>DUT constant:</translation>
     </message>
     <message>
         <source>Energy:</source>
@@ -722,15 +722,15 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>MRate:</source>
         <extracomment>value based on the DUT constant</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mtaux:</translation>
     </message>
     <message>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Démarrer</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrêt</translation>
     </message>
     <message>
         <source>energy</source>
@@ -738,23 +738,23 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>mrate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">mtaux</translation>
     </message>
     <message>
         <source>Lower error margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>Marge d&apos;erreur inférieure :</translation>
     </message>
     <message>
         <source>Upper error margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>Marge d&apos;erreur supérieure :</translation>
     </message>
     <message>
         <source>continuous</source>
-        <translation type="unfinished"></translation>
+        <translation>continu</translation>
     </message>
     <message>
         <source>Count / Pause:</source>
-        <translation type="unfinished"></translation>
+        <translation>Compter / Pause:</translation>
     </message>
     <message>
         <source>Duration:</source>
@@ -762,7 +762,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Start/Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Début/Arrêt</translation>
     </message>
     <message>
         <source>Duration</source>
@@ -782,23 +782,23 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Count:</source>
-        <translation type="unfinished"></translation>
+        <translation>Compter:</translation>
     </message>
     <message>
         <source>Passed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Réussi:</translation>
     </message>
     <message>
         <source>Failed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Échoué:</translation>
     </message>
     <message>
         <source>Mean:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Moyenne:</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Plage:</translation>
     </message>
     <message>
         <source>Stddev. n:</source>
@@ -812,7 +812,7 @@ ConnectionTree.qml group Ethernet</extracomment>
         <source>Amp</source>
         <comment>Amplitude of the phasor</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Amp</translation>
     </message>
     <message>
         <source>Phase</source>
@@ -823,32 +823,32 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>THDN:</source>
         <extracomment>total harmonic distortion with noise</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>THDN:</translation>
     </message>
     <message>
         <source>Harmonic table</source>
         <comment>Tab text harmonic table</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tableau harmonique</translation>
     </message>
     <message>
         <source>Harmonic chart</source>
         <comment>Tab text harmonic chart</comment>
-        <translation type="unfinished"></translation>
+        <translation>Graphique harmonique</translation>
     </message>
     <message>
         <source>ON</source>
         <extracomment>ComboBox: I-vector ON</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>ON</translation>
     </message>
     <message>
         <source>OFF</source>
         <extracomment>ComboBox: I-vector ON</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>OFF</translation>
     </message>
     <message>
         <source>Ranges</source>
         <extracomment>ComboBox: Scale to max. range</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Plages</translation>
     </message>
     <message>
         <source>Maximum</source>
@@ -862,72 +862,72 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Harmonic power table</source>
         <comment>Tab text harmonic power table</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tableau de puissance harmonique</translation>
     </message>
     <message>
         <source>Harmonic power chart</source>
         <comment>Tab text harmonic power chart</comment>
-        <translation type="unfinished"></translation>
+        <translation>Graphique de puissance harmonique</translation>
     </message>
     <message>
         <source>UL1</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">UL1</translation>
     </message>
     <message>
         <source>UL2</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">UL2</translation>
     </message>
     <message>
         <source>UL3</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">UL3</translation>
     </message>
     <message>
         <source>IL1</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">IL1</translation>
     </message>
     <message>
         <source>IL2</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">IL2</translation>
     </message>
     <message>
         <source>IL3</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">IL3</translation>
     </message>
     <message>
         <source>UAUX</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">UAUX</translation>
     </message>
     <message>
         <source>IAUX</source>
         <comment>channel name</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">IAUX</translation>
     </message>
     <message>
         <source>P1</source>
         <comment>harmonic power label active / phase 1</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>P1</translation>
     </message>
     <message>
         <source>Q1</source>
         <comment>harmonic power label reactive / phase 1</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Q1</translation>
     </message>
     <message>
         <source>S1</source>
@@ -939,13 +939,13 @@ ConnectionTree.qml group Ethernet</extracomment>
         <source>P2</source>
         <comment>harmonic power label active / phase 2</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>P2</translation>
     </message>
     <message>
         <source>Q2</source>
         <comment>harmonic power label reactive / phase 2</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Q2</translation>
     </message>
     <message>
         <source>S2</source>
@@ -957,13 +957,13 @@ ConnectionTree.qml group Ethernet</extracomment>
         <source>P3</source>
         <comment>harmonic power label active / phase 3</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>P3</translation>
     </message>
     <message>
         <source>Q3</source>
         <comment>harmonic power label reactive / phase 3</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Q3</translation>
     </message>
     <message>
         <source>S3</source>
@@ -974,7 +974,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Vector diagram</source>
         <extracomment>polar (amplitude and phase) phasor diagram</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Diagramme vectoriel</translation>
     </message>
     <message>
         <source>Actual values</source>
@@ -983,100 +983,100 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Oscilloscope plot</source>
-        <translation type="unfinished"></translation>
+        <translation>Tracé de l&apos;oscilloscope</translation>
     </message>
     <message>
         <source>Harmonics &amp; Curves</source>
         <extracomment>FFT bar diagrams or tables that show the harmonic component distribution of the measured values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Harmoniques et Courbes</translation>
     </message>
     <message>
         <source>Power values</source>
         <extracomment>measuring mode dependent power values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs de puissance</translation>
     </message>
     <message>
         <source>Harmonic power values</source>
         <extracomment>FFT tables that show the real and imaginary parts of the measured power values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs de puissance harmonique</translation>
     </message>
     <message>
         <source>Error calculator</source>
         <extracomment>shows the deviation of measured energy between the reference device and the device under test</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Calculateur d&apos;erreur</translation>
     </message>
     <message>
         <source>Comparison measurements</source>
         <extracomment>shows energy comparison between the reference device and the device under test&apos;s registers/display</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Comparaison de mesures</translation>
     </message>
     <message>
         <source>Source control</source>
         <extracomment>control one or more source devices</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Contrôle de source</translation>
     </message>
     <message>
         <source>Meter test</source>
         <extracomment>Comparison tabs label texts</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Test du compteur</translation>
     </message>
     <message>
         <source>Energy comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>Comparaison de l&apos;énergie</translation>
     </message>
     <message>
         <source>Energy register</source>
-        <translation type="unfinished"></translation>
+        <translation>Registre de l&apos;énergie</translation>
     </message>
     <message>
         <source>Power register</source>
-        <translation type="unfinished"></translation>
+        <translation>Registre de la puissance</translation>
     </message>
     <message>
         <source>Burden values</source>
         <extracomment>button to select content-set burden values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs de charge</translation>
     </message>
     <message>
         <source>Transformer values</source>
         <extracomment>button to select content-set transformer values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs du transformateur</translation>
     </message>
     <message>
         <source>RMS values</source>
         <extracomment>effective values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>RMS valeurs</translation>
     </message>
     <message>
         <source>Voltage Burden</source>
         <comment>Tab title current burden</comment>
-        <translation type="unfinished"></translation>
+        <translation>Charge de tension</translation>
     </message>
     <message>
         <source>Current Burden</source>
         <comment>Tab title current burden</comment>
-        <translation type="unfinished"></translation>
+        <translation>Charge de courant</translation>
     </message>
     <message>
         <source>Nominal burden:</source>
-        <translation type="unfinished"></translation>
+        <translation>Charge nominale:</translation>
     </message>
     <message>
         <source>Nominal range:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Plage nominale:</translation>
     </message>
     <message>
         <source>Wire crosssection:</source>
-        <translation type="unfinished"></translation>
+        <translation>Section transversale du fil :</translation>
     </message>
     <message>
         <source>Wire length:</source>
-        <translation type="unfinished"></translation>
+        <translation>Longueur du fil:</translation>
     </message>
     <message>
         <source>DC reference values</source>
         <extracomment>button to select content-set dc-reference values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>DC valeurs de référence</translation>
     </message>
     <message>
         <source>Quartz reference measurement</source>
@@ -1084,17 +1084,17 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>CED power values</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">CED valeurs de puissance</translation>
     </message>
     <message>
         <source>Measuring modes:</source>
         <comment>label for measuring mode selectors</comment>
-        <translation type="unfinished"></translation>
+        <translation>Modes de mesure :</translation>
     </message>
     <message>
         <source>TR1</source>
         <comment>transformer system 1</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">TR1</translation>
     </message>
     <message>
         <source>X-Prim:</source>
@@ -1139,70 +1139,70 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>crad</source>
         <comment>centiradian</comment>
-        <translation type="unfinished"></translation>
+        <translation>crad</translation>
     </message>
     <message>
         <source>arcmin</source>
         <comment>arcminute</comment>
-        <translation type="unfinished"></translation>
+        <translation>arcmin</translation>
     </message>
     <message>
         <source>RESMAN ident error</source>
         <extracomment>RESMAN = resource manager</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>RESMAN erreur ident</translation>
     </message>
     <message>
         <source>RESMAN resourcetype not avail</source>
         <extracomment>RESMAN = resource manager</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>RESMAN resourcetype indispo</translation>
     </message>
     <message>
         <source>RESMAN resource not avail</source>
         <extracomment>RESMAN = resource manager</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>RESMAN ressource indispo</translation>
     </message>
     <message>
         <source>RESMAN resource Info error</source>
         <extracomment>RESMAN = resource manager</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>RESMAN erreur ressource Info</translation>
     </message>
     <message>
         <source>RESMAN set resource failed</source>
         <extracomment>RESMAN = resource manager</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>RESMAN échec de la mise en place de ressource</translation>
     </message>
     <message>
         <source>RESMAN free resource failed</source>
         <extracomment>RESMAN = resource manager</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>RESMAN ressource libre échouée</translation>
     </message>
     <message>
         <source>PCB dsp channel read failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB échec de la lecture du canal dsp</translation>
     </message>
     <message>
         <source>PCB alias read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de lecture alias</translation>
     </message>
     <message>
         <source>PCB sample rate read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture du taux d&apos;échantillonnage</translation>
     </message>
     <message>
         <source>PCB unit read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture de l&apos;unité</translation>
     </message>
     <message>
         <source>PCB range list read failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCb échec de la lecture de la liste de plage</translation>
     </message>
     <message>
         <source>PCB range alias read failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB échec de la lecture des alias de plage</translation>
     </message>
     <message>
         <source>PCB range type read failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB échec de la lecture du type </translation>
     </message>
     <message>
         <source>PCB range urvalue read failed</source>
@@ -1226,31 +1226,31 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB get range failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB échec de la récupération de la plage</translation>
     </message>
     <message>
         <source>PCB set measuring mode failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB échec de la mise en place du mode de mesure</translation>
     </message>
     <message>
         <source>PCB read gain correction failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture de la correction du gain</translation>
     </message>
     <message>
         <source>PCB set gain node failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB échec du réglage du nœud de gain</translation>
     </message>
     <message>
         <source>PCB read offset correction failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB échec de la lecture de le correction de décalage</translation>
     </message>
     <message>
         <source>PCB set offset node failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB échec de réglage</translation>
     </message>
     <message>
         <source>PCB read phase correction failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture de la correction de phase</translation>
     </message>
     <message>
         <source>PCB set phase node failed</source>
@@ -1258,11 +1258,11 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB read channel status failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de lecture du statut du canal</translation>
     </message>
     <message>
         <source>PCB reset channel status failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de réinitialisation du statut du canal</translation>
     </message>
     <message>
         <source>PCB formfactor read failed</source>
@@ -1270,7 +1270,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB register notifier failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB échec de la notification du registre</translation>
     </message>
     <message>
         <source>PCB unregister notifier failed</source>
@@ -1286,131 +1286,131 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB reference constant read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture de la constante de référence</translation>
     </message>
     <message>
         <source>PCB adjustment status read failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB échec de la lecture du statut de l&apos;ajustement</translation>
     </message>
     <message>
         <source>PCB adjustment chksum read failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB échec de la lecture de la somme de contrôle de l&apos;ajustement</translation>
     </message>
     <message>
         <source>PCB server version read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture de la version du serveur</translation>
     </message>
     <message>
         <source>PCB Controler version read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture de la version du contrôleur</translation>
     </message>
     <message>
         <source>PCB FPGA version read failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB FPGA lecture de version échouée</translation>
     </message>
     <message>
         <source>PCB error messages read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture des messages d&apos;erreur</translation>
     </message>
     <message>
         <source>PCB adjustment computation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB ajustement computation échoué</translation>
     </message>
     <message>
         <source>PCB adjustment storage failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB ajustement stockage échoué</translation>
     </message>
     <message>
         <source>PCB adjustment status setting failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PCB ajustement régalge de statut échoué/Échec du réglage de l&apos;état d&apos;ajustement du PCB</translation>
     </message>
     <message>
         <source>PCB adjustment init failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB ajustement init échoué</translation>
     </message>
     <message>
         <source>DSP read gain correction failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de la lecture de correction de gain</translation>
     </message>
     <message>
         <source>DSP read phase correction failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de la lecture de correction de phase</translation>
     </message>
     <message>
         <source>DSP read offset correction failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de la lecture de correction du décalage (offset)</translation>
     </message>
     <message>
         <source>DSP write gain correction failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de l&apos;écriture de correction de gain</translation>
     </message>
     <message>
         <source>DSP write phase correction failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de l&apos;écriture de correction de phase</translation>
     </message>
     <message>
         <source>DSP write offset corredction failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de l&apos;écriture de correction du décalage (offset)</translation>
     </message>
     <message>
         <source>DSP write varlist failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de l&apos;écriture de varlist????</translation>
     </message>
     <message>
         <source>DSP write cmdlist failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de l&apos;écriture de cmdlist</translation>
     </message>
     <message>
         <source>DSP measure activation failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de l&apos;activation de mesure</translation>
     </message>
     <message>
         <source>DSP measure deactivation failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de désactivation de mesure</translation>
     </message>
     <message>
         <source>DSP data acquisition failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de l&apos;acquisition de données</translation>
     </message>
     <message>
         <source>DSP memory write failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de l&apos;écritre de la mémoire</translation>
     </message>
     <message>
         <source>DSP subdc write failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de la l&apos;écriture (subdc?)</translation>
     </message>
     <message>
         <source>DSP server version read failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de la lecture de la version du serveur</translation>
     </message>
     <message>
         <source>DSP program version read failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de la lecture de la version du programme</translation>
     </message>
     <message>
         <source>DSP setting sampling system failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">DSP échec de configuration du système d&apos;échantillonnage</translation>
     </message>
     <message>
         <source>SEC fetch ecalculator failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">SEC échec de la récupération de l&apos;e-calculateur</translation>
     </message>
     <message>
         <source>SEC free ecalculator failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">SEC e-calculateur gratuit /libre  échoué</translation>
     </message>
     <message>
         <source>SEC read register failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>SEC échec de la lecture du registre</translation>
     </message>
     <message>
         <source>SEC write register failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>SEC échec de l&apos;écriture du registre</translation>
     </message>
     <message>
         <source>SEC set sync failed</source>
@@ -1425,117 +1425,117 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>SEC set cmdid failed</source>
         <extracomment>SEC = standard error calculator, cmdid = command id</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>SEC échec de la configuration du cmdid</translation>
     </message>
     <message>
         <source>SEC start measure failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>SEC mesure de démarrage échouée</translation>
     </message>
     <message>
         <source>SEC stop measure failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>SEC mesure d&apos;arrêt échouée</translation>
     </message>
     <message>
         <source>Interface JSON Document strange</source>
-        <translation type="unfinished"></translation>
+        <translation>Interface JSON Document étrange</translation>
     </message>
     <message>
         <source>Ethernet interface listen failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Échec d&apos;écoute de l&apos;interface Ethernet</translation>
     </message>
     <message>
         <source>Serial interface not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>Interface série non connectée</translation>
     </message>
     <message>
         <source>Actual Values not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs actuelles non trouvées</translation>
     </message>
     <message>
         <source>Release number not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Numéro de version non trouvé</translation>
     </message>
     <message>
         <source>Device info</source>
-        <translation type="unfinished"></translation>
+        <translation>Info appareil</translation>
     </message>
     <message>
         <source>Device log</source>
-        <translation type="unfinished"></translation>
+        <translation>Journal de l&apos;appareil</translation>
     </message>
     <message>
         <source>License information</source>
-        <translation type="unfinished"></translation>
+        <translation>Information licence</translation>
     </message>
     <message>
         <source>Serial number:</source>
-        <translation type="unfinished"></translation>
+        <translation>Numéro de série:</translation>
     </message>
     <message>
         <source>Operating system version:</source>
-        <translation type="unfinished"></translation>
+        <translation>Version du système d&apos;exploitation:</translation>
     </message>
     <message>
         <source>PCB server version:</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB version du serveur:</translation>
     </message>
     <message>
         <source>DSP server version:</source>
-        <translation type="unfinished"></translation>
+        <translation>DCP version du serveur:</translation>
     </message>
     <message>
         <source>DSP firmware version:</source>
-        <translation type="unfinished"></translation>
+        <translation>DSP version du firmware:</translation>
     </message>
     <message>
         <source>FPGA firmware version:</source>
-        <translation type="unfinished"></translation>
+        <translation>FPGA version du firmware:</translation>
     </message>
     <message>
         <source>Microcontroller firmware version:</source>
-        <translation type="unfinished"></translation>
+        <translation>Version du firmware du microcontrôleur:</translation>
     </message>
     <message>
         <source>Adjustment status:</source>
-        <translation type="unfinished"></translation>
+        <translation>Statut d&apos;ajustement:</translation>
     </message>
     <message>
         <source>Not adjusted</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Non ajusté</translation>
     </message>
     <message>
         <source>Wrong version</source>
-        <translation type="unfinished"></translation>
+        <translation>Version incorrecte</translation>
     </message>
     <message>
         <source>Wrong serial number</source>
-        <translation type="unfinished"></translation>
+        <translation>Numéro de série incorrect</translation>
     </message>
     <message>
         <source>Adjustment checksum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustement somme de contrôle:</translation>
     </message>
     <message>
         <source>CPU-board number</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">CPU-numéro de carte</translation>
     </message>
     <message>
         <source>CPU-board assembly</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">CPU-assembalge de carte</translation>
     </message>
     <message>
         <source>CPU-board date</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">CPU-date de carte</translation>
     </message>
     <message>
         <source>Device notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Notifications de l&apos;appareil</translation>
     </message>
     <message>
         <source>Database Logging</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Enregistrement ou Connexion Base de données</translation>
     </message>
     <message>
         <source>Logging enabled:</source>
@@ -1543,25 +1543,25 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>DB location:</source>
-        <translation type="unfinished"></translation>
+        <translation>BD emplacement:</translation>
     </message>
     <message>
         <source>Database filename:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom de fichier de base de données:</translation>
     </message>
     <message>
         <source>&lt;b&gt;%1MB&lt;/b&gt; (available &lt;b&gt;%2GB&lt;/b&gt; / %3%)</source>
         <extracomment>%1 = database size %2 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;b&gt;%1MB&lt;/b&gt; (disponible &lt;b&gt;%2GB&lt;/b&gt; / %3%)</translation>
     </message>
     <message>
         <source>Scheduled logging enabled:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Enregistrement programmé activé :</translation>
     </message>
     <message>
         <source>Logging Duration [hh:mm:ss]:</source>
         <extracomment>describes the duration of the recording</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Durée de connexion [hh:mm:ss]:</translation>
     </message>
     <message>
         <source>Logger status:</source>
@@ -1578,43 +1578,43 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>No database selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Acune base de données sélectionnée</translation>
     </message>
     <message>
         <source>Database loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>Base de données chargée</translation>
     </message>
     <message>
         <source>Database error</source>
-        <translation type="unfinished"></translation>
+        <translation>Erreur de la base de données</translation>
     </message>
     <message>
         <source>Select recorded values:</source>
         <extracomment>the user can make a selection of values he wants to log into a database</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner les valeurs enregistrées:</translation>
     </message>
     <message>
         <source>Manage customer data:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gérer les données du client:</translation>
     </message>
     <message>
         <source>Snapshot</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Instantané(e)</translation>
     </message>
     <message>
         <source>[customer data is not available]</source>
         <extracomment>when the system disabled the customer data management, the brackets are for visual distinction from other text</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>[données du client indisponibles]</translation>
     </message>
     <message>
         <source>[customer id is not set]</source>
         <extracomment>when the customer id is empty, the brackets are for visual distinction from other text</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>[id du client non défini]</translation>
     </message>
     <message>
         <source>[customer number is not set]</source>
         <extracomment>when the customer number is empty, the brackets are for visual distinction from other text</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>[numéro du client non défini]</translation>
     </message>
     <message>
         <source>filename</source>
@@ -1656,12 +1656,12 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Select existing:</source>
         <extracomment>header for list of existing session names. Operator can select one of them to make it current session name</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner l&apos;existant:</translation>
     </message>
     <message>
         <source>Preview:</source>
         <extracomment>shows a preview of the database logger session name</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Aperçu:</translation>
     </message>
     <message>
         <source>Confirmation</source>
@@ -1693,7 +1693,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>-- no customer --</source>
         <extracomment>add new session view: list entry to select no customer data</extracomment>
-        <translation type="unfinished">-- aucun/pas de client --</translation>
+        <translation>-- aucun client --</translation>
     </message>
     <message>
         <source>Session </source>
@@ -1703,32 +1703,32 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Select custom data contents</source>
         <extracomment>logger custom data selector view header</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Sélectionner contenu des données personalisées</translation>
     </message>
     <message>
         <source>Harmonic values</source>
         <extracomment>button to select content-set harmonic values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs harmoniques</translation>
     </message>
     <message>
         <source>Sample values</source>
         <extracomment>button to select content-set sample values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs d&apos;échantillon</translation>
     </message>
     <message>
         <source>Comparison measurement results</source>
         <extracomment>button to select content-set comparison measurement values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Résultats (ou de comparaison de mesures) de mesures de comparaison</translation>
     </message>
     <message>
         <source>Quartz reference values</source>
         <extracomment>button to select content-set dc-reference values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Valeurs de référence du quartz</translation>
     </message>
     <message>
         <source>All</source>
         <extracomment>button to select content-set dc-reference values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Tous</translation>
     </message>
     <message>
         <source>Back</source>
@@ -1738,7 +1738,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>-- no session --</source>
         <extracomment>displayed when user presses logger button text displayed in session name menu entry when no session was set yet</extracomment>
-        <translation type="unfinished">-- pas de session --</translation>
+        <translation>-- aucune session --</translation>
     </message>
     <message>
         <source>Take snapshot</source>
@@ -1758,47 +1758,47 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Settings...</source>
         <extracomment>menu entry to open logger settings</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Réglages...</translation>
     </message>
     <message>
         <source>Export...</source>
         <extracomment>Logger menu entry export</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Exporter...</translation>
     </message>
     <message>
         <source>Actual values only</source>
         <extracomment>menu radio button to select content-set actual values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs actuelles seulement</translation>
     </message>
     <message>
         <source>Harmonic values only</source>
         <extracomment>menu radio button to select content-set harmonic values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs harmoniques seulement</translation>
     </message>
     <message>
         <source>Sample values only</source>
         <extracomment>menu radio button to select content-set sample values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs d&apos;échantillon seulement</translation>
     </message>
     <message>
         <source>Comparison measurement results only</source>
         <extracomment>menu radio button to select content-set comparison measurement values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Résultats (ou de comparaison de mesures) de mesures de comparaison seulement</translation>
     </message>
     <message>
         <source>Burden values only</source>
         <extracomment>menu radio button to select content-set burden values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs de charge seulement</translation>
     </message>
     <message>
         <source>Transformer values only</source>
         <extracomment>menu radio button to select content-set transformer values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs de transformateur seulement</translation>
     </message>
     <message>
         <source>DC reference values only</source>
         <extracomment>menu radio button to select content-set dc-reference values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>DC valeurs de référence seulement</translation>
     </message>
     <message>
         <source>Quartz reference values only</source>
@@ -1808,37 +1808,37 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>All data</source>
         <extracomment>menu radio button to select all values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Toutes les données</translation>
     </message>
     <message>
         <source>Custom data</source>
         <extracomment>menu radio button to select custom content-sets values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Données personnalisées</translation>
     </message>
     <message>
         <source>Customer</source>
-        <translation type="unfinished"></translation>
+        <translation>Client</translation>
     </message>
     <message>
         <source>Meter information</source>
         <extracomment>power meter, not distance</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Information sur le compteur</translation>
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Localisation</translation>
     </message>
     <message>
         <source>Power grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Réseau électrique</translation>
     </message>
     <message>
         <source>Data Identifier:</source>
-        <translation type="unfinished"></translation>
+        <translation>Identificateur de données:</translation>
     </message>
     <message>
         <source>Data Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Commentaire de données:</translation>
     </message>
     <message>
         <source>Customer number:</source>
@@ -1863,7 +1863,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Customer ZIP code:</source>
         <comment>Postal code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Code postal du client:</translation>
     </message>
     <message>
         <source>Customer Street:</source>
@@ -1875,79 +1875,79 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Location Identifier:</source>
-        <translation type="unfinished"></translation>
+        <translation>Identificateur de lieu:</translation>
     </message>
     <message>
         <source>Location First name:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lieu Prénom:</translation>
     </message>
     <message>
         <source>Location Last name:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lieu Nom:</translation>
     </message>
     <message>
         <source>LocationCountry:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lieu Pays:</translation>
     </message>
     <message>
         <source>Location City:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lieu Ville:</translation>
     </message>
     <message>
         <source>Location ZIP code:</source>
         <comment>Postal code</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lieu Code postal:</translation>
     </message>
     <message>
         <source>Location Street:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lieu Rue:</translation>
     </message>
     <message>
         <source>Location Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lieu Commentaire:</translation>
     </message>
     <message>
         <source>Meter Factory number:</source>
-        <translation type="unfinished"></translation>
+        <translation>Numéro d&apos;usine du compteur:</translation>
     </message>
     <message>
         <source>Meter Manufacturer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fabricant du compteur:</translation>
     </message>
     <message>
         <source>Meter Owner:</source>
-        <translation type="unfinished"></translation>
+        <translation>Propriétaire du compteur:</translation>
     </message>
     <message>
         <source>Meter Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Commentaire du compteur:</translation>
     </message>
     <message>
         <source>Power grid Operator:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opérateur du réseau électrique:</translation>
     </message>
     <message>
         <source>Power grid Supplier:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fournisseur du réseau électrique :</translation>
     </message>
     <message>
         <source>Power grid Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Commentaire sur le réseau électrique :</translation>
     </message>
     <message>
         <source>Customer data</source>
         <extracomment>header text customer data browser</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Données du client</translation>
     </message>
     <message>
         <source>Import</source>
         <extracomment>button import cutomer data</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Importer</translation>
     </message>
     <message>
         <source>Export</source>
         <extracomment>button import cutomer data</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Exporter</translation>
     </message>
     <message>
         <source>File name:</source>
@@ -1963,22 +1963,22 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Import customer data</source>
         <extracomment>header import customer data popup</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Importer données du client</translation>
     </message>
     <message>
         <source>Files found from device:</source>
         <extracomment>label import customer data device select combo</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Fichiers trouvés à partir de l&apos;appareil:</translation>
     </message>
     <message>
         <source>Delete current files first</source>
         <extracomment>import customer data popup option checkbox text</extracomment>
-        <translation type="unfinished">Supprimer d&apos;abord les fichiers actuels</translation>
+        <translation>Supprimer d&apos;abord les fichiers actuels</translation>
     </message>
     <message>
         <source>Overwrite current files with imported ones</source>
         <extracomment>import customer data popup option checkbox text</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Écraser les fichiers actuels avec les fichiers importés</translation>
     </message>
     <message>
         <source>Delete &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
@@ -1993,22 +1993,22 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Create Customer data file</source>
         <extracomment>header text popup new customer data</extracomment>
-        <translation type="unfinished">Créer </translation>
+        <translation>Créer fichier de données du client</translation>
     </message>
     <message>
         <source>Export stored data</source>
         <extracomment>header text view export data</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Exporter données stockées</translation>
     </message>
     <message>
         <source>Export type:</source>
         <extracomment>label combobox export type (MTVisXML/SQLiteDB...)</extracomment>
-        <translation type="unfinished">E</translation>
+        <translation>Exporter type:</translation>
     </message>
     <message>
         <source>MtVis XML</source>
         <extracomment>entry combobox export type MTVis Part 1</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">MtVis XML</translation>
     </message>
     <message>
         <source>Session:</source>
@@ -2018,27 +2018,27 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>MtVis XML - requires stored sessions</source>
         <extracomment>entry combobox export type in case no sessions stored yet</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">MtVis XML - nécessite des sessions stockées</translation>
     </message>
     <message>
         <source>SQLite DB (complete)</source>
         <extracomment>entry combobox export type complete SQLite database</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>SQLite BD (complet)</translation>
     </message>
     <message>
         <source>Export name:</source>
         <extracomment>label edit field export name</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Exporter nom:</translation>
     </message>
     <message>
         <source>Name of export path</source>
         <extracomment>edit field export name: Text displayed in case MTVis export is selected and field is empty (placeholder text)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Nom du chemin d&apos;exportation</translation>
     </message>
     <message>
         <source>Target drive:</source>
         <extracomment>label combobox target drive (visible only if multiple sicks / partitions are mounted)</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lecteur/disque dur cible:</translation>
     </message>
     <message>
         <source>Please select a session first...</source>
@@ -2048,17 +2048,17 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Export failed - drive full or removed?</source>
         <extracomment>Text set in case MTVis export failed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Échec de l&apos;exportation - disque plein ou retiré?</translation>
     </message>
     <message>
         <source>Import failed - drive removed?</source>
         <extracomment>Text set in case MTVis export failed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Échec de l&apos;importation - disque retiré?</translation>
     </message>
     <message>
         <source>Copy failed - drive full or removed?</source>
         <extracomment>Text set in case SQLite file export (copy) failed</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Échec de la copie - disque plein ou retiré?</translation>
     </message>
     <message>
         <source>Exporting customer data...</source>
@@ -2068,12 +2068,12 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Importing customer data...</source>
         <extracomment>Header text in wait import popup</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Importation des données du client...</translation>
     </message>
     <message>
         <source>Exporting MTVis XML...</source>
         <extracomment>Header text in wait export popup</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Exportation MTVis XML...</translation>
     </message>
     <message>
         <source>Exporting database...</source>
@@ -2083,7 +2083,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Warning:</source>
         <extracomment>warning prefix</extracomment>
-        <translation type="unfinished">Avertissement:</translation>
+        <translation>Avertissement:</translation>
     </message>
     <message>
         <source>Error:</source>
@@ -2093,7 +2093,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>unnamed</source>
         <extracomment>in drive select combo for partitions without name</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>sans nom</translation>
     </message>
     <message>
         <source>free</source>
@@ -2106,51 +2106,51 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Serial SCPI</source>
-        <translation type="unfinished"></translation>
+        <translation>SCPI série</translation>
     </message>
     <message>
         <source>Source device</source>
-        <translation type="unfinished"></translation>
+        <translation>Appareil source</translation>
     </message>
     <message>
         <source>Scanning for source device...</source>
-        <translation type="unfinished"></translation>
+        <translation>Recherche d&apos;un appareil source...</translation>
     </message>
     <message>
         <source>Opening SCPI serial...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ouverture SCPI série...</translation>
     </message>
     <message>
         <source>Disconnect source...</source>
-        <translation type="unfinished"></translation>
+        <translation>Déconnecter source...</translation>
     </message>
     <message>
         <source>Disconnect SCPI serial...</source>
-        <translation type="unfinished"></translation>
+        <translation>Déconnecter SCPI série...</translation>
     </message>
     <message>
         <source>No source found</source>
-        <translation type="unfinished"></translation>
+        <translation>Aucune source trouvée</translation>
     </message>
     <message>
         <source>Source switch off failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Arrêt de la source échoué</translation>
     </message>
     <message>
         <source>Switch on failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Échec de la mise en marche</translation>
     </message>
     <message>
         <source>Switch off failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Échec de la mise hors tension</translation>
     </message>
     <message>
         <source>Switching on %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Mise en marche %1...</translation>
     </message>
     <message>
         <source>Switching off %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Mise hors tension %1...</translation>
     </message>
     <message>
         <source>none</source>
