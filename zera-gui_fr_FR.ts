@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr_FR">
+<TS version="2.0" language="fr_FR">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -141,6 +141,7 @@
     <message>
         <source>kU</source>
         <comment>harmonic distortion on voltage</comment>
+        <translatorcomment>total h d</translatorcomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -171,7 +172,7 @@
     <message>
         <source>λ</source>
         <comment>power factor</comment>
-        <translation type="unfinished"></translation>
+        <translation>λ</translation>
     </message>
     <message>
         <source>P</source>
@@ -2003,7 +2004,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>MtVis XML</source>
         <extracomment>entry combobox export type MTVis Part 1</extracomment>
-        <translation type="unfinished">MtVis XML</translation>
+        <translation>MtVis XML</translation>
     </message>
     <message>
         <source>Session:</source>
@@ -2013,7 +2014,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>MtVis XML - requires stored sessions</source>
         <extracomment>entry combobox export type in case no sessions stored yet</extracomment>
-        <translation type="unfinished">MtVis XML - nécessite des sessions stockées</translation>
+        <translation>MtVis XML - nécessite des sessions stockées</translation>
     </message>
     <message>
         <source>SQLite DB (complete)</source>
