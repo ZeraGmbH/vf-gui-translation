@@ -1744,11 +1744,6 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation>unbenannt</translation>
     </message>
     <message>
-        <source>&lt;b&gt;%1MB&lt;/b&gt; (available &lt;b&gt;%2GB&lt;/b&gt; / %3%)</source>
-        <extracomment>%1 = database size %2 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
-        <translation>&lt;b&gt;%1MB&lt;/b&gt; (verfügbar &lt;b&gt;%2GB&lt;/b&gt; / %3%)</translation>
-    </message>
-    <message>
         <source>Delete current files first</source>
         <extracomment>import customer data popup option checkbox text</extracomment>
         <translation>Vorhandene Dateien löschen</translation>

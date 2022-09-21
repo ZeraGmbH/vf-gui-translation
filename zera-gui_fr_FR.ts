@@ -1550,11 +1550,6 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation>Nom de fichier de base de données:</translation>
     </message>
     <message>
-        <source>&lt;b&gt;%1MB&lt;/b&gt; (available &lt;b&gt;%2GB&lt;/b&gt; / %3%)</source>
-        <extracomment>%1 = database size %2 = filesystem storage available, %2 = total, %3 = percentage available</extracomment>
-        <translation type="unfinished">&lt;b&gt;%1MB&lt;/b&gt; (disponible &lt;b&gt;%2GB&lt;/b&gt; / %3%)</translation>
-    </message>
-    <message>
         <source>Scheduled logging enabled:</source>
         <translation type="unfinished">Enregistrement programmé activé :</translation>
     </message>
