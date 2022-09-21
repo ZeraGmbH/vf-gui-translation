@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="fr_FR">
+<TS version="2.1" language="fr_FR">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -2163,6 +2163,10 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Off</source>
         <translation>Off</translation>
+    </message>
+    <message>
+        <source>Actual values DC</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

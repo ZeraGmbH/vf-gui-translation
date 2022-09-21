@@ -2172,5 +2172,9 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>text must be short enough to fit</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Actual values DC</source>
+        <translation>Istwerte DC</translation>
+    </message>
 </context>
 </TS>

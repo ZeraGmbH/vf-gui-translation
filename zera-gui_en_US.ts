@@ -2164,5 +2164,9 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>text must be short enough to fit</extracomment>
         <translation>Sc</translation>
     </message>
+    <message>
+        <source>Actual values DC</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

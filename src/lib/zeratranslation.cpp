@@ -487,6 +487,7 @@ void ZeraTranslation::reloadStringTable()
     //: polar (amplitude and phase) phasor diagram
     insert("Vector diagram", tr("Vector diagram"));
     insert("Actual values", tr("Actual values"));
+    insert("Actual values DC", tr("Actual values DC"));
     insert("Oscilloscope plot", tr("Oscilloscope plot"));
     //: FFT bar diagrams or tables that show the harmonic component distribution of the measured values
     insert("Harmonics & Curves", tr("Harmonics & Curves"));
