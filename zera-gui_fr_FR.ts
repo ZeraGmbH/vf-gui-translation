@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr_FR">
+<TS version="2.0" language="fr_FR">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -131,18 +131,18 @@
     <message>
         <source>UPN</source>
         <comment>voltage pase to neutral</comment>
-        <translation type="unfinished"></translation>
+        <translation>UPN</translation>
     </message>
     <message>
         <source>UPP</source>
         <comment>voltage phase to phase</comment>
-        <translation type="unfinished"></translation>
+        <translation>UPP</translation>
     </message>
     <message>
         <source>kU</source>
         <comment>harmonic distortion on voltage</comment>
         <translatorcomment>total h d</translatorcomment>
-        <translation type="unfinished"></translation>
+        <translation>THD U</translation>
     </message>
     <message>
         <source>I</source>
@@ -152,22 +152,22 @@
     <message>
         <source>kI</source>
         <comment>harmonic distortion on current</comment>
-        <translation type="unfinished"></translation>
+        <translation>THD I</translation>
     </message>
     <message>
         <source>∠U</source>
         <comment>phase difference of voltage to reference channel</comment>
-        <translation type="unfinished"></translation>
+        <translation>∠U</translation>
     </message>
     <message>
         <source>∠I</source>
         <comment>phase difference of current to reference channel</comment>
-        <translation type="unfinished"></translation>
+        <translation>∠I</translation>
     </message>
     <message>
         <source>∠UI</source>
         <comment>phase difference</comment>
-        <translation type="unfinished"></translation>
+        <translation>∠UI</translation>
     </message>
     <message>
         <source>λ</source>
@@ -275,7 +275,7 @@
     <message>
         <source>Overload</source>
         <extracomment>measurement channel range overload, e.g. the range is configured for 5V measurement and the measured input voltage is &gt;5V</extracomment>
-        <translation type="unfinished">Surchage(r)</translation>
+        <translation>Surchage</translation>
     </message>
     <message>
         <source>Range grouping:</source>
@@ -332,7 +332,7 @@
     <message>
         <source>Max decimals total:</source>
         <extracomment>max number total decimals for displayed values</extracomment>
-        <translation type="unfinished">Max total des décimales:</translation>
+        <translation>Max total des décimales:</translation>
     </message>
     <message>
         <source>Max places after the decimal point:</source>
@@ -374,17 +374,17 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>PLL channel:</source>
         <extracomment>measurement channel the phase locked loop uses as base</extracomment>
-        <translation type="unfinished">PLL</translation>
+        <translation>PLL canal:</translation>
     </message>
     <message>
         <source>PLL channel automatic:</source>
         <extracomment>automatic phase locked loop channel selection</extracomment>
-        <translation type="unfinished">PLL canal automatique:</translation>
+        <translation>PLL canal automatique:</translation>
     </message>
     <message>
         <source>DFT reference channel:</source>
         <extracomment>dft phase reference channel</extracomment>
-        <translation type="unfinished">DFT canal de référence:</translation>
+        <translation>TFD canal de référence:</translation>
     </message>
     <message>
         <source>System colors:</source>
@@ -423,12 +423,12 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>Integration time interval:</source>
         <extracomment>time based integration interval</extracomment>
-        <translation type="unfinished">Intégration intervalle de temps:</translation>
+        <translation>Intervalle de temps d&apos;intégration :</translation>
     </message>
     <message>
         <source>Integration period interval:</source>
         <extracomment>measurement period based integration interval</extracomment>
-        <translation type="unfinished">Integration intervalle période:</translation>
+        <translation>Intervalle de période d&apos;intégration :</translation>
     </message>
     <message>
         <source>seconds</source>
@@ -675,7 +675,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Armed</source>
         <extracomment>the state where the device waits for the first pulse / edge to be triggered</extracomment>
-        <translation type="unfinished">Prepared</translation>
+        <translation>Preparé</translation>
     </message>
     <message>
         <source>Started</source>
@@ -726,7 +726,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>MRate:</source>
         <extracomment>value based on the DUT constant</extracomment>
-        <translation type="unfinished">Mtaux:</translation>
+        <translation>Impulsion:</translation>
     </message>
     <message>
         <source>Start</source>
@@ -742,7 +742,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>mrate</source>
-        <translation type="unfinished">mtaux</translation>
+        <translation>Impulsion</translation>
     </message>
     <message>
         <source>Lower error margin:</source>
@@ -798,7 +798,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Mean:</source>
-        <translation type="unfinished">Moyenne:</translation>
+        <translation>Moyenne:</translation>
     </message>
     <message>
         <source>Range:</source>
@@ -806,11 +806,11 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Stddev. n:</source>
-        <translation type="unfinished">Stddev. n:</translation>
+        <translation>Stddev. n:</translation>
     </message>
     <message>
         <source>Stddev. n-1:</source>
-        <translation type="unfinished">Stddev. n-1:</translation>
+        <translation>Stddev. n-1:</translation>
     </message>
     <message>
         <source>Amp</source>
@@ -861,7 +861,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>ext.</source>
-        <translation type="unfinished">ext.</translation>
+        <translation>ext.</translation>
     </message>
     <message>
         <source>Harmonic power table</source>
@@ -1084,11 +1084,12 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Quartz reference measurement</source>
-        <translation type="unfinished"></translation>
+        <translation>Quartz mesure de référence</translation>
     </message>
     <message>
         <source>CED power values</source>
-        <translation type="unfinished">CED valeurs de puissance</translation>
+        <translatorcomment>CDE : Changement de direction de l&apos;énergie </translatorcomment>
+        <translation>CDE valeurs de puissance</translation>
     </message>
     <message>
         <source>Measuring modes:</source>
@@ -1173,7 +1174,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>RESMAN set resource failed</source>
         <extracomment>RESMAN = resource manager</extracomment>
-        <translation>RESMAN échec de la mise en place de ressource</translation>
+        <translation>RESMAN échec du réglage de ressource</translation>
     </message>
     <message>
         <source>RESMAN free resource failed</source>
@@ -1210,23 +1211,23 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB range urvalue read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture de l&apos;urvalue de la plage</translation>
     </message>
     <message>
         <source>PCB range rejection read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture du rejet de la plage</translation>
     </message>
     <message>
         <source>PCB range overload rejection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB  échec du rejet de la surcharge de la plage</translation>
     </message>
     <message>
         <source>PCB range avail info read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture de l&apos;information sur la disponibilité de la plage</translation>
     </message>
     <message>
         <source>PCB set range failed</source>
-        <translation>PCB échec de la configuration de la plage</translation>
+        <translation>PCB échec du réglage de la plage</translation>
     </message>
     <message>
         <source>PCB get range failed</source>
@@ -1234,7 +1235,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB set measuring mode failed</source>
-        <translation type="unfinished">PCB échec de la configuration du mode de mesure</translation>
+        <translation>PCB échec du réglage du mode de mesure</translation>
     </message>
     <message>
         <source>PCB read gain correction failed</source>
@@ -1242,15 +1243,15 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB set gain node failed</source>
-        <translation type="unfinished">PCB échec du réglage du nœud de gain</translation>
+        <translation>PCB échec du réglage du nœud de gain</translation>
     </message>
     <message>
         <source>PCB read offset correction failed</source>
-        <translation type="unfinished">PCB échec de la lecture de le correction de décalage</translation>
+        <translation>PCB échec de la lecture de la correction du décalage</translation>
     </message>
     <message>
         <source>PCB set offset node failed</source>
-        <translation type="unfinished">PCB échec de réglage</translation>
+        <translation>PCB échec du réglage du nœud de décalage</translation>
     </message>
     <message>
         <source>PCB read phase correction failed</source>
@@ -1258,7 +1259,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB set phase node failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec du réglage du nœud de la phase</translation>
     </message>
     <message>
         <source>PCB read channel status failed</source>
@@ -1270,23 +1271,23 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB formfactor read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture du facteur de forme</translation>
     </message>
     <message>
         <source>PCB register notifier failed</source>
-        <translation type="unfinished">PCB échec de la notification du registre</translation>
+        <translation>PCB échec de la notification du registre</translation>
     </message>
     <message>
         <source>PCB unregister notifier failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec du désenregistrement du notification du registre</translation>
     </message>
     <message>
         <source>PCB set pll failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec du réglage de pll</translation>
     </message>
     <message>
         <source>PCB muxchannel read failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PCB échec de la lecture du multicanal</translation>
     </message>
     <message>
         <source>PCB reference constant read failed</source>
@@ -1294,11 +1295,11 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB adjustment status read failed</source>
-        <translation type="unfinished">PCB échec de la lecture du statut de l&apos;ajustement</translation>
+        <translation>PCB échec de la lecture du statut d&apos;ajustement</translation>
     </message>
     <message>
         <source>PCB adjustment chksum read failed</source>
-        <translation type="unfinished">PCB échec de la lecture de la somme de contrôle de l&apos;ajustement</translation>
+        <translation>PCB échec de la lecture de la somme de contrôle de l&apos;ajustement</translation>
     </message>
     <message>
         <source>PCB server version read failed</source>
@@ -1326,7 +1327,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB adjustment status setting failed</source>
-        <translation type="unfinished">PCB ajustement régalge de statut échoué/Échec du réglage de l&apos;état d&apos;ajustement du PCB</translation>
+        <translation>PCB échec du réglage de l&apos;état d&apos;ajustement</translation>
     </message>
     <message>
         <source>PCB adjustment init failed</source>
@@ -1334,67 +1335,67 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>DSP read gain correction failed</source>
-        <translation type="unfinished">DSP échec de la lecture de correction de gain</translation>
+        <translation>DSP échec de la lecture de la correction du gain</translation>
     </message>
     <message>
         <source>DSP read phase correction failed</source>
-        <translation type="unfinished">DSP échec de la lecture de correction de phase</translation>
+        <translation>DSP échec de la lecture de la correction de phase</translation>
     </message>
     <message>
         <source>DSP read offset correction failed</source>
-        <translation type="unfinished">DSP échec de la lecture de correction du décalage (offset)</translation>
+        <translation>DSP échec de la lecture de la correction du décalage</translation>
     </message>
     <message>
         <source>DSP write gain correction failed</source>
-        <translation type="unfinished">DSP échec de l&apos;écriture de correction de gain</translation>
+        <translation>DSP échec de l&apos;écriture de correction de gain</translation>
     </message>
     <message>
         <source>DSP write phase correction failed</source>
-        <translation type="unfinished">DSP échec de l&apos;écriture de correction de phase</translation>
+        <translation>DSP échec de l&apos;écriture de correction de phase</translation>
     </message>
     <message>
         <source>DSP write offset corredction failed</source>
-        <translation type="unfinished">DSP échec de l&apos;écriture de correction du décalage (offset)</translation>
+        <translation>DSP échec de l&apos;écriture de correction du décalage</translation>
     </message>
     <message>
         <source>DSP write varlist failed</source>
-        <translation type="unfinished">DSP échec de l&apos;écriture de la liste de valeurs</translation>
+        <translation>DSP échec de l&apos;écriture de la liste de valeurs</translation>
     </message>
     <message>
         <source>DSP write cmdlist failed</source>
-        <translation type="unfinished">DSP échec de l&apos;écriture de la liste de commandes</translation>
+        <translation>DSP échec de l&apos;écriture de la liste de commandes</translation>
     </message>
     <message>
         <source>DSP measure activation failed</source>
-        <translation type="unfinished">DSP échec de l&apos;activation de mesure</translation>
+        <translation>DSP échec de l&apos;activation de la mesure</translation>
     </message>
     <message>
         <source>DSP measure deactivation failed</source>
-        <translation type="unfinished">DSP échec de désactivation de mesure</translation>
+        <translation>DSP échec de la désactivation de la mesure</translation>
     </message>
     <message>
         <source>DSP data acquisition failed</source>
-        <translation type="unfinished">DSP échec de l&apos;acquisition de données</translation>
+        <translation>DSP échec de l&apos;acquisition de données</translation>
     </message>
     <message>
         <source>DSP memory write failed</source>
-        <translation type="unfinished">DSP échec de l&apos;écritre de la mémoire</translation>
+        <translation>DSP échec de l&apos;écriture de la mémoire</translation>
     </message>
     <message>
         <source>DSP subdc write failed</source>
-        <translation type="unfinished">DSP échec de la l&apos;écriture (subdc?)</translation>
+        <translation>DSP échec de l&apos;écriture du subdc</translation>
     </message>
     <message>
         <source>DSP server version read failed</source>
-        <translation type="unfinished">DSP échec de la lecture de la version du serveur</translation>
+        <translation>DSP échec de la lecture de la version du serveur</translation>
     </message>
     <message>
         <source>DSP program version read failed</source>
-        <translation type="unfinished">DSP échec de la lecture de la version du programme</translation>
+        <translation>DSP échec de la lecture de la version du programme</translation>
     </message>
     <message>
         <source>DSP setting sampling system failed</source>
-        <translation type="unfinished">DSP échec de configuration du système d&apos;échantillonnage</translation>
+        <translation>DSP échec de réglage du système d&apos;échantillonnage</translation>
     </message>
     <message>
         <source>SEC fetch ecalculator failed</source>
@@ -1404,7 +1405,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>SEC free ecalculator failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
-        <translation type="unfinished">SEC e-calculateur gratuit /libre  échoué</translation>
+        <translation>SEC e-calculateur libre  échoué</translation>
     </message>
     <message>
         <source>SEC read register failed</source>
@@ -1419,12 +1420,12 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>SEC set sync failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>SEC échec de la configuration sync</translation>
     </message>
     <message>
         <source>SEC set mux failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>SEC échec de la configuration mux</translation>
     </message>
     <message>
         <source>SEC set cmdid failed</source>
@@ -1523,15 +1524,15 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>CPU-board number</source>
-        <translation type="unfinished">CPU-numéro de carte</translation>
+        <translation>UCT-numéro de carte</translation>
     </message>
     <message>
         <source>CPU-board assembly</source>
-        <translation type="unfinished">CPU-assembalge de carte</translation>
+        <translation>UCT-assembalge de carte</translation>
     </message>
     <message>
         <source>CPU-board date</source>
-        <translation type="unfinished">CPU-date de carte</translation>
+        <translation>UCT-date de carte</translation>
     </message>
     <message>
         <source>Device notifications</source>
@@ -1539,11 +1540,11 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Database Logging</source>
-        <translation type="unfinished">Enregistrement ou Connexion Base de données</translation>
+        <translation>Journalisation de base de données</translation>
     </message>
     <message>
         <source>Logging enabled:</source>
-        <translation type="unfinished"></translation>
+        <translation>Journalisation activée:</translation>
     </message>
     <message>
         <source>DB location:</source>
@@ -1555,25 +1556,25 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Scheduled logging enabled:</source>
-        <translation type="unfinished">Enregistrement programmé activé :</translation>
+        <translation>Journalisation programmée activée:</translation>
     </message>
     <message>
         <source>Logging Duration [hh:mm:ss]:</source>
         <extracomment>describes the duration of the recording</extracomment>
-        <translation type="unfinished">Durée de connexion [hh:mm:ss]:</translation>
+        <translation>Durée de journalisation [hh:mm:ss]:</translation>
     </message>
     <message>
         <source>Logger status:</source>
-        <translation type="unfinished"></translation>
+        <translation>Statut de l&apos;enregistreur:</translation>
     </message>
     <message>
         <source>Logging data</source>
         <extracomment>describes the ongoing task of recording data into a database</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Données de journalisation</translation>
     </message>
     <message>
         <source>Logging disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Journalisation désactivée</translation>
     </message>
     <message>
         <source>No database selected</source>
@@ -1598,7 +1599,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Snapshot</source>
-        <translation type="unfinished">Instantané(e)</translation>
+        <translation>Photo instantanée</translation>
     </message>
     <message>
         <source>[customer data is not available]</source>
@@ -1702,7 +1703,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Select custom data contents</source>
         <extracomment>logger custom data selector view header</extracomment>
-        <translation type="unfinished">Sélectionner contenu des données personalisées</translation>
+        <translation>Sélectionner le contenu des données personalisées</translation>
     </message>
     <message>
         <source>Harmonic values</source>
@@ -1717,12 +1718,12 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Comparison measurement results</source>
         <extracomment>button to select content-set comparison measurement values</extracomment>
-        <translation type="unfinished">Résultats (ou de comparaison de mesures) de mesures de comparaison</translation>
+        <translation>Résultats de mesures de comparaison</translation>
     </message>
     <message>
         <source>Quartz reference values</source>
         <extracomment>button to select content-set dc-reference values</extracomment>
-        <translation type="unfinished">Valeurs de référence du quartz</translation>
+        <translation>Quartz valeurs de référence</translation>
     </message>
     <message>
         <source>All</source>
@@ -1742,17 +1743,17 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Take snapshot</source>
         <extracomment>take snapshot menu entry</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Prendre photo instantanée</translation>
     </message>
     <message>
         <source>Start logging</source>
         <extracomment>start logging menu entry</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Commencer la journalisation</translation>
     </message>
     <message>
         <source>Stop logging</source>
         <extracomment>stop logging menu entry</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Arrêter la journalisation</translation>
     </message>
     <message>
         <source>Settings...</source>
@@ -1782,7 +1783,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Comparison measurement results only</source>
         <extracomment>menu radio button to select content-set comparison measurement values</extracomment>
-        <translation type="unfinished">Résultats (ou de comparaison de mesures) de mesures de comparaison seulement</translation>
+        <translation>Résultats de mesures de comparaison seulement</translation>
     </message>
     <message>
         <source>Burden values only</source>
@@ -1802,7 +1803,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Quartz reference values only</source>
         <extracomment>menu radio button to select content-set dc-reference values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Quartz valeurs de référence seulement</translation>
     </message>
     <message>
         <source>All data</source>
@@ -1812,7 +1813,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Custom data</source>
         <extracomment>menu radio button to select custom content-sets values</extracomment>
-        <translation type="unfinished">Données personnalisées</translation>
+        <translation>Données personnalisées</translation>
     </message>
     <message>
         <source>Customer</source>
@@ -1878,32 +1879,32 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Location First name:</source>
-        <translation>Lieu Prénom:</translation>
+        <translation>Prénom du lieu:</translation>
     </message>
     <message>
         <source>Location Last name:</source>
-        <translation>Lieu Nom:</translation>
+        <translation>Nom du lieu:</translation>
     </message>
     <message>
         <source>LocationCountry:</source>
-        <translation>Lieu Pays:</translation>
+        <translation>Pays du lieu:</translation>
     </message>
     <message>
         <source>Location City:</source>
-        <translation>Lieu Ville:</translation>
+        <translation>Ville du lieu:</translation>
     </message>
     <message>
         <source>Location ZIP code:</source>
         <comment>Postal code</comment>
-        <translation>Lieu Code postal:</translation>
+        <translation>Code postal du lieu:</translation>
     </message>
     <message>
         <source>Location Street:</source>
-        <translation>Lieu Rue:</translation>
+        <translation>Rue du lieu:</translation>
     </message>
     <message>
         <source>Location Comment:</source>
-        <translation>Lieu Commentaire:</translation>
+        <translation>Commentaire du lieu:</translation>
     </message>
     <message>
         <source>Meter Factory number:</source>
@@ -2133,7 +2134,7 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Source switch off failed</source>
-        <translation type="unfinished">Arrêt de la source échoué</translation>
+        <translation>Arrêt de la source échoué</translation>
     </message>
     <message>
         <source>Switch on failed</source>
@@ -2169,7 +2170,7 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Actual values DC</source>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs actuelles DC</translation>
     </message>
 </context>
 </TS>
