@@ -6,22 +6,22 @@
     <message>
         <source>4LW</source>
         <comment>4 Leiter Wirkleistung = 4 wire active power</comment>
-        <translation>4WA</translation>
+        <translation>4WY W</translation>
     </message>
     <message>
         <source>3LW</source>
         <comment>3 Leiter Wirkleistung = 3 wire active power</comment>
-        <translation>3WA</translation>
+        <translation>3WD W</translation>
     </message>
     <message>
         <source>2LW</source>
         <comment>2 Leiter Wirkleistung = 2 wire active power</comment>
-        <translation>2WA</translation>
+        <translation>2W W</translation>
     </message>
     <message>
         <source>4LB</source>
         <comment>4 Leiter Blindleistung = 4 wire reactive power</comment>
-        <translation>4WR</translation>
+        <translation>4WY VAR</translation>
     </message>
     <message>
         <source>4LBK</source>
@@ -31,12 +31,12 @@
     <message>
         <source>3LB</source>
         <comment>3 Leiter Blindleistung = 3 wire reactive power</comment>
-        <translation>3WR</translation>
+        <translation>3WD VAR</translation>
     </message>
     <message>
         <source>2LB</source>
         <comment>2 Leiter Blindleistung = 2 wire reactive power</comment>
-        <translation>2WR</translation>
+        <translation>2W VAR</translation>
     </message>
     <message>
         <source>4LS</source>
