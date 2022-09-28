@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="fr_FR">
+<TS version="2.1" language="fr_FR">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -260,7 +260,7 @@
     <message>
         <source>Changing energy direction</source>
         <extracomment>changing energy direction session</extracomment>
-        <translation>Changement de direction de l&apos;énergie</translation>
+        <translation>Changer direction d&apos;énergie</translation>
     </message>
     <message>
         <source>Reference</source>
@@ -327,7 +327,7 @@
     <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Afficher les tableaux harmoniques relatifs à l&apos;oscillation fondamentale :</translation>
+        <translation>Afficher tableaux harmoniques relatifs à l&apos;oscillation fondamentale:</translation>
     </message>
     <message>
         <source>Max decimals total:</source>
@@ -389,7 +389,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>System colors:</source>
         <extracomment>System = measuring system</extracomment>
-        <translation>Couleurs du système:</translation>
+        <translation>Couleurs phase:</translation>
     </message>
     <message>
         <source>Frequency input/output configuration:</source>
