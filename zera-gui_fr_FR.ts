@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr_FR">
+<TS version="2.0" language="fr_FR">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -327,7 +327,7 @@
     <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Afficher tableaux harmoniques relatifs à l&apos;oscillation fondamentale:</translation>
+        <translation>Afficher tableaux harmoniques relatifs à l&apos;oscill fondamentale:</translation>
     </message>
     <message>
         <source>Max decimals total:</source>
@@ -734,7 +734,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Stop</source>
-        <translation>Arrêt</translation>
+        <translation>Arrêter</translation>
     </message>
     <message>
         <source>energy</source>
