@@ -119,7 +119,7 @@ void ZeraTranslation::reloadStringTable()
     insert("2LW", tr("2LW", "2 Leiter Wirkleistung = 2 wire active power"));
 
     insert("4LB", tr("4LB", "4 Leiter Blindleistung = 4 wire reactive power"));
-    insert("4LBK", tr("4LBK", "4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial zero conductor"));
+    insert("4LBK", tr("4LBK", "4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial neutral conductor"));
     insert("3LB", tr("3LB", "3 Leiter Blindleistung = 3 wire reactive power"));
     insert("2LB", tr("2LB", "2 Leiter Blindleistung = 2 wire reactive power"));
 
