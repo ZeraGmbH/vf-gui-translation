@@ -26,7 +26,7 @@
     <message>
         <source>4LBK</source>
         <comment>4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial zero conductor</comment>
-        <translation>4WRC</translation>
+        <translation>4WYn VAR</translation>
     </message>
     <message>
         <source>3LB</source>
@@ -41,22 +41,22 @@
     <message>
         <source>4LS</source>
         <comment>4 Leiter Scheinleistung = 4 wire apparent power</comment>
-        <translation>4WAP</translation>
+        <translation>4WY VA</translation>
     </message>
     <message>
         <source>4LSg</source>
         <comment>4 Leiter Scheinleistung geometrisch = 4 wire apparent power geometric</comment>
-        <translation>4WAPG</translation>
+        <translation>4WY VAg</translation>
     </message>
     <message>
         <source>2LS</source>
         <comment>2 Leiter Scheinleistung = 2 wire apparent power</comment>
-        <translation>2WAP</translation>
+        <translation>2W VA</translation>
     </message>
     <message>
         <source>2LSg</source>
         <comment>2 Leiter Scheinleistung geometrisch = 2 wire apparent power geometric</comment>
-        <translation>2WAPG</translation>
+        <translation>2W VAg</translation>
     </message>
     <message>
         <source>L1</source>
