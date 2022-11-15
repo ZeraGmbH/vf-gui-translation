@@ -5,6 +5,16 @@ else()
     qtquick_compiler_add_resources(PLUGIN_RESOURCES ${CMAKE_CURRENT_LIST_DIR}/zeratranslation.qrc)
 endif()
 
+set(SOURCES
+    zeratranslation.cpp
+    zeratranslationplugin.cpp
+    zeratranslationwrapper.c
+    )
+
+set(HEADERS
+    zeratranslationwrapper.h
+    )
+
 # lib target
 add_library(ZeraTranslation
     SHARED
@@ -12,8 +22,8 @@ add_library(ZeraTranslation
         ${PROJECT_SOURCE_DIR}/include/zeratranslation.h
         ${PROJECT_SOURCE_DIR}/include/zeratranslationplugin.h
         # sources
-        zeratranslation.cpp
-        zeratranslationplugin.cpp
+        ${SOURCES}
+        ${HEADERS}
         ${PLUGIN_RESOURCES}
 )
 add_library(ZeraTranslation::ZeraTranslation ALIAS ZeraTranslation)

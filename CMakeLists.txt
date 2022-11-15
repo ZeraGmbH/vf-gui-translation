@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.1)
 
 # project definition / version
-project(vf-gui-translation LANGUAGES CXX)
+project(vf-gui-translation LANGUAGES CXX C)
 set(VF_GUI_TRANSLATION_VERSION_MAJOR "1")
 set(VF_GUI_TRANSLATION_VERSION_MINOR "3")
 set(VF_GUI_TRANSLATION_VERSION_PATCH "0")
