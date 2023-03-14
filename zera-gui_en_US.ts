@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en_US">
+<TS version="2.0" language="en_US">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -22,11 +22,6 @@
         <source>4LB</source>
         <comment>4 Leiter Blindleistung = 4 wire reactive power</comment>
         <translation>4WY VAR</translation>
-    </message>
-    <message>
-        <source>4LBK</source>
-        <comment>4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial zero conductor</comment>
-        <translation>4WYn VAR</translation>
     </message>
     <message>
         <source>3LB</source>
@@ -2167,6 +2162,15 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Actual values DC</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>4LBK</source>
+        <comment>4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial neutral conductor</comment>
+        <translation type="unfinished">4WYn VAR</translation>
+    </message>
+    <message>
+        <source>Battery is less than 10%</source>
+        <translation>Battery is less than 10%</translation>
     </message>
 </context>
 </TS>
