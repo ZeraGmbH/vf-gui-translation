@@ -24,11 +24,6 @@
         <translation>4FR</translation>
     </message>
     <message>
-        <source>4LBK</source>
-        <comment>4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial zero conductor</comment>
-        <translation>4FRA</translation>
-    </message>
-    <message>
         <source>3LB</source>
         <comment>3 Leiter Blindleistung = 3 wire reactive power</comment>
         <translation>3FR</translation>
@@ -2171,6 +2166,15 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Actual values DC</source>
         <translation>Valeurs actuelles DC</translation>
+    </message>
+    <message>
+        <source>4LBK</source>
+        <comment>4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial neutral conductor</comment>
+        <translation type="unfinished">4FRA</translation>
+    </message>
+    <message>
+        <source>Battery is less than 10%</source>
+        <translation>Batterie est inférieur à 10% </translation>
     </message>
 </context>
 </TS>
