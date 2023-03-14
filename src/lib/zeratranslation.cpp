@@ -351,6 +351,9 @@ void ZeraTranslation::reloadStringTable()
     //: ConnectionTree.qml add entry
     insert("Add Wifi...", tr("Add Wifi..."));
 
+    //MainToolBar.qml
+    insert("Battery is less than 10%", tr("Battery is less than 10"));
+
     //main.qml
     insert("Loading...", tr("Loading..."));
     //: progress of loading %1 of %2 objects
