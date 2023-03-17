@@ -2174,7 +2174,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>4LBK</source>
         <comment>4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial neutral conductor</comment>
-        <translation type="unfinished">4LBK</translation>
+        <translation>4LBK</translation>
     </message>
     <message>
         <source>Battery is less than 10%</source>
