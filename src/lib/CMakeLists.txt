@@ -1,26 +1,30 @@
 find_package(Qt5QuickCompiler CONFIG REQUIRED)
+
+# Hmm - is this really helpful?
 if("${CMAKE_BUILD_TYPE}" STREQUAL "Debug")
     qt5_add_resources(PLUGIN_RESOURCES ${CMAKE_CURRENT_LIST_DIR}/zeratranslation.qrc)
 else()
     qtquick_compiler_add_resources(PLUGIN_RESOURCES ${CMAKE_CURRENT_LIST_DIR}/zeratranslation.qrc)
 endif()
 
-# lib target
+file(GLOB SOURCES
+    ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
+    )
+
+file(GLOB HEADER
+    ${CMAKE_CURRENT_SOURCE_DIR}/*.h
+    )
+
 add_library(ZeraTranslation
     SHARED
-        # headers for moc & qtcreator to have it in-tree
-        ${PROJECT_SOURCE_DIR}/include/zeratranslation.h
-        ${PROJECT_SOURCE_DIR}/include/zeratranslationplugin.h
-        # sources
-        zeratranslation.cpp
-        zeratranslationplugin.cpp
+        ${SOURCES}
+        ${HEADER}
         ${PLUGIN_RESOURCES}
 )
 add_library(ZeraTranslation::ZeraTranslation ALIAS ZeraTranslation)
 set_target_properties(ZeraTranslation PROPERTIES VERSION ${PROJECT_VERSION})
 set_target_properties(ZeraTranslation PROPERTIES SOVERSION ${VF_GUI_TRANSLATION_VERSION_MAJOR})
 
-# export header
 include(GenerateExportHeader)
 generate_export_header(ZeraTranslation)
 
@@ -29,13 +33,10 @@ install(FILES
     DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/ZeraTranslation
 )
 
-
-# where to find headers
 target_include_directories(ZeraTranslation
-    PUBLIC # consumer
+    PUBLIC
         $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}/ZeraTranslation>
         $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
-        #generated export header
         $<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}>
 )
 
@@ -53,22 +54,18 @@ target_link_libraries(ZeraTranslation
         "-Wl,--no-undefined"
 )
 
-# install public header
 install(
     FILES
-        ${PROJECT_SOURCE_DIR}/include/zeratranslation.h
-        ${PROJECT_SOURCE_DIR}/include/zeratranslationplugin.h
+        ${HEADER}
     DESTINATION
         ${CMAKE_INSTALL_INCLUDEDIR}/ZeraTranslation
 )
 
-# install library
 install(TARGETS ZeraTranslation
     EXPORT ZeraTranslationExport
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
 )
 
-# configure ZeraTranslationConfigVersion.cmake
 include(CMakePackageConfigHelpers)
 write_basic_package_version_file(
     ZeraTranslationConfigVersion.cmake
@@ -76,19 +73,15 @@ write_basic_package_version_file(
     COMPATIBILITY SameMajorVersion
 )
 
-# configure ZeraTranslationConfig.cmake
 configure_file(ZeraTranslationConfig.cmake.in ZeraTranslationConfig.cmake @ONLY)
 
-# install ZeraTranslationConfig(Version).cmake
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/ZeraTranslationConfig.cmake"
               "${CMAKE_CURRENT_BINARY_DIR}/ZeraTranslationConfigVersion.cmake"
         DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/ZeraTranslation
 )
 
-# install targets cmake-files
 install(EXPORT ZeraTranslationExport
     FILE ZeraTranslationTargets.cmake
     NAMESPACE ZeraTranslation::
     DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/ZeraTranslation
 )
-
