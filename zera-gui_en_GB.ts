@@ -2169,8 +2169,10 @@ customer data delete file confirmation popup header</extracomment>
         <translation>4WRC</translation>
     </message>
     <message>
-        <source>Battery is less than 10%</source>
-        <translation>Battery is less than 10%</translation>
+        <source>Battery low !
+Please charge the device before it turns down</source>
+        <translation>Battery low !
+Please charge the device before it turns down</translation>
     </message>
 </context>
 </TS>

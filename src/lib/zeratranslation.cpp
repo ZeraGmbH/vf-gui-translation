@@ -352,7 +352,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Add Wifi...", tr("Add Wifi..."));
 
     //MainToolBar.qml
-    insert("Battery is less than 10%", tr("Battery is less than 10%"));
+    insert("Battery low !\nPlease charge the device before it turns down", tr("Battery low !\nPlease charge the device before it turns down"));
 
     //main.qml
     insert("Loading...", tr("Loading..."));
