@@ -2173,8 +2173,10 @@ customer data delete file confirmation popup header</extracomment>
         <translation>4FRA</translation>
     </message>
     <message>
-        <source>Battery is less than 10%</source>
-        <translation>Batterie est inférieur à 10% </translation>
+        <source>Battery low !
+Please charge the device before it turns down</source>
+        <translation>Batterie faible !
+Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translation>
     </message>
 </context>
 </TS>

@@ -2177,8 +2177,9 @@ customer data delete file confirmation popup header</extracomment>
         <translation>4LBK</translation>
     </message>
     <message>
-        <source>Battery is less than 10%</source>
-        <translation>Akkumulator ist wniger als% </translation>
+        <source>Battery low !
+Please charge the device before it turns down</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
