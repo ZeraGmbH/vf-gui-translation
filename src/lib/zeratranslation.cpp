@@ -127,6 +127,12 @@ void ZeraTranslation::reloadStringTable()
     insert("4LSg", tr("4LSg", "4 Leiter Scheinleistung geometrisch = 4 wire apparent power geometric"));
     insert("2LS", tr("2LS", "2 Leiter Scheinleistung = 2 wire apparent power"));
     insert("2LSg", tr("2LSg", "2 Leiter Scheinleistung geometrisch = 2 wire apparent power geometric"));
+
+    insert("XLW", tr("XLW", "X Leiter Wirkleistung = X wire active power"));
+    insert("XLB", tr("XLB", "X Leiter Blindleistung = X wire reactive power"));
+    insert("XLS", tr("XLS", "X Leiter Scheinleistung = X wire apparent power"));
+    insert("XLSg", tr("XLSg", "X Leiter Scheinleistung geometrisch = X wire apparent power geometric"));
+
     insert("QREF", tr("QREF", "Referenz-Modus = reference mode"));
 
     insert("L1", tr("L1", "measuring system 1"));

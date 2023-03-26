@@ -2181,5 +2181,25 @@ customer data delete file confirmation popup header</extracomment>
 Please charge the device before it turns down</source>
         <translation>Der Akku ist fast leer !\nBitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden.</translation>
     </message>
+    <message>
+        <source>XLW</source>
+        <comment>X Leiter Wirkleistung = X wire active power</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>XLB</source>
+        <comment>X Leiter Blindleistung = X wire reactive power</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>XLS</source>
+        <comment>X Leiter Scheinleistung = X wire apparent power</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>XLSg</source>
+        <comment>X Leiter Scheinleistung geometrisch = X wire apparent power geometric</comment>
+        <translation></translation>
+    </message>
 </context>
 </TS>
