@@ -2178,5 +2178,25 @@ Please charge the device before it turns down</source>
         <translation>Batterie faible !
 Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translation>
     </message>
+    <message>
+        <source>XLW</source>
+        <comment>X Leiter Wirkleistung = X wire active power</comment>
+        <translation>XFA</translation>
+    </message>
+    <message>
+        <source>XLB</source>
+        <comment>X Leiter Blindleistung = X wire reactive power</comment>
+        <translation>XFR</translation>
+    </message>
+    <message>
+        <source>XLS</source>
+        <comment>X Leiter Scheinleistung = X wire apparent power</comment>
+        <translation>XFA</translation>
+    </message>
+    <message>
+        <source>XLSg</source>
+        <comment>X Leiter Scheinleistung geometrisch = X wire apparent power geometric</comment>
+        <translation>XFAg</translation>
+    </message>
 </context>
 </TS>

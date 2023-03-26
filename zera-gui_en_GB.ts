@@ -2174,5 +2174,25 @@ Please charge the device before it turns down</source>
         <translation>Battery low !
 Please charge the device before it turns down</translation>
     </message>
+    <message>
+        <source>XLW</source>
+        <comment>X Leiter Wirkleistung = X wire active power</comment>
+        <translation>XWA</translation>
+    </message>
+    <message>
+        <source>XLB</source>
+        <comment>X Leiter Blindleistung = X wire reactive power</comment>
+        <translation>XWR</translation>
+    </message>
+    <message>
+        <source>XLS</source>
+        <comment>X Leiter Scheinleistung = X wire apparent power</comment>
+        <translation>XWAP</translation>
+    </message>
+    <message>
+        <source>XLSg</source>
+        <comment>X Leiter Scheinleistung geometrisch = X wire apparent power geometric</comment>
+        <translation>XWAPG</translation>
+    </message>
 </context>
 </TS>
