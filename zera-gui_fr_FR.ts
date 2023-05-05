@@ -2198,5 +2198,13 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <comment>X Leiter Scheinleistung geometrisch = X wire apparent power geometric</comment>
         <translation>XFAg</translation>
     </message>
+    <message>
+        <source>PCB version read failed</source>
+        <translation>Echec de la lecture de la version du PCB</translation>
+    </message>
+    <message>
+        <source>PCB version:</source>
+        <translation>Version PCB:</translation>
+    </message>
 </context>
 </TS>

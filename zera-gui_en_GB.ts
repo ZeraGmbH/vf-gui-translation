@@ -2194,5 +2194,13 @@ Please charge the device before it turns down</translation>
         <comment>X Leiter Scheinleistung geometrisch = X wire apparent power geometric</comment>
         <translation>XWAPG</translation>
     </message>
+    <message>
+        <source>PCB version read failed</source>
+        <translation>PCB version read failed</translation>
+    </message>
+    <message>
+        <source>PCB version:</source>
+        <translation>PCB version:</translation>
+    </message>
 </context>
 </TS>
