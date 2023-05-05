@@ -601,6 +601,7 @@ void ZeraTranslation::reloadStringTable()
     insert("PCB reference constant read failed", tr("PCB reference constant read failed"));
     insert("PCB adjustment status read failed", tr("PCB adjustment status read failed"));
     insert("PCB adjustment chksum read failed", tr("PCB adjustment chksum read failed"));
+    insert("PCB version read failed", tr("PCB version read failed"));
     insert("PCB server version read failed", tr("PCB server version read failed"));
     insert("PCB Controler version read failed", tr("PCB Controler version read failed"));
     insert("PCB FPGA version read failed", tr("PCB FPGA version read failed"));
@@ -660,6 +661,7 @@ void ZeraTranslation::reloadStringTable()
     insert("License information", tr("License information"));
     insert("Serial number:", tr("Serial number:"));
     insert("Operating system version:", tr("Operating system version:"));
+    insert("PCB version:", tr("PCB version:"));
     insert("PCB server version:", tr("PCB server version:"));
     insert("DSP server version:", tr("DSP server version:"));
     insert("DSP firmware version:", tr("DSP firmware version:"));
