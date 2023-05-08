@@ -869,10 +869,6 @@
         <translation>FPGA firmware version:</translation>
     </message>
     <message>
-        <source>Microcontroller firmware version:</source>
-        <translation>Microcontroller firmware version:</translation>
-    </message>
-    <message>
         <source>Adjustment status:</source>
         <translation>Adjustment status:</translation>
     </message>
@@ -2201,6 +2197,14 @@ Please charge the device before it turns down</translation>
     <message>
         <source>PCB version:</source>
         <translation>PCB version:</translation>
+    </message>
+    <message>
+        <source>System controller version:</source>
+        <translation>System controller version:</translation>
+    </message>
+    <message>
+        <source>Relay version:</source>
+        <translation>Relay version:</translation>
     </message>
 </context>
 </TS>
