@@ -666,7 +666,8 @@ void ZeraTranslation::reloadStringTable()
     insert("DSP server version:", tr("DSP server version:"));
     insert("DSP firmware version:", tr("DSP firmware version:"));
     insert("FPGA firmware version:", tr("FPGA firmware version:"));
-    insert("Microcontroller firmware version:", tr("Microcontroller firmware version:"));
+    insert("System controller version:", tr("System controller version:"));
+    insert("Relay version:", tr("Relay version:"));
     insert("Adjustment status:", tr("Adjustment status:"));
     insert("Not adjusted", tr("Not adjusted"));
     insert("Wrong version", tr("Wrong version"));

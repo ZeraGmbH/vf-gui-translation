@@ -872,10 +872,6 @@
         <translation>Version der FPGA-Firmware:</translation>
     </message>
     <message>
-        <source>Microcontroller firmware version:</source>
-        <translation>Version der Microcontroller-Firmware:</translation>
-    </message>
-    <message>
         <source>Adjustment status:</source>
         <translation>Status der Justierung:</translation>
     </message>
@@ -2200,6 +2196,22 @@ Please charge the device before it turns down</source>
         <source>XLSg</source>
         <comment>X Leiter Scheinleistung geometrisch = X wire apparent power geometric</comment>
         <translation></translation>
+    </message>
+    <message>
+        <source>PCB version read failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>PCB version:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>System controller version:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relay version:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

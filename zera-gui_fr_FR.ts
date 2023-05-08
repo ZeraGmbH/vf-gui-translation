@@ -1494,10 +1494,6 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation>FPGA version du firmware:</translation>
     </message>
     <message>
-        <source>Microcontroller firmware version:</source>
-        <translation>Version du firmware du microcontrôleur:</translation>
-    </message>
-    <message>
         <source>Adjustment status:</source>
         <translation>Statut d&apos;ajustement:</translation>
     </message>
@@ -2205,6 +2201,14 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>PCB version:</source>
         <translation>Version PCB:</translation>
+    </message>
+    <message>
+        <source>System controller version:</source>
+        <translation>Version contrôleur du système:</translation>
+    </message>
+    <message>
+        <source>Relay version:</source>
+        <translation>Version relais:</translation>
     </message>
 </context>
 </TS>
