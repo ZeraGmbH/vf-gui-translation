@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de_DE">
+<TS version="2.1" language="de_DE">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -2175,7 +2175,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Battery low !
 Please charge the device before it turns down</source>
-        <translation>Der Akku ist fast leer !\nBitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden.</translation>
+        <translation>Der Akku ist fast leer !\nBitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translation>
     </message>
     <message>
         <source>XLW</source>
@@ -2199,19 +2199,23 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>PCB version read failed</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>PCB version:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <source>System controller version:</source>
-        <translation type="unfinished"></translation>
+        <source>System controller version</source>
+        <translation>Version des System-Controllers</translation>
     </message>
     <message>
-        <source>Relay version:</source>
-        <translation type="unfinished"></translation>
+        <source>Relay controller version</source>
+        <translation>Version des Relais-Controllers</translation>
+    </message>
+    <message>
+        <source>Emob controller version</source>
+        <translation>Version des EMOB-Controllers</translation>
     </message>
 </context>
 </TS>

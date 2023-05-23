@@ -2203,12 +2203,16 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Version PCB:</translation>
     </message>
     <message>
-        <source>System controller version:</source>
-        <translation>Version contrôleur du système:</translation>
+        <source>System controller version</source>
+        <translation>Version du controlleur de système</translation>
     </message>
     <message>
-        <source>Relay version:</source>
-        <translation>Version relais:</translation>
+        <source>Relay controller version</source>
+        <translation>Version du controleur de relais</translation>
+    </message>
+    <message>
+        <source>Emob controller version</source>
+        <translation>Version du controlleur Emob</translation>
     </message>
 </context>
 </TS>

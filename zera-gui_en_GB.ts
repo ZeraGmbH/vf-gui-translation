@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="en_GB">
+<TS version="2.1" language="en_GB">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -2199,12 +2199,16 @@ Please charge the device before it turns down</translation>
         <translation>PCB version:</translation>
     </message>
     <message>
-        <source>System controller version:</source>
-        <translation>System controller version:</translation>
+        <source>System controller version</source>
+        <translation></translation>
     </message>
     <message>
-        <source>Relay version:</source>
-        <translation>Relay version:</translation>
+        <source>Relay controller version</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Emob controller version</source>
+        <translation></translation>
     </message>
 </context>
 </TS>
