@@ -15,13 +15,12 @@
 #   * the repo to add Z.tr
 # * Add Z.tr in cpp/qml sources
 # * Add new texts to translate in src/lib/zeratranslation.cpp
-# * Run this script
+# * Run ./scripts/translate-for-devel.sh
 # * Open *.ts files with qtlinguist and check if the added texts appear
 # * If there are cycles left do translations (or just mark as translated
 #   for english texts) - but be aware not to tell C.Molke that you did
-# * Run this script e.g
 #
-#   translate-for-devel.sh /home/operator/translations
+#   Run ./scripts/translate-for-devel.sh /home/operator/translations
 #
 # * If you did translations test if they appear as expected and- VERY
 #   IMPORTANT - don't ruin layouts
