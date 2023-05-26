@@ -811,7 +811,6 @@ void ZeraTranslation::reloadStringTable()
     //: menu radio button to select custom content-sets values
     insert("MenuZeraCustom", tr("Custom data"));
 
-
     //CustomerDataEntry.qml
     insert("Customer", tr("Customer"));
     //: power meter, not distance
