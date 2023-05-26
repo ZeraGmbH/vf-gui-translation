@@ -868,7 +868,6 @@ void ZeraTranslation::reloadStringTable()
     //: customer data delete file button text
     insert("Delete", tr("Delete"));
 
-
     //: header text popup new customer data
     insert("Create Customer data file", tr("Create Customer data file"));
 
