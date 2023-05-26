@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="fr_FR">
+<TS version="2.1" language="fr_FR">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -2199,10 +2199,6 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Echec de la lecture de la version du PCB</translation>
     </message>
     <message>
-        <source>PCB version:</source>
-        <translation>Version PCB:</translation>
-    </message>
-    <message>
         <source>System controller version</source>
         <translation>Version du controlleur de système</translation>
     </message>
@@ -2213,6 +2209,18 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>Emob controller version</source>
         <translation>Version du controlleur Emob</translation>
+    </message>
+    <message>
+        <source>Emob PCB version</source>
+        <translation>Version du PCB Emob</translation>
+    </message>
+    <message>
+        <source>PCB version</source>
+        <translation>Version du PCB</translation>
+    </message>
+    <message>
+        <source>PCB version info</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

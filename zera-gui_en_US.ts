@@ -2195,10 +2195,6 @@ Please charge the device before it turns down</translation>
         <translation>PCB version read failed</translation>
     </message>
     <message>
-        <source>PCB version:</source>
-        <translation>PCB version:</translation>
-    </message>
-    <message>
         <source>System controller version</source>
         <translation></translation>
     </message>
@@ -2209,6 +2205,18 @@ Please charge the device before it turns down</translation>
     <message>
         <source>Emob controller version</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Emob PCB version</source>
+        <translation>Emob PCB version</translation>
+    </message>
+    <message>
+        <source>PCB version</source>
+        <translation>PCB version</translation>
+    </message>
+    <message>
+        <source>PCB version info</source>
+        <translation>PCB version info</translation>
     </message>
 </context>
 </TS>

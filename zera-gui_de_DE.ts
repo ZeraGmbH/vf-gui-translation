@@ -2202,10 +2202,6 @@ Please charge the device before it turns down</source>
         <translation></translation>
     </message>
     <message>
-        <source>PCB version:</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>System controller version</source>
         <translation>Version des System-Controllers</translation>
     </message>
@@ -2216,6 +2212,18 @@ Please charge the device before it turns down</source>
     <message>
         <source>Emob controller version</source>
         <translation>Version des EMOB-Controllers</translation>
+    </message>
+    <message>
+        <source>Emob PCB version</source>
+        <translation>Version des Emob PCB</translation>
+    </message>
+    <message>
+        <source>PCB version</source>
+        <translation>Version des PCB</translation>
+    </message>
+    <message>
+        <source>PCB version info</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
