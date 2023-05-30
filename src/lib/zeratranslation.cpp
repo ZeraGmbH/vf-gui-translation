@@ -662,8 +662,8 @@ void ZeraTranslation::reloadStringTable()
     insert("Serial number:", tr("Serial number:"));
     insert("Operating system version:", tr("Operating system version:"));
     insert("Emob PCB version", tr("Emob PCB version"));
-    insert("PCB version", tr("PCB version"));
-    insert("PCB version info", tr("PCB version info"));
+    insert("Relay PCB version", tr("Relay PCB version"));
+    insert("System PCB version", tr("System PCB version"));
     insert("PCB server version:", tr("PCB server version:"));
     insert("DSP server version:", tr("DSP server version:"));
     insert("DSP firmware version:", tr("DSP firmware version:"));

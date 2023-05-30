@@ -2215,12 +2215,12 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Version du PCB Emob</translation>
     </message>
     <message>
-        <source>PCB version</source>
-        <translation>Version du PCB</translation>
+        <source>Relay PCB version</source>
+        <translation>Version du PCB relais</translation>
     </message>
     <message>
-        <source>PCB version info</source>
-        <translation type="unfinished"></translation>
+        <source>System PCB version</source>
+        <translation>Version du PCB système</translation>
     </message>
 </context>
 </TS>

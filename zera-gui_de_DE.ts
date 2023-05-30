@@ -2215,15 +2215,15 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>Emob PCB version</source>
-        <translation>Version des Emob PCB</translation>
+        <translation>Version des Emob-PCB</translation>
     </message>
     <message>
-        <source>PCB version</source>
-        <translation>Version des PCB</translation>
+        <source>Relay PCB version</source>
+        <translation>Version des Relais-PCB</translation>
     </message>
     <message>
-        <source>PCB version info</source>
-        <translation type="unfinished"></translation>
+        <source>System PCB version</source>
+        <translation>Version des System-PCB</translation>
     </message>
 </context>
 </TS>

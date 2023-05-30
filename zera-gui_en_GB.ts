@@ -2211,12 +2211,12 @@ Please charge the device before it turns down</translation>
         <translation>Emob PCB version</translation>
     </message>
     <message>
-        <source>PCB version</source>
-        <translation>PCB version</translation>
+        <source>Relay PCB version</source>
+        <translation></translation>
     </message>
     <message>
-        <source>PCB version info</source>
-        <translation>PCB version info</translation>
+        <source>System PCB version</source>
+        <translation></translation>
     </message>
 </context>
 </TS>
