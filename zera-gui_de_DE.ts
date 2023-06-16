@@ -2225,5 +2225,9 @@ Please charge the device before it turns down</source>
         <source>System PCB version</source>
         <translation>Version des System-PCB</translation>
     </message>
+    <message>
+        <source>Measurement mode:</source>
+        <translation>Messungsmodus:</translation>
+    </message>
 </context>
 </TS>

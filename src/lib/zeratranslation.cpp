@@ -196,6 +196,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Overload", tr("Overload"));
     //: used for a yes / no configuration element
     insert("Range grouping:", tr("Range grouping:"));
+    insert("Measurement mode:", tr("Measurement mode:"));
     //: manual channel range selection, used when range automatic is disabled
     insert("Manual:", tr("Manual:", "not automatic"));
 
