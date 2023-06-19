@@ -2227,7 +2227,7 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>Measurement mode:</source>
-        <translation>Messungsmodus:</translation>
+        <translation>Messart:</translation>
     </message>
 </context>
 </TS>
