@@ -2223,8 +2223,8 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Version du PCB système</translation>
     </message>
     <message>
-        <source>Measurement mode:</source>
-        <translation>Mode de mesure:</translation>
+        <source>Measurement modes:</source>
+        <translation>Modes de mesure:</translation>
     </message>
 </context>
 </TS>

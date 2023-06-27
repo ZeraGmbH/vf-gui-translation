@@ -2219,8 +2219,8 @@ Please charge the device before it turns down</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Measurement mode:</source>
-        <translation>Measurement mode:</translation>
+        <source>Measurement modes:</source>
+        <translation>Measurement modes:</translation>
     </message>
 </context>
 </TS>
