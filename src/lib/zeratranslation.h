@@ -1,9 +1,11 @@
 #ifndef ZeraTranslation_H
 #define ZeraTranslation_H
 
+#include "zeratranslation_export.h"
 #include <QQmlPropertyMap>
 #include <QTranslator>
-#include "zeratranslation_export.h"
+#include <QLocale>
+#include <memory>
 
 QT_BEGIN_NAMESPACE
 class QQmlEngine;
@@ -29,7 +31,7 @@ public:
      * @brief changeLanguage Request to change language (usually by QML)
      * @param t_language language name to switch to e.g en_GB / de_DE
      */
-    Q_INVOKABLE void changeLanguage(const QString &t_language);
+    Q_INVOKABLE void changeLanguage(const QString &language);
     static void setInitialLanguage(const QString &language);
     /**
      * @brief TrValue Translate a single string
@@ -38,9 +40,6 @@ public:
      */
     QVariant TrValue(const QString &key);
 signals:
-    /**
-     * @brief sigLanguageChanged Signal fired once translation map is reloaded typically after changeLanguage
-     */
     void sigLanguageChanged();
 
     // QQmlPropertyMap interface
@@ -51,9 +50,6 @@ private:
     void setupTranslationFiles();
     void reloadStringTable();
 
-    /**
-     * @brief s_instance Pointer to the one and only instance
-     */
     static ZeraTranslation *s_instance;
     static QString m_initialLanguage;
 
@@ -63,7 +59,7 @@ private:
     //value = absolute path
     QHash<QString, QString> m_translationFilesModel;
     QHash<QString, QString> m_translationFlagsModel;
-
+    std::unique_ptr<QLocale> m_locale = std::make_unique<QLocale>(m_initialLanguage);
 };
 
 #endif // ZeraTranslation_H

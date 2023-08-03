@@ -32,32 +32,32 @@ QObject *ZeraTranslation::getStaticInstance(QQmlEngine *t_engine, QJSEngine *t_s
   return getInstance();
 }
 
-void ZeraTranslation::changeLanguage(const QString &t_language)
+void ZeraTranslation::changeLanguage(const QString &language)
 {
-    if(m_currentLanguage != t_language) {
-        m_currentLanguage = t_language;
-        QLocale locale = QLocale(m_currentLanguage);
-        QString languageName = QLocale::languageToString(locale.language());
-        if(m_translationFilesModel.contains(t_language) || t_language == "C") {
-            const QString filename = m_translationFilesModel.value(t_language);
+    if(m_currentLanguage != language) {
+        m_currentLanguage = language;
+        m_locale = std::make_unique<QLocale>(m_currentLanguage);
+        QString languageName = QLocale::languageToString(m_locale->language());
+        if(m_translationFilesModel.contains(language) || language == "C") {
+            const QString filename = m_translationFilesModel.value(language);
 
             QCoreApplication::instance()->removeTranslator(&m_translator);
 
             if(m_translator.load(filename)) {
                 QCoreApplication::instance()->installTranslator(&m_translator);
-                qDebug() << "Current Language changed to" << languageName << locale << t_language;
+                qDebug() << "Current Language changed to" << languageName << *m_locale << language;
                 reloadStringTable();
             }
             else {
-                if(t_language != "C")
+                if(language != "C")
                 {
-                    qWarning() << "Language not found:" << t_language << filename.arg(t_language);
+                    qWarning() << "Language not found:" << language << filename.arg(language);
                 }
                 reloadStringTable();
             }
         }
-        else if(t_language != "C") {
-            qWarning() << "Language not found for locale:" << t_language;
+        else if(language != "C") {
+            qWarning() << "Language not found for locale:" << language;
         }
     }
 }
