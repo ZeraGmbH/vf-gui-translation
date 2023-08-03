@@ -39,6 +39,15 @@ public:
      * @return Translated string or if not found in map key
      */
     QVariant TrValue(const QString &key);
+
+    QLocale getLocale() const;
+    Q_PROPERTY(QLocale locale READ getLocale NOTIFY sigLanguageChanged)
+    QString getDecimalPoint() const;
+    Q_PROPERTY(QString decimalPoint READ getDecimalPoint NOTIFY sigLanguageChanged)
+
+
+    Q_INVOKABLE QString removeDecimalGroupSeparators(const QString &text);
+
 signals:
     void sigLanguageChanged();
 
