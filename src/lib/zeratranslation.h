@@ -45,9 +45,6 @@ public:
     QString getDecimalPoint() const;
     Q_PROPERTY(QString decimalPoint READ getDecimalPoint NOTIFY sigLanguageChanged)
 
-
-    Q_INVOKABLE QString removeDecimalGroupSeparators(const QString &text);
-
 signals:
     void sigLanguageChanged();
 

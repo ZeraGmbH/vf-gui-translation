@@ -82,12 +82,6 @@ QString ZeraTranslation::getDecimalPoint() const
     return m_locale->decimalPoint();
 }
 
-QString ZeraTranslation::removeDecimalGroupSeparators(const QString &text)
-{
-    QString ret = text;
-    return ret.replace(m_locale->groupSeparator(), "");
-}
-
 void ZeraTranslation::setupTranslationFiles()
 {
 #ifdef QT_DEBUG
