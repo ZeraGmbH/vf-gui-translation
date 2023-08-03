@@ -8,6 +8,7 @@
 #include <QDebug>
 
 ZeraTranslation *ZeraTranslation::s_instance = nullptr;
+QString ZeraTranslation::m_initialLanguage = "en_GB";
 
 ZeraTranslation::ZeraTranslation(QObject *parent) : QQmlPropertyMap(this, parent)
 {
@@ -18,6 +19,7 @@ ZeraTranslation *ZeraTranslation::getInstance()
 {
     if(s_instance == nullptr){
         s_instance = new ZeraTranslation();
+        s_instance->changeLanguage(m_initialLanguage);
     }
     return  s_instance;
 }
@@ -58,6 +60,11 @@ void ZeraTranslation::changeLanguage(const QString &t_language)
             qWarning() << "Language not found for locale:" << t_language;
         }
     }
+}
+
+void ZeraTranslation::setInitialLanguage(const QString &language)
+{
+    m_initialLanguage = language;
 }
 
 QVariant ZeraTranslation::TrValue(const QString &key)

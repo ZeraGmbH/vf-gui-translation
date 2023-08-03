@@ -17,10 +17,6 @@ class ZERATRANSLATION_EXPORT ZeraTranslation : public QQmlPropertyMap
 {
     Q_OBJECT
 public:
-    /**
-     * @brief getInstance get our singleton
-     * @return
-     */
     static ZeraTranslation *getInstance();
     /**
      * @brief getStaticInstance get our singleton - QmlEngine callback
@@ -34,6 +30,7 @@ public:
      * @param t_language language name to switch to e.g en_GB / de_DE
      */
     Q_INVOKABLE void changeLanguage(const QString &t_language);
+    static void setInitialLanguage(const QString &language);
     /**
      * @brief TrValue Translate a single string
      * @param key for QQmlPropertyMap
@@ -46,8 +43,9 @@ signals:
      */
     void sigLanguageChanged();
 
-public slots:
-
+    // QQmlPropertyMap interface
+protected:
+    QVariant updateValue(const QString &key, const QVariant &input) override;
 private:
     explicit ZeraTranslation(QObject *parent = nullptr);
     void setupTranslationFiles();
@@ -57,6 +55,7 @@ private:
      * @brief s_instance Pointer to the one and only instance
      */
     static ZeraTranslation *s_instance;
+    static QString m_initialLanguage;
 
     QString m_currentLanguage;
     QTranslator m_translator;
@@ -65,9 +64,6 @@ private:
     QHash<QString, QString> m_translationFilesModel;
     QHash<QString, QString> m_translationFlagsModel;
 
-    // QQmlPropertyMap interface
-protected:
-    QVariant updateValue(const QString &key, const QVariant &input) override;
 };
 
 #endif // ZeraTranslation_H
