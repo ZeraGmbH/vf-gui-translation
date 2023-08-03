@@ -36,14 +36,14 @@ void ZeraTranslation::changeLanguage(const QString &language)
 {
     if(m_currentLanguage != language) {
         m_currentLanguage = language;
-        m_locale = std::make_unique<QLocale>(m_currentLanguage);
-        QString languageName = QLocale::languageToString(m_locale->language());
+        QLocale locale = QLocale(m_currentLanguage);
+        QString languageName = QLocale::languageToString(locale.language());
         if(m_translationFilesModel.contains(language) || language == "C") {
             QCoreApplication::instance()->removeTranslator(&m_translator);
             const QString filename = m_translationFilesModel.value(language);
             if(m_translator.load(filename)) {
                 QCoreApplication::instance()->installTranslator(&m_translator);
-                qDebug() << "Current Language changed to" << languageName << *m_locale << language;
+                qDebug() << "Current Language changed to" << languageName << locale << language;
                 reloadStringTable();
             }
             else {
@@ -70,16 +70,6 @@ QVariant ZeraTranslation::TrValue(const QString &key)
         return tmp;
     }
     return key;
-}
-
-QLocale ZeraTranslation::getLocale() const
-{
-    return *m_locale;
-}
-
-QString ZeraTranslation::getDecimalPoint() const
-{
-    return m_locale->decimalPoint();
 }
 
 void ZeraTranslation::setupTranslationFiles()
