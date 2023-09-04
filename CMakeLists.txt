@@ -12,22 +12,22 @@ include(GNUInstallDirs)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-find_package(Qt5 "5.12.0" COMPONENTS Qml Quick CONFIG REQUIRED)
+find_package(Qt5 "5.14.0" COMPONENTS Qml Quick LinguistTools CONFIG REQUIRED)
+find_program(LRELEASE NAMES lrelease lrelease-qt5 NO_CACHE REQUIRED)
 
-# This is a dummy target introduced to
-# * Drop a note once zeratranslation.cpp was changed
-# * Add ts-files to qt-creator to make search (& replace) work for ts-files either
-add_custom_target(ts_files
-    COMMAND echo "zeratranslation.cpp was changed. You might want to run scripts/translate-for-devel.sh"
-    DEPENDS ${PROJECT_SOURCE_DIR}/src/lib/zeratranslation.cpp
-    SOURCES
-        ${CMAKE_CURRENT_SOURCE_DIR}/zera-gui_de_DE.ts
-        ${CMAKE_CURRENT_SOURCE_DIR}/zera-gui_en_GB.ts
-        ${CMAKE_CURRENT_SOURCE_DIR}/zera-gui_en_US.ts
-        ${CMAKE_CURRENT_SOURCE_DIR}/zera-gui_fr_FR.ts
+file(GLOB TS_FILES
+    ${CMAKE_CURRENT_SOURCE_DIR}/*.ts
+    )
+
+add_custom_target(ts_files ALL
+    DEPENDS ${TS_FILES} flag_copy.sh
+    SOURCES ${TS_FILES} flag_copy.sh
+    COMMAND ${LRELEASE} ${TS_FILES}
+    COMMAND mkdir -p ${CMAKE_CURRENT_BINARY_DIR}/translations
+    COMMAND mv ${CMAKE_CURRENT_SOURCE_DIR}/*.qm ${CMAKE_CURRENT_BINARY_DIR}/translations
+    COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/flag_copy.sh ${CMAKE_CURRENT_SOURCE_DIR}/region-flags ${CMAKE_CURRENT_BINARY_DIR}/translations
 )
 
 add_subdirectory(src)
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
-
