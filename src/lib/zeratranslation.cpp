@@ -359,16 +359,6 @@ void ZeraTranslation::reloadStringTable()
     insert("Pages", tr("Pages", "view pages"));
     //: settings for range automatic etc.
     insert("Range", tr("Range", "measuring range"));
-    /* currently not used
-  //: GUI and device specific configuration
-  insert("Settings", tr("Settings", "configuration"));
-  //: used when connecting to a remote device server, e.g. when the GUI is used from Android devices
-  insert("Remotes", tr("Remotes", "remote servers"));
-  //: %1 means the number of notifications
-  insert("Notifications (%1)", tr("Notifications (%1)"));
-  //: Device status infopage
-  insert("Status", tr("Status"));
-  */
 
     //ErrorCalculatorModulePage.qml
     insert("Idle", tr("Idle"));
