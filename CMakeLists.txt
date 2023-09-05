@@ -28,6 +28,10 @@ add_custom_target(ts_files ALL
     COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/flag_copy.sh ${CMAKE_CURRENT_SOURCE_DIR}/region-flags ${CMAKE_CURRENT_BINARY_DIR}/translations
 )
 
+install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/translations
+    DESTINATION ${CMAKE_INSTALL_DATADIR}/zera
+)
+
 add_subdirectory(src)
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
