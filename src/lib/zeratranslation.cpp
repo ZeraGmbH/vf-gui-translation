@@ -74,37 +74,24 @@ QVariant ZeraTranslation::TrValue(const QString &key)
 
 void ZeraTranslation::setupTranslationFiles()
 {
-#ifdef QT_DEBUG
-    //also load from qrc
-    const QStringList searchPaths {":/translations/", "/usr/share/zera/translations/", "/home/operator/translations/"};
-#else
-    const QStringList searchPaths {"/usr/share/zera/translations/", "/home/operator/translations/"};
-#endif
-
-    for(const QString &path : searchPaths)
-    {
-        QDir searchDir;
-        searchDir.setPath(path);
-        if(searchDir.exists() && searchDir.isReadable()) {
-            const auto qmList = searchDir.entryInfoList({"*.qm"}, QDir::Files);
-            for(const QFileInfo &qmFileInfo : qmList) {
-                const QString localeName = qmFileInfo.fileName().replace("zera-gui_","").replace(".qm","");
-                if(m_translationFilesModel.contains(localeName) == false) {
-                    QFileInfo flagFileInfo;
-                    flagFileInfo.setFile(QString("%1/flag_%2.png").arg(qmFileInfo.path()).arg(localeName));//currently only supports .png (.svg rasterization is too slow)
-                    if(flagFileInfo.exists()) {
-                        m_translationFilesModel.insert(localeName, qmFileInfo.absoluteFilePath());
-                        const QUrl flagUrl = QUrl::fromLocalFile(flagFileInfo.absoluteFilePath());
-                        m_translationFlagsModel.insert(localeName, flagUrl.toString()); //qml image needs url form (qrc:<...> or file://<...>)
-                    }
-                    else {
-                        qWarning() << "Flag file for translation:" << qmFileInfo.absoluteFilePath() << "doesn't exist, skipping translation!";
-                    }
+    QDir searchDir(QString(ZERA_TRANSLATION_PATH));
+    if(searchDir.exists() && searchDir.isReadable()) {
+        const auto qmList = searchDir.entryInfoList({"*.qm"}, QDir::Files);
+        for(const QFileInfo &qmFileInfo : qmList) {
+            const QString localeName = qmFileInfo.fileName().replace("zera-gui_","").replace(".qm","");
+            if(m_translationFilesModel.contains(localeName) == false) {
+                QFileInfo flagFileInfo;
+                flagFileInfo.setFile(QString("%1/flag_%2.png").arg(qmFileInfo.path(), localeName));//currently only supports .png (.svg rasterization is too slow)
+                if(flagFileInfo.exists()) {
+                    m_translationFilesModel.insert(localeName, qmFileInfo.absoluteFilePath());
+                    const QUrl flagUrl = QUrl::fromLocalFile(flagFileInfo.absoluteFilePath());
+                    m_translationFlagsModel.insert(localeName, flagUrl.toString()); //qml image needs url form (qrc:<...> or file://<...>)
                 }
-                else {
-                    qWarning() << "Skipping duplicate translation:" << qmFileInfo.absoluteFilePath() << "already loaded file from:" << m_translationFilesModel.value(localeName);
-                }
+                else
+                    qWarning() << "Flag file for translation:" << qmFileInfo.absoluteFilePath() << "doesn't exist, skipping translation!";
             }
+            else
+                qWarning() << "Skipping duplicate translation:" << qmFileInfo.absoluteFilePath() << "already loaded file from:" << m_translationFilesModel.value(localeName);
         }
     }
     //export available languages to qml

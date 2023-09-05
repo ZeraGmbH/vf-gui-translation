@@ -33,6 +33,7 @@ add_custom_target(ts_files ALL
 install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/translations
     DESTINATION ${CMAKE_INSTALL_DATADIR}/zera
 )
+add_definitions(-DZERA_TRANSLATION_PATH="${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_DATADIR}/zera/translations")
 
 add_subdirectory(src)
 
