@@ -14,6 +14,7 @@ set(CMAKE_AUTORCC ON)
 
 find_package(Qt5 "5.14.0" COMPONENTS Qml Quick LinguistTools CONFIG REQUIRED)
 find_program(LRELEASE NAMES lrelease lrelease-qt5 NO_CACHE REQUIRED)
+find_program(LUPDATE NAMES lupdate lupdate-qt5 NO_CACHE REQUIRED)
 
 file(GLOB TS_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/*.ts
@@ -22,6 +23,7 @@ file(GLOB TS_FILES
 add_custom_target(ts_files ALL
     DEPENDS ${TS_FILES} flag_copy.sh
     SOURCES ${TS_FILES} flag_copy.sh
+    COMMAND ${LUPDATE} -no-obsolete -locations none -no-ui-lines ${CMAKE_CURRENT_SOURCE_DIR}/src/lib/zeratranslation.cpp -ts ${TS_FILES}
     COMMAND ${LRELEASE} ${TS_FILES}
     COMMAND mkdir -p ${CMAKE_CURRENT_BINARY_DIR}/translations
     COMMAND mv ${CMAKE_CURRENT_SOURCE_DIR}/*.qm ${CMAKE_CURRENT_BINARY_DIR}/translations
