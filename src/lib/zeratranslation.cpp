@@ -65,11 +65,11 @@ void ZeraTranslation::setInitialLanguage(const QString &language)
 
 QVariant ZeraTranslation::TrValue(const QString &key)
 {
-    QVariant tmp = value(key);
-    if(tmp.isValid()) {
-        return tmp;
+    if(!contains(key)) {
+        qWarning("Translation not found for '%s'", qPrintable(key));
+        insert(key, key);
     }
-    return key;
+    return value(key);
 }
 
 void ZeraTranslation::setupTranslationFiles()
