@@ -103,7 +103,13 @@ void ZeraTranslation::reloadStringTable()
 {
     //insert("something %1", tr("something %1"))...
 
-    //zeragluelogic.cpp
+    // common translations
+    insert("AC", tr("AC", "Alternating current"));
+    insert("U", tr("U", "Voltage"));
+    insert("W", tr("W", "Watt unit active"));
+    insert("VA", tr("VA", "Watt unit reactive"));
+    insert("Var", tr("Var", "Watt unit apparent"));
+
     insert("4LW", tr("4LW", "4 Leiter Wirkleistung = 4 wire active power"));
     insert("3LW", tr("3LW", "3 Leiter Wirkleistung = 3 wire active power"));
     insert("2LW", tr("2LW", "2 Leiter Wirkleistung = 2 wire active power"));

@@ -2226,5 +2226,30 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Measurement modes:</source>
         <translation>Modes de mesure:</translation>
     </message>
+    <message>
+        <source>AC</source>
+        <comment>Alternating current</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>U</source>
+        <comment>Voltage</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>W</source>
+        <comment>Watt unit active</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>VA</source>
+        <comment>Watt unit reactive</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Var</source>
+        <comment>Watt unit apparent</comment>
+        <translation></translation>
+    </message>
 </context>
 </TS>
