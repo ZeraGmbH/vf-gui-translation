@@ -8,32 +8,14 @@ Item {
     property var notFound: []
     function tr(key) {
         var translated = ""
-        if(Array.isArray(key)) { //translating array e.g. text models
-            console.info("Z.tr / array mode: " + key) // is this ever used???
-            var newkey = []
-            for(var i = 0; i < key.length; i++) {
-                if(ZTR[key[i]] !== undefined)
-                    newkey[i] = ZTR[key[i]]
-                else {
-                    if(!notFound.includes(key[i])) {
-                        console.warn("Z.tr / Translation not found: " + key)
-                        notFound.push(key[i])
-                    }
-                    newkey[i] = key[i]
-                }
+        if(ZTR[key] !== undefined)
+            translated = ZTR[key]
+        else {
+            if(!notFound.includes(key)) {
+                console.warn("Z.tr / Translation not found: " + key)
+                notFound.push(key)
             }
-            translated = newkey
-        }
-        else { //translating normal text elements
-            if(ZTR[key] !== undefined)
-                translated = ZTR[key]
-            else {
-                if(!notFound.includes(key)) {
-                    console.warn("Z.tr / Translation not found: " + key)
-                    notFound.push(key)
-                }
-                translated = key
-            }
+            translated = key
         }
         return translated
     }
