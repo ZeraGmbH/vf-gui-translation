@@ -5,9 +5,6 @@ import ZeraTranslationBackend 1.0
 
 // Translation frontend implementing Z.tr("<text-to-translate>") and Z.changeLanguage(<new-language>)
 Item {
-    signal languageChanged();
-
-    id: root
     function tr(key) {
         var translated = ""
         if(Array.isArray(key)) { //translating array e.g. text models
