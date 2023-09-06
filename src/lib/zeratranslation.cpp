@@ -13,14 +13,13 @@ QString ZeraTranslation::m_initialLanguage = "en_GB";
 ZeraTranslation::ZeraTranslation(QObject *parent) : QQmlPropertyMap(this, parent)
 {
     setupTranslationFiles();
+    changeLanguage(m_initialLanguage);
 }
 
 ZeraTranslation *ZeraTranslation::getInstance()
 {
-    if(s_instance == nullptr){
+    if(s_instance == nullptr)
         s_instance = new ZeraTranslation();
-        s_instance->changeLanguage(m_initialLanguage);
-    }
     return  s_instance;
 }
 
