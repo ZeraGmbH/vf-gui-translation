@@ -139,6 +139,11 @@ void ZeraTranslation::reloadStringTable()
     insert("Phase2", tr("Phase2", "Letter or number for phase e.g euro: 2 / us: B"));
     insert("Phase3", tr("Phase3", "Letter or number for phase e.g euro: 3 / us: C"));
 
+    insert("P 1", tr("P 1", "Meter test power hase 1"));
+    insert("P 2", tr("P 2", "Meter test power hase 2"));
+    insert("P 3", tr("P 3", "Meter test power hase 3"));
+    insert("P AUX", tr("P AUX", "Meter test power hase AUX"));
+
     insert("REF1", tr("REF1", "reference channel 1"));
     insert("REF2", tr("REF2", "reference channel 2"));
     insert("REF3", tr("REF3", "reference channel 3"));
@@ -183,6 +188,8 @@ void ZeraTranslation::reloadStringTable()
     insert("Changing energy direction", tr("Changing energy direction"));
     //: changing energy direction session
     insert("Reference", tr("Reference"));
+    insert("3 Systems / 2 Wires", tr("3 Systems / 2 Wires"));
+    insert("DC: 4*Voltage / 1*Current", tr("DC: 4*Voltage / 1*Current"));
 
     //RangeMenu.qml
     //: used for a yes / no configuration element
@@ -245,6 +252,8 @@ void ZeraTranslation::reloadStringTable()
     insert("Brightness currents:", tr("Brightness currents:"));
     //: Color themes popup adjust brightness for current
     insert("Brightness black:", tr("Brightness black:"));
+    insert("SCPI sequential mode:", tr("SCPI sequential mode:"));
+
 
     //: Displayed in Frequency input/output configuration
     insert("Nominal frequency:", tr("Nominal frequency:"));

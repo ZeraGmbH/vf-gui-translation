@@ -2251,5 +2251,37 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <comment>Watt unit apparent</comment>
         <translation></translation>
     </message>
+    <message>
+        <source>P 1</source>
+        <comment>Meter test power hase 1</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>P 2</source>
+        <comment>Meter test power hase 2</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>P 3</source>
+        <comment>Meter test power hase 3</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>P AUX</source>
+        <comment>Meter test power hase AUX</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>3 Systems / 2 Wires</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>DC: 4*Voltage / 1*Current</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SCPI sequential mode:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

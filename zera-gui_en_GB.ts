@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en_GB">
+<TS version="2.0" language="en_GB">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -2245,6 +2245,38 @@ Please charge the device before it turns down</translation>
     <message>
         <source>Var</source>
         <comment>Watt unit apparent</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>P 1</source>
+        <comment>Meter test power hase 1</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>P 2</source>
+        <comment>Meter test power hase 2</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>P 3</source>
+        <comment>Meter test power hase 3</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>P AUX</source>
+        <comment>Meter test power hase AUX</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>3 Systems / 2 Wires</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>DC: 4*Voltage / 1*Current</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>SCPI sequential mode:</source>
         <translation></translation>
     </message>
 </context>
