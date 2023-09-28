@@ -262,7 +262,7 @@ void ZeraTranslation::reloadStringTable()
 
     //SettingsInterval.qml
     //: time based integration interval
-    insert("Integration time interval:", tr("Integration time interval:"));
+    insert("Integration time interval", tr("Integration time interval"));
     //: measurement period based integration interval
     insert("Integration period interval:", tr("Integration period interval:"));
     //displayed under settings

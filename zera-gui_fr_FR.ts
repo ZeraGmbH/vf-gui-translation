@@ -416,14 +416,14 @@ EthernetSettings.qml error header</extracomment>
         <translation>Fréquence sortie constante:</translation>
     </message>
     <message>
-        <source>Integration time interval:</source>
+        <source>Integration time interval</source>
         <extracomment>time based integration interval</extracomment>
-        <translation>Intervalle de temps d&apos;intégration :</translation>
+        <translation>Intervalle de temps d&apos;intégration</translation>
     </message>
     <message>
         <source>Integration period interval:</source>
         <extracomment>measurement period based integration interval</extracomment>
-        <translation>Intervalle de période d&apos;intégration :</translation>
+        <translation>Intervalle de période d&apos;intégration:</translation>
     </message>
     <message>
         <source>seconds</source>

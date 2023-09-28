@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="en_US">
+<TS version="2.1" language="en_US">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -267,9 +267,9 @@
         <translation>Phase colors:</translation>
     </message>
     <message>
-        <source>Integration time interval:</source>
+        <source>Integration time interval</source>
         <extracomment>time based integration interval</extracomment>
-        <translation>Integration time interval:</translation>
+        <translation>Integration time interval</translation>
     </message>
     <message>
         <source>Integration period interval:</source>
