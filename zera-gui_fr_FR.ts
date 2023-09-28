@@ -289,32 +289,6 @@
         <translation>Valeurs crêtes</translation>
     </message>
     <message>
-        <source>Scale visualisation:</source>
-        <comment>e.g. linear, logscale, relative to channel limit</comment>
-        <extracomment>range peak value diagram scale selection</extracomment>
-        <translation>Visualisation de l&apos;échelle :</translation>
-    </message>
-    <message>
-        <source>Logarithmic scale</source>
-        <extracomment>range peak value diagram logarithmic scale visualisation</extracomment>
-        <translation>Échelle logarithmique</translation>
-    </message>
-    <message>
-        <source>Absolute</source>
-        <extracomment>range peak value diagram linear scale visualisation</extracomment>
-        <translation>Absolu</translation>
-    </message>
-    <message>
-        <source>Logarithmic</source>
-        <extracomment>range peak value diagram logarithmic scale visualisation</extracomment>
-        <translation>Logarithmique</translation>
-    </message>
-    <message>
-        <source>Relative to channel limit</source>
-        <extracomment>range peak value diagram relative to channel limit scale visualisation</extracomment>
-        <translation>Relatif à la limite du canal</translation>
-    </message>
-    <message>
         <source>Application Settings</source>
         <extracomment>settings specific to the GUI application</extracomment>
         <translation>Réglages de l&apos;application</translation>

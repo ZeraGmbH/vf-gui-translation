@@ -204,16 +204,6 @@ void ZeraTranslation::reloadStringTable()
 
     //RangePeak.qml
     insert("Peak values", tr("Peak values", "range peak values"));
-    //: range peak value diagram scale selection
-    insert("Scale visualisation:", tr("Scale visualisation:", "e.g. linear, logscale, relative to channel limit"));
-    //: range peak value diagram logarithmic scale visualisation
-    insert("Logarithmic scale", tr("Logarithmic scale"));
-    //: range peak value diagram linear scale visualisation
-    insert("RPV_ABSOLUTE", tr("Absolute"));
-    //: range peak value diagram logarithmic scale visualisation
-    insert("RPV_ABSOLUTE_LOGSCALE", tr("Logarithmic"));
-    //: range peak value diagram relative to channel limit scale visualisation
-    insert("RPV_RELATIVE_TO_LIMIT", tr("Relative to channel limit"));
 
     //Settings.qml
     //: settings specific to the GUI application

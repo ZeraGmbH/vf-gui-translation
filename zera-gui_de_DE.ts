@@ -206,26 +206,6 @@
         <translation>Manuell:</translation>
     </message>
     <message>
-        <source>Logarithmic scale</source>
-        <extracomment>range peak value diagram logarithmic scale visualisation</extracomment>
-        <translation>Logarithmischer Maßstab</translation>
-    </message>
-    <message>
-        <source>Absolute</source>
-        <extracomment>range peak value diagram linear scale visualisation</extracomment>
-        <translation>Absolut</translation>
-    </message>
-    <message>
-        <source>Logarithmic</source>
-        <extracomment>range peak value diagram logarithmic scale visualisation</extracomment>
-        <translation>Logarithmisch</translation>
-    </message>
-    <message>
-        <source>Relative to channel limit</source>
-        <extracomment>range peak value diagram relative to channel limit scale visualisation</extracomment>
-        <translation>Relativ zum Bereichsende</translation>
-    </message>
-    <message>
         <source>Application Settings</source>
         <extracomment>settings specific to the GUI application</extracomment>
         <translation>Programmeinstellungen</translation>
@@ -1155,12 +1135,6 @@
         <source>Peak values</source>
         <comment>range peak values</comment>
         <translation>Maximalwerte</translation>
-    </message>
-    <message>
-        <source>Scale visualisation:</source>
-        <comment>e.g. linear, logscale, relative to channel limit</comment>
-        <extracomment>range peak value diagram scale selection</extracomment>
-        <translation>Bereichsvisualisierung:</translation>
     </message>
     <message>
         <source>Started</source>
