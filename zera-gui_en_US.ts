@@ -1124,11 +1124,6 @@
         <translation>Preview:</translation>
     </message>
     <message>
-        <source>Peak values</source>
-        <comment>range peak values</comment>
-        <translation>Peak values</translation>
-    </message>
-    <message>
         <source>Started</source>
         <comment>measurement started</comment>
         <translation>Started</translation>

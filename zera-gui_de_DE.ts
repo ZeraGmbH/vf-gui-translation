@@ -1132,11 +1132,6 @@
         <translation>Vorschau:</translation>
     </message>
     <message>
-        <source>Peak values</source>
-        <comment>range peak values</comment>
-        <translation>Maximalwerte</translation>
-    </message>
-    <message>
         <source>Started</source>
         <comment>measurement started</comment>
         <translation>Gestartet</translation>

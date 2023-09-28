@@ -284,11 +284,6 @@
         <translation>Manuel:</translation>
     </message>
     <message>
-        <source>Peak values</source>
-        <comment>range peak values</comment>
-        <translation>Valeurs crêtes</translation>
-    </message>
-    <message>
         <source>Application Settings</source>
         <extracomment>settings specific to the GUI application</extracomment>
         <translation>Réglages de l&apos;application</translation>

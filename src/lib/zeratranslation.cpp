@@ -202,9 +202,6 @@ void ZeraTranslation::reloadStringTable()
     //: manual channel range selection, used when range automatic is disabled
     insert("Manual:", tr("Manual:", "not automatic"));
 
-    //RangePeak.qml
-    insert("Peak values", tr("Peak values", "range peak values"));
-
     //Settings.qml
     //: settings specific to the GUI application
     insert("Application Settings", tr("Application Settings"));
