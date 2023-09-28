@@ -431,7 +431,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Maximum", tr("Maximum"));
 
     //PowerModulePage.qml
-    insert("ext.", tr("ext."));
+    insert("Ext.", tr("Ext."));
 
     //HarmonicPowerTabPage.qml
     insert("Harmonic power table", tr("Harmonic power table", "Tab text harmonic power table"));

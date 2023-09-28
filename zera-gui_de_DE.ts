@@ -1857,7 +1857,7 @@ customer data delete file confirmation popup header</extracomment>
         <translation>Automatisch verbinden:</translation>
     </message>
     <message>
-        <source>ext.</source>
+        <source>Ext.</source>
         <translation></translation>
     </message>
     <message>

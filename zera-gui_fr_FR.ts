@@ -824,8 +824,8 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation>Maximum</translation>
     </message>
     <message>
-        <source>ext.</source>
-        <translation>ext.</translation>
+        <source>Ext.</source>
+        <translation></translation>
     </message>
     <message>
         <source>Harmonic power table</source>
