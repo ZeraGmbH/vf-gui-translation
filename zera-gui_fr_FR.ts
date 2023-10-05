@@ -263,9 +263,9 @@
         <translation>Référence</translation>
     </message>
     <message>
-        <source>Range automatic:</source>
+        <source>Range automatic</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Plage automatique :</translation>
+        <translation>Plage automatique</translation>
     </message>
     <message>
         <source>Overload</source>
@@ -273,9 +273,9 @@
         <translation>Surchage</translation>
     </message>
     <message>
-        <source>Range grouping:</source>
+        <source>Range grouping</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Regroupement de plages:</translation>
+        <translation>Regroupement de plages</translation>
     </message>
     <message>
         <source>Manual:</source>

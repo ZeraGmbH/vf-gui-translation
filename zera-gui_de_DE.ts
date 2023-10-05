@@ -185,9 +185,9 @@
         <translation>Speichern</translation>
     </message>
     <message>
-        <source>Range automatic:</source>
+        <source>Range automatic</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Bereichsautomatik:</translation>
+        <translation>Bereichsautomatik</translation>
     </message>
     <message>
         <source>Overload</source>
@@ -195,9 +195,9 @@
         <translation>Überlast</translation>
     </message>
     <message>
-        <source>Range grouping:</source>
+        <source>Range grouping</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Bereichsgruppierung:</translation>
+        <translation>Bereichsgruppierung</translation>
     </message>
     <message>
         <source>Manual:</source>

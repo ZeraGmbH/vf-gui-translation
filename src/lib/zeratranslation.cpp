@@ -193,11 +193,11 @@ void ZeraTranslation::reloadStringTable()
 
     //RangeMenu.qml
     //: used for a yes / no configuration element
-    insert("Range automatic:", tr("Range automatic:"));
+    insert("Range automatic", tr("Range automatic"));
     //: measurement channel range overload, e.g. the range is configured for 5V measurement and the measured input voltage is >5V
     insert("Overload", tr("Overload"));
     //: used for a yes / no configuration element
-    insert("Range grouping:", tr("Range grouping:"));
+    insert("Range grouping", tr("Range grouping"));
     insert("Measurement modes:", tr("Measurement modes:"));
     //: manual channel range selection, used when range automatic is disabled
     insert("Manual:", tr("Manual:", "not automatic"));

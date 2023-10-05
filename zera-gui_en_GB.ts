@@ -185,9 +185,9 @@
         <translation>Save</translation>
     </message>
     <message>
-        <source>Range automatic:</source>
+        <source>Range automatic</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Range automatic:</translation>
+        <translation>Range automatic</translation>
     </message>
     <message>
         <source>Overload</source>
@@ -195,9 +195,9 @@
         <translation>Overload</translation>
     </message>
     <message>
-        <source>Range grouping:</source>
+        <source>Range grouping</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Range grouping:</translation>
+        <translation>Range grouping</translation>
     </message>
     <message>
         <source>Manual:</source>
