@@ -198,9 +198,10 @@ void ZeraTranslation::reloadStringTable()
     insert("Overload", tr("Overload"));
     //: used for a yes / no configuration element
     insert("Range grouping", tr("Range grouping"));
+    //: header text - can be multiline
     insert("Measurement modes:", tr("Measurement modes:"));
-    //: manual channel range selection, used when range automatic is disabled
-    insert("Manual:", tr("Manual:", "not automatic"));
+    //: Ratio checkbox
+    insert("Ratio", tr("Ratio"));
 
     //Settings.qml
     //: settings specific to the GUI application

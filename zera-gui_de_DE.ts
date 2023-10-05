@@ -200,12 +200,6 @@
         <translation>Bereichsgruppierung</translation>
     </message>
     <message>
-        <source>Manual:</source>
-        <comment>not automatic</comment>
-        <extracomment>manual channel range selection, used when range automatic is disabled</extracomment>
-        <translation>Manuell:</translation>
-    </message>
-    <message>
         <source>Application Settings</source>
         <extracomment>settings specific to the GUI application</extracomment>
         <translation>Programmeinstellungen</translation>
@@ -2196,6 +2190,7 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>Measurement modes:</source>
+        <extracomment>header text - can be multiline</extracomment>
         <translation>Messarten:</translation>
     </message>
     <message>
@@ -2254,6 +2249,11 @@ Please charge the device before it turns down</source>
     <message>
         <source>SCPI sequential mode:</source>
         <translation>SCPI sequentieller Modus:</translation>
+    </message>
+    <message>
+        <source>Ratio</source>
+        <extracomment>Ratio checkbox</extracomment>
+        <translation>Übersetzungsverhältnis</translation>
     </message>
 </context>
 </TS>

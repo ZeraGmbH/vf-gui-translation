@@ -278,12 +278,6 @@
         <translation>Regroupement de plages</translation>
     </message>
     <message>
-        <source>Manual:</source>
-        <comment>not automatic</comment>
-        <extracomment>manual channel range selection, used when range automatic is disabled</extracomment>
-        <translation>Manuel:</translation>
-    </message>
-    <message>
         <source>Application Settings</source>
         <extracomment>settings specific to the GUI application</extracomment>
         <translation>Réglages de l&apos;application</translation>
@@ -2193,6 +2187,7 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     </message>
     <message>
         <source>Measurement modes:</source>
+        <extracomment>header text - can be multiline</extracomment>
         <translation>Modes de mesure:</translation>
     </message>
     <message>
@@ -2250,6 +2245,11 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     </message>
     <message>
         <source>SCPI sequential mode:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ratio</source>
+        <extracomment>Ratio checkbox</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
