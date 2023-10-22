@@ -2189,9 +2189,9 @@ Please charge the device before it turns down</source>
         <translation>Version des System-PCB</translation>
     </message>
     <message>
-        <source>Measurement modes:</source>
+        <source>Measurement modes</source>
         <extracomment>header text - can be multiline</extracomment>
-        <translation>Messarten:</translation>
+        <translation>Messarten</translation>
     </message>
     <message>
         <source>AC</source>

@@ -2182,9 +2182,9 @@ Please charge the device before it turns down</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Measurement modes:</source>
+        <source>Measurement modes</source>
         <extracomment>header text - can be multiline</extracomment>
-        <translation>Measurement modes:</translation>
+        <translation>Measurement modes</translation>
     </message>
     <message>
         <source>AC</source>

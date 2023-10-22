@@ -199,7 +199,7 @@ void ZeraTranslation::reloadStringTable()
     //: used for a yes / no configuration element
     insert("Range grouping", tr("Range grouping"));
     //: header text - can be multiline
-    insert("Measurement modes:", tr("Measurement modes:"));
+    insert("Measurement modes", tr("Measurement modes"));
     //: Ratio checkbox
     insert("Ratio", tr("Ratio"));
 

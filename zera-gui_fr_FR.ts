@@ -2186,9 +2186,9 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Version du PCB système</translation>
     </message>
     <message>
-        <source>Measurement modes:</source>
+        <source>Measurement modes</source>
         <extracomment>header text - can be multiline</extracomment>
-        <translation>Modes de mesure:</translation>
+        <translation>Modes de mesure</translation>
     </message>
     <message>
         <source>AC</source>
