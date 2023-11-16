@@ -2248,5 +2248,34 @@ Please charge the device before it turns down</translation>
         <extracomment>Ratio checkbox</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Temperature [°C]:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Temperature [°F]:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Humidity [%]:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>MAC address:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Air pressure [hPa]:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>BLE sensor settings</source>
+        <extracomment>settings specific to the Bluetooth sensors</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Bluetooth:</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

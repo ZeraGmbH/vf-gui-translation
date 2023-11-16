@@ -2252,5 +2252,34 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <extracomment>Ratio checkbox</extracomment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Temperature [°C]:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Temperature [°F]:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Humidity [%]:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MAC address:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Air pressure [hPa]:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>BLE sensor settings</source>
+        <extracomment>settings specific to the Bluetooth sensors</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bluetooth:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

@@ -225,6 +225,8 @@ void ZeraTranslation::reloadStringTable()
     insert("Device settings", tr("Device settings"));
     //: settings specific to the network
     insert("Network settings", tr("Network settings"));
+    //: settings specific to the Bluetooth sensors
+    insert("BLE sensor settings", tr("BLE sensor settings"));
     //: measurement channel the phase locked loop uses as base
     insert("PLL channel:", tr("PLL channel:"));
     //: automatic phase locked loop channel selection
@@ -920,6 +922,14 @@ void ZeraTranslation::reloadStringTable()
     insert("symmetric", tr("symmetric"));
     insert("Off", tr("Off"));
     insert("Frequency:", tr("Frequency:"));
+
+    // SensorSettings.qml
+    insert("Bluetooth:", tr("Bluetooth:"));
+    insert("MAC address:", tr("MAC address:"));
+    insert("Temperature [°C]:", tr("Temperature [°C]:"));
+    insert("Temperature [°F]:", tr("Temperature [°F]:"));
+    insert("Humidity [%]:", tr("Humidity [%]:"));
+    insert("Air pressure [hPa]:", tr("Air pressure [hPa]:"));
 
     emit sigLanguageChanged();
 }
