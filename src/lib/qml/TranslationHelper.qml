@@ -19,6 +19,12 @@ Item {
         }
         return translated
     }
+    function trArr(arr) {
+        let ret = []
+        for(let i=0; i<arr.length; i++)
+            ret.push(tr(arr[i]))
+        return ret
+    }
     function changeLanguage(language) {
         ZTR.changeLanguage(language)
     }
