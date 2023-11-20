@@ -716,8 +716,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Current name:", tr("Current name:"));
     //: header for list of existing session names. Operator can select one of them to make it current session name
     insert("Select existing:", tr("Select existing:"));
-    //: shows a preview of the database logger session name
-    insert("Preview:", tr("Preview:"));
+    insert("Preview", tr("Preview"));
     //: delete session confirmation popup header
     insert("Confirmation", tr("Confirmation"));
     //: delete session confirmation popup header

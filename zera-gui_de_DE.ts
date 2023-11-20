@@ -1121,9 +1121,8 @@
         <translation>Aktueller Name:</translation>
     </message>
     <message>
-        <source>Preview:</source>
-        <extracomment>shows a preview of the database logger session name</extracomment>
-        <translation>Vorschau:</translation>
+        <source>Preview</source>
+        <translation>Vorschau</translation>
     </message>
     <message>
         <source>Started</source>

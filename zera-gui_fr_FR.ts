@@ -1613,9 +1613,8 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation>Sélectionner l&apos;existant:</translation>
     </message>
     <message>
-        <source>Preview:</source>
-        <extracomment>shows a preview of the database logger session name</extracomment>
-        <translation>Aperçu:</translation>
+        <source>Preview</source>
+        <translation>Aperçu</translation>
     </message>
     <message>
         <source>Confirmation</source>
