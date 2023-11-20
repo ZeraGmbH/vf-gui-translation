@@ -2280,5 +2280,9 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Bluetooth:</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Measured</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

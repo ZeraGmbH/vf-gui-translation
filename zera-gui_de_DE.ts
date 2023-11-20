@@ -2283,5 +2283,9 @@ Please charge the device before it turns down</source>
         <source>Bluetooth:</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Measured</source>
+        <translation>Gemessen</translation>
+    </message>
 </context>
 </TS>

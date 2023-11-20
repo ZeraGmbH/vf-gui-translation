@@ -921,6 +921,7 @@ void ZeraTranslation::reloadStringTable()
     insert("symmetric", tr("symmetric"));
     insert("Off", tr("Off"));
     insert("Frequency:", tr("Frequency:"));
+    insert("Measured", tr("Measured"));
 
     // SensorSettings.qml
     insert("Bluetooth:", tr("Bluetooth:"));
