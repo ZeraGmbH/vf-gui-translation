@@ -285,7 +285,7 @@
     <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Afficher tableaux harmoniques relatifs à l&apos;oscill fondamentale:</translation>
+        <translation>Afficher les tableaux harmoniques relatifs à l&apos;oscill fondamentale:</translation>
     </message>
     <message>
         <source>Max decimals total:</source>
@@ -347,7 +347,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>System colors:</source>
         <extracomment>System = measuring system</extracomment>
-        <translation>Couleurs phase:</translation>
+        <translation>Couleurs du système:</translation>
     </message>
     <message>
         <source>Frequency input/output configuration:</source>
@@ -361,7 +361,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>Brightness currents:</source>
         <extracomment>Color themes popup adjust brightness for current</extracomment>
-        <translation>Luminosité actuelle:</translation>
+        <translation>Luminosité courants:</translation>
     </message>
     <message>
         <source>Brightness black:</source>
@@ -376,7 +376,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>Frequency output constant:</source>
         <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation>Fréquence sortie constante:</translation>
+        <translation>Fréquence de sortie constante:</translation>
     </message>
     <message>
         <source>Integration time interval</source>
@@ -401,7 +401,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>Device Binding</source>
         <extracomment>available devices AvailableDevDialog.qml</extracomment>
-        <translation>Liaison appareil</translation>
+        <translation>Liaison d&apos;appareil</translation>
     </message>
     <message>
         <source>Devices:</source>
@@ -421,7 +421,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>Ethernet Connection Settings</source>
         <extracomment>EthernetSettings.qml Header text</extracomment>
-        <translation>Paramètres de la Connexion Ethernet</translation>
+        <translation>Paramètres de la connexion Ethernet</translation>
     </message>
     <message>
         <source>Connection name:</source>
@@ -461,7 +461,7 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>IPV6 Subnetmask</source>
         <extracomment>EthernetSettings.qml IPv6 error field subnetmask</extracomment>
-        <translation>IPV6 Masque de sous-réseau</translation>
+        <translation>Masque de sous-réseau IPV6</translation>
     </message>
     <message>
         <source>IPV4 IP</source>
@@ -471,12 +471,12 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>IPV4 Subnetmask</source>
         <extracomment>EthernetSettings.qml IPv4 error field subnetmask</extracomment>
-        <translation>IPV4 Masque de sous-réseau</translation>
+        <translation>Masque de sous-réseau IPV4</translation>
     </message>
     <message>
         <source>invalid settings in field: </source>
         <extracomment>EthernetSettings.qml error text intro</extracomment>
-        <translation>Reǵlalges invalides dans le champ:</translation>
+        <translation>Réglages invalides dans le champ:</translation>
     </message>
     <message>
         <source>Select device</source>
@@ -583,7 +583,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Connection Information</source>
         <extracomment>ConnectionInfo.qml header</extracomment>
-        <translation>Information de connexion</translation>
+        <translation>Information sur la connexion</translation>
     </message>
     <message>
         <source>Netmask:</source>
@@ -612,7 +612,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Loading: %1/%2</source>
         <extracomment>progress of loading %1 of %2 objects</extracomment>
-        <translation>Chargement:%1/%2</translation>
+        <translation>Chargement: %1/%2</translation>
     </message>
     <message>
         <source>Pages</source>
@@ -674,7 +674,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>DUT constant:</source>
         <extracomment>device under test constat</extracomment>
-        <translation>DUT constant:</translation>
+        <translation>constante DUT:</translation>
     </message>
     <message>
         <source>Energy:</source>
@@ -704,11 +704,11 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Lower error margin:</source>
-        <translation>Marge d&apos;erreur inférieure :</translation>
+        <translation>Marge d&apos;erreur inférieure:</translation>
     </message>
     <message>
         <source>Upper error margin:</source>
-        <translation>Marge d&apos;erreur supérieure :</translation>
+        <translation>Marge d&apos;erreur supérieure:</translation>
     </message>
     <message>
         <source>continuous</source>
@@ -819,7 +819,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>Ext.</source>
-        <translation></translation>
+        <translation>Ext.</translation>
     </message>
     <message>
         <source>Harmonic power table</source>
@@ -1007,7 +1007,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>RMS values</source>
         <extracomment>effective values</extracomment>
-        <translation>RMS valeurs</translation>
+        <translation>Valeurs RMS</translation>
     </message>
     <message>
         <source>Voltage Burden</source>
@@ -1038,11 +1038,11 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>DC reference values</source>
         <extracomment>button to select content-set dc-reference values</extracomment>
-        <translation>DC valeurs de référence</translation>
+        <translation>Valeurs de référence DC</translation>
     </message>
     <message>
         <source>Quartz reference measurement</source>
-        <translation>Quartz mesure de référence</translation>
+        <translation>Mesure de référence du Quartz</translation>
     </message>
     <message>
         <source>CED power values</source>
@@ -1117,7 +1117,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>RESMAN resourcetype not avail</source>
         <extracomment>RESMAN = resource manager</extracomment>
-        <translation>RESMAN resourcetype indispo</translation>
+        <translation>RESMAN type de resource indispo</translation>
     </message>
     <message>
         <source>RESMAN resource not avail</source>
@@ -1233,15 +1233,15 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB register notifier failed</source>
-        <translation>PCB échec de la notification du registre</translation>
+        <translation>PCB échec de l&apos;enregistrement du notificateur</translation>
     </message>
     <message>
         <source>PCB unregister notifier failed</source>
-        <translation>PCB échec du désenregistrement du notification du registre</translation>
+        <translation>PCB échec du désenregistrement du notificateur</translation>
     </message>
     <message>
         <source>PCB set pll failed</source>
-        <translation>PCB échec du réglage de pll</translation>
+        <translation>PCB échec du réglage pll</translation>
     </message>
     <message>
         <source>PCB muxchannel read failed</source>
@@ -1269,19 +1269,19 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB FPGA version read failed</source>
-        <translation>PCB FPGA lecture de version échouée</translation>
+        <translation>PCB échec de lecture de la version FPGA</translation>
     </message>
     <message>
         <source>PCB error messages read failed</source>
-        <translation>PCB échec de la lecture des messages d&apos;erreur</translation>
+        <translation>PCB échec de lecture des messages d&apos;erreur</translation>
     </message>
     <message>
         <source>PCB adjustment computation failed</source>
-        <translation>PCB ajustement computation échoué</translation>
+        <translation>PCB échec du calcul de l&apos;ajustement</translation>
     </message>
     <message>
         <source>PCB adjustment storage failed</source>
-        <translation>PCB ajustement stockage échoué</translation>
+        <translation>PCB échec de la mémorisation de l&apos;ajustement</translation>
     </message>
     <message>
         <source>PCB adjustment status setting failed</source>
@@ -1289,7 +1289,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB adjustment init failed</source>
-        <translation>PCB ajustement init échoué</translation>
+        <translation>PCB échec de l&apos;initialisation de l&apos;ajustement</translation>
     </message>
     <message>
         <source>DSP read gain correction failed</source>
@@ -1305,7 +1305,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>DSP write gain correction failed</source>
-        <translation>DSP échec de l&apos;écriture de correction de gain</translation>
+        <translation>DSP échec de l&apos;écriture de correction du gain</translation>
     </message>
     <message>
         <source>DSP write phase correction failed</source>
@@ -1353,7 +1353,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>DSP setting sampling system failed</source>
-        <translation>DSP échec de réglage du système d&apos;échantillonnage</translation>
+        <translation>DSP échec du réglage du système d&apos;échantillonnage</translation>
     </message>
     <message>
         <source>SEC fetch ecalculator failed</source>
@@ -1363,7 +1363,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>SEC free ecalculator failed</source>
         <extracomment>SEC = standard error calculator</extracomment>
-        <translation>SEC e-calculateur libre  échoué</translation>
+        <translation>SEC échec de la libération du e-calculateur</translation>
     </message>
     <message>
         <source>SEC read register failed</source>
@@ -1442,19 +1442,19 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>PCB server version:</source>
-        <translation>PCB version du serveur:</translation>
+        <translation>Version du serveur PCB:</translation>
     </message>
     <message>
         <source>DSP server version:</source>
-        <translation>DCP version du serveur:</translation>
+        <translation>Version du serveur DSP:</translation>
     </message>
     <message>
         <source>DSP firmware version:</source>
-        <translation>DSP version du firmware:</translation>
+        <translation>Version du firmware DSP:</translation>
     </message>
     <message>
         <source>FPGA firmware version:</source>
-        <translation>FPGA version du firmware:</translation>
+        <translation>Version du firmware FPGA:</translation>
     </message>
     <message>
         <source>Adjustment status:</source>
@@ -1478,15 +1478,15 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>CPU-board number</source>
-        <translation>UCT-numéro de carte</translation>
+        <translation>Numéro de la carte UCT</translation>
     </message>
     <message>
         <source>CPU-board assembly</source>
-        <translation>UCT-assembalge de carte</translation>
+        <translation>Assembalge de la carte UCT</translation>
     </message>
     <message>
         <source>CPU-board date</source>
-        <translation>UCT-date de carte</translation>
+        <translation>Date de carte UCT</translation>
     </message>
     <message>
         <source>Device notifications</source>
@@ -1502,11 +1502,11 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>DB location:</source>
-        <translation>BD emplacement:</translation>
+        <translation>Emplacement BD:</translation>
     </message>
     <message>
         <source>Database filename:</source>
-        <translation>Nom de fichier de base de données:</translation>
+        <translation>Nom du fichier de base de données:</translation>
     </message>
     <message>
         <source>Scheduled logging enabled:</source>
@@ -1600,7 +1600,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     <message>
         <source>Select session name</source>
         <extracomment>displayed in logger session name popup, visible when the user presses start or snapshot in the logger the session name is a database field that the user can use to search / filter different sessions</extracomment>
-        <translation>Sélectionner nom de session</translation>
+        <translation>Sélectionner nom de la session</translation>
     </message>
     <message>
         <source>Current name:</source>
@@ -1631,17 +1631,17 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Add new session</source>
         <extracomment>header view &apos;Add new session&apos;</extracomment>
-        <translation>Ajouter nouvelle session</translation>
+        <translation>Ajouter une nouvelle session</translation>
     </message>
     <message>
         <source>Session name:</source>
         <extracomment>add new session view: label session name</extracomment>
-        <translation>Nom de session:</translation>
+        <translation>Nom de la session:</translation>
     </message>
     <message>
         <source>Select customer data:</source>
         <extracomment>add new session view: label list cutomer data to select entry from</extracomment>
-        <translation>Sélectionner données du client:</translation>
+        <translation>Sélectionner les données du client:</translation>
     </message>
     <message>
         <source>-- no customer --</source>
@@ -1676,7 +1676,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Quartz reference values</source>
         <extracomment>button to select content-set dc-reference values</extracomment>
-        <translation>Quartz valeurs de référence</translation>
+        <translation>Valeurs de référence du Quartz</translation>
     </message>
     <message>
         <source>All</source>
@@ -1751,12 +1751,12 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>DC reference values only</source>
         <extracomment>menu radio button to select content-set dc-reference values</extracomment>
-        <translation>DC valeurs de référence seulement</translation>
+        <translation>Valeurs de référence DC seulement</translation>
     </message>
     <message>
         <source>Quartz reference values only</source>
         <extracomment>menu radio button to select content-set dc-reference values</extracomment>
-        <translation>Quartz valeurs de référence seulement</translation>
+        <translation>Valeurs de référence du Quartz seulement</translation>
     </message>
     <message>
         <source>All data</source>
@@ -1873,7 +1873,7 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Meter Comment:</source>
-        <translation>Commentaire du compteur:</translation>
+        <translation>Commentaire sur le compteur:</translation>
     </message>
     <message>
         <source>Power grid Operator:</source>
@@ -1916,7 +1916,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Import customer data</source>
         <extracomment>header import customer data popup</extracomment>
-        <translation>Importer données du client</translation>
+        <translation>Importer les données du client</translation>
     </message>
     <message>
         <source>Files found from device:</source>
@@ -1951,7 +1951,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Export stored data</source>
         <extracomment>header text view export data</extracomment>
-        <translation>Exporter données stockées</translation>
+        <translation>Exporter les données stockées</translation>
     </message>
     <message>
         <source>Export type:</source>
@@ -2115,7 +2115,7 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>symmetric</source>
-        <translation>symmétrique</translation>
+        <translation>symétrique</translation>
     </message>
     <message>
         <source>Off</source>
@@ -2236,59 +2236,53 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     </message>
     <message>
         <source>3 Systems / 2 Wires</source>
-        <translation type="unfinished"></translation>
+        <translation>3 Systèmes / 2 Fils</translation>
     </message>
     <message>
         <source>DC: 4*Voltage / 1*Current</source>
-        <translation type="unfinished"></translation>
+        <translation>DC: 4*Tension / 1*Courant</translation>
     </message>
     <message>
         <source>SCPI sequential mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>SCPI mode séquentiel:</translation>
     </message>
     <message>
         <source>Ratio</source>
         <extracomment>Ratio checkbox</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Rapprt</translation>
     </message>
     <message>
         <source>Temperature [°C]:</source>
-        <translation type="unfinished"></translation>
+        <translation>Température [°C]:</translation>
     </message>
     <message>
         <source>Temperature [°F]:</source>
-        <translation type="unfinished"></translation>
+        <translation>Température [°F]:</translation>
     </message>
     <message>
         <source>Humidity [%]:</source>
-        <translation type="unfinished"></translation>
+        <translation>Humidité [%]:</translation>
     </message>
     <message>
         <source>MAC address:</source>
-        <translation type="unfinished"></translation>
+        <translation>Adresse MAC:</translation>
     </message>
     <message>
         <source>Air pressure [hPa]:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pression de l&apos;air [hPa]:</translation>
     </message>
     <message>
         <source>BLE sensor settings</source>
         <extracomment>settings specific to the Bluetooth sensors</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Réglages du capteur BLE</translation>
     </message>
     <message>
         <source>Bluetooth:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bluetooth:</translation>
     </message>
     <message>
-        <source>Actual</source>
-        <comment>Source/Vector view indicator label: actual values mode</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Target</source>
-        <comment>Source/Vector view indicator label: target values mode</comment>
-        <translation type="unfinished"></translation>
+        <source>Measured</source>
+        <translation>Mesuré</translation>
     </message>
 </context>
 </TS>
