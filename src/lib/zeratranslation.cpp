@@ -542,6 +542,10 @@ void ZeraTranslation::reloadStringTable()
     insert("crad", tr("crad", "centiradian"));
     insert("arcmin", tr("arcmin", "arcminute"));
 
+    // SourceModulePage.qml
+    insert("Actual", tr("Actual", "Source/Vector view indicator label: actual values mode"));
+    insert("Target", tr("Target", "Source/Vector view indicator label: target values mode"));
+
     //Zera Classes -> zera-basemodule -> errormessages.h
     //: RESMAN = resource manager
     insert("RESMAN ident error", tr("RESMAN ident error"));
@@ -921,7 +925,6 @@ void ZeraTranslation::reloadStringTable()
     insert("symmetric", tr("symmetric"));
     insert("Off", tr("Off"));
     insert("Frequency:", tr("Frequency:"));
-    insert("Measured", tr("Measured"));
 
     // SensorSettings.qml
     insert("Bluetooth:", tr("Bluetooth:"));

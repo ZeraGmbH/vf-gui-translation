@@ -2281,7 +2281,13 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Measured</source>
+        <source>Actual</source>
+        <comment>Source/Vector view indicator label: actual values mode</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <comment>Source/Vector view indicator label: target values mode</comment>
         <translation type="unfinished"></translation>
     </message>
 </context>

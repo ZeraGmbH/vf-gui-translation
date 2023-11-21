@@ -2284,8 +2284,14 @@ Please charge the device before it turns down</source>
         <translation></translation>
     </message>
     <message>
-        <source>Measured</source>
-        <translation>Gemessen</translation>
+        <source>Actual</source>
+        <comment>Source/Vector view indicator label: actual values mode</comment>
+        <translation>Messung</translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <comment>Source/Vector view indicator label: target values mode</comment>
+        <translation>Vorgabe</translation>
     </message>
 </context>
 </TS>

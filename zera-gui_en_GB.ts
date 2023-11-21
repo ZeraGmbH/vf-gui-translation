@@ -2277,7 +2277,13 @@ Please charge the device before it turns down</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Measured</source>
+        <source>Actual</source>
+        <comment>Source/Vector view indicator label: actual values mode</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <comment>Source/Vector view indicator label: target values mode</comment>
         <translation></translation>
     </message>
 </context>
