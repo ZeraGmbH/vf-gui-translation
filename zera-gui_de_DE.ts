@@ -303,9 +303,9 @@
         <translation>Geräteeingang:</translation>
     </message>
     <message>
-        <source>DUT constant:</source>
-        <extracomment>device under test constat</extracomment>
-        <translation>Zählerkonstante:</translation>
+        <source>Constant</source>
+        <extracomment>device under test constant</extracomment>
+        <translation>Konstante</translation>
     </message>
     <message>
         <source>Energy:</source>

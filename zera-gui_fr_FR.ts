@@ -672,9 +672,9 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation>Entrée de l&apos;appareil:</translation>
     </message>
     <message>
-        <source>DUT constant:</source>
-        <extracomment>device under test constat</extracomment>
-        <translation>constante DUT:</translation>
+        <source>Constant</source>
+        <extracomment>device under test constant</extracomment>
+        <translation>Constante</translation>
     </message>
     <message>
         <source>Energy:</source>
@@ -2281,8 +2281,14 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Bluetooth:</translation>
     </message>
     <message>
-        <source>Measured</source>
-        <translation>Mesuré</translation>
+        <source>Actual</source>
+        <comment>Source/Vector view indicator label: actual values mode</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Target</source>
+        <comment>Source/Vector view indicator label: target values mode</comment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

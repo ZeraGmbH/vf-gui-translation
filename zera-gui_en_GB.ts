@@ -302,9 +302,9 @@
         <translation>Device input:</translation>
     </message>
     <message>
-        <source>DUT constant:</source>
-        <extracomment>device under test constat</extracomment>
-        <translation>Meter constant:</translation>
+        <source>Constant</source>
+        <extracomment>device under test constant</extracomment>
+        <translation>Constant</translation>
     </message>
     <message>
         <source>Energy:</source>

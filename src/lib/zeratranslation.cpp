@@ -379,8 +379,8 @@ void ZeraTranslation::reloadStringTable()
     insert("Reference input:", tr("Reference input:"));
     //: device input selection (e.g. scanning head)
     insert("Device input:", tr("Device input:"));
-    //: device under test constat
-    insert("DUT constant:", tr("DUT constant:"));
+    //: device under test constant
+    insert("Constant", tr("Constant"));
     //: energy to compare
     insert("Energy:", tr("Energy:"));
     //: value based on the DUT constant
