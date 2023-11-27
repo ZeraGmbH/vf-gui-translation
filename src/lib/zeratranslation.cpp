@@ -139,10 +139,10 @@ void ZeraTranslation::reloadStringTable()
     insert("Phase2", tr("Phase2", "Letter or number for phase e.g euro: 2 / us: B"));
     insert("Phase3", tr("Phase3", "Letter or number for phase e.g euro: 3 / us: C"));
 
-    insert("P 1", tr("P 1", "Meter test power hase 1"));
-    insert("P 2", tr("P 2", "Meter test power hase 2"));
-    insert("P 3", tr("P 3", "Meter test power hase 3"));
-    insert("P AUX", tr("P AUX", "Meter test power hase AUX"));
+    insert("P 1", tr("P 1", "Meter test power phase 1"));
+    insert("P 2", tr("P 2", "Meter test power phase 2"));
+    insert("P 3", tr("P 3", "Meter test power phase 3"));
+    insert("P AUX", tr("P AUX", "Meter test power phase AUX"));
 
     insert("REF1", tr("REF1", "reference channel 1"));
     insert("REF2", tr("REF2", "reference channel 2"));

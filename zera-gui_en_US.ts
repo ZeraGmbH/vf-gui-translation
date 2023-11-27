@@ -2212,22 +2212,22 @@ Please charge the device before it turns down</translation>
     </message>
     <message>
         <source>P 1</source>
-        <comment>Meter test power hase 1</comment>
+        <comment>Meter test power phase 1</comment>
         <translation>P A</translation>
     </message>
     <message>
         <source>P 2</source>
-        <comment>Meter test power hase 2</comment>
+        <comment>Meter test power phase 2</comment>
         <translation>P B</translation>
     </message>
     <message>
         <source>P 3</source>
-        <comment>Meter test power hase 3</comment>
+        <comment>Meter test power phase 3</comment>
         <translation>P C</translation>
     </message>
     <message>
         <source>P AUX</source>
-        <comment>Meter test power hase AUX</comment>
+        <comment>Meter test power phase AUX</comment>
         <translation>P D</translation>
     </message>
     <message>
