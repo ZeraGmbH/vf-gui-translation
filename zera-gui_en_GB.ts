@@ -2286,5 +2286,15 @@ Please charge the device before it turns down</translation>
         <comment>Source/Vector view indicator label: target values mode</comment>
         <translation></translation>
     </message>
+    <message>
+        <source>P AC</source>
+        <comment>Meter test power AC</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>P DC</source>
+        <comment>Meter test power DC</comment>
+        <translation></translation>
+    </message>
 </context>
 </TS>

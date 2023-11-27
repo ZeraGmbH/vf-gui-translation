@@ -143,6 +143,8 @@ void ZeraTranslation::reloadStringTable()
     insert("P 2", tr("P 2", "Meter test power phase 2"));
     insert("P 3", tr("P 3", "Meter test power phase 3"));
     insert("P AUX", tr("P AUX", "Meter test power phase AUX"));
+    insert("P AC", tr("P AC", "Meter test power AC"));
+    insert("P DC", tr("P DC", "Meter test power DC"));
 
     insert("REF1", tr("REF1", "reference channel 1"));
     insert("REF2", tr("REF2", "reference channel 2"));

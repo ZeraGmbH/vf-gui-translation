@@ -2290,5 +2290,15 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <comment>Source/Vector view indicator label: target values mode</comment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>P AC</source>
+        <comment>Meter test power AC</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>P DC</source>
+        <comment>Meter test power DC</comment>
+        <translation></translation>
+    </message>
 </context>
 </TS>
