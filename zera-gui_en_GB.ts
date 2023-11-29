@@ -312,11 +312,6 @@
         <translation>Energy:</translation>
     </message>
     <message>
-        <source>MRate:</source>
-        <extracomment>value based on the DUT constant</extracomment>
-        <translation>Pulse:</translation>
-    </message>
-    <message>
         <source>Start</source>
         <translation>Start</translation>
     </message>
@@ -1050,14 +1045,6 @@
         <source>[customer number is not set]</source>
         <extracomment>when the customer number is empty, the brackets are for visual distinction from other text</extracomment>
         <translation></translation>
-    </message>
-    <message>
-        <source>Lower error margin:</source>
-        <translation>Lower error limit:</translation>
-    </message>
-    <message>
-        <source>Upper error margin:</source>
-        <translation>Upper error limit:</translation>
     </message>
     <message>
         <source>No database selected</source>
@@ -2292,9 +2279,22 @@ Please charge the device before it turns down</translation>
         <translation></translation>
     </message>
     <message>
+        <source>Lower error limit:</source>
+        <translation>Lower error limit:</translation>
+    </message>
+    <message>
+        <source>Upper error limit:</source>
+        <translation>Upper error limit:</translation>
+    </message>
+    <message>
         <source>P DC</source>
         <comment>Meter test power DC</comment>
         <translation></translation>
+    </message>
+    <message>
+        <source>Pulse:</source>
+        <extracomment>value based on the DUT constant</extracomment>
+        <translation>Pulse:</translation>
     </message>
 </context>
 </TS>

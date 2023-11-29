@@ -386,13 +386,13 @@ void ZeraTranslation::reloadStringTable()
     //: energy to compare
     insert("Energy:", tr("Energy:"));
     //: value based on the DUT constant
-    insert("MRate:", tr("MRate:"));
+    insert("Pulse:", tr("Pulse:"));
     insert("Start", tr("Start"));
     insert("Stop", tr("Stop"));
     insert("energy", tr("energy"));
     insert("mrate", tr("mrate"));
-    insert("Lower error margin:", tr("Lower error margin:"));
-    insert("Upper error margin:", tr("Upper error margin:"));
+    insert("Lower error limit:", tr("Lower error limit:"));
+    insert("Upper error limit:", tr("Upper error limit:"));
     insert("continuous", tr("continuous"));
     insert("Count / Pause:", tr("Count / Pause:"));
 
