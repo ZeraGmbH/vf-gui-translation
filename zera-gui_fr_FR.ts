@@ -682,11 +682,6 @@ ConnectionTree.qml group Ethernet</extracomment>
         <translation>Énergie:</translation>
     </message>
     <message>
-        <source>MRate:</source>
-        <extracomment>value based on the DUT constant</extracomment>
-        <translation>Impulsion:</translation>
-    </message>
-    <message>
         <source>Start</source>
         <translation>Démarrer</translation>
     </message>
@@ -700,15 +695,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>mrate</source>
-        <translation>Impulsion</translation>
-    </message>
-    <message>
-        <source>Lower error margin:</source>
-        <translation>Marge d&apos;erreur inférieure:</translation>
-    </message>
-    <message>
-        <source>Upper error margin:</source>
-        <translation>Marge d&apos;erreur supérieure:</translation>
+        <translation>Pulsation</translation>
     </message>
     <message>
         <source>continuous</source>
@@ -2281,6 +2268,19 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Bluetooth:</translation>
     </message>
     <message>
+        <source>Pulse:</source>
+        <extracomment>value based on the DUT constant</extracomment>
+        <translation>Pulsation:</translation>
+    </message>
+    <message>
+        <source>Lower error limit:</source>
+        <translation>Marge d&apos;erreur inférieure:</translation>
+    </message>
+    <message>
+        <source>Upper error limit:</source>
+        <translation>Marge d&apos;erreur supérieure:</translation>
+    </message>
+    <message>
         <source>Actual</source>
         <comment>Source/Vector view indicator label: actual values mode</comment>
         <translation type="unfinished"></translation>
@@ -2288,7 +2288,7 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>Target</source>
         <comment>Source/Vector view indicator label: target values mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>Cible</translation>
     </message>
     <message>
         <source>P AC</source>
