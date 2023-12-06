@@ -2301,5 +2301,9 @@ Please charge the device before it turns down</source>
         <extracomment>value based on the DUT constant</extracomment>
         <translation>Impulse:</translation>
     </message>
+    <message>
+        <source>T [°C]</source>
+        <translation>T [°C]</translation>
+    </message>
 </context>
 </TS>

@@ -2300,5 +2300,9 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <comment>Meter test power DC</comment>
         <translation></translation>
     </message>
+    <message>
+        <source>T [°C]</source>
+        <translation>T [°C]</translation>
+    </message>
 </context>
 </TS>
