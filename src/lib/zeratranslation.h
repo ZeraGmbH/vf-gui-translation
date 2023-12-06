@@ -31,6 +31,7 @@ public:
      */
     Q_INVOKABLE void changeLanguage(const QString &language);
     static void setInitialLanguage(const QString &language);
+    QString getCurrentLanguage();
     /**
      * @brief TrValue Translate a single string
      * @param key for QQmlPropertyMap

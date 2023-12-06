@@ -62,6 +62,11 @@ void ZeraTranslation::setInitialLanguage(const QString &language)
     m_initialLanguage = language;
 }
 
+QString ZeraTranslation::getCurrentLanguage()
+{
+    return m_currentLanguage;
+}
+
 QVariant ZeraTranslation::TrValue(const QString &key)
 {
     if(!contains(key)) {
