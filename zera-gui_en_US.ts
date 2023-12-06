@@ -2296,5 +2296,9 @@ Please charge the device before it turns down</translation>
         <extracomment>value based on the DUT constant</extracomment>
         <translation>Pulse:</translation>
     </message>
+    <message>
+        <source>T [°C]</source>
+        <translation>T [°F]</translation>
+    </message>
 </context>
 </TS>

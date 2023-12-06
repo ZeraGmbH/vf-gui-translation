@@ -937,6 +937,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Bluetooth:", tr("Bluetooth:"));
     insert("MAC address:", tr("MAC address:"));
     insert("Temperature [°C]:", tr("Temperature [°C]:"));
+    insert("T [°C]", tr("T [°C]"));
     insert("Temperature [°F]:", tr("Temperature [°F]:"));
     insert("Humidity [%]:", tr("Humidity [%]:"));
     insert("Air pressure [hPa]:", tr("Air pressure [hPa]:"));
