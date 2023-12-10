@@ -479,11 +479,6 @@ EthernetSettings.qml error header</extracomment>
         <translation>Réglages invalides dans le champ:</translation>
     </message>
     <message>
-        <source>Select device</source>
-        <extracomment>DeviceDialog.qml header</extracomment>
-        <translation>Sélectionner l&apos;appareil</translation>
-    </message>
-    <message>
         <source>Wifi password</source>
         <extracomment>SmartConnect.qml Wifi password header</extracomment>
         <translation>Mot de passe Wifi</translation>

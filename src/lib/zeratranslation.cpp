@@ -302,9 +302,6 @@ void ZeraTranslation::reloadStringTable()
     //: EthernetSettings.qml error text intro
     insert("invalid settings in field: ", tr("invalid settings in field: "));
 
-    //: DeviceDialog.qml header
-    insert("Select device", tr("Select device"));
-
     //: SmartConnect.qml Wifi password header
     insert("Wifi password", tr("Wifi password"));
     //: SmartConnect.qml Wifi password

@@ -1387,11 +1387,6 @@ EthernetSettings.qml error header</extracomment>
         <translation>Subnetzmaske:</translation>
     </message>
     <message>
-        <source>Select device</source>
-        <extracomment>DeviceDialog.qml header</extracomment>
-        <translation>Gerät auswahlen</translation>
-    </message>
-    <message>
         <source>SSID:</source>
         <extracomment>WifiSettings.qml SSID field</extracomment>
         <translation>SSID:</translation>
