@@ -1414,7 +1414,7 @@ EthernetSettings.qml error header</extracomment>
         <source>Hotspot</source>
         <extracomment>WifiSettings.qml Mode ComboBox
 ----------
-ConnectionTree.qml group Ethernet</extracomment>
+ConnectionTree.qml group Hotspot</extracomment>
         <translation></translation>
     </message>
     <message>
@@ -1434,17 +1434,7 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>WIFI</source>
-        <extracomment>ConnectionTree.qml group Ethernet</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>VPN</source>
-        <extracomment>ConnectionTree.qml group Ethernet</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Bluetooth</source>
-        <extracomment>ConnectionTree.qml group Ethernet</extracomment>
+        <extracomment>ConnectionTree.qml group Wifi</extracomment>
         <translation></translation>
     </message>
     <message>

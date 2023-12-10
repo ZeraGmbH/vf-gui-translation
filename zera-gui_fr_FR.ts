@@ -527,7 +527,7 @@ EthernetSettings.qml error header</extracomment>
         <source>Hotspot</source>
         <extracomment>WifiSettings.qml Mode ComboBox
 ----------
-ConnectionTree.qml group Ethernet</extracomment>
+ConnectionTree.qml group Hotspot</extracomment>
         <translation>Hotspot</translation>
     </message>
     <message>
@@ -567,18 +567,8 @@ ConnectionTree.qml group Ethernet</extracomment>
     </message>
     <message>
         <source>WIFI</source>
-        <extracomment>ConnectionTree.qml group Ethernet</extracomment>
+        <extracomment>ConnectionTree.qml group Wifi</extracomment>
         <translation>WIFI</translation>
-    </message>
-    <message>
-        <source>VPN</source>
-        <extracomment>ConnectionTree.qml group Ethernet</extracomment>
-        <translation>VPN</translation>
-    </message>
-    <message>
-        <source>Bluetooth</source>
-        <extracomment>ConnectionTree.qml group Ethernet</extracomment>
-        <translation>Bluetooth</translation>
     </message>
     <message>
         <source>Connection Information</source>

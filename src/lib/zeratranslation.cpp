@@ -339,14 +339,10 @@ void ZeraTranslation::reloadStringTable()
 
     //: ConnectionTree.qml group Ethernet
     insert("ETHERNET", tr("Ethernet"));
-    //: ConnectionTree.qml group Ethernet
+    //: ConnectionTree.qml group Wifi
     insert("WIFI", tr("WIFI"));
-    //: ConnectionTree.qml group Ethernet
+    //: ConnectionTree.qml group Hotspot
     insert("HOTSPOT", tr("Hotspot"));
-    //: ConnectionTree.qml group Ethernet
-    insert("VPN", tr("VPN"));
-    //: ConnectionTree.qml group Ethernet
-    insert("BLUETOOTH", tr("Bluetooth"));
 
     //: ConnectionInfo.qml header
     insert("Connection Information", tr("Connection Information"));
