@@ -219,8 +219,6 @@ void ZeraTranslation::reloadStringTable()
     insert("Max decimals total:", tr("Max decimals total:"));
     //: max number of decimals after the decimal separator
     insert("Max places after the decimal point:", tr("Max places after the decimal point:"));
-    //: WebGL IPs 'or'separator
-    insert("or", tr("or"));
     //: WebGL inactive label
     insert("Remote web (experimental):", tr("Remote web (experimental):"));
     //: WebGL active label
@@ -240,9 +238,7 @@ void ZeraTranslation::reloadStringTable()
     insert("PLL channel automatic:", tr("PLL channel automatic:"));
     //: dft phase reference channel
     insert("DFT reference channel:", tr("DFT reference channel:"));
-    //: System = measuring system
     insert("System colors:", tr("System colors:"));
-    insert("Frequency input/output configuration:", tr("Frequency input/output configuration:"));
     //: Settings show/hide AUX phases
     insert("Show AUX phase values:", tr("Show AUX phase values:"));
     //: Color themes popup adjust brightness for current
@@ -250,12 +246,6 @@ void ZeraTranslation::reloadStringTable()
     //: Color themes popup adjust brightness for current
     insert("Brightness black:", tr("Brightness black:"));
     insert("SCPI sequential mode:", tr("SCPI sequential mode:"));
-
-
-    //: Displayed in Frequency input/output configuration
-    insert("Nominal frequency:", tr("Nominal frequency:"));
-    //: Displayed in Frequency input/output configuration
-    insert("Frequency output constant:", tr("Frequency output constant:"));
 
     //SettingsInterval.qml
     //: time based integration interval
@@ -295,8 +285,6 @@ void ZeraTranslation::reloadStringTable()
     insert("IPV4 Subnetmask", tr("IPV4 Subnetmask"));
     //: EthernetSettings.qml error header
     insert("Network settings", tr("Network settings"));
-    //: EthernetSettings.qml error text intro
-    insert("invalid settings in field: ", tr("invalid settings in field: "));
 
     //: SmartConnect.qml Wifi password header
     insert("Wifi password", tr("Wifi password"));
@@ -313,8 +301,6 @@ void ZeraTranslation::reloadStringTable()
     insert("SSID:", tr("SSID:"));
     //: WifiSettings.qml SSID select dialog header
     insert("Wifi SSID", tr("Wifi SSID"));
-    //: WifiSettings.qml Mode ComboBox
-    insert("Client", tr("Client"));
     //: WifiSettings.qml Mode ComboBox
     insert("Hotspot", tr("Hotspot"));
     //: EthernetSettings.qml error SSID
@@ -355,20 +341,10 @@ void ZeraTranslation::reloadStringTable()
     insert("Loading...", tr("Loading..."));
     //: progress of loading %1 of %2 objects
     insert("Loading: %1/%2", tr("Loading: %1/%2"));
-    //: the measurement view pages e.g. "Vector Diagram", "Oscilloscope view", etc.
-    insert("Pages", tr("Pages", "view pages"));
     //: settings for range automatic etc.
     insert("Range", tr("Range", "measuring range"));
 
     //ErrorCalculatorModulePage.qml
-    insert("Idle", tr("Idle"));
-    //: the state where the device waits for the first pulse / edge to be triggered
-    insert("Armed", tr("Armed"));
-    insert("Started", tr("Started", "measurement started"));
-    //: like finished
-    insert("Ready", tr("Ready"));
-    insert("Aborted", tr("Aborted", "measurement was aborted"));
-    insert("Result:", tr("Result:", "error calculator result"));
     //: switch between time based and period based measurement
     insert("Mode:", tr("Mode:", "error calculator"));
     //: reference channel selection
@@ -383,8 +359,6 @@ void ZeraTranslation::reloadStringTable()
     insert("Pulse:", tr("Pulse:"));
     insert("Start", tr("Start"));
     insert("Stop", tr("Stop"));
-    insert("energy", tr("energy"));
-    insert("mrate", tr("mrate"));
     insert("Lower error limit:", tr("Lower error limit:"));
     insert("Upper error limit:", tr("Upper error limit:"));
     insert("continuous", tr("continuous"));
@@ -420,10 +394,6 @@ void ZeraTranslation::reloadStringTable()
     insert("Harmonic chart", tr("Harmonic chart", "Tab text harmonic chart"));
 
     //VectorModulePage.qml
-    //: ComboBox: I-vector ON
-    insert("ON", tr("ON"));
-    //: ComboBox: I-vector ON
-    insert("OFF", tr("OFF"));
     //: ComboBox: Scale to max. range
     insert("Ranges", tr("Ranges"));
     //: ComboBox: Scale to max. value

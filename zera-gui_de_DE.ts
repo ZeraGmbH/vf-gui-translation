@@ -238,7 +238,6 @@
     </message>
     <message>
         <source>System colors:</source>
-        <extracomment>System = measuring system</extracomment>
         <translation>Phasenfarben:</translation>
     </message>
     <message>
@@ -261,30 +260,10 @@
         <translation>Lädt: %1/%2</translation>
     </message>
     <message>
-        <source>Pages</source>
-        <comment>view pages</comment>
-        <extracomment>the measurement view pages e.g. &quot;Vector Diagram&quot;, &quot;Oscilloscope view&quot;, etc.</extracomment>
-        <translation>Funktion</translation>
-    </message>
-    <message>
         <source>Range</source>
         <comment>measuring range</comment>
         <extracomment>settings for range automatic etc.</extracomment>
         <translation>Bereich</translation>
-    </message>
-    <message>
-        <source>Idle</source>
-        <translation>Leerlauf</translation>
-    </message>
-    <message>
-        <source>Armed</source>
-        <extracomment>the state where the device waits for the first pulse / edge to be triggered</extracomment>
-        <translation>Vorbereitet</translation>
-    </message>
-    <message>
-        <source>Ready</source>
-        <extracomment>like finished</extracomment>
-        <translation>Bereit</translation>
     </message>
     <message>
         <source>Mode:</source>
@@ -319,15 +298,6 @@
     <message>
         <source>Stop</source>
         <translation>Stopp</translation>
-    </message>
-    <message>
-        <source>energy</source>
-        <translation>Energie</translation>
-    </message>
-    <message>
-        <source>mrate</source>
-        <translatorcomment>Erscheint im Dropdownmenü Mode, Menü Fehlermessung</translatorcomment>
-        <translation>Impulse</translation>
     </message>
     <message>
         <source>Amp</source>
@@ -1061,10 +1031,6 @@
         <translation>THDN:</translation>
     </message>
     <message>
-        <source>Frequency input/output configuration:</source>
-        <translation>Konfiguration Frequenzein-/ausgang:</translation>
-    </message>
-    <message>
         <source>X-Ratio</source>
         <translatorcomment>Stromwandlerwerte</translatorcomment>
         <translation>X Ratio</translation>
@@ -1080,16 +1046,6 @@
     <message>
         <source>X-Sec</source>
         <translation>X Sek</translation>
-    </message>
-    <message>
-        <source>Nominal frequency:</source>
-        <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation>Nominalfrequenz:</translation>
-    </message>
-    <message>
-        <source>Frequency output constant:</source>
-        <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation>Prüfzählerkonstante:</translation>
     </message>
     <message>
         <source>continuous</source>
@@ -1108,21 +1064,6 @@
     <message>
         <source>Preview</source>
         <translation>Vorschau</translation>
-    </message>
-    <message>
-        <source>Started</source>
-        <comment>measurement started</comment>
-        <translation>Gestartet</translation>
-    </message>
-    <message>
-        <source>Aborted</source>
-        <comment>measurement was aborted</comment>
-        <translation>Abgebrochen</translation>
-    </message>
-    <message>
-        <source>Result:</source>
-        <comment>error calculator result</comment>
-        <translation>Ergebnis:</translation>
     </message>
     <message>
         <source>File name:</source>
@@ -1337,11 +1278,6 @@ EthernetSettings.qml error header</extracomment>
         <translation>IPV6 Subnetmask</translation>
     </message>
     <message>
-        <source>invalid settings in field: </source>
-        <extracomment>EthernetSettings.qml error text intro</extracomment>
-        <translation>ungültige Einstellungen in Feld: </translation>
-    </message>
-    <message>
         <source>Wifi password</source>
         <extracomment>SmartConnect.qml Wifi password header</extracomment>
         <translation>WLAN Passwort</translation>
@@ -1395,11 +1331,6 @@ EthernetSettings.qml error header</extracomment>
         <source>Wifi SSID</source>
         <extracomment>WifiSettings.qml SSID select dialog header</extracomment>
         <translation>WLAN SSID</translation>
-    </message>
-    <message>
-        <source>Client</source>
-        <extracomment>WifiSettings.qml Mode ComboBox</extracomment>
-        <translation></translation>
     </message>
     <message>
         <source>Hotspot</source>
@@ -1776,16 +1707,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation>Fehler beim Import - wurde das Ziellaufwerk entfernt?</translation>
     </message>
     <message>
-        <source>ON</source>
-        <extracomment>ComboBox: I-vector ON</extracomment>
-        <translation>AN</translation>
-    </message>
-    <message>
-        <source>OFF</source>
-        <extracomment>ComboBox: I-vector ON</extracomment>
-        <translation>AUS</translation>
-    </message>
-    <message>
         <source>Maximum</source>
         <extracomment>ComboBox: Scale to max. value</extracomment>
         <translation></translation>
@@ -1837,11 +1758,6 @@ customer data delete file confirmation popup header</extracomment>
         <source>Back</source>
         <extracomment>logger custom data selector get back to menu button</extracomment>
         <translation>Zurück</translation>
-    </message>
-    <message>
-        <source>or</source>
-        <extracomment>WebGL IPs &apos;or&apos;separator</extracomment>
-        <translation>oder</translation>
     </message>
     <message>
         <source>Remote web (experimental):</source>

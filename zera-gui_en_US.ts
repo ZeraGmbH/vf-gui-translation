@@ -236,7 +236,6 @@
     </message>
     <message>
         <source>System colors:</source>
-        <extracomment>System = measuring system</extracomment>
         <translatorcomment>Britisches Englisch: colours (mit U)</translatorcomment>
         <translation>Phase colors:</translation>
     </message>
@@ -260,30 +259,10 @@
         <translation>Loading: %1/%2</translation>
     </message>
     <message>
-        <source>Pages</source>
-        <comment>view pages</comment>
-        <extracomment>the measurement view pages e.g. &quot;Vector Diagram&quot;, &quot;Oscilloscope view&quot;, etc.</extracomment>
-        <translation>Function</translation>
-    </message>
-    <message>
         <source>Range</source>
         <comment>measuring range</comment>
         <extracomment>settings for range automatic etc.</extracomment>
         <translation>Range</translation>
-    </message>
-    <message>
-        <source>Idle</source>
-        <translation>No-load</translation>
-    </message>
-    <message>
-        <source>Armed</source>
-        <extracomment>the state where the device waits for the first pulse / edge to be triggered</extracomment>
-        <translation>Prepared</translation>
-    </message>
-    <message>
-        <source>Ready</source>
-        <extracomment>like finished</extracomment>
-        <translation>Ready</translation>
     </message>
     <message>
         <source>Mode:</source>
@@ -318,14 +297,6 @@
     <message>
         <source>Stop</source>
         <translation>Stop</translation>
-    </message>
-    <message>
-        <source>energy</source>
-        <translation>Energy</translation>
-    </message>
-    <message>
-        <source>mrate</source>
-        <translation>Pulse</translation>
     </message>
     <message>
         <source>Amp</source>
@@ -1056,10 +1027,6 @@
         <translation>THDN:</translation>
     </message>
     <message>
-        <source>Frequency input/output configuration:</source>
-        <translation>Frequency input/output configuration:</translation>
-    </message>
-    <message>
         <source>X-Ratio</source>
         <translation>X Ratio</translation>
     </message>
@@ -1074,16 +1041,6 @@
     <message>
         <source>X-Sec</source>
         <translation>X Sec</translation>
-    </message>
-    <message>
-        <source>Nominal frequency:</source>
-        <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation>Nominal frequency:</translation>
-    </message>
-    <message>
-        <source>Frequency output constant:</source>
-        <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation>Constant reference meter:</translation>
     </message>
     <message>
         <source>continuous</source>
@@ -1102,21 +1059,6 @@
     <message>
         <source>Preview</source>
         <translation>Preview</translation>
-    </message>
-    <message>
-        <source>Started</source>
-        <comment>measurement started</comment>
-        <translation>Started</translation>
-    </message>
-    <message>
-        <source>Aborted</source>
-        <comment>measurement was aborted</comment>
-        <translation>Cancelled</translation>
-    </message>
-    <message>
-        <source>Result:</source>
-        <comment>error calculator result</comment>
-        <translation>Result:</translation>
     </message>
     <message>
         <source>File name:</source>
@@ -1331,11 +1273,6 @@ EthernetSettings.qml error header</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>invalid settings in field: </source>
-        <extracomment>EthernetSettings.qml error text intro</extracomment>
-        <translation></translation>
-    </message>
-    <message>
         <source>Wifi password</source>
         <extracomment>SmartConnect.qml Wifi password header</extracomment>
         <translation></translation>
@@ -1388,11 +1325,6 @@ EthernetSettings.qml error header</extracomment>
     <message>
         <source>Wifi SSID</source>
         <extracomment>WifiSettings.qml SSID select dialog header</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Client</source>
-        <extracomment>WifiSettings.qml Mode ComboBox</extracomment>
         <translation></translation>
     </message>
     <message>
@@ -1770,16 +1702,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>ON</source>
-        <extracomment>ComboBox: I-vector ON</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>OFF</source>
-        <extracomment>ComboBox: I-vector ON</extracomment>
-        <translation></translation>
-    </message>
-    <message>
         <source>Maximum</source>
         <extracomment>ComboBox: Scale to max. value</extracomment>
         <translation></translation>
@@ -1830,11 +1752,6 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Back</source>
         <extracomment>logger custom data selector get back to menu button</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>or</source>
-        <extracomment>WebGL IPs &apos;or&apos;separator</extracomment>
         <translation></translation>
     </message>
     <message>

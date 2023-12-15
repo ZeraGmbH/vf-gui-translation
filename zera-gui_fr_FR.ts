@@ -298,11 +298,6 @@
         <translation>Max places après le point décimal:</translation>
     </message>
     <message>
-        <source>or</source>
-        <extracomment>WebGL IPs &apos;or&apos;separator</extracomment>
-        <translation>ou</translation>
-    </message>
-    <message>
         <source>Remote web (experimental):</source>
         <extracomment>WebGL inactive label</extracomment>
         <translation>Web distant (expérimental):</translation>
@@ -346,12 +341,7 @@ EthernetSettings.qml error header</extracomment>
     </message>
     <message>
         <source>System colors:</source>
-        <extracomment>System = measuring system</extracomment>
         <translation>Couleurs du système:</translation>
-    </message>
-    <message>
-        <source>Frequency input/output configuration:</source>
-        <translation>Configuration de fréquence entrée/sortie:</translation>
     </message>
     <message>
         <source>Show AUX phase values:</source>
@@ -367,16 +357,6 @@ EthernetSettings.qml error header</extracomment>
         <source>Brightness black:</source>
         <extracomment>Color themes popup adjust brightness for current</extracomment>
         <translation>Luminosité noire:</translation>
-    </message>
-    <message>
-        <source>Nominal frequency:</source>
-        <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation>Fréquence nominale:</translation>
-    </message>
-    <message>
-        <source>Frequency output constant:</source>
-        <extracomment>Displayed in Frequency input/output configuration</extracomment>
-        <translation>Fréquence de sortie constante:</translation>
     </message>
     <message>
         <source>Integration time interval</source>
@@ -464,11 +444,6 @@ EthernetSettings.qml error header</extracomment>
         <translation>Masque de sous-réseau IPV4</translation>
     </message>
     <message>
-        <source>invalid settings in field: </source>
-        <extracomment>EthernetSettings.qml error text intro</extracomment>
-        <translation>Réglages invalides dans le champ:</translation>
-    </message>
-    <message>
         <source>Wifi password</source>
         <extracomment>SmartConnect.qml Wifi password header</extracomment>
         <translation>Mot de passe Wifi</translation>
@@ -502,11 +477,6 @@ EthernetSettings.qml error header</extracomment>
         <source>Wifi SSID</source>
         <extracomment>WifiSettings.qml SSID select dialog header</extracomment>
         <translation>Wifi SSID</translation>
-    </message>
-    <message>
-        <source>Client</source>
-        <extracomment>WifiSettings.qml Mode ComboBox</extracomment>
-        <translation>Client</translation>
     </message>
     <message>
         <source>Hotspot</source>
@@ -590,45 +560,10 @@ ConnectionTree.qml group Hotspot</extracomment>
         <translation>Chargement: %1/%2</translation>
     </message>
     <message>
-        <source>Pages</source>
-        <comment>view pages</comment>
-        <extracomment>the measurement view pages e.g. &quot;Vector Diagram&quot;, &quot;Oscilloscope view&quot;, etc.</extracomment>
-        <translation>Pages</translation>
-    </message>
-    <message>
         <source>Range</source>
         <comment>measuring range</comment>
         <extracomment>settings for range automatic etc.</extracomment>
         <translation>Plage</translation>
-    </message>
-    <message>
-        <source>Idle</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Armed</source>
-        <extracomment>the state where the device waits for the first pulse / edge to be triggered</extracomment>
-        <translation>Preparé</translation>
-    </message>
-    <message>
-        <source>Started</source>
-        <comment>measurement started</comment>
-        <translation>Commencé</translation>
-    </message>
-    <message>
-        <source>Ready</source>
-        <extracomment>like finished</extracomment>
-        <translation>Prêt</translation>
-    </message>
-    <message>
-        <source>Aborted</source>
-        <comment>measurement was aborted</comment>
-        <translation>Interrompu</translation>
-    </message>
-    <message>
-        <source>Result:</source>
-        <comment>error calculator result</comment>
-        <translation>Résultat:</translation>
     </message>
     <message>
         <source>Mode:</source>
@@ -663,14 +598,6 @@ ConnectionTree.qml group Hotspot</extracomment>
     <message>
         <source>Stop</source>
         <translation>Arrêter</translation>
-    </message>
-    <message>
-        <source>energy</source>
-        <translation>énergie</translation>
-    </message>
-    <message>
-        <source>mrate</source>
-        <translation>Pulsation</translation>
     </message>
     <message>
         <source>continuous</source>
@@ -758,16 +685,6 @@ ConnectionTree.qml group Hotspot</extracomment>
         <source>Harmonic chart</source>
         <comment>Tab text harmonic chart</comment>
         <translation>Graphique harmonique</translation>
-    </message>
-    <message>
-        <source>ON</source>
-        <extracomment>ComboBox: I-vector ON</extracomment>
-        <translation>ON</translation>
-    </message>
-    <message>
-        <source>OFF</source>
-        <extracomment>ComboBox: I-vector ON</extracomment>
-        <translation>OFF</translation>
     </message>
     <message>
         <source>Ranges</source>
