@@ -267,10 +267,6 @@ void ZeraTranslation::reloadStringTable()
     insert("periods", tr("periods", "integration period interval unit"));
 
     // Network settings
-    //: available devices AvailableDevDialog.qml
-    insert("Device Binding", tr("Device Binding"));
-    //: list of devices header
-    insert("Devices:", tr("Devices:"));
     //: AvailableApDialog.qml Wifi password access point
     insert("Wifi Password", tr("Wifi Password"));
     //: AvailableApDialog.qml Networks?

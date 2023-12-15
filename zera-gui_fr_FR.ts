@@ -399,16 +399,6 @@ EthernetSettings.qml error header</extracomment>
         <translation>périodes</translation>
     </message>
     <message>
-        <source>Device Binding</source>
-        <extracomment>available devices AvailableDevDialog.qml</extracomment>
-        <translation>Liaison d&apos;appareil</translation>
-    </message>
-    <message>
-        <source>Devices:</source>
-        <extracomment>list of devices header</extracomment>
-        <translation>Appareils:</translation>
-    </message>
-    <message>
         <source>Wifi Password</source>
         <extracomment>AvailableApDialog.qml Wifi password access point</extracomment>
         <translation>Mot de passe Wifi</translation>

@@ -1292,11 +1292,6 @@ EthernetSettings.qml error header</extracomment>
         <translation>Netzwerkeinstellungen</translation>
     </message>
     <message>
-        <source>Device Binding</source>
-        <extracomment>available devices AvailableDevDialog.qml</extracomment>
-        <translation>Gerätebinding</translation>
-    </message>
-    <message>
         <source>Wifi Password</source>
         <extracomment>AvailableApDialog.qml Wifi password access point</extracomment>
         <translation>WLAN Passwort</translation>
@@ -1360,11 +1355,6 @@ EthernetSettings.qml error header</extracomment>
         <source>Device:</source>
         <extracomment>SmartConnect.qml Wifi password</extracomment>
         <translation>Gerät:</translation>
-    </message>
-    <message>
-        <source>Devices:</source>
-        <extracomment>list of devices header</extracomment>
-        <translation>Geräte:</translation>
     </message>
     <message>
         <source>Networks:</source>
