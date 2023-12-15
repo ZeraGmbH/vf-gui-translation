@@ -2279,5 +2279,9 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>T [°C]</source>
         <translation>T [°C]</translation>
     </message>
+    <message>
+        <source>Actual values &amp; Meter tests</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

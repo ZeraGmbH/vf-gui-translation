@@ -2280,5 +2280,9 @@ Please charge the device before it turns down</source>
         <source>T [°C]</source>
         <translation>T [°C]</translation>
     </message>
+    <message>
+        <source>Actual values &amp; Meter tests</source>
+        <translation>Istwerte &amp; Fehlermessungen</translation>
+    </message>
 </context>
 </TS>
