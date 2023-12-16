@@ -989,317 +989,6 @@ ConnectionTree.qml group Hotspot</extracomment>
         <translation>arcmin</translation>
     </message>
     <message>
-        <source>RESMAN ident error</source>
-        <extracomment>RESMAN = resource manager</extracomment>
-        <translation>RESMAN erreur ident</translation>
-    </message>
-    <message>
-        <source>RESMAN resourcetype not avail</source>
-        <extracomment>RESMAN = resource manager</extracomment>
-        <translation>RESMAN type de resource indispo</translation>
-    </message>
-    <message>
-        <source>RESMAN resource not avail</source>
-        <extracomment>RESMAN = resource manager</extracomment>
-        <translation>RESMAN ressource indispo</translation>
-    </message>
-    <message>
-        <source>RESMAN resource Info error</source>
-        <extracomment>RESMAN = resource manager</extracomment>
-        <translation>RESMAN erreur ressource Info</translation>
-    </message>
-    <message>
-        <source>RESMAN set resource failed</source>
-        <extracomment>RESMAN = resource manager</extracomment>
-        <translation>RESMAN échec du réglage de ressource</translation>
-    </message>
-    <message>
-        <source>RESMAN free resource failed</source>
-        <extracomment>RESMAN = resource manager</extracomment>
-        <translation>RESMAN ressource libre échouée</translation>
-    </message>
-    <message>
-        <source>PCB dsp channel read failed</source>
-        <translation>PCB échec de la lecture du canal dsp</translation>
-    </message>
-    <message>
-        <source>PCB alias read failed</source>
-        <translation>PCB échec de lecture alias</translation>
-    </message>
-    <message>
-        <source>PCB sample rate read failed</source>
-        <translation>PCB échec de la lecture du taux d&apos;échantillonnage</translation>
-    </message>
-    <message>
-        <source>PCB unit read failed</source>
-        <translation>PCB échec de la lecture de l&apos;unité</translation>
-    </message>
-    <message>
-        <source>PCB range list read failed</source>
-        <translation>PCb échec de la lecture de la liste de plages</translation>
-    </message>
-    <message>
-        <source>PCB range alias read failed</source>
-        <translation>PCB échec de la lecture des alias de plages</translation>
-    </message>
-    <message>
-        <source>PCB range type read failed</source>
-        <translation>PCB échec de la lecture du type de plage</translation>
-    </message>
-    <message>
-        <source>PCB range urvalue read failed</source>
-        <translation>PCB échec de la lecture de l&apos;urvalue de la plage</translation>
-    </message>
-    <message>
-        <source>PCB range rejection read failed</source>
-        <translation>PCB échec de la lecture du rejet de la plage</translation>
-    </message>
-    <message>
-        <source>PCB range overload rejection failed</source>
-        <translation>PCB  échec du rejet de la surcharge de la plage</translation>
-    </message>
-    <message>
-        <source>PCB range avail info read failed</source>
-        <translation>PCB échec de la lecture de l&apos;information sur la disponibilité de la plage</translation>
-    </message>
-    <message>
-        <source>PCB set range failed</source>
-        <translation>PCB échec du réglage de la plage</translation>
-    </message>
-    <message>
-        <source>PCB get range failed</source>
-        <translation>PCB échec de la récupération de la plage</translation>
-    </message>
-    <message>
-        <source>PCB set measuring mode failed</source>
-        <translation>PCB échec du réglage du mode de mesure</translation>
-    </message>
-    <message>
-        <source>PCB read gain correction failed</source>
-        <translation>PCB échec de la lecture de la correction du gain</translation>
-    </message>
-    <message>
-        <source>PCB set gain node failed</source>
-        <translation>PCB échec du réglage du nœud de gain</translation>
-    </message>
-    <message>
-        <source>PCB read offset correction failed</source>
-        <translation>PCB échec de la lecture de la correction du décalage</translation>
-    </message>
-    <message>
-        <source>PCB set offset node failed</source>
-        <translation>PCB échec du réglage du nœud de décalage</translation>
-    </message>
-    <message>
-        <source>PCB read phase correction failed</source>
-        <translation>PCB échec de la lecture de la correction de phase</translation>
-    </message>
-    <message>
-        <source>PCB set phase node failed</source>
-        <translation>PCB échec du réglage du nœud de la phase</translation>
-    </message>
-    <message>
-        <source>PCB read channel status failed</source>
-        <translation>PCB échec de lecture du statut du canal</translation>
-    </message>
-    <message>
-        <source>PCB reset channel status failed</source>
-        <translation>PCB échec de réinitialisation du statut du canal</translation>
-    </message>
-    <message>
-        <source>PCB formfactor read failed</source>
-        <translation>PCB échec de la lecture du facteur de forme</translation>
-    </message>
-    <message>
-        <source>PCB register notifier failed</source>
-        <translation>PCB échec de l&apos;enregistrement du notificateur</translation>
-    </message>
-    <message>
-        <source>PCB unregister notifier failed</source>
-        <translation>PCB échec du désenregistrement du notificateur</translation>
-    </message>
-    <message>
-        <source>PCB set pll failed</source>
-        <translation>PCB échec du réglage pll</translation>
-    </message>
-    <message>
-        <source>PCB muxchannel read failed</source>
-        <translation>PCB échec de la lecture du multicanal</translation>
-    </message>
-    <message>
-        <source>PCB reference constant read failed</source>
-        <translation>PCB échec de la lecture de la constante de référence</translation>
-    </message>
-    <message>
-        <source>PCB adjustment status read failed</source>
-        <translation>PCB échec de la lecture du statut d&apos;ajustement</translation>
-    </message>
-    <message>
-        <source>PCB adjustment chksum read failed</source>
-        <translation>PCB échec de la lecture de la somme de contrôle de l&apos;ajustement</translation>
-    </message>
-    <message>
-        <source>PCB server version read failed</source>
-        <translation>PCB échec de la lecture de la version du serveur</translation>
-    </message>
-    <message>
-        <source>PCB Controler version read failed</source>
-        <translation>PCB échec de la lecture de la version du contrôleur</translation>
-    </message>
-    <message>
-        <source>PCB FPGA version read failed</source>
-        <translation>PCB échec de lecture de la version FPGA</translation>
-    </message>
-    <message>
-        <source>PCB error messages read failed</source>
-        <translation>PCB échec de lecture des messages d&apos;erreur</translation>
-    </message>
-    <message>
-        <source>PCB adjustment computation failed</source>
-        <translation>PCB échec du calcul de l&apos;ajustement</translation>
-    </message>
-    <message>
-        <source>PCB adjustment storage failed</source>
-        <translation>PCB échec de la mémorisation de l&apos;ajustement</translation>
-    </message>
-    <message>
-        <source>PCB adjustment status setting failed</source>
-        <translation>PCB échec du réglage de l&apos;état d&apos;ajustement</translation>
-    </message>
-    <message>
-        <source>PCB adjustment init failed</source>
-        <translation>PCB échec de l&apos;initialisation de l&apos;ajustement</translation>
-    </message>
-    <message>
-        <source>DSP read gain correction failed</source>
-        <translation>DSP échec de la lecture de la correction du gain</translation>
-    </message>
-    <message>
-        <source>DSP read phase correction failed</source>
-        <translation>DSP échec de la lecture de la correction de phase</translation>
-    </message>
-    <message>
-        <source>DSP read offset correction failed</source>
-        <translation>DSP échec de la lecture de la correction du décalage</translation>
-    </message>
-    <message>
-        <source>DSP write gain correction failed</source>
-        <translation>DSP échec de l&apos;écriture de correction du gain</translation>
-    </message>
-    <message>
-        <source>DSP write phase correction failed</source>
-        <translation>DSP échec de l&apos;écriture de correction de phase</translation>
-    </message>
-    <message>
-        <source>DSP write offset corredction failed</source>
-        <translation>DSP échec de l&apos;écriture de correction du décalage</translation>
-    </message>
-    <message>
-        <source>DSP write varlist failed</source>
-        <translation>DSP échec de l&apos;écriture de la liste de valeurs</translation>
-    </message>
-    <message>
-        <source>DSP write cmdlist failed</source>
-        <translation>DSP échec de l&apos;écriture de la liste de commandes</translation>
-    </message>
-    <message>
-        <source>DSP measure activation failed</source>
-        <translation>DSP échec de l&apos;activation de la mesure</translation>
-    </message>
-    <message>
-        <source>DSP measure deactivation failed</source>
-        <translation>DSP échec de la désactivation de la mesure</translation>
-    </message>
-    <message>
-        <source>DSP data acquisition failed</source>
-        <translation>DSP échec de l&apos;acquisition de données</translation>
-    </message>
-    <message>
-        <source>DSP memory write failed</source>
-        <translation>DSP échec de l&apos;écriture de la mémoire</translation>
-    </message>
-    <message>
-        <source>DSP subdc write failed</source>
-        <translation>DSP échec de l&apos;écriture du subdc</translation>
-    </message>
-    <message>
-        <source>DSP server version read failed</source>
-        <translation>DSP échec de la lecture de la version du serveur</translation>
-    </message>
-    <message>
-        <source>DSP program version read failed</source>
-        <translation>DSP échec de la lecture de la version du programme</translation>
-    </message>
-    <message>
-        <source>DSP setting sampling system failed</source>
-        <translation>DSP échec du réglage du système d&apos;échantillonnage</translation>
-    </message>
-    <message>
-        <source>SEC fetch ecalculator failed</source>
-        <extracomment>SEC = standard error calculator</extracomment>
-        <translation>SEC échec de la récupération de l&apos;e-calculateur</translation>
-    </message>
-    <message>
-        <source>SEC free ecalculator failed</source>
-        <extracomment>SEC = standard error calculator</extracomment>
-        <translation>SEC échec de la libération du e-calculateur</translation>
-    </message>
-    <message>
-        <source>SEC read register failed</source>
-        <extracomment>SEC = standard error calculator</extracomment>
-        <translation>SEC échec de la lecture du registre</translation>
-    </message>
-    <message>
-        <source>SEC write register failed</source>
-        <extracomment>SEC = standard error calculator</extracomment>
-        <translation>SEC échec de l&apos;écriture du registre</translation>
-    </message>
-    <message>
-        <source>SEC set sync failed</source>
-        <extracomment>SEC = standard error calculator</extracomment>
-        <translation>SEC échec de la configuration sync</translation>
-    </message>
-    <message>
-        <source>SEC set mux failed</source>
-        <extracomment>SEC = standard error calculator</extracomment>
-        <translation>SEC échec de la configuration mux</translation>
-    </message>
-    <message>
-        <source>SEC set cmdid failed</source>
-        <extracomment>SEC = standard error calculator, cmdid = command id</extracomment>
-        <translation>SEC échec de la configuration du cmdid</translation>
-    </message>
-    <message>
-        <source>SEC start measure failed</source>
-        <extracomment>SEC = standard error calculator</extracomment>
-        <translation>SEC mesure de démarrage échouée</translation>
-    </message>
-    <message>
-        <source>SEC stop measure failed</source>
-        <extracomment>SEC = standard error calculator</extracomment>
-        <translation>SEC mesure d&apos;arrêt échouée</translation>
-    </message>
-    <message>
-        <source>Interface JSON Document strange</source>
-        <translation>Interface JSON Document étrange</translation>
-    </message>
-    <message>
-        <source>Ethernet interface listen failed</source>
-        <translation>Échec d&apos;écoute de l&apos;interface Ethernet</translation>
-    </message>
-    <message>
-        <source>Serial interface not connected</source>
-        <translation>Interface série non connectée</translation>
-    </message>
-    <message>
-        <source>Actual Values not found</source>
-        <translation>Valeurs actuelles non trouvées</translation>
-    </message>
-    <message>
-        <source>Release number not found</source>
-        <translation>Numéro de version non trouvé</translation>
-    </message>
-    <message>
         <source>Device info</source>
         <translation>Info appareil</translation>
     </message>
@@ -1368,10 +1057,6 @@ ConnectionTree.qml group Hotspot</extracomment>
         <translation>Date de carte UCT</translation>
     </message>
     <message>
-        <source>Device notifications</source>
-        <translation>Notifications de l&apos;appareil</translation>
-    </message>
-    <message>
         <source>Database Logging</source>
         <translation>Journalisation de base de données</translation>
     </message>
@@ -1382,14 +1067,6 @@ ConnectionTree.qml group Hotspot</extracomment>
     <message>
         <source>DB location:</source>
         <translation>Emplacement BD:</translation>
-    </message>
-    <message>
-        <source>Database filename:</source>
-        <translation>Nom du fichier de base de données:</translation>
-    </message>
-    <message>
-        <source>Scheduled logging enabled:</source>
-        <translation>Journalisation programmée activée:</translation>
     </message>
     <message>
         <source>Logging Duration [hh:mm:ss]:</source>
@@ -1420,11 +1097,6 @@ ConnectionTree.qml group Hotspot</extracomment>
     <message>
         <source>Database error</source>
         <translation>Erreur de la base de données</translation>
-    </message>
-    <message>
-        <source>Select recorded values:</source>
-        <extracomment>the user can make a selection of values he wants to log into a database</extracomment>
-        <translation>Sélectionner les valeurs enregistrées:</translation>
     </message>
     <message>
         <source>Manage customer data:</source>
@@ -1458,11 +1130,6 @@ ConnectionTree.qml group Hotspot</extracomment>
         <source>Create database</source>
         <extracomment>popup create database header</extracomment>
         <translation>Créer base de données</translation>
-    </message>
-    <message>
-        <source>Databases</source>
-        <extracomment>database search / delete view header</extracomment>
-        <translation>Bases de données</translation>
     </message>
     <message>
         <source>internal</source>
@@ -2034,10 +1701,6 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>XLSg</source>
         <comment>X Leiter Scheinleistung geometrisch = X wire apparent power geometric</comment>
         <translation>XFAg</translation>
-    </message>
-    <message>
-        <source>PCB version read failed</source>
-        <translation>Echec de la lecture de la version du PCB</translation>
     </message>
     <message>
         <source>System controller version</source>

@@ -513,104 +513,6 @@ void ZeraTranslation::reloadStringTable()
     insert("Actual", tr("Actual", "Source/Vector view indicator label: actual values mode"));
     insert("Target", tr("Target", "Source/Vector view indicator label: target values mode"));
 
-    //Zera Classes -> zera-basemodule -> errormessages.h
-    //: RESMAN = resource manager
-    insert("RESMAN ident error", tr("RESMAN ident error"));
-    //: RESMAN = resource manager
-    insert("RESMAN resourcetype not avail", tr("RESMAN resourcetype not avail"));
-    //: RESMAN = resource manager
-    insert("RESMAN resource not avail", tr("RESMAN resource not avail"));
-    //: RESMAN = resource manager
-    insert("RESMAN resource Info error", tr("RESMAN resource Info error"));
-    //: RESMAN = resource manager
-    insert("RESMAN set resource failed", tr("RESMAN set resource failed"));
-    //: RESMAN = resource manager
-    insert("RESMAN free resource failed", tr("RESMAN free resource failed"));
-
-    insert("PCB dsp channel read failed", tr("PCB dsp channel read failed"));
-    insert("PCB alias read failed", tr("PCB alias read failed"));
-    insert("PCB sample rate read failed", tr("PCB sample rate read failed"));
-    insert("PCB unit read failed", tr("PCB unit read failed"));
-    insert("PCB range list read failed", tr("PCB range list read failed"));
-    insert("PCB range alias read failed", tr("PCB range alias read failed"));
-    insert("PCB range type read failed", tr("PCB range type read failed"));
-    insert("PCB range urvalue read failed", tr("PCB range urvalue read failed"));
-    insert("PCB range rejection read failed", tr("PCB range rejection read failed"));
-    insert("PCB range overload rejection failed", tr("PCB range overload rejection failed"));
-    insert("PCB range avail info read failed", tr("PCB range avail info read failed"));
-    insert("PCB set range failed", tr("PCB set range failed"));
-    insert("PCB get range failed", tr("PCB get range failed"));
-    insert("PCB set measuring mode failed", tr("PCB set measuring mode failed"));
-    insert("PCB read gain correction failed", tr("PCB read gain correction failed"));
-    insert("PCB set gain node failed", tr("PCB set gain node failed"));
-    insert("PCB read offset correction failed", tr("PCB read offset correction failed"));
-    insert("PCB set offset node failed", tr("PCB set offset node failed"));
-    insert("PCB read phase correction failed", tr("PCB read phase correction failed"));
-    insert("PCB set phase node failed", tr("PCB set phase node failed"));
-    insert("PCB read channel status failed", tr("PCB read channel status failed"));
-    insert("PCB reset channel status failed", tr("PCB reset channel status failed"));
-    insert("PCB formfactor read failed", tr("PCB formfactor read failed"));
-    insert("PCB register notifier failed", tr("PCB register notifier failed"));
-    insert("PCB unregister notifier failed", tr("PCB unregister notifier failed"));
-    insert("PCB set pll failed", tr("PCB set pll failed"));
-    insert("PCB muxchannel read failed", tr("PCB muxchannel read failed"));
-    insert("PCB reference constant read failed", tr("PCB reference constant read failed"));
-    insert("PCB adjustment status read failed", tr("PCB adjustment status read failed"));
-    insert("PCB adjustment chksum read failed", tr("PCB adjustment chksum read failed"));
-    insert("PCB version read failed", tr("PCB version read failed"));
-    insert("PCB server version read failed", tr("PCB server version read failed"));
-    insert("PCB Controler version read failed", tr("PCB Controler version read failed"));
-    insert("PCB FPGA version read failed", tr("PCB FPGA version read failed"));
-    insert("PCB FPGA version read failed", tr("PCB FPGA version read failed"));
-    insert("PCB error messages read failed", tr("PCB error messages read failed"));
-    insert("PCB adjustment computation failed", tr("PCB adjustment computation failed"));
-    insert("PCB adjustment storage failed", tr("PCB adjustment storage failed"));
-    insert("PCB adjustment status setting failed", tr("PCB adjustment status setting failed"));
-    insert("PCB adjustment init failed", tr("PCB adjustment init failed"));
-
-    insert("DSP read gain correction failed", tr("DSP read gain correction failed"));
-    insert("DSP read phase correction failed", tr("DSP read phase correction failed"));
-    insert("DSP read offset correction failed", tr("DSP read offset correction failed"));
-    insert("DSP write gain correction failed", tr("DSP write gain correction failed"));
-    insert("DSP write phase correction failed", tr("DSP write phase correction failed"));
-    insert("DSP write offset corredction failed", tr("DSP write offset corredction failed"));
-    insert("DSP write varlist failed", tr("DSP write varlist failed"));
-    insert("DSP write cmdlist failed", tr("DSP write cmdlist failed"));
-    insert("DSP measure activation failed", tr("DSP measure activation failed"));
-    insert("DSP measure deactivation failed", tr("DSP measure deactivation failed"));
-    insert("DSP data acquisition failed", tr("DSP data acquisition failed"));
-    insert("DSP memory write failed", tr("DSP memory write failed"));
-    insert("DSP subdc write failed", tr("DSP subdc write failed"));
-    insert("DSP server version read failed", tr("DSP server version read failed"));
-    insert("DSP program version read failed", tr("DSP program version read failed"));
-    insert("DSP setting sampling system failed", tr("DSP setting sampling system failed"));
-
-    //: SEC = standard error calculator
-    insert("SEC fetch ecalculator failed", tr("SEC fetch ecalculator failed"));
-    //: SEC = standard error calculator
-    insert("SEC free ecalculator failed", tr("SEC free ecalculator failed"));
-    //: SEC = standard error calculator
-    insert("SEC read register failed", tr("SEC read register failed"));
-    //: SEC = standard error calculator
-    insert("SEC write register failed", tr("SEC write register failed"));
-    //: SEC = standard error calculator
-    insert("SEC set sync failed", tr("SEC set sync failed"));
-    //: SEC = standard error calculator
-    insert("SEC set mux failed", tr("SEC set mux failed"));
-    //: SEC = standard error calculator, cmdid = command id
-    insert("SEC set cmdid failed", tr("SEC set cmdid failed"));
-    //: SEC = standard error calculator
-    insert("SEC start measure failed", tr("SEC start measure failed"));
-    //: SEC = standard error calculator
-    insert("SEC stop measure failed", tr("SEC stop measure failed"));
-
-    insert("Interface JSON Document strange", tr("Interface JSON Document strange"));
-    insert("Ethernet interface listen failed", tr("Ethernet interface listen failed"));
-    insert("Serial interface not connected", tr("Serial interface not connected"));
-
-    insert("Actual Values not found", tr("Actual Values not found"));
-    insert("Release number not found", tr("Release number not found"));
-
     //DeviceInformation.qml
     insert("Device info", tr("Device info"));
     insert("Device log", tr("Device log"));
@@ -636,15 +538,10 @@ void ZeraTranslation::reloadStringTable()
     insert("CPU-board assembly", tr("CPU-board assembly"));
     insert("CPU-board date", tr("CPU-board date"));
 
-    //Notifications.qml
-    insert("Device notifications", tr("Device notifications"));
-
     //LoggerSettings.qml
     insert("Database Logging", tr("Database Logging"));
     insert("Logging enabled:", tr("Logging enabled:"));
     insert("DB location:", tr("DB location:"));
-    insert("Database filename:", tr("Database filename:"));
-    insert("Scheduled logging enabled:", tr("Scheduled logging enabled:"));
     //: describes the duration of the recording
     insert("Logging Duration [hh:mm:ss]:", tr("Logging Duration [hh:mm:ss]:"));
     insert("Logger status:", tr("Logger status:"));
@@ -654,8 +551,6 @@ void ZeraTranslation::reloadStringTable()
     insert("No database selected", tr("No database selected"));
     insert("Database loaded", tr("Database loaded"));
     insert("Database error", tr("Database error"));
-    //: the user can make a selection of values he wants to log into a database
-    insert("Select recorded values:", tr("Select recorded values:"));
     insert("Manage customer data:", tr("Manage customer data:"));
     insert("Snapshot", tr("Snapshot"));
     //: when the system disabled the customer data management, the brackets are for visual distinction from other text
@@ -670,8 +565,6 @@ void ZeraTranslation::reloadStringTable()
     insert("Create database", tr("Create database"));
 
     //LoggerDbSearchDialog.qml
-    //: database search / delete view header
-    insert("Databases", tr("Databases"));
     //:Select db location: internal storage
     insert("internal", tr("internal"));
     //:Select db location: external storage e.g memory stick
