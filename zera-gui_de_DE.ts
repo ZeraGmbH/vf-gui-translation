@@ -1679,7 +1679,8 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Battery low !
 Please charge the device before it turns down</source>
-        <translation>Der Akku ist fast leer !\nBitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translation>
+        <translation>Der Akku ist fast leer !
+Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translation>
     </message>
     <message>
         <source>XLW</source>
