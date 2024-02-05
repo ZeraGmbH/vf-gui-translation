@@ -1863,5 +1863,15 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Actual values &amp; Meter tests</source>
         <translation>Istwerte &amp; Fehlermessungen</translation>
     </message>
+    <message>
+        <source>ind</source>
+        <comment>Power factor inductive load type</comment>
+        <translation>i</translation>
+    </message>
+    <message>
+        <source>cap</source>
+        <comment>Power factor capacitive load type</comment>
+        <translation>k</translation>
+    </message>
 </context>
 </TS>

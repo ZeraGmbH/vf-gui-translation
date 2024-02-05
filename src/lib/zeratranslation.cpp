@@ -135,6 +135,9 @@ void ZeraTranslation::reloadStringTable()
 
     insert("QREF", tr("QREF", "Referenz-Modus = reference mode"));
 
+    insert("ind", tr("ind", "Power factor inductive load type"));
+    insert("cap", tr("cap", "Power factor capacitive load type"));
+
     insert("L1", tr("L1", "measuring system 1"));
     insert("L2", tr("L2", "measuring system 2"));
     insert("L3", tr("L3", "measuring system 3"));

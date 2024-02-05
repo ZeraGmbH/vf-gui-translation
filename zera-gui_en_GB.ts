@@ -1859,5 +1859,15 @@ Please charge the device before it turns down</translation>
         <source>Actual values &amp; Meter tests</source>
         <translation></translation>
     </message>
+    <message>
+        <source>ind</source>
+        <comment>Power factor inductive load type</comment>
+        <translation>i</translation>
+    </message>
+    <message>
+        <source>cap</source>
+        <comment>Power factor capacitive load type</comment>
+        <translation>c</translation>
+    </message>
 </context>
 </TS>

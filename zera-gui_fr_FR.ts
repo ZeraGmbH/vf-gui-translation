@@ -1863,5 +1863,15 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Actual values &amp; Meter tests</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>ind</source>
+        <comment>Power factor inductive load type</comment>
+        <translation>i</translation>
+    </message>
+    <message>
+        <source>cap</source>
+        <comment>Power factor capacitive load type</comment>
+        <translation>c</translation>
+    </message>
 </context>
 </TS>
