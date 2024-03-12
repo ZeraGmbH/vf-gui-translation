@@ -1869,5 +1869,13 @@ Please charge the device before it turns down</translation>
         <comment>Power factor capacitive load type</comment>
         <translation>c</translation>
     </message>
+    <message>
+        <source>Show</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Basic</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

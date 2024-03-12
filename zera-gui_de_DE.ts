@@ -1873,5 +1873,13 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <comment>Power factor capacitive load type</comment>
         <translation>k</translation>
     </message>
+    <message>
+        <source>Show</source>
+        <translation>Anzeigen</translation>
+    </message>
+    <message>
+        <source>Basic</source>
+        <translation>Basisdaten</translation>
+    </message>
 </context>
 </TS>
