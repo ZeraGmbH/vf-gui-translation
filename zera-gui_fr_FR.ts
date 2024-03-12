@@ -1791,7 +1791,7 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>Ratio</source>
         <extracomment>Ratio checkbox</extracomment>
-        <translation>Rapprt</translation>
+        <translation>Rapport</translation>
     </message>
     <message>
         <source>Temperature [°C]:</source>
@@ -1875,11 +1875,11 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     </message>
     <message>
         <source>Show</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher</translation>
     </message>
     <message>
         <source>Basic</source>
-        <translation type="unfinished"></translation>
+        <translation>Basique</translation>
     </message>
 </context>
 </TS>

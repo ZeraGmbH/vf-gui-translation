@@ -567,7 +567,7 @@ void ZeraTranslation::reloadStringTable()
     //: popup create database header
     insert("Create database", tr("Create database"));
     insert("Show", tr("Show"));
-    insert("Basic", tr("Basic"));df
+    insert("Basic", tr("Basic"));
 
     //LoggerDbSearchDialog.qml
     //:Select db location: internal storage
