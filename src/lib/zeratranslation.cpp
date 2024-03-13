@@ -600,6 +600,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Select customer data:", tr("Select customer data:"));
     //: add new session view: list entry to select no customer data
     insert("-- no customer --", tr("-- no customer --"));
+    insert("no customer", tr("no customer"));
 
     // LoggerSessionNameWithMacrosPopup.qml
     //: default prefix for auto session name

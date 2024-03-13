@@ -1881,5 +1881,9 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Basic</source>
         <translation>Basisdaten</translation>
     </message>
+    <message>
+        <source>no customer</source>
+        <translation>Kein Kunde</translation>
+    </message>
 </context>
 </TS>

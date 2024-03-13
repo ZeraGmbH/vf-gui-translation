@@ -1877,5 +1877,9 @@ Please charge the device before it turns down</translation>
         <source>Basic</source>
         <translation></translation>
     </message>
+    <message>
+        <source>no customer</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

@@ -1881,5 +1881,9 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Basic</source>
         <translation>Basique</translation>
     </message>
+    <message>
+        <source>no customer</source>
+        <translation>Aucun client</translation>
+    </message>
 </context>
 </TS>
