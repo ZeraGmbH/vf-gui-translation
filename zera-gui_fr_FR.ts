@@ -1885,5 +1885,9 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>no customer</source>
         <translation>Aucun client</translation>
     </message>
+    <message>
+        <source>Channel ignore limit [% of range]:</source>
+        <translation>Limite d&apos;ignorance du canal [% plage]:</translation>
+    </message>
 </context>
 </TS>

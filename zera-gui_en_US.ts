@@ -1881,5 +1881,9 @@ Please charge the device before it turns down</translation>
         <source>no customer</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Channel ignore limit [% of range]:</source>
+        <translation>Channel ignore limit [% of range]:</translation>
+    </message>
 </context>
 </TS>

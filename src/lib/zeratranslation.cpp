@@ -249,6 +249,7 @@ void ZeraTranslation::reloadStringTable()
     //: Color themes popup adjust brightness for current
     insert("Brightness black:", tr("Brightness black:"));
     insert("SCPI sequential mode:", tr("SCPI sequential mode:"));
+    insert("Channel ignore limit [% of range]:", tr("Channel ignore limit [% of range]:"));
 
     //SettingsInterval.qml
     //: time based integration interval
