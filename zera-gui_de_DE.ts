@@ -1885,5 +1885,9 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>no customer</source>
         <translation>Kein Kunde</translation>
     </message>
+    <message>
+        <source>Channel ignore limit [% of range]:</source>
+        <translation>Kanal-Ignoriergrenze [% des Bereichs]:</translation>
+    </message>
 </context>
 </TS>
