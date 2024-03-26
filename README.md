@@ -18,3 +18,7 @@
     * VERY IMPORTANT: Check in all languages for ruined layouts
 
 If all tests succeed: commit & push
+
+
+Windows linguist download:
+https://github.com/thurask/Qt-Linguist/releases
