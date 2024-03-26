@@ -141,17 +141,17 @@
     <message>
         <source>Phase1</source>
         <comment>Letter or number for phase e.g euro: 1 / us: A</comment>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>Phase2</source>
         <comment>Letter or number for phase e.g euro: 2 / us: B</comment>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <source>Phase3</source>
         <comment>Letter or number for phase e.g euro: 3 / us: C</comment>
-        <translation type="unfinished"></translation>
+        <translation>3</translation>
     </message>
     <message>
         <source>P 1</source>
