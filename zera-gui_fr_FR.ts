@@ -278,11 +278,6 @@
         <translation>Regroupement de plages</translation>
     </message>
     <message>
-        <source>Application Settings</source>
-        <extracomment>settings specific to the GUI application</extracomment>
-        <translation>Réglages de l&apos;application</translation>
-    </message>
-    <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
         <translation>Afficher les tableaux harmoniques relatifs à l&apos;oscill fondamentale:</translation>
@@ -311,18 +306,6 @@
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
         <translation>Langue:</translation>
-    </message>
-    <message>
-        <source>Device settings</source>
-        <extracomment>settings specific to the hardware</extracomment>
-        <translation>Réglages de l&apos;appareil</translation>
-    </message>
-    <message>
-        <source>Network settings</source>
-        <extracomment>settings specific to the network
-----------
-EthernetSettings.qml error header</extracomment>
-        <translation>Réglages réseau</translation>
     </message>
     <message>
         <source>PLL channel:</source>
@@ -1814,11 +1797,6 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Pression de l&apos;air [hPa]:</translation>
     </message>
     <message>
-        <source>BLE sensor settings</source>
-        <extracomment>settings specific to the Bluetooth sensors</extracomment>
-        <translation>Réglages du capteur BLE</translation>
-    </message>
-    <message>
         <source>Bluetooth:</source>
         <translation>Bluetooth:</translation>
     </message>
@@ -1888,6 +1866,26 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>Channel ignore limit [% of range]:</source>
         <translation>Limite d&apos;ignorance du canal [% plage]:</translation>
+    </message>
+    <message>
+        <source>Application</source>
+        <extracomment>settings specific to the GUI application</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <extracomment>settings specific to the hardware</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <extracomment>settings specific to the network</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>BLE sensor</source>
+        <extracomment>settings specific to the Bluetooth sensors</extracomment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

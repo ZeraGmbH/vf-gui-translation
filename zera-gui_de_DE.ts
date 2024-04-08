@@ -200,11 +200,6 @@
         <translation>Bereichsgruppierung</translation>
     </message>
     <message>
-        <source>Application Settings</source>
-        <extracomment>settings specific to the GUI application</extracomment>
-        <translation>Programmeinstellungen</translation>
-    </message>
-    <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
         <translatorcomment>Kontext - Application settings</translatorcomment>
@@ -214,12 +209,6 @@
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
         <translation>Sprache:</translation>
-    </message>
-    <message>
-        <source>Device settings</source>
-        <extracomment>settings specific to the hardware</extracomment>
-        <translatorcomment>Aus Application Settings</translatorcomment>
-        <translation>Geräteeinstellungen</translation>
     </message>
     <message>
         <source>PLL channel:</source>
@@ -895,13 +884,6 @@
     <message>
         <source>Wrong serial number</source>
         <translation>Falsche Seriennummer</translation>
-    </message>
-    <message>
-        <source>Network settings</source>
-        <extracomment>settings specific to the network
-----------
-EthernetSettings.qml error header</extracomment>
-        <translation>Netzwerkeinstellungen</translation>
     </message>
     <message>
         <source>Wifi Password</source>
@@ -1814,11 +1796,6 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <translation>Luftdruck [hPa]:</translation>
     </message>
     <message>
-        <source>BLE sensor settings</source>
-        <extracomment>settings specific to the Bluetooth sensors</extracomment>
-        <translation>BLE Sensor Einstellungen</translation>
-    </message>
-    <message>
         <source>Bluetooth:</source>
         <translation></translation>
     </message>
@@ -1888,6 +1865,26 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     <message>
         <source>Channel ignore limit [% of range]:</source>
         <translation>Kanal-Ignoriergrenze [% des Bereichs]:</translation>
+    </message>
+    <message>
+        <source>Application</source>
+        <extracomment>settings specific to the GUI application</extracomment>
+        <translation>Applikation</translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <extracomment>settings specific to the hardware</extracomment>
+        <translation>Gerät</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <extracomment>settings specific to the network</extracomment>
+        <translation>Netzwerk</translation>
+    </message>
+    <message>
+        <source>BLE sensor</source>
+        <extracomment>settings specific to the Bluetooth sensors</extracomment>
+        <translation>BLE Sensor</translation>
     </message>
 </context>
 </TS>

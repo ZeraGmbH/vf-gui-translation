@@ -200,11 +200,6 @@
         <translation>Range grouping</translation>
     </message>
     <message>
-        <source>Application Settings</source>
-        <extracomment>settings specific to the GUI application</extracomment>
-        <translation>Application Settings</translation>
-    </message>
-    <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
         <translation>Harm. table relative to the fundamental:</translation>
@@ -213,11 +208,6 @@
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
         <translation>Language:</translation>
-    </message>
-    <message>
-        <source>Device settings</source>
-        <extracomment>settings specific to the hardware</extracomment>
-        <translation>Device settings</translation>
     </message>
     <message>
         <source>PLL channel:</source>
@@ -890,13 +880,6 @@
     </message>
     <message>
         <source>Wrong serial number</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Network settings</source>
-        <extracomment>settings specific to the network
-----------
-EthernetSettings.qml error header</extracomment>
         <translation></translation>
     </message>
     <message>
@@ -1810,11 +1793,6 @@ Please charge the device before it turns down</translation>
         <translation></translation>
     </message>
     <message>
-        <source>BLE sensor settings</source>
-        <extracomment>settings specific to the Bluetooth sensors</extracomment>
-        <translation></translation>
-    </message>
-    <message>
         <source>Bluetooth:</source>
         <translation></translation>
     </message>
@@ -1884,6 +1862,26 @@ Please charge the device before it turns down</translation>
     <message>
         <source>Channel ignore limit [% of range]:</source>
         <translation>Channel ignore limit [% of range]:</translation>
+    </message>
+    <message>
+        <source>Application</source>
+        <extracomment>settings specific to the GUI application</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <extracomment>settings specific to the hardware</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <extracomment>settings specific to the network</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>BLE sensor</source>
+        <extracomment>settings specific to the Bluetooth sensors</extracomment>
+        <translation></translation>
     </message>
 </context>
 </TS>

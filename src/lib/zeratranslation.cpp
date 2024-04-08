@@ -215,7 +215,7 @@ void ZeraTranslation::reloadStringTable()
 
     //Settings.qml
     //: settings specific to the GUI application
-    insert("Application Settings", tr("Application Settings"));
+    insert("Application", tr("Application"));
     //: used for a yes / no configuration element
     insert("Display harmonic tables relative to the fundamental oscillation:", tr("Display harmonic tables relative to the fundamental oscillation:"));
     //: max number total decimals for displayed values
@@ -230,11 +230,11 @@ void ZeraTranslation::reloadStringTable()
     //: used for the selection of language via country flag
     insert("Language:", tr("Language:"));
     //: settings specific to the hardware
-    insert("Device settings", tr("Device settings"));
+    insert("Device", tr("Device"));
     //: settings specific to the network
-    insert("Network settings", tr("Network settings"));
+    insert("Network", tr("Network"));
     //: settings specific to the Bluetooth sensors
-    insert("BLE sensor settings", tr("BLE sensor settings"));
+    insert("BLE sensor", tr("BLE sensor"));
     //: measurement channel the phase locked loop uses as base
     insert("PLL channel:", tr("PLL channel:"));
     //: automatic phase locked loop channel selection
@@ -287,8 +287,6 @@ void ZeraTranslation::reloadStringTable()
     insert("IPV4 IP", tr("IPV4 IP"));
     //: EthernetSettings.qml IPv4 error field subnetmask
     insert("IPV4 Subnetmask", tr("IPV4 Subnetmask"));
-    //: EthernetSettings.qml error header
-    insert("Network settings", tr("Network settings"));
 
     //: SmartConnect.qml Wifi password header
     insert("Wifi password", tr("Wifi password"));

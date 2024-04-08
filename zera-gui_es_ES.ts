@@ -382,11 +382,6 @@
         <translation>Relación</translation>
     </message>
     <message>
-        <source>Application Settings</source>
-        <extracomment>settings specific to the GUI application</extracomment>
-        <translation>Configuraciones de la aplicación</translation>
-    </message>
-    <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
         <translation>Muestra tablas de armónicos relativas a la oscilación fundamental:</translation>
@@ -415,23 +410,6 @@
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
         <translation>Idioma:</translation>
-    </message>
-    <message>
-        <source>Device settings</source>
-        <extracomment>settings specific to the hardware</extracomment>
-        <translation>Configuración de dispositivo</translation>
-    </message>
-    <message>
-        <source>Network settings</source>
-        <extracomment>settings specific to the network
-----------
-EthernetSettings.qml error header</extracomment>
-        <translation>Configuración de la red</translation>
-    </message>
-    <message>
-        <source>BLE sensor settings</source>
-        <extracomment>settings specific to the Bluetooth sensors</extracomment>
-        <translation>Configuración del sensor BLE</translation>
     </message>
     <message>
         <source>PLL channel:</source>
@@ -1884,6 +1862,26 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Air pressure [hPa]:</source>
         <translation>Presión de aire [hPa]:</translation>
+    </message>
+    <message>
+        <source>Application</source>
+        <extracomment>settings specific to the GUI application</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Device</source>
+        <extracomment>settings specific to the hardware</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <extracomment>settings specific to the network</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>BLE sensor</source>
+        <extracomment>settings specific to the Bluetooth sensors</extracomment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
