@@ -1866,22 +1866,22 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Application</source>
         <extracomment>settings specific to the GUI application</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Aplicación</translation>
     </message>
     <message>
         <source>Device</source>
         <extracomment>settings specific to the hardware</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Dispositivo</translation>
     </message>
     <message>
         <source>Network</source>
         <extracomment>settings specific to the network</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Red</translation>
     </message>
     <message>
         <source>BLE sensor</source>
         <extracomment>settings specific to the Bluetooth sensors</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Sensor BLE</translation>
     </message>
 </context>
 </TS>
