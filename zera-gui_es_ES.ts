@@ -294,22 +294,22 @@
     <message>
         <source>Sn</source>
         <comment>operating burden in %, relative to the nominal burden</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>BRD1</source>
         <comment>burden system name</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>BRD2</source>
         <comment>burden system name</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>BRD3</source>
         <comment>burden system name</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>OK</source>
@@ -341,7 +341,7 @@
     <message>
         <source>Changing energy direction</source>
         <extracomment>changing energy direction session</extracomment>
-        <translation>Cambiando la dirección de la energía</translation>
+        <translation>changing energy direction session</translation>
     </message>
     <message>
         <source>Reference</source>
@@ -384,7 +384,7 @@
     <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Muestra tablas de armónicos relativas a la oscilación fundamental:</translation>
+        <translation>Tablas de armónicos relativos a la fundamental:</translation>
     </message>
     <message>
         <source>Max decimals total:</source>
@@ -438,7 +438,7 @@
     <message>
         <source>Brightness currents:</source>
         <extracomment>Color themes popup adjust brightness for current</extracomment>
-        <translation>Brillo de las corrientes:</translation>
+        <translation>Brillo de las I:</translation>
     </message>
     <message>
         <source>Brightness black:</source>
@@ -1385,7 +1385,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Comparison measurement results</source>
         <extracomment>button to select content-set comparison measurement values</extracomment>
-        <translation>Resultados de medición de comparación</translation>
+        <translation>Res. Medición por comparación</translation>
     </message>
     <message>
         <source>Quartz reference values</source>
@@ -1670,7 +1670,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Export type:</source>
         <extracomment>label combobox export type (MTVisXML/SQLiteDB...)</extracomment>
-        <translation>Tipo de exportación:</translation>
+        <translation>Tipo:</translation>
     </message>
     <message>
         <source>MtVis XML</source>
@@ -1695,7 +1695,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Export name:</source>
         <extracomment>label edit field export name</extracomment>
-        <translation>Nombre de exportación:</translation>
+        <translation>Nombre:</translation>
     </message>
     <message>
         <source>Name of export path</source>
@@ -1705,7 +1705,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Target drive:</source>
         <extracomment>label combobox target drive (visible only if multiple sicks / partitions are mounted)</extracomment>
-        <translation>Unidad objetivo:</translation>
+        <translation>Objetivo:</translation>
     </message>
     <message>
         <source>Please select a session first...</source>
