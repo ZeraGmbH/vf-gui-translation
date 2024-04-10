@@ -341,7 +341,7 @@
     <message>
         <source>Changing energy direction</source>
         <extracomment>changing energy direction session</extracomment>
-        <translation>changing energy direction session</translation>
+        <translation>CED session</translation>
     </message>
     <message>
         <source>Reference</source>
