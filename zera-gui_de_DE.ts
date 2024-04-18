@@ -1886,5 +1886,9 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <extracomment>settings specific to the Bluetooth sensors</extracomment>
         <translation>BLE Sensor</translation>
     </message>
+    <message>
+        <source>Save logfile to USB</source>
+        <translation>Logdatei auf USB speichern</translation>
+    </message>
 </context>
 </TS>
