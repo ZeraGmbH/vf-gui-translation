@@ -1883,5 +1883,9 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>settings specific to the Bluetooth sensors</extracomment>
         <translation>Sensor BLE</translation>
     </message>
+    <message>
+        <source>Save logfile to USB</source>
+        <translation>Guardar archivo de registro en USB</translation>
+    </message>
 </context>
 </TS>

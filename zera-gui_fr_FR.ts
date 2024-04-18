@@ -1887,5 +1887,9 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <extracomment>settings specific to the Bluetooth sensors</extracomment>
         <translation>Capteur BLE</translation>
     </message>
+    <message>
+        <source>Save logfile to USB</source>
+        <translation>Enregistrer fichier LOG dans USB</translation>
+    </message>
 </context>
 </TS>

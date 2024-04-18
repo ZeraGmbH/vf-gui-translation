@@ -525,6 +525,7 @@ void ZeraTranslation::reloadStringTable()
     insert("Device info", tr("Device info"));
     insert("Device log", tr("Device log"));
     insert("License information", tr("License information"));
+    insert("Save logfile to USB", tr("Save logfile to USB"));
     insert("Serial number:", tr("Serial number:"));
     insert("Operating system version:", tr("Operating system version:"));
     insert("Emob PCB version", tr("Emob PCB version"));

@@ -1883,5 +1883,9 @@ Please charge the device before it turns down</translation>
         <extracomment>settings specific to the Bluetooth sensors</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Save logfile to USB</source>
+        <translation>Save logfile to USB</translation>
+    </message>
 </context>
 </TS>
