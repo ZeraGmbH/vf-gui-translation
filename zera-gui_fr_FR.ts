@@ -1816,7 +1816,7 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>Actual</source>
         <comment>Source/Vector view indicator label: actual values mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>Actuel</translation>
     </message>
     <message>
         <source>Target</source>
@@ -1839,7 +1839,7 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     </message>
     <message>
         <source>Actual values &amp; Meter tests</source>
-        <translation type="unfinished"></translation>
+        <translation>Valeurs actuelles &amp; test du compteur</translation>
     </message>
     <message>
         <source>ind</source>
@@ -1870,22 +1870,22 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>Application</source>
         <extracomment>settings specific to the GUI application</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Application</translation>
     </message>
     <message>
         <source>Device</source>
         <extracomment>settings specific to the hardware</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Appareil</translation>
     </message>
     <message>
         <source>Network</source>
         <extracomment>settings specific to the network</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Réseau</translation>
     </message>
     <message>
         <source>BLE sensor</source>
         <extracomment>settings specific to the Bluetooth sensors</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Capteur BLE</translation>
     </message>
 </context>
 </TS>
