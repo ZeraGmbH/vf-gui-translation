@@ -76,14 +76,20 @@ QVariant ZeraTranslation::TrValue(const QString &key)
     return value(key);
 }
 
+
 void ZeraTranslation::setupTranslationFiles()
 {
+    // Ignore translations not yet good enough to ship
+    QStringList ignoreList = QStringList() << "pt_PT";
+
     QDir searchDir(QString(ZERA_TRANSLATION_PATH));
     if(searchDir.exists() && searchDir.isReadable()) {
         const auto qmList = searchDir.entryInfoList({"*.qm"}, QDir::Files);
         for(const QFileInfo &qmFileInfo : qmList) {
             const QString localeName = qmFileInfo.fileName().replace("zera-gui_","").replace(".qm","");
-            if(m_translationFilesModel.contains(localeName) == false) {
+            if(ignoreList.contains(localeName))
+                continue;
+            if(!m_translationFilesModel.contains(localeName)) {
                 QFileInfo flagFileInfo;
                 flagFileInfo.setFile(QString("%1/flag_%2.png").arg(qmFileInfo.path(), localeName));//currently only supports .png (.svg rasterization is too slow)
                 if(flagFileInfo.exists()) {
