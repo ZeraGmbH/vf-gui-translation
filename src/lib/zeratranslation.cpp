@@ -79,8 +79,8 @@ QVariant ZeraTranslation::TrValue(const QString &key)
 
 void ZeraTranslation::setupTranslationFiles()
 {
-    // Ignore translations not yet good enough to ship
-    QStringList ignoreList = QStringList() << "pt_PT";
+    // Append translations not yet good enough to ship to ignoreList
+    QStringList ignoreList = QStringList();
 
     QDir searchDir(QString(ZERA_TRANSLATION_PATH));
     if(searchDir.exists() && searchDir.isReadable()) {
