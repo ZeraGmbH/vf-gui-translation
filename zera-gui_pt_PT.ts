@@ -1877,7 +1877,7 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>On</source>
-        <translation>Ligado</translation>
+        <translation>On</translation>
     </message>
     <message>
         <source>symmetric</source>
@@ -1885,7 +1885,7 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Off</source>
-        <translation>Desligado</translation>
+        <translation>Off</translation>
     </message>
     <message>
         <source>Bluetooth:</source>
