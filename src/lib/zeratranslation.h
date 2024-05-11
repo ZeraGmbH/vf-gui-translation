@@ -30,7 +30,6 @@ public:
      * @param language language name to switch to e.g en_GB / de_DE
      */
     Q_INVOKABLE void changeLanguage(const QString &language);
-    static void setInitialLanguage(const QString &language);
     QString getCurrentLanguage();
     /**
      * @brief TrValue Translate a single string
@@ -50,7 +49,6 @@ private:
     void reloadStringTable();
 
     static ZeraTranslation *s_instance;
-    static QString m_initialLanguage;
 
     QString m_currentLanguage;
     QTranslator m_translator;
