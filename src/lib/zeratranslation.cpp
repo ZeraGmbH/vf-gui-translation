@@ -40,9 +40,11 @@ void ZeraTranslation::changeLanguage(const QString &language)
         if(m_translationFilesModel.contains(language) || language == "C") {
             QCoreApplication::instance()->removeTranslator(&m_translator);
             const QString filename = m_translationFilesModel.value(language);
+            qInfo("Load translation file %s...", qPrintable(filename));
             if(m_translator.load(filename)) {
+                qInfo("Install translator...");
                 QCoreApplication::instance()->installTranslator(&m_translator);
-                qDebug() << "Current Language changed to" << languageName << locale << language;
+                qInfo() << "Current Language changed to" << languageName << locale << language;
                 reloadStringTable();
             }
             else {
@@ -111,6 +113,7 @@ void ZeraTranslation::setupTranslationFiles()
 
 void ZeraTranslation::reloadStringTable()
 {
+    qInfo("Reload translation string table...");
     //insert("something %1", tr("something %1"))...
 
     // common translations
@@ -808,6 +811,8 @@ void ZeraTranslation::reloadStringTable()
     insert("Air pressure [hPa]:", tr("Air pressure [hPa]:"));
 
     emit sigLanguageChanged();
+
+    qInfo("Translation string table releaded.");
 }
 
 QVariant ZeraTranslation::updateValue(const QString &key, const QVariant &input)
