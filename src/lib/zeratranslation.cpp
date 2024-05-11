@@ -812,7 +812,7 @@ void ZeraTranslation::reloadStringTable()
 
     emit sigLanguageChanged();
 
-    qInfo("Translation string table releaded.");
+    qInfo("Translation string table reloaded.");
 }
 
 QVariant ZeraTranslation::updateValue(const QString &key, const QVariant &input)
