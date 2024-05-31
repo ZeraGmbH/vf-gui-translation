@@ -38,6 +38,7 @@ public:
      * @return Translated string or if not found in map key
      */
     QVariant TrValue(const QString &key);
+
 signals:
     void sigLanguageChanged();
 
@@ -58,7 +59,6 @@ private:
     //value = absolute path
     QHash<QString, QString> m_translationFilesModel;
     QHash<QString, QString> m_translationFlagsModel;
-
 };
 
 #endif // ZeraTranslation_H
