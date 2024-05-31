@@ -5,6 +5,7 @@
 #include <QFileInfo>
 #include <QUrl>
 #include <QCoreApplication>
+#include <QElapsedTimer>
 #include <QDebug>
 
 ZeraTranslation *ZeraTranslation::s_instance = nullptr;
@@ -113,6 +114,8 @@ void ZeraTranslation::setupTranslationFiles()
 
 void ZeraTranslation::reloadStringTable()
 {
+    QElapsedTimer elapsed;
+    elapsed.start();
     qInfo("Reload translation string table...");
     //insert("something %1", tr("something %1"))...
 
@@ -810,9 +813,9 @@ void ZeraTranslation::reloadStringTable()
     insert("Humidity [%]:", tr("Humidity [%]:"));
     insert("Air pressure [hPa]:", tr("Air pressure [hPa]:"));
 
+    qInfo("Translation string table reloaded within %lldms.", elapsed.elapsed());
     emit sigLanguageChanged();
-
-    qInfo("Translation string table reloaded.");
+    qInfo("Language change notification within %lldms.", elapsed.elapsed());
 }
 
 QVariant ZeraTranslation::updateValue(const QString &key, const QVariant &input)
