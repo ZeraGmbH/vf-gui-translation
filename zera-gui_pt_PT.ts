@@ -1939,5 +1939,9 @@ customer data delete file confirmation popup header</extracomment>
         <source>Save logfile to USB</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>No USB-stick inserted</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

@@ -1887,5 +1887,9 @@ customer data delete file confirmation popup header</extracomment>
         <source>Save logfile to USB</source>
         <translation>Guardar archivo de registro en USB</translation>
     </message>
+    <message>
+        <source>No USB-stick inserted</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

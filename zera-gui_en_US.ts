@@ -1887,5 +1887,9 @@ Please charge the device before it turns down</translation>
         <source>Save logfile to USB</source>
         <translation>Save logfile to USB</translation>
     </message>
+    <message>
+        <source>No USB-stick inserted</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>
