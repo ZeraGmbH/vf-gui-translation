@@ -813,6 +813,8 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("Humidity [%]:", tr("Humidity [%]:"));
     tmpTranslations.insert("Air pressure [hPa]:", tr("Air pressure [hPa]:"));
 
+    tmpTranslations.insert("No USB-stick inserted", tr("No USB-stick inserted"));
+
     qInfo("Translation string table with %i entries reloaded within %lldms.", tmpTranslations.count(), elapsed.elapsed());
     for(auto iter=tmpTranslations.cbegin(); iter!=tmpTranslations.cend(); iter++)
         insert(iter.key(), iter.value());

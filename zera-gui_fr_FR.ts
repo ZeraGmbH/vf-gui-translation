@@ -1891,5 +1891,9 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Save logfile to USB</source>
         <translation>Enregistrer fichier LOG dans USB</translation>
     </message>
+    <message>
+        <source>No USB-stick inserted</source>
+        <translation>Aucune clé USB inserée</translation>
+    </message>
 </context>
 </TS>

@@ -1890,5 +1890,9 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Save logfile to USB</source>
         <translation>Logdatei auf USB speichern</translation>
     </message>
+    <message>
+        <source>No USB-stick inserted</source>
+        <translation>Kein USB-Stick eingesteckt</translation>
+    </message>
 </context>
 </TS>
