@@ -1894,5 +1894,9 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>No USB-stick inserted</source>
         <translation>Kein USB-Stick eingesteckt</translation>
     </message>
+    <message>
+        <source>Screenshot taken and saved on USB-stick</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

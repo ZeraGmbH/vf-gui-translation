@@ -1891,5 +1891,9 @@ customer data delete file confirmation popup header</extracomment>
         <source>No USB-stick inserted</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Screenshot taken and saved on USB-stick</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

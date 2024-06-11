@@ -1891,5 +1891,9 @@ Please charge the device before it turns down</translation>
         <source>No USB-stick inserted</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Screenshot taken and saved on USB-stick</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

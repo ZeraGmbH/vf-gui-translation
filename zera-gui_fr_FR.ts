@@ -1895,5 +1895,9 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>No USB-stick inserted</source>
         <translation>Aucune clé USB inserée</translation>
     </message>
+    <message>
+        <source>Screenshot taken and saved on USB-stick</source>
+        <translation>Capture d&apos;écran réalisée et sauvegardée sur la clé USB</translation>
+    </message>
 </context>
 </TS>
