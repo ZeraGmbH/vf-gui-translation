@@ -1896,7 +1896,15 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     </message>
     <message>
         <source>Screenshot taken and saved on USB-stick</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildschirmfoto wurde auf dem USB-Stick gespeichert</translation>
+    </message>
+    <message>
+        <source>Saving logs and dumps to external drive...</source>
+        <translation>Logs und Dumps werden auf den externen Speicher geschrieben...</translation>
+    </message>
+    <message>
+        <source>Could not save logs and dumps</source>
+        <translation>Logs und Dumps konnten nicht gespeichert werden</translation>
     </message>
 </context>
 </TS>

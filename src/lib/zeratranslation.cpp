@@ -552,6 +552,8 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("CPU-board number", tr("CPU-board number"));
     tmpTranslations.insert("CPU-board assembly", tr("CPU-board assembly"));
     tmpTranslations.insert("CPU-board date", tr("CPU-board date"));
+    tmpTranslations.insert("Saving logs and dumps to external drive...", tr("Saving logs and dumps to external drive..."));
+    tmpTranslations.insert("Could not save logs and dumps", tr("Could not save logs and dumps"));
 
     //LoggerSettings.qml
     tmpTranslations.insert("Database Logging", tr("Database Logging"));

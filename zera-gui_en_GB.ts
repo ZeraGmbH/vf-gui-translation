@@ -1895,5 +1895,13 @@ Please charge the device before it turns down</translation>
         <source>Screenshot taken and saved on USB-stick</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Saving logs and dumps to external drive...</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Could not save logs and dumps</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

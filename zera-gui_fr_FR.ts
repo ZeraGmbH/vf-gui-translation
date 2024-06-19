@@ -1899,5 +1899,13 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Screenshot taken and saved on USB-stick</source>
         <translation>Capture d&apos;écran réalisée et sauvegardée sur la clé USB</translation>
     </message>
+    <message>
+        <source>Saving logs and dumps to external drive...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not save logs and dumps</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

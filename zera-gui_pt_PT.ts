@@ -1947,5 +1947,13 @@ customer data delete file confirmation popup header</extracomment>
         <source>Screenshot taken and saved on USB-stick</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Saving logs and dumps to external drive...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not save logs and dumps</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
