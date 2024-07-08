@@ -984,32 +984,32 @@ ConnectionTree.qml group Hotspot</extracomment>
         <translation>Information licence</translation>
     </message>
     <message>
-        <source>Serial number:</source>
-        <translation>Numéro de série:</translation>
+        <source>Serial number</source>
+        <translation>Numéro de série</translation>
     </message>
     <message>
-        <source>Operating system version:</source>
-        <translation>Version du système d&apos;exploitation:</translation>
+        <source>Operating system version</source>
+        <translation>Version du système d&apos;exploitation</translation>
     </message>
     <message>
-        <source>PCB server version:</source>
-        <translation>Version du serveur PCB:</translation>
+        <source>PCB server version</source>
+        <translation>Version du serveur PCB</translation>
     </message>
     <message>
-        <source>DSP server version:</source>
-        <translation>Version du serveur DSP:</translation>
+        <source>DSP server version</source>
+        <translation>Version du serveur DSP</translation>
     </message>
     <message>
-        <source>DSP firmware version:</source>
-        <translation>Version du firmware DSP:</translation>
+        <source>DSP firmware version</source>
+        <translation>Version du firmware DSP</translation>
     </message>
     <message>
-        <source>FPGA firmware version:</source>
-        <translation>Version du firmware FPGA:</translation>
+        <source>FPGA firmware version</source>
+        <translation>Version du firmware FPGA</translation>
     </message>
     <message>
-        <source>Adjustment status:</source>
-        <translation>Statut d&apos;ajustement:</translation>
+        <source>Adjustment status</source>
+        <translation>Statut d&apos;ajustement</translation>
     </message>
     <message>
         <source>Not adjusted</source>
@@ -1022,10 +1022,6 @@ ConnectionTree.qml group Hotspot</extracomment>
     <message>
         <source>Wrong serial number</source>
         <translation>Numéro de série incorrect</translation>
-    </message>
-    <message>
-        <source>Adjustment checksum:</source>
-        <translation>Ajustement somme de contrôle:</translation>
     </message>
     <message>
         <source>CPU-board number</source>

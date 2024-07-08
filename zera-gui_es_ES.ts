@@ -1133,12 +1133,12 @@ Cargue el dispositivo antes de que se apague.</translation>
         <translation>Información de licencia</translation>
     </message>
     <message>
-        <source>Serial number:</source>
-        <translation>Número de serie:</translation>
+        <source>Serial number</source>
+        <translation>Número de serie</translation>
     </message>
     <message>
-        <source>Operating system version:</source>
-        <translation>Versión del sistema operativo:</translation>
+        <source>Operating system version</source>
+        <translation>Versión del sistema operativo</translation>
     </message>
     <message>
         <source>Emob PCB version</source>
@@ -1153,19 +1153,19 @@ Cargue el dispositivo antes de que se apague.</translation>
         <translation></translation>
     </message>
     <message>
-        <source>PCB server version:</source>
+        <source>PCB server version</source>
         <translation></translation>
     </message>
     <message>
-        <source>DSP server version:</source>
+        <source>DSP server version</source>
         <translation></translation>
     </message>
     <message>
-        <source>DSP firmware version:</source>
+        <source>DSP firmware version</source>
         <translation></translation>
     </message>
     <message>
-        <source>FPGA firmware version:</source>
+        <source>FPGA firmware version</source>
         <translation></translation>
     </message>
     <message>
@@ -1181,8 +1181,8 @@ Cargue el dispositivo antes de que se apague.</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Adjustment status:</source>
-        <translation>Estado de ajuste:</translation>
+        <source>Adjustment status</source>
+        <translation>Estado de ajuste</translation>
     </message>
     <message>
         <source>Not adjusted</source>
@@ -1195,10 +1195,6 @@ Cargue el dispositivo antes de que se apague.</translation>
     <message>
         <source>Wrong serial number</source>
         <translation>Número de serie incorrecto</translation>
-    </message>
-    <message>
-        <source>Adjustment checksum:</source>
-        <translation></translation>
     </message>
     <message>
         <source>CPU-board number</source>

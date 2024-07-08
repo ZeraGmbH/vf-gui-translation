@@ -1185,12 +1185,12 @@ Carregue o dispositivo antes que ele desligue</translation>
         <translation>Informação de licença</translation>
     </message>
     <message>
-        <source>Serial number:</source>
-        <translation>Número Serial:</translation>
+        <source>Serial number</source>
+        <translation>Número Serial</translation>
     </message>
     <message>
-        <source>Operating system version:</source>
-        <translation>Versão do sistema operacional:</translation>
+        <source>Operating system version</source>
+        <translation>Versão do sistema operacional</translation>
     </message>
     <message>
         <source>Emob PCB version</source>
@@ -1205,19 +1205,19 @@ Carregue o dispositivo antes que ele desligue</translation>
         <translation></translation>
     </message>
     <message>
-        <source>PCB server version:</source>
+        <source>PCB server version</source>
         <translation></translation>
     </message>
     <message>
-        <source>DSP server version:</source>
+        <source>DSP server version</source>
         <translation></translation>
     </message>
     <message>
-        <source>DSP firmware version:</source>
+        <source>DSP firmware version</source>
         <translation></translation>
     </message>
     <message>
-        <source>FPGA firmware version:</source>
+        <source>FPGA firmware version</source>
         <translation></translation>
     </message>
     <message>
@@ -1233,8 +1233,8 @@ Carregue o dispositivo antes que ele desligue</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Adjustment status:</source>
-        <translation>Estado de ajuste:</translation>
+        <source>Adjustment status</source>
+        <translation>Estado de ajuste</translation>
     </message>
     <message>
         <source>Not adjusted</source>
@@ -1247,10 +1247,6 @@ Carregue o dispositivo antes que ele desligue</translation>
     <message>
         <source>Wrong serial number</source>
         <translation>Número serial errado</translation>
-    </message>
-    <message>
-        <source>Adjustment checksum:</source>
-        <translation></translation>
     </message>
     <message>
         <source>CPU-board number</source>

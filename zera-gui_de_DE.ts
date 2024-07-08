@@ -465,36 +465,32 @@
         <translation>Lizenzinformation</translation>
     </message>
     <message>
-        <source>Serial number:</source>
-        <translation>Seriennummer:</translation>
+        <source>Serial number</source>
+        <translation>Seriennummer</translation>
     </message>
     <message>
-        <source>Operating system version:</source>
-        <translation>Version Betriebssystem:</translation>
+        <source>Operating system version</source>
+        <translation>Version Betriebssystem</translation>
     </message>
     <message>
-        <source>PCB server version:</source>
-        <translation>Version des PCB-Servers:</translation>
+        <source>PCB server version</source>
+        <translation>Version des PCB-Servers</translation>
     </message>
     <message>
-        <source>DSP server version:</source>
-        <translation>Version des DSP-Servers:</translation>
+        <source>DSP server version</source>
+        <translation>Version des DSP-Servers</translation>
     </message>
     <message>
-        <source>DSP firmware version:</source>
-        <translation>Version der DSP-Firmware:</translation>
+        <source>DSP firmware version</source>
+        <translation>Version der DSP-Firmware</translation>
     </message>
     <message>
-        <source>FPGA firmware version:</source>
-        <translation>Version der FPGA-Firmware:</translation>
+        <source>FPGA firmware version</source>
+        <translation>Version der FPGA-Firmware</translation>
     </message>
     <message>
-        <source>Adjustment status:</source>
-        <translation>Status der Justierung:</translation>
-    </message>
-    <message>
-        <source>Adjustment checksum:</source>
-        <translation>Checksumme der Justierung:</translation>
+        <source>Adjustment status</source>
+        <translation>Status der Justierung</translation>
     </message>
     <message>
         <source>Database Logging</source>

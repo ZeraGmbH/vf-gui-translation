@@ -464,36 +464,32 @@
         <translation>License information</translation>
     </message>
     <message>
-        <source>Serial number:</source>
-        <translation>Serial number:</translation>
+        <source>Serial number</source>
+        <translation>Serial number</translation>
     </message>
     <message>
-        <source>Operating system version:</source>
-        <translation>Operating system version:</translation>
+        <source>Operating system version</source>
+        <translation>Operating system version</translation>
     </message>
     <message>
-        <source>PCB server version:</source>
-        <translation>PCB server version:</translation>
+        <source>PCB server version</source>
+        <translation>PCB server version</translation>
     </message>
     <message>
-        <source>DSP server version:</source>
-        <translation>DSP server version:</translation>
+        <source>DSP server version</source>
+        <translation>DSP server version</translation>
     </message>
     <message>
-        <source>DSP firmware version:</source>
-        <translation>DSP firmware version:</translation>
+        <source>DSP firmware version</source>
+        <translation>DSP firmware version</translation>
     </message>
     <message>
-        <source>FPGA firmware version:</source>
-        <translation>FPGA firmware version:</translation>
+        <source>FPGA firmware version</source>
+        <translation>FPGA firmware version</translation>
     </message>
     <message>
-        <source>Adjustment status:</source>
-        <translation>Adjustment status:</translation>
-    </message>
-    <message>
-        <source>Adjustment checksum:</source>
-        <translation>Adjustment checksum:</translation>
+        <source>Adjustment status</source>
+        <translation>Adjustment status</translation>
     </message>
     <message>
         <source>Database Logging</source>
