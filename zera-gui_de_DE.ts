@@ -1902,5 +1902,13 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Could not save logs and dumps</source>
         <translation>Logs und Dumps konnten nicht gespeichert werden</translation>
     </message>
+    <message>
+        <source>Accu PCB version</source>
+        <translation>Version des Akku-PCB</translation>
+    </message>
+    <message>
+        <source>Accu controller version</source>
+        <translation>Version des Akku-Controllers</translation>
+    </message>
 </context>
 </TS>

@@ -1899,5 +1899,13 @@ Please charge the device before it turns down</translation>
         <source>Could not save logs and dumps</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Accu PCB version</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Accu controller version</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

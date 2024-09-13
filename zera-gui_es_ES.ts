@@ -1899,5 +1899,13 @@ customer data delete file confirmation popup header</extracomment>
         <source>Could not save logs and dumps</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Accu PCB version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accu controller version</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

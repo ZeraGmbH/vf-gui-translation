@@ -535,6 +535,7 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("Serial number", tr("Serial number"));
     tmpTranslations.insert("Operating system version", tr("Operating system version"));
     tmpTranslations.insert("Emob PCB version", tr("Emob PCB version"));
+    tmpTranslations.insert("Accu PCB version", tr("Accu PCB version"));
     tmpTranslations.insert("Relay PCB version", tr("Relay PCB version"));
     tmpTranslations.insert("System PCB version", tr("System PCB version"));
     tmpTranslations.insert("PCB server version", tr("PCB server version"));
@@ -544,6 +545,7 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("System controller version", tr("System controller version"));
     tmpTranslations.insert("Relay controller version", tr("Relay controller version"));
     tmpTranslations.insert("Emob controller version", tr("Emob controller version"));
+    tmpTranslations.insert("Accu controller version", tr("Accu controller version"));
     tmpTranslations.insert("Adjustment status", tr("Adjustment status"));
     tmpTranslations.insert("Not adjusted", tr("Not adjusted"));
     tmpTranslations.insert("Wrong version", tr("Wrong version"));

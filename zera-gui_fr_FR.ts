@@ -1903,5 +1903,13 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Could not save logs and dumps</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Accu PCB version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Accu controller version</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
