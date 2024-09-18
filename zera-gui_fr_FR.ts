@@ -275,7 +275,7 @@
     <message>
         <source>Range grouping</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Regroupement de plages</translation>
+        <translation>Regroupement plages</translation>
     </message>
     <message>
         <source>Display harmonic tables relative to the fundamental oscillation:</source>
