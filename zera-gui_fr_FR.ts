@@ -1911,5 +1911,10 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Accu controller version</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Invert</source>
+        <extracomment>when selected, the corresponding phases are inverted</extracomment>
+        <translation>Inverser</translation>
+    </message>
 </context>
 </TS>

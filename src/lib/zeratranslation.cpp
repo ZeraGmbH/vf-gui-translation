@@ -216,6 +216,8 @@ void ZeraTranslation::reloadStringTable()
     //RangeMenu.qml
     //: used for a yes / no configuration element
     tmpTranslations.insert("Range automatic", tr("Range automatic"));
+    //: when selected, the corresponding phases are inverted
+    tmpTranslations.insert("Invert", tr("Invert"));
     //: measurement channel range overload, e.g. the range is configured for 5V measurement and the measured input voltage is >5V
     tmpTranslations.insert("Overload", tr("Overload"));
     //: used for a yes / no configuration element

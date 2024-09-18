@@ -1959,5 +1959,10 @@ customer data delete file confirmation popup header</extracomment>
         <source>Accu controller version</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Invert</source>
+        <extracomment>when selected, the corresponding phases are inverted</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

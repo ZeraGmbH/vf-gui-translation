@@ -1907,5 +1907,10 @@ Please charge the device before it turns down</translation>
         <source>Accu controller version</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Invert</source>
+        <extracomment>when selected, the corresponding phases are inverted</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>

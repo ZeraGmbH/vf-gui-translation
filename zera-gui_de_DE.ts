@@ -1910,5 +1910,10 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Accu controller version</source>
         <translation>Version des Akku-Controllers</translation>
     </message>
+    <message>
+        <source>Invert</source>
+        <extracomment>when selected, the corresponding phases are inverted</extracomment>
+        <translation>Invertieren</translation>
+    </message>
 </context>
 </TS>
