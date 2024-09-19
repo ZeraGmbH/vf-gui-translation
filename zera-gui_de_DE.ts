@@ -1896,11 +1896,11 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     </message>
     <message>
         <source>Saving logs and dumps to external drive...</source>
-        <translation>Logs und Dumps werden auf den externen Speicher geschrieben...</translation>
+        <translation>Logs/Dumps werden auf USB gespeichert...</translation>
     </message>
     <message>
         <source>Could not save logs and dumps</source>
-        <translation>Logs und Dumps konnten nicht gespeichert werden</translation>
+        <translation>Logs/Dumps konnten nicht gespeichert werden</translation>
     </message>
     <message>
         <source>Accu PCB version</source>
