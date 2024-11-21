@@ -557,6 +557,9 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("CPU-board date", tr("CPU-board date"));
     tmpTranslations.insert("Saving logs and dumps to external drive...", tr("Saving logs and dumps to external drive..."));
     tmpTranslations.insert("Could not save logs and dumps", tr("Could not save logs and dumps"));
+    tmpTranslations.insert("Starting update...", tr("Starting update..."));
+    tmpTranslations.insert("Could not update. Please check if necessary files are available.", tr("Could not update. Please check if necessary files are available."));
+    tmpTranslations.insert("Update failed. Please save logs and send them to service@zera.de.", tr("Update failed. Please save logs and send them to service@zera.de."));
 
     //LoggerSettings.qml
     tmpTranslations.insert("Database Logging", tr("Database Logging"));
@@ -653,6 +656,10 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("-- no session --", tr("-- no session --"));
     //: take snapshot menu entry
     tmpTranslations.insert("Take snapshot", tr("Take snapshot"));
+    //: save snapshot finish popup
+    tmpTranslations.insert("Store snapshot", tr("Store snapshot"));
+    //: save snapshot error message
+    tmpTranslations.insert("Could not store snapshot in database. Please save logs and send them to service@zera.de.", tr("Could not store snapshot in database. Please save logs and send them to service@zera.de."));
     //: start logging menu entry
     tmpTranslations.insert("Start logging", tr("Start logging"));
     //: stop logging menu entry

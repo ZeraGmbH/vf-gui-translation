@@ -1915,5 +1915,27 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <extracomment>when selected, the corresponding phases are inverted</extracomment>
         <translation>Invertieren</translation>
     </message>
+    <message>
+        <source>Store snapshot</source>
+        <extracomment>save snapshot finish popup</extracomment>
+        <translation>Momentaufname speichern</translation>
+    </message>
+    <message>
+        <source>Could not store snapshot in database. Please save logs and send them to service@zera.de.</source>
+        <extracomment>save snapshot error message</extracomment>
+        <translation>Die Momentaufname konnte nicht gespeichert werden. Bitte speichern Sie die Log-Dateien und senden sie an service@zera.de.</translation>
+    </message>
+    <message>
+        <source>Starting update...</source>
+        <translation>Das Update wird gestartet...</translation>
+    </message>
+    <message>
+        <source>Could not update. Please check if necessary files are available.</source>
+        <translation>Das Update konnte nicht durchgeführt werden. Bitte überprüfen Sie, ob die notwendigen Dateien vorhanden sind.</translation>
+    </message>
+    <message>
+        <source>Update failed. Please save logs and send them to service@zera.de.</source>
+        <translation>Das Update ist fehlgeschlagen. Bitte speichern Sie die Log-Dateien und senden sie an service@zera.de.</translation>
+    </message>
 </context>
 </TS>

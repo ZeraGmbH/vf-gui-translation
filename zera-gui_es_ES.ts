@@ -1912,5 +1912,27 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>when selected, the corresponding phases are inverted</extracomment>
         <translation>Invertir</translation>
     </message>
+    <message>
+        <source>Store snapshot</source>
+        <extracomment>save snapshot finish popup</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not store snapshot in database. Please save logs and send them to service@zera.de.</source>
+        <extracomment>save snapshot error message</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Starting update...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Could not update. Please check if necessary files are available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update failed. Please save logs and send them to service@zera.de.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

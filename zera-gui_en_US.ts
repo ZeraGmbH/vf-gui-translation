@@ -1912,5 +1912,27 @@ Please charge the device before it turns down</translation>
         <extracomment>when selected, the corresponding phases are inverted</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Store snapshot</source>
+        <extracomment>save snapshot finish popup</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Could not store snapshot in database. Please save logs and send them to service@zera.de.</source>
+        <extracomment>save snapshot error message</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Starting update...</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Could not update. Please check if necessary files are available.</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Update failed. Please save logs and send them to service@zera.de.</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>
