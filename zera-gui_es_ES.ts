@@ -1913,11 +1913,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation>Invertir</translation>
     </message>
     <message>
-        <source>Store snapshot</source>
-        <extracomment>save snapshot finish popup</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Could not store snapshot in database. Please save logs and send them to service@zera.de.</source>
         <extracomment>save snapshot error message</extracomment>
         <translation type="unfinished"></translation>

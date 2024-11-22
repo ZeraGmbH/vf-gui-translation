@@ -1913,11 +1913,6 @@ Please charge the device before it turns down</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Store snapshot</source>
-        <extracomment>save snapshot finish popup</extracomment>
-        <translation></translation>
-    </message>
-    <message>
         <source>Could not store snapshot in database. Please save logs and send them to service@zera.de.</source>
         <extracomment>save snapshot error message</extracomment>
         <translation></translation>

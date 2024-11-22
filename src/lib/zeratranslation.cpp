@@ -656,8 +656,6 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("-- no session --", tr("-- no session --"));
     //: take snapshot menu entry
     tmpTranslations.insert("Take snapshot", tr("Take snapshot"));
-    //: save snapshot finish popup
-    tmpTranslations.insert("Store snapshot", tr("Store snapshot"));
     //: save snapshot error message
     tmpTranslations.insert("Could not store snapshot in database. Please save logs and send them to service@zera.de.", tr("Could not store snapshot in database. Please save logs and send them to service@zera.de."));
     //: start logging menu entry

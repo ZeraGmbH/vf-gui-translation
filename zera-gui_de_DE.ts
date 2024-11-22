@@ -1916,11 +1916,6 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <translation>Invertieren</translation>
     </message>
     <message>
-        <source>Store snapshot</source>
-        <extracomment>save snapshot finish popup</extracomment>
-        <translation>Momentaufname speichern</translation>
-    </message>
-    <message>
         <source>Could not store snapshot in database. Please save logs and send them to service@zera.de.</source>
         <extracomment>save snapshot error message</extracomment>
         <translation>Die Momentaufname konnte nicht gespeichert werden. Bitte speichern Sie die Log-Dateien und senden sie an service@zera.de.</translation>
