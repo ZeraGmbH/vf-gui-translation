@@ -231,7 +231,8 @@ void ZeraTranslation::reloadStringTable()
     //: settings specific to the GUI application
     tmpTranslations.insert("Application", tr("Application"));
     //: used for a yes / no configuration element
-    tmpTranslations.insert("Display harmonic tables relative to the fundamental oscillation:", tr("Display harmonic tables relative to the fundamental oscillation:"));
+    tmpTranslations.insert("Harm. table relative to the fundamental:", tr("Harm. table relative to the fundamental:"));
+    tmpTranslations.insert("Show angles in harmonics:", tr("Show angles in harmonics:"));
     //: max number total decimals for displayed values
     tmpTranslations.insert("Max decimals total:", tr("Max decimals total:"));
     //: max number of decimals after the decimal separator

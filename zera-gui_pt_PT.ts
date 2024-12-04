@@ -435,7 +435,7 @@
         <translation>Relação</translation>
     </message>
     <message>
-        <source>Display harmonic tables relative to the fundamental oscillation:</source>
+        <source>Harm. table relative to the fundamental:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
         <translation type="unfinished">Tabelas harmônicas relativas à fundamental:</translation>
     </message>
@@ -1979,6 +1979,10 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Update failed. Please save logs and send them to service@zera.de.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show angles in harmonics:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

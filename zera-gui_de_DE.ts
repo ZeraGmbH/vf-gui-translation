@@ -200,7 +200,7 @@
         <translation>Bereichsgruppierung</translation>
     </message>
     <message>
-        <source>Display harmonic tables relative to the fundamental oscillation:</source>
+        <source>Harm. table relative to the fundamental:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
         <translatorcomment>Kontext - Application settings</translatorcomment>
         <translation>Harm. Tabelle relativ zur Grundschwingung:</translation>
@@ -1931,6 +1931,10 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     <message>
         <source>Update failed. Please save logs and send them to service@zera.de.</source>
         <translation>Das Update ist fehlgeschlagen. Bitte speichern Sie die Log-Dateien und senden sie an service@zera.de.</translation>
+    </message>
+    <message>
+        <source>Show angles in harmonics:</source>
+        <translation>Winkel in Tabelle mit harmonischen anzeigen:</translation>
     </message>
 </context>
 </TS>

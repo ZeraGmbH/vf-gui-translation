@@ -200,7 +200,7 @@
         <translation>Range grouping</translation>
     </message>
     <message>
-        <source>Display harmonic tables relative to the fundamental oscillation:</source>
+        <source>Harm. table relative to the fundamental:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
         <translation>Harm. table relative to the fundamental:</translation>
     </message>
@@ -1927,6 +1927,10 @@ Please charge the device before it turns down</translation>
     </message>
     <message>
         <source>Update failed. Please save logs and send them to service@zera.de.</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Show angles in harmonics:</source>
         <translation></translation>
     </message>
 </context>

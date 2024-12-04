@@ -278,7 +278,7 @@
         <translation>Regroupement plages</translation>
     </message>
     <message>
-        <source>Display harmonic tables relative to the fundamental oscillation:</source>
+        <source>Harm. table relative to the fundamental:</source>
         <extracomment>used for a yes / no configuration element</extracomment>
         <translation>Afficher les tableaux harmoniques relatifs à l&apos;oscill fondamentale:</translation>
     </message>
@@ -1931,6 +1931,10 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     </message>
     <message>
         <source>Update failed. Please save logs and send them to service@zera.de.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show angles in harmonics:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
