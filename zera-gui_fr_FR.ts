@@ -1897,19 +1897,19 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     </message>
     <message>
         <source>Saving logs and dumps to external drive...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sauvegarde des journaux et dumps sur disque externe...</translation>
     </message>
     <message>
         <source>Could not save logs and dumps</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossible de sauvegarder les journaux et dumps</translation>
     </message>
     <message>
         <source>Accu PCB version</source>
-        <translation type="unfinished"></translation>
+        <translation>Version PCB de l&apos;accumulateur</translation>
     </message>
     <message>
         <source>Accu controller version</source>
-        <translation type="unfinished"></translation>
+        <translation>Version du contrôleur de l&apos;accumulateur</translation>
     </message>
     <message>
         <source>Invert</source>
@@ -1919,23 +1919,23 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>Could not store snapshot in database. Please save logs and send them to service@zera.de.</source>
         <extracomment>save snapshot error message</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Impossible de stocker l&apos;instantané dans la base de données. Veuillez enregistrer les journaux et les envoyer à service@zera.de.</translation>
     </message>
     <message>
         <source>Starting update...</source>
-        <translation type="unfinished"></translation>
+        <translation>Début de la mise à jour...</translation>
     </message>
     <message>
         <source>Could not update. Please check if necessary files are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mise à jour non effectuée. Veuillez vérifier si les fichiers nécessaires sont disponibles.</translation>
     </message>
     <message>
         <source>Update failed. Please save logs and send them to service@zera.de.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mise à jour échouée. Veuillez enregistrer les journaux et les envoyer à service@zera.de.</translation>
     </message>
     <message>
         <source>Show angles in harmonics:</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher les angles en harmoniques :</translation>
     </message>
 </context>
 </TS>
