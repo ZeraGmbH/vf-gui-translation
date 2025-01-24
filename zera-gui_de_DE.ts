@@ -1936,5 +1936,20 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Show angles in harmonics:</source>
         <translation>Winkel in Tabelle mit harmonischen anzeigen:</translation>
     </message>
+    <message>
+        <source>Display:</source>
+        <extracomment>used for the selection of GUI display mode</extracomment>
+        <translation>Anzeige:</translation>
+    </message>
+    <message>
+        <source>Fullscreen</source>
+        <extracomment>GUI display mode fullscreen</extracomment>
+        <translation>Vollbild</translation>
+    </message>
+    <message>
+        <source>Desktop (slow)</source>
+        <extracomment>GUI display mode desktop</extracomment>
+        <translation>Desktop (langsam)</translation>
+    </message>
 </context>
 </TS>

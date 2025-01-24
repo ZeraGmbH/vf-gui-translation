@@ -1937,5 +1937,20 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Show angles in harmonics:</source>
         <translation>Afficher les angles en harmoniques :</translation>
     </message>
+    <message>
+        <source>Display:</source>
+        <extracomment>used for the selection of GUI display mode</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fullscreen</source>
+        <extracomment>GUI display mode fullscreen</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Desktop (slow)</source>
+        <extracomment>GUI display mode desktop</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

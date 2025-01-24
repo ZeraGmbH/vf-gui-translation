@@ -1933,5 +1933,20 @@ Please charge the device before it turns down</translation>
         <source>Show angles in harmonics:</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Display:</source>
+        <extracomment>used for the selection of GUI display mode</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Fullscreen</source>
+        <extracomment>GUI display mode fullscreen</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Desktop (slow)</source>
+        <extracomment>GUI display mode desktop</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>

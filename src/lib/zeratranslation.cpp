@@ -244,6 +244,12 @@ void ZeraTranslation::reloadStringTable()
 
     //: used for the selection of language via country flag
     tmpTranslations.insert("Language:", tr("Language:"));
+    //: used for the selection of GUI display mode
+    tmpTranslations.insert("Display:", tr("Display:"));
+    //: GUI display mode fullscreen
+    tmpTranslations.insert("Fullscreen", tr("Fullscreen"));
+    //: GUI display mode desktop
+    tmpTranslations.insert("Desktop (slow)", tr("Desktop (slow)"));
     //: settings specific to the hardware
     tmpTranslations.insert("Device", tr("Device"));
     //: settings specific to the network

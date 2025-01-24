@@ -1933,5 +1933,20 @@ customer data delete file confirmation popup header</extracomment>
         <source>Show angles in harmonics:</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Display:</source>
+        <extracomment>used for the selection of GUI display mode</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fullscreen</source>
+        <extracomment>GUI display mode fullscreen</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Desktop (slow)</source>
+        <extracomment>GUI display mode desktop</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
