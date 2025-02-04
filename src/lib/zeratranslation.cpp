@@ -642,8 +642,7 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("ZeraHarmonics", tr("Harmonic values"));
     //: button to select content-set sample values
     tmpTranslations.insert("ZeraCurves", tr("Sample values"));
-    //: button to select content-set comparison measurement values
-    tmpTranslations.insert("ZeraComparison", tr("Comparison measurement results"));
+    tmpTranslations.insert("ZeraComparison", tr("Comparison measurements"));
     //: button to select content-set burden values
     tmpTranslations.insert("ZeraBurden", tr("Burden values"));
     //: button to select content-set transformer values
@@ -680,7 +679,7 @@ void ZeraTranslation::reloadStringTable()
     //: menu radio button to select content-set sample values
     tmpTranslations.insert("MenuZeraCurves", tr("Sample values only"));
     //: menu radio button to select content-set comparison measurement values
-    tmpTranslations.insert("MenuZeraComparison", tr("Comparison measurement results only"));
+    tmpTranslations.insert("MenuZeraComparison", tr("Comparison measurements only"));
     //: menu radio button to select content-set burden values
     tmpTranslations.insert("MenuZeraBurden", tr("Burden values only"));
     //: menu radio button to select content-set transformer values
@@ -765,8 +764,6 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("Session:", tr("Session:"));
     //: entry combobox export type in case no sessions stored yet
     tmpTranslations.insert("MtVis XML - requires stored sessions", tr("MtVis XML - requires stored sessions"));
-    //: entry combobox export type complete SQLite database
-    tmpTranslations.insert("SQLite DB (complete)", tr("SQLite DB (complete)"));
     //: label edit field export name
     tmpTranslations.insert("Export name:", tr("Export name:"));
     //: edit field export name: Text displayed in case MTVis export is selected and field is empty (placeholder text)
@@ -793,6 +790,8 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("Warning:", tr("Warning:"));
     //: error prefix
     tmpTranslations.insert("Error:", tr("Error:"));
+    //: Transaction table: transaction type
+    tmpTranslations.insert("Recording", tr("Recording"));
 
     // MountedDrivesCombo.qml
     //: in drive select combo for partitions without name

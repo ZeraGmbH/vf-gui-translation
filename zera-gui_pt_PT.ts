@@ -1431,11 +1431,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation>Valores de amostra</translation>
     </message>
     <message>
-        <source>Comparison measurement results</source>
-        <extracomment>button to select content-set comparison measurement values</extracomment>
-        <translation type="unfinished">Res. de medição por comparação</translation>
-    </message>
-    <message>
         <source>Quartz reference values</source>
         <extracomment>button to select content-set dc-reference values</extracomment>
         <translation>Valores de referência de Quartz</translation>
@@ -1496,7 +1491,7 @@ customer data delete file confirmation popup header</extracomment>
         <translation>Somente valores de amostra</translation>
     </message>
     <message>
-        <source>Comparison measurement results only</source>
+        <source>Comparison measurements only</source>
         <extracomment>menu radio button to select content-set comparison measurement values</extracomment>
         <translation>Somente resultados de medição de comparação</translation>
     </message>
@@ -1734,11 +1729,6 @@ customer data delete file confirmation popup header</extracomment>
         <source>MtVis XML - requires stored sessions</source>
         <extracomment>entry combobox export type in case no sessions stored yet</extracomment>
         <translation>MtVis XML - requer sessões salvas</translation>
-    </message>
-    <message>
-        <source>SQLite DB (complete)</source>
-        <extracomment>entry combobox export type complete SQLite database</extracomment>
-        <translation>SQLite DB (completo)</translation>
     </message>
     <message>
         <source>Export name:</source>
@@ -1998,6 +1988,11 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Desktop (slow)</source>
         <extracomment>GUI display mode desktop</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <extracomment>Transaction table: transaction type</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>

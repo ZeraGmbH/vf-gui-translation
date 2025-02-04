@@ -1051,7 +1051,7 @@ ConnectionTree.qml group Hotspot</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Comparison measurement results only</source>
+        <source>Comparison measurements only</source>
         <extracomment>menu radio button to select content-set comparison measurement values</extracomment>
         <translation></translation>
     </message>
@@ -1088,11 +1088,6 @@ ConnectionTree.qml group Hotspot</extracomment>
     <message>
         <source>Sample values</source>
         <extracomment>button to select content-set sample values</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Comparison measurement results</source>
-        <extracomment>button to select content-set comparison measurement values</extracomment>
         <translation></translation>
     </message>
     <message>
@@ -1182,11 +1177,6 @@ ConnectionTree.qml group Hotspot</extracomment>
         <source>MtVis XML - requires stored sessions</source>
         <extracomment>entry combobox export type in case no sessions stored yet</extracomment>
         <translation></translation>
-    </message>
-    <message>
-        <source>SQLite DB (complete)</source>
-        <extracomment>entry combobox export type complete SQLite database</extracomment>
-        <translation>SQLite DB (complete database)</translation>
     </message>
     <message>
         <source>Export name:</source>
@@ -1946,6 +1936,11 @@ Please charge the device before it turns down</translation>
     <message>
         <source>Desktop (slow)</source>
         <extracomment>GUI display mode desktop</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <extracomment>Transaction table: transaction type</extracomment>
         <translation></translation>
     </message>
 </context>

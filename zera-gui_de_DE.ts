@@ -537,7 +537,7 @@
     </message>
     <message>
         <source>Snapshot</source>
-        <translation>Snapshot</translation>
+        <translation>Momentaufnahme</translation>
     </message>
     <message>
         <source>Customer</source>
@@ -1054,9 +1054,9 @@ ConnectionTree.qml group Hotspot</extracomment>
         <translation>Nur Kurvenabtastung</translation>
     </message>
     <message>
-        <source>Comparison measurement results only</source>
+        <source>Comparison measurements only</source>
         <extracomment>menu radio button to select content-set comparison measurement values</extracomment>
-        <translation>Nur Ergebnisse Vergleichsmessung</translation>
+        <translation>Nur Vergleichsmessung</translation>
     </message>
     <message>
         <source>Burden values only</source>
@@ -1092,11 +1092,6 @@ ConnectionTree.qml group Hotspot</extracomment>
         <source>Sample values</source>
         <extracomment>button to select content-set sample values</extracomment>
         <translation>Kurvenabtastung</translation>
-    </message>
-    <message>
-        <source>Comparison measurement results</source>
-        <extracomment>button to select content-set comparison measurement values</extracomment>
-        <translation>Ergebnisse Vergleichsmessung</translation>
     </message>
     <message>
         <source>All</source>
@@ -1185,11 +1180,6 @@ ConnectionTree.qml group Hotspot</extracomment>
         <source>MtVis XML - requires stored sessions</source>
         <extracomment>entry combobox export type in case no sessions stored yet</extracomment>
         <translation>MTVis XML - erfordert gepeicherte Sitzung(en)</translation>
-    </message>
-    <message>
-        <source>SQLite DB (complete)</source>
-        <extracomment>entry combobox export type complete SQLite database</extracomment>
-        <translation>SQLite DB (komplette Datenbank)</translation>
     </message>
     <message>
         <source>Export name:</source>
@@ -1950,6 +1940,11 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Desktop (slow)</source>
         <extracomment>GUI display mode desktop</extracomment>
         <translation>Desktop (langsam)</translation>
+    </message>
+    <message>
+        <source>Recording</source>
+        <extracomment>Transaction table: transaction type</extracomment>
+        <translation>Protokollierung</translation>
     </message>
 </context>
 </TS>
