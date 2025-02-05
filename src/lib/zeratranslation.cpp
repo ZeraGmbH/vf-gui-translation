@@ -84,7 +84,13 @@ QString ZeraTranslation::trDateTimeShort(const QString &dateTime)
 {
     QDateTime dTime = QDateTime::fromString(dateTime);
     QLocale locale(m_currentLanguage);
-    return locale.toString(dTime, QLocale::ShortFormat);
+    const QString dateFormat = locale.dateFormat(QLocale::ShortFormat);
+    QString timeFormat = locale.timeFormat(QLocale::ShortFormat);
+    // hack in seconds - short format is missing them
+    if(!timeFormat.contains("ss"))
+        timeFormat.replace("mm", "mm:ss");
+    const QString formatStr = dateFormat + QLatin1Char(' ') + timeFormat;
+    return locale.toString(dTime, formatStr);
 }
 
 void ZeraTranslation::setupTranslationFiles()
