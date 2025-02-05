@@ -6,6 +6,7 @@
 #include <QUrl>
 #include <QCoreApplication>
 #include <QElapsedTimer>
+#include <QDateTime>
 #include <QDebug>
 
 ZeraTranslation *ZeraTranslation::s_instance = nullptr;
@@ -77,6 +78,13 @@ QVariant ZeraTranslation::TrValue(const QString &key)
         insert(key, key);
     }
     return value(key);
+}
+
+QString ZeraTranslation::trDateTimeShort(const QString &dateTime)
+{
+    QDateTime dTime = QDateTime::fromString(dateTime);
+    QLocale locale(m_currentLanguage);
+    return locale.toString(dTime, QLocale::ShortFormat);
 }
 
 void ZeraTranslation::setupTranslationFiles()

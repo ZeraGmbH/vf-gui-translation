@@ -28,4 +28,7 @@ Item {
     function changeLanguage(language) {
         ZTR.changeLanguage(language)
     }
+    function trDateTimeShort(dateTimeString) {
+        return ZTR.trDateTimeShort(dateTimeString)
+    }
 }
