@@ -293,16 +293,6 @@
         <translation>Max places après le point décimal:</translation>
     </message>
     <message>
-        <source>Remote web (experimental):</source>
-        <extracomment>WebGL inactive label</extracomment>
-        <translation>Web distant (expérimental):</translation>
-    </message>
-    <message>
-        <source>Browser addresses:</source>
-        <extracomment>WebGL active label</extracomment>
-        <translation>Addresses du navigateur:</translation>
-    </message>
-    <message>
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
         <translation>Langue:</translation>
@@ -1945,6 +1935,11 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>Recording</source>
         <extracomment>Transaction table: transaction type</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Web-Server:</source>
+        <extracomment>Remote web label</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>

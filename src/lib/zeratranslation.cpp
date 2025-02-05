@@ -251,10 +251,8 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("Max decimals total:", tr("Max decimals total:"));
     //: max number of decimals after the decimal separator
     tmpTranslations.insert("Max places after the decimal point:", tr("Max places after the decimal point:"));
-    //: WebGL inactive label
-    tmpTranslations.insert("Remote web (experimental):", tr("Remote web (experimental):"));
-    //: WebGL active label
-    tmpTranslations.insert("Browser addresses:", tr("Browser addresses:"));
+    //: Remote web label
+    tmpTranslations.insert("Web-Server:", tr("Web-Server:"));
 
     //: used for the selection of language via country flag
     tmpTranslations.insert("Language:", tr("Language:"));

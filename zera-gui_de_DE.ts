@@ -1394,16 +1394,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation>Zurück</translation>
     </message>
     <message>
-        <source>Remote web (experimental):</source>
-        <extracomment>WebGL inactive label</extracomment>
-        <translation>Browser Fernzugriff (experimentell):</translation>
-    </message>
-    <message>
-        <source>Browser addresses:</source>
-        <extracomment>WebGL active label</extracomment>
-        <translation>Adressen Browser:</translation>
-    </message>
-    <message>
         <source>CPU-board number</source>
         <translation>CPU-Karte Nummer</translation>
     </message>
@@ -1945,6 +1935,11 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Recording</source>
         <extracomment>Transaction table: transaction type</extracomment>
         <translation>Protokollierung</translation>
+    </message>
+    <message>
+        <source>Web-Server:</source>
+        <extracomment>Remote web label</extracomment>
+        <translation></translation>
     </message>
 </context>
 </TS>

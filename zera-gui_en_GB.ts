@@ -1391,16 +1391,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation></translation>
     </message>
     <message>
-        <source>Remote web (experimental):</source>
-        <extracomment>WebGL inactive label</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Browser addresses:</source>
-        <extracomment>WebGL active label</extracomment>
-        <translation></translation>
-    </message>
-    <message>
         <source>CPU-board number</source>
         <translation></translation>
     </message>
@@ -1941,6 +1931,11 @@ Please charge the device before it turns down</translation>
     <message>
         <source>Recording</source>
         <extracomment>Transaction table: transaction type</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Web-Server:</source>
+        <extracomment>Remote web label</extracomment>
         <translation></translation>
     </message>
 </context>

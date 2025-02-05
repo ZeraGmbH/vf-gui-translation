@@ -397,16 +397,6 @@
         <translation>Máx.  lugares después del punto decimal:</translation>
     </message>
     <message>
-        <source>Remote web (experimental):</source>
-        <extracomment>WebGL inactive label</extracomment>
-        <translation>Web remota (experimental):</translation>
-    </message>
-    <message>
-        <source>Browser addresses:</source>
-        <extracomment>WebGL active label</extracomment>
-        <translation>Direcciones del navegador:</translation>
-    </message>
-    <message>
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
         <translation>Idioma:</translation>
@@ -1941,6 +1931,11 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Recording</source>
         <extracomment>Transaction table: transaction type</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Web-Server:</source>
+        <extracomment>Remote web label</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>
