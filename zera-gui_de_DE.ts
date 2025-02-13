@@ -1941,5 +1941,9 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <extracomment>Remote web label</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Delete transaction ?</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

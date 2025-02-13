@@ -1920,27 +1920,31 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>Display:</source>
         <extracomment>used for the selection of GUI display mode</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Affichage:</translation>
     </message>
     <message>
         <source>Fullscreen</source>
         <extracomment>GUI display mode fullscreen</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Plein écran</translation>
     </message>
     <message>
         <source>Desktop (slow)</source>
         <extracomment>GUI display mode desktop</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Bureau (lent)</translation>
     </message>
     <message>
         <source>Recording</source>
         <extracomment>Transaction table: transaction type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Enregistrement</translation>
     </message>
     <message>
         <source>Web-Server:</source>
         <extracomment>Remote web label</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Serveur Web:</translation>
+    </message>
+    <message>
+        <source>Delete transaction ?</source>
+        <translation>Supprimer la transaction ?</translation>
     </message>
 </context>
 </TS>
