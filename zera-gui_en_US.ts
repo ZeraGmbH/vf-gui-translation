@@ -1938,5 +1938,9 @@ Please charge the device before it turns down</translation>
         <extracomment>Remote web label</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Delete transaction ?</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

@@ -1938,5 +1938,9 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>Remote web label</extracomment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Delete transaction ?</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

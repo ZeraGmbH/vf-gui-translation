@@ -761,6 +761,7 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("Delete <b>'%1'</b>?", tr("Delete <b>'%1'</b>?"));
     //: customer data delete file button text
     tmpTranslations.insert("Delete", tr("Delete"));
+    tmpTranslations.insert("Delete transaction ?", tr("Delete transaction ?"));
 
     //: header text popup new customer data
     tmpTranslations.insert("Create Customer data file", tr("Create Customer data file"));
