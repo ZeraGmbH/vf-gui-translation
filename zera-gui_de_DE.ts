@@ -1943,7 +1943,7 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     </message>
     <message>
         <source>Delete transaction ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Transaktion löschen ?</translation>
     </message>
 </context>
 </TS>
