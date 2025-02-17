@@ -10,26 +10,13 @@ class QQmlEngine;
 class QJSEngine;
 QT_END_NAMESPACE
 
-/**
- * @brief Translation mapper with builtin qml notifications
- */
 class ZERATRANSLATION_EXPORT ZeraTranslation : public QQmlPropertyMap
 {
     Q_OBJECT
 public:
     static const QVariantHash loadTranslationHash();
     static ZeraTranslation *getInstance();
-    /**
-     * @brief getStaticInstance get our singleton - QmlEngine callback
-     * @param t_engine
-     * @param t_scriptEngine
-     * @return
-     */
     static QObject *getStaticInstance(QQmlEngine *t_engine, QJSEngine *t_scriptEngine);
-    /**
-     * @brief changeLanguage Request to change language (usually by QML)
-     * @param language language name to switch to e.g en_GB / de_DE
-     */
     Q_INVOKABLE void changeLanguage(const QString &language);
     static void setInitialLanguage(const QString &language);
     QString getCurrentLanguage();
@@ -39,7 +26,6 @@ public:
 signals:
     void sigLanguageChanged();
 
-    // QQmlPropertyMap interface
 protected:
     QVariant updateValue(const QString &key, const QVariant &input) override;
 private:
