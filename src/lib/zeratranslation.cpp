@@ -129,7 +129,21 @@ void ZeraTranslation::reloadStringTable()
 {
     QElapsedTimer elapsed;
     elapsed.start();
+
     qInfo("Reload translation string table...");
+    QVariantHash tmpTranslations = loadTranslationHash();
+    qInfo("Translation string table with %i entries reloaded within %lldms.", tmpTranslations.count(), elapsed.elapsed());
+
+    for(auto iter=tmpTranslations.cbegin(); iter!=tmpTranslations.cend(); iter++)
+        insert(iter.key(), iter.value());
+    qInfo("Translation strings added to property map within %lldms.", elapsed.elapsed());
+
+    emit sigLanguageChanged();
+    qInfo("Language change notification within %lldms.", elapsed.elapsed());
+}
+
+const QVariantHash ZeraTranslation::loadTranslationHash()
+{
     //tmpTranslations.insert("something %1", tr("something %1"))...
 
     QVariantHash tmpTranslations;
@@ -845,13 +859,7 @@ void ZeraTranslation::reloadStringTable()
     tmpTranslations.insert("No USB-stick inserted", tr("No USB-stick inserted"));
     tmpTranslations.insert("Screenshot taken and saved on USB-stick", tr("Screenshot taken and saved on USB-stick"));
 
-    qInfo("Translation string table with %i entries reloaded within %lldms.", tmpTranslations.count(), elapsed.elapsed());
-    for(auto iter=tmpTranslations.cbegin(); iter!=tmpTranslations.cend(); iter++)
-        insert(iter.key(), iter.value());
-    qInfo("Translation strings added to property map within %lldms.", elapsed.elapsed());
-
-    emit sigLanguageChanged();
-    qInfo("Language change notification within %lldms.", elapsed.elapsed());
+    return tmpTranslations;
 }
 
 QVariant ZeraTranslation::updateValue(const QString &key, const QVariant &input)

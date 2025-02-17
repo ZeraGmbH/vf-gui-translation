@@ -17,6 +17,7 @@ class ZERATRANSLATION_EXPORT ZeraTranslation : public QQmlPropertyMap
 {
     Q_OBJECT
 public:
+    static const QVariantHash loadTranslationHash();
     static ZeraTranslation *getInstance();
     /**
      * @brief getStaticInstance get our singleton - QmlEngine callback
