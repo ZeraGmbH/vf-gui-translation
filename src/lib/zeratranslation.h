@@ -44,8 +44,8 @@ private:
 
     //key = locale name (e.g. en_US, de_DE)
     //value = absolute path
-    QHash<QString, QString> m_translationFilesModel;
-    QHash<QString, QString> m_translationFlagsModel;
+    QMap<QString, QString> m_translationFilesModel;
+    QMap<QString, QString> m_translationFlagsModel;
 };
 
 #endif // ZeraTranslation_H
