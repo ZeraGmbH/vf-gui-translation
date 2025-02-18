@@ -1,39 +1,36 @@
 #include "zeratranslation.h"
 #include <QLocale>
 #include <QDir>
-#include <QFile>
-#include <QFileInfo>
 #include <QUrl>
 #include <QCoreApplication>
 #include <QElapsedTimer>
 #include <QDateTime>
 #include <QDebug>
 
-ZeraTranslation *ZeraTranslation::s_instance = nullptr;
+ZeraTranslation *ZeraTranslation::m_instance = nullptr;
 QString ZeraTranslation::m_initialLanguage = "en_GB";
 
-ZeraTranslation::ZeraTranslation(QObject *parent) : QQmlPropertyMap(this, parent)
+ZeraTranslation::ZeraTranslation()
 {
     setupTranslationFiles();
-    changeLanguage(m_initialLanguage);
+    setLanguage(m_initialLanguage);
 }
 
 ZeraTranslation *ZeraTranslation::getInstance()
 {
-    if(s_instance == nullptr)
-        s_instance = new ZeraTranslation();
-    return  s_instance;
+    if(!m_instance)
+        m_instance = new ZeraTranslation();
+    return  m_instance;
 }
 
-QObject *ZeraTranslation::getStaticInstance(QQmlEngine *t_engine, QJSEngine *t_scriptEngine)
+QObject *ZeraTranslation::getStaticInstance(QQmlEngine *engine, QJSEngine *scriptEngine)
 {
-  Q_UNUSED(t_engine)
-  Q_UNUSED(t_scriptEngine)
-
-  return getInstance();
+    Q_UNUSED(engine)
+    Q_UNUSED(scriptEngine)
+    return getInstance();
 }
 
-void ZeraTranslation::changeLanguage(const QString &language)
+void ZeraTranslation::setLanguage(const QString &language)
 {
     if(m_currentLanguage != language) {
         m_currentLanguage = language;
@@ -55,9 +52,8 @@ void ZeraTranslation::changeLanguage(const QString &language)
                 reloadStringTable();
             }
         }
-        else if(language != "C") {
+        else if(language != "C")
             qWarning() << "Language not found for locale:" << language;
-        }
     }
 }
 
@@ -66,18 +62,20 @@ void ZeraTranslation::setInitialLanguage(const QString &language)
     m_initialLanguage = language;
 }
 
-QString ZeraTranslation::getCurrentLanguage()
+QString ZeraTranslation::getLanguage()
 {
     return m_currentLanguage;
 }
 
-QVariant ZeraTranslation::TrValue(const QString &key)
+QVariant ZeraTranslation::trValue(const QString &key)
 {
-    if(!contains(key)) {
+    const auto iter = m_currentTranslations.constFind(key);
+    if(iter == m_currentTranslations.constEnd()) {
         qWarning("Translation not found for '%s'", qPrintable(key));
-        insert(key, key);
+        m_currentTranslations.insert(key, key);
+        return key;
     }
-    return value(key);
+    return iter.value();
 }
 
 QString ZeraTranslation::trDateTimeShort(const QString &dateTime)
@@ -120,9 +118,9 @@ void ZeraTranslation::setupTranslationFiles()
                 qWarning() << "Skipping duplicate translation:" << qmFileInfo.absoluteFilePath() << "already loaded file from:" << m_translationFilesModel.value(localeName);
         }
     }
-    //export available languages to qml
-    insert("TRANSLATION_LOCALES", QVariant::fromValue<QStringList>(m_translationFlagsModel.keys()));
-    insert("TRANSLATION_FLAGS", QVariant::fromValue<QStringList>(m_translationFlagsModel.values()));
+    // export available languages to qml
+    m_currentTranslations.insert("TRANSLATION_LOCALES", QVariant::fromValue<QStringList>(m_translationFlagsModel.keys()));
+    m_currentTranslations.insert("TRANSLATION_FLAGS", QVariant::fromValue<QStringList>(m_translationFlagsModel.values()));
 }
 
 void ZeraTranslation::reloadStringTable()
@@ -135,8 +133,8 @@ void ZeraTranslation::reloadStringTable()
     qInfo("Translation string table with %i entries reloaded within %lldms.", tmpTranslations.count(), elapsed.elapsed());
 
     for(auto iter=tmpTranslations.cbegin(); iter!=tmpTranslations.cend(); iter++)
-        insert(iter.key(), iter.value());
-    qInfo("Translation strings added to property map within %lldms.", elapsed.elapsed());
+        m_currentTranslations.insert(iter.key(), iter.value());
+    qInfo("Translation strings added to current translation map within %lldms.", elapsed.elapsed());
 
     emit sigLanguageChanged();
     qInfo("Language change notification within %lldms.", elapsed.elapsed());
@@ -860,11 +858,4 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Screenshot taken and saved on USB-stick", tr("Screenshot taken and saved on USB-stick"));
 
     return tmpTranslations;
-}
-
-QVariant ZeraTranslation::updateValue(const QString &key, const QVariant &input)
-{
-    Q_ASSERT(false); //do not change the values from QML
-    Q_UNUSED(input)
-    return value(key);
 }
