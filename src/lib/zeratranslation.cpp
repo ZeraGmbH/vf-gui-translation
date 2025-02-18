@@ -91,6 +91,16 @@ QString ZeraTranslation::trDateTimeShort(const QString &dateTime)
     return locale.toString(dTime, formatStr);
 }
 
+QStringList ZeraTranslation::getLocalesModel()
+{
+    return m_translationFlagsModel.keys();
+}
+
+QStringList ZeraTranslation::getFlagsModel()
+{
+    return m_translationFlagsModel.values();
+}
+
 void ZeraTranslation::setupTranslationFiles()
 {
     // Append translations not yet good enough to ship to ignoreList
@@ -118,9 +128,6 @@ void ZeraTranslation::setupTranslationFiles()
                 qWarning() << "Skipping duplicate translation:" << qmFileInfo.absoluteFilePath() << "already loaded file from:" << m_translationFilesModel.value(localeName);
         }
     }
-    // export available languages to qml
-    m_currentTranslations.insert("TRANSLATION_LOCALES", QVariant::fromValue<QStringList>(m_translationFlagsModel.keys()));
-    m_currentTranslations.insert("TRANSLATION_FLAGS", QVariant::fromValue<QStringList>(m_translationFlagsModel.values()));
 }
 
 void ZeraTranslation::reloadStringTable()

@@ -22,4 +22,6 @@ Item {
     function trDateTimeShort(dateTimeString) {
         return ZTR.trDateTimeShort(dateTimeString)
     }
+    readonly property var localesModel: ZTR.localesModel
+    readonly property var flagsModel: ZTR.flagsModel
 }

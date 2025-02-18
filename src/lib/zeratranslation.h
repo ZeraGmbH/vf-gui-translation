@@ -2,6 +2,7 @@
 #define ZeraTranslation_H
 
 #include <QTranslator>
+#include <QMap>
 #include <QHash>
 #include <QVariant>
 #include "zeratranslation_export.h"
@@ -25,6 +26,11 @@ public:
 
     Q_INVOKABLE QVariant trValue(const QString &key);
     Q_INVOKABLE QString trDateTimeShort(const QString &dateTime);
+
+    Q_PROPERTY(QStringList localesModel READ getLocalesModel CONSTANT)
+    QStringList getLocalesModel();
+    Q_PROPERTY(QStringList flagsModel READ getFlagsModel CONSTANT)
+    QStringList getFlagsModel();
 
 signals:
     void sigLanguageChanged();
