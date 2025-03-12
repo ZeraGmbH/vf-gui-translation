@@ -1945,5 +1945,15 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Delete transaction ?</source>
         <translation>Transaktion löschen ?</translation>
     </message>
+    <message>
+        <source>other</source>
+        <extracomment>Timezone with no region info are marked as &quot;&lt;other&gt;&quot;</extracomment>
+        <translation>Andere</translation>
+    </message>
+    <message>
+        <source>Fixed Freq.</source>
+        <extracomment>Measurememt mode / fixed frequency. Note too long texts ruin layout!!!</extracomment>
+        <translation>Feste Freq.</translation>
+    </message>
 </context>
 </TS>

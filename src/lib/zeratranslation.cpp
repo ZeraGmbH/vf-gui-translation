@@ -864,5 +864,11 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("No USB-stick inserted", tr("No USB-stick inserted"));
     tmpTranslations.insert("Screenshot taken and saved on USB-stick", tr("Screenshot taken and saved on USB-stick"));
 
+    //: Timezone with no region info are marked as "\<other\>"
+    tmpTranslations.insert("other", tr("other"));
+    //: Measurememt mode / fixed frequency. Note too long texts ruin layout!!!
+    tmpTranslations.insert("Fixed Freq.", tr("Fixed Freq."));
+
+
     return tmpTranslations;
 }

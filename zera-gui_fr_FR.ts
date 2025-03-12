@@ -1946,5 +1946,15 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Delete transaction ?</source>
         <translation>Supprimer la transaction ?</translation>
     </message>
+    <message>
+        <source>other</source>
+        <extracomment>Timezone with no region info are marked as &quot;&lt;other&gt;&quot;</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fixed Freq.</source>
+        <extracomment>Measurememt mode / fixed frequency. Note too long texts ruin layout!!!</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

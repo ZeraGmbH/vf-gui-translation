@@ -1942,5 +1942,15 @@ Please charge the device before it turns down</translation>
         <source>Delete transaction ?</source>
         <translation></translation>
     </message>
+    <message>
+        <source>other</source>
+        <extracomment>Timezone with no region info are marked as &quot;&lt;other&gt;&quot;</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Fixed Freq.</source>
+        <extracomment>Measurememt mode / fixed frequency. Note too long texts ruin layout!!!</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>
