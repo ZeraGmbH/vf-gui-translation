@@ -200,11 +200,6 @@
         <translation>Range grouping</translation>
     </message>
     <message>
-        <source>Harm. table relative to the fundamental:</source>
-        <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Harm. table relative to the fundamental:</translation>
-    </message>
-    <message>
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
         <translation>Language:</translation>
@@ -1910,10 +1905,6 @@ Please charge the device before it turns down</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Show angles in harmonics:</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>Display:</source>
         <extracomment>used for the selection of GUI display mode</extracomment>
         <translation></translation>
@@ -1950,6 +1941,19 @@ Please charge the device before it turns down</translation>
     <message>
         <source>Fixed Freq.</source>
         <extracomment>Measurememt mode / fixed frequency. Note too long texts ruin layout!!!</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Relative to fundamental</source>
+        <extracomment>used for a yes / no configuration element</extracomment>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Show angles</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Timezone:</source>
         <translation></translation>
     </message>
 </context>

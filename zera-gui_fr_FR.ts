@@ -278,11 +278,6 @@
         <translation>Regroupement plages</translation>
     </message>
     <message>
-        <source>Harm. table relative to the fundamental:</source>
-        <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Afficher les tableaux harmoniques relatifs à l&apos;oscill fondamentale:</translation>
-    </message>
-    <message>
         <source>Max decimals total:</source>
         <extracomment>max number total decimals for displayed values</extracomment>
         <translation>Max total des décimales:</translation>
@@ -1914,10 +1909,6 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Mise à jour échouée. Veuillez enregistrer les journaux et les envoyer à service@zera.de.</translation>
     </message>
     <message>
-        <source>Show angles in harmonics:</source>
-        <translation>Afficher les angles en harmoniques :</translation>
-    </message>
-    <message>
         <source>Display:</source>
         <extracomment>used for the selection of GUI display mode</extracomment>
         <translation>Affichage:</translation>
@@ -1955,6 +1946,19 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Fixed Freq.</source>
         <extracomment>Measurememt mode / fixed frequency. Note too long texts ruin layout!!!</extracomment>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relative to fundamental</source>
+        <extracomment>used for a yes / no configuration element</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show angles</source>
+        <translation>Afficher les angles</translation>
+    </message>
+    <message>
+        <source>Timezone:</source>
+        <translation>Zone horaire:</translation>
     </message>
 </context>
 </TS>

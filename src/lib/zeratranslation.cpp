@@ -263,9 +263,10 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     //Settings.qml
     //: settings specific to the GUI application
     tmpTranslations.insert("Application", tr("Application"));
+    tmpTranslations.insert("Timezone:", tr("Timezone:"));
     //: used for a yes / no configuration element
-    tmpTranslations.insert("Harm. table relative to the fundamental:", tr("Harm. table relative to the fundamental:"));
-    tmpTranslations.insert("Show angles in harmonics:", tr("Show angles in harmonics:"));
+    tmpTranslations.insert("Relative to fundamental", tr("Relative to fundamental"));
+    tmpTranslations.insert("Show angles", tr("Show angles"));
     //: max number total decimals for displayed values
     tmpTranslations.insert("Max decimals total:", tr("Max decimals total:"));
     //: max number of decimals after the decimal separator

@@ -435,11 +435,6 @@
         <translation>Relação</translation>
     </message>
     <message>
-        <source>Harm. table relative to the fundamental:</source>
-        <extracomment>used for a yes / no configuration element</extracomment>
-        <translation type="unfinished">Tabelas harmônicas relativas à fundamental:</translation>
-    </message>
-    <message>
         <source>Max decimals total:</source>
         <extracomment>max number total decimals for displayed values</extracomment>
         <translation>Total máximo de decimais:</translation>
@@ -1962,10 +1957,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show angles in harmonics:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Display:</source>
         <extracomment>used for the selection of GUI display mode</extracomment>
         <translation type="unfinished"></translation>
@@ -2002,6 +1993,19 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Fixed Freq.</source>
         <extracomment>Measurememt mode / fixed frequency. Note too long texts ruin layout!!!</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Relative to fundamental</source>
+        <extracomment>used for a yes / no configuration element</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show angles</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Timezone:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
