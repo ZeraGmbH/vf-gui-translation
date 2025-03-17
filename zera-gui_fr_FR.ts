@@ -312,9 +312,9 @@
         <translation>Couleurs du système:</translation>
     </message>
     <message>
-        <source>Show AUX phase values:</source>
+        <source>Show AUX phase values</source>
         <extracomment>Settings show/hide AUX phases</extracomment>
-        <translation>Afficher les valeurs de la phase AUX :</translation>
+        <translation>Afficher les valeurs de la phase AUX</translation>
     </message>
     <message>
         <source>Brightness currents:</source>

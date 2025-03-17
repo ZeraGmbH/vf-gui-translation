@@ -296,7 +296,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("DFT reference channel:", tr("DFT reference channel:"));
     tmpTranslations.insert("System colors:", tr("System colors:"));
     //: Settings show/hide AUX phases
-    tmpTranslations.insert("Show AUX phase values:", tr("Show AUX phase values:"));
+    tmpTranslations.insert("Show AUX phase values", tr("Show AUX phase values"));
     //: Color themes popup adjust brightness for current
     tmpTranslations.insert("Brightness currents:", tr("Brightness currents:"));
     //: Color themes popup adjust brightness for current

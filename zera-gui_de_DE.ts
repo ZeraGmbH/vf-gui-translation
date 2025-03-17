@@ -859,9 +859,9 @@
         <translation>Energievergleich</translation>
     </message>
     <message>
-        <source>Show AUX phase values:</source>
+        <source>Show AUX phase values</source>
         <extracomment>Settings show/hide AUX phases</extracomment>
-        <translation>AUX Messwerte anzeigen:</translation>
+        <translation>AUX Messwerte anzeigen</translation>
     </message>
     <message>
         <source>Not adjusted</source>

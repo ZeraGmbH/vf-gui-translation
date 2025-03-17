@@ -416,9 +416,9 @@
         <translation>Colores del sistema:</translation>
     </message>
     <message>
-        <source>Show AUX phase values:</source>
+        <source>Show AUX phase values</source>
         <extracomment>Settings show/hide AUX phases</extracomment>
-        <translation>Mostrar valores de fase AUX:</translation>
+        <translation>Mostrar valores de fase AUX</translation>
     </message>
     <message>
         <source>Brightness currents:</source>
