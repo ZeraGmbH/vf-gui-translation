@@ -25,6 +25,8 @@ Item {
     function trDateTimeLong(dateTimeString) {
         return ZTR.trDateTimeLong(dateTimeString)
     }
+    readonly property var dateTimeNow: ZTR.dateTimeNow
+
     readonly property var localesModel: ZTR.localesModel
     readonly property var flagsModel: ZTR.flagsModel
 }

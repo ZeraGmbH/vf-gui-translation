@@ -14,6 +14,11 @@ ZeraTranslation::ZeraTranslation()
 {
     setupTranslationFiles();
     setLanguage(m_initialLanguage);
+    connect(&m_dateTimePollTimer, &QTimer::timeout,
+            this, &ZeraTranslation::ZeraTranslation::onDateTimePoll);
+    m_dateTimePollTimer.setInterval(200);
+    m_dateTimePollTimer.setSingleShot(false);
+    m_dateTimePollTimer.start();
 }
 
 ZeraTranslation *ZeraTranslation::getInstance()
@@ -101,6 +106,11 @@ QString ZeraTranslation::trDateTimeLong(const QString &dateTime)
     return locale.toString(dTime, formatStr);
 }
 
+QDateTime ZeraTranslation::getDateTimeNow()
+{
+    return QDateTime::currentDateTime();
+}
+
 QStringList ZeraTranslation::getLocalesModel()
 {
     return m_translationFlagsModel.keys();
@@ -109,6 +119,16 @@ QStringList ZeraTranslation::getLocalesModel()
 QStringList ZeraTranslation::getFlagsModel()
 {
     return m_translationFlagsModel.values();
+}
+
+void ZeraTranslation::onDateTimePoll()
+{
+    QTime nowTime = getDateTimeNow().time();
+    int seconds = nowTime.second();
+    if(m_secondsStored != seconds) {
+        m_secondsStored = seconds;
+        emit sigDateTimeNowSecondChanged();
+    }
 }
 
 void ZeraTranslation::setupTranslationFiles()

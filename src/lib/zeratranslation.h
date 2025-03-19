@@ -5,6 +5,8 @@
 #include <QMap>
 #include <QHash>
 #include <QVariant>
+#include <QDateTime>
+#include <QTimer>
 #include "zeratranslation_export.h"
 
 QT_BEGIN_NAMESPACE
@@ -27,6 +29,8 @@ public:
     Q_INVOKABLE QVariant trValue(const QString &key);
     Q_INVOKABLE QString trDateTimeShort(const QString &dateTime);
     Q_INVOKABLE QString trDateTimeLong(const QString &dateTime);
+    Q_PROPERTY(QDateTime dateTimeNow READ getDateTimeNow NOTIFY sigDateTimeNowSecondChanged)
+    QDateTime getDateTimeNow();
 
     Q_PROPERTY(QStringList localesModel READ getLocalesModel CONSTANT)
     QStringList getLocalesModel();
@@ -35,7 +39,10 @@ public:
 
 signals:
     void sigLanguageChanged();
+    void sigDateTimeNowSecondChanged();
 
+private slots:
+    void onDateTimePoll();
 private:
     explicit ZeraTranslation();
     void setupTranslationFiles();
@@ -53,6 +60,9 @@ private:
     //value = absolute path
     QMap<QString, QString> m_translationFilesModel;
     QMap<QString, QString> m_translationFlagsModel;
+
+    QTimer m_dateTimePollTimer;
+    int m_secondsStored = 0;
 };
 
 #endif // ZeraTranslation_H
