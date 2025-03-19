@@ -91,6 +91,16 @@ QString ZeraTranslation::trDateTimeShort(const QString &dateTime)
     return locale.toString(dTime, formatStr);
 }
 
+QString ZeraTranslation::trDateTimeLong(const QString &dateTime)
+{
+    QDateTime dTime = QDateTime::fromString(dateTime);
+    QLocale locale(m_currentLanguage);
+    const QString dateFormat = locale.dateFormat(QLocale::LongFormat);
+    QString timeFormat = locale.timeFormat(QLocale::LongFormat);
+    const QString formatStr = dateFormat + QLatin1Char(' ') + timeFormat;
+    return locale.toString(dTime, formatStr);
+}
+
 QStringList ZeraTranslation::getLocalesModel()
 {
     return m_translationFlagsModel.keys();

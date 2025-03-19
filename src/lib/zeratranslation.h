@@ -26,6 +26,7 @@ public:
 
     Q_INVOKABLE QVariant trValue(const QString &key);
     Q_INVOKABLE QString trDateTimeShort(const QString &dateTime);
+    Q_INVOKABLE QString trDateTimeLong(const QString &dateTime);
 
     Q_PROPERTY(QStringList localesModel READ getLocalesModel CONSTANT)
     QStringList getLocalesModel();
