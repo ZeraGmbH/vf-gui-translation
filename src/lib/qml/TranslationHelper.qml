@@ -22,6 +22,9 @@ Item {
     function trDateTimeShort(dateTimeString) {
         return ZTR.trDateTimeShort(dateTimeString)
     }
+    function trDateTimeTz(dateTimeString) {
+        return ZTR.trDateTimeTz(dateTimeString)
+    }
     function trDateTimeLong(dateTimeString) {
         return ZTR.trDateTimeLong(dateTimeString)
     }

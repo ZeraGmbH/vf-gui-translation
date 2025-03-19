@@ -7,6 +7,7 @@
 #include <QVariant>
 #include <QDateTime>
 #include <QTimer>
+#include <QLocale>
 #include "zeratranslation_export.h"
 
 QT_BEGIN_NAMESPACE
@@ -28,6 +29,7 @@ public:
 
     Q_INVOKABLE QVariant trValue(const QString &key);
     Q_INVOKABLE QString trDateTimeShort(const QString &dateTime);
+    Q_INVOKABLE QString trDateTimeTz(const QString &dateTime);
     Q_INVOKABLE QString trDateTimeLong(const QString &dateTime);
     Q_PROPERTY(QDateTime dateTimeNow READ getDateTimeNow NOTIFY sigDateTimeNowSecondChanged)
     QDateTime getDateTimeNow();
@@ -47,6 +49,8 @@ private:
     explicit ZeraTranslation();
     void setupTranslationFiles();
     void reloadStringTable();
+    static QString getTimeDateFormatShort(const QLocale &locale);
+
     static const QVariantHash loadTranslationHash();
 
     static ZeraTranslation *m_instance;

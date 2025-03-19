@@ -1,5 +1,4 @@
 #include "zeratranslation.h"
-#include <QLocale>
 #include <QDir>
 #include <QUrl>
 #include <QCoreApplication>
@@ -87,12 +86,15 @@ QString ZeraTranslation::trDateTimeShort(const QString &dateTime)
 {
     QDateTime dTime = QDateTime::fromString(dateTime);
     QLocale locale(m_currentLanguage);
-    const QString dateFormat = locale.dateFormat(QLocale::ShortFormat);
-    QString timeFormat = locale.timeFormat(QLocale::ShortFormat);
-    // hack in seconds - short format is missing them
-    if(!timeFormat.contains("ss"))
-        timeFormat.replace("mm", "mm:ss");
-    const QString formatStr = dateFormat + QLatin1Char(' ') + timeFormat;
+    const QString formatStr = getTimeDateFormatShort(locale);
+    return locale.toString(dTime, formatStr);
+}
+
+QString ZeraTranslation::trDateTimeTz(const QString &dateTime)
+{
+    QDateTime dTime = QDateTime::fromString(dateTime);
+    QLocale locale(m_currentLanguage);
+    const QString formatStr = "t";
     return locale.toString(dTime, formatStr);
 }
 
@@ -175,6 +177,17 @@ void ZeraTranslation::reloadStringTable()
 
     emit sigLanguageChanged();
     qInfo("Language change notification within %lldms.", elapsed.elapsed());
+}
+
+QString ZeraTranslation::getTimeDateFormatShort(const QLocale &locale)
+{
+    const QString dateFormat = locale.dateFormat(QLocale::ShortFormat);
+    QString timeFormat = locale.timeFormat(QLocale::ShortFormat);
+    // hack in seconds - short format is missing them
+    if(!timeFormat.contains("ss"))
+        timeFormat.replace("mm", "mm:ss");
+    const QString formatStr = dateFormat + QLatin1Char(' ') + timeFormat;
+    return formatStr;
 }
 
 const QVariantHash ZeraTranslation::loadTranslationHash()
