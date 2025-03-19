@@ -1956,5 +1956,9 @@ Please charge the device before it turns down</translation>
         <source>Timezone:</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Date/Time:</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

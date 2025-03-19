@@ -1958,5 +1958,9 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Timezone:</source>
         <translation>Zeitzone:</translation>
     </message>
+    <message>
+        <source>Date/Time:</source>
+        <translation>Datum/Uhrzeit:</translation>
+    </message>
 </context>
 </TS>

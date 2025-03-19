@@ -1956,5 +1956,9 @@ customer data delete file confirmation popup header</extracomment>
         <source>Timezone:</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Date/Time:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

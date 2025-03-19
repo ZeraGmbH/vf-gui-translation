@@ -910,6 +910,9 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
 
     //: Timezone with no region info are marked as "\<other\>"
     tmpTranslations.insert("other", tr("other"));
+
+    tmpTranslations.insert("Date/Time:", tr("Date/Time:"));
+
     //: Measurememt mode / fixed frequency. Note too long texts ruin layout!!!
     tmpTranslations.insert("Fixed Freq.", tr("Fixed Freq."));
 

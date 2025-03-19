@@ -1960,5 +1960,9 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Timezone:</source>
         <translation>Zone horaire:</translation>
     </message>
+    <message>
+        <source>Date/Time:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
