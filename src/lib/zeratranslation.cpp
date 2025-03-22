@@ -108,6 +108,19 @@ QString ZeraTranslation::trDateTimeLong(const QString &dateTime)
     return locale.toString(dTime, formatStr);
 }
 
+QString ZeraTranslation::getDateSeparator() const
+{
+    QLocale locale(m_currentLanguage);
+    QString dateFormat = locale.dateFormat(QLocale::ShortFormat);
+    QString dateSeparator = dateFormat
+                                .remove("d", Qt::CaseInsensitive)
+                                .remove("m", Qt::CaseInsensitive)
+                                .remove("y", Qt::CaseInsensitive);
+    if(dateSeparator.length() == 2)
+        return dateSeparator.left(1);
+    return "/";
+}
+
 QDateTime ZeraTranslation::getDateTimeNow()
 {
     return QDateTime::currentDateTime();

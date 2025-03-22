@@ -26,22 +26,29 @@ public:
     Q_PROPERTY(QString language READ getLanguage WRITE setLanguage NOTIFY sigLanguageChanged)
     QString getLanguage();
     Q_INVOKABLE void setLanguage(const QString &language);
+    Q_SIGNAL void sigLanguageChanged();
 
     Q_INVOKABLE QVariant trValue(const QString &key);
     Q_INVOKABLE QString trDateTimeShort(const QString &dateTime);
     Q_INVOKABLE QString trDateTimeTz(const QString &dateTime);
     Q_INVOKABLE QString trDateTimeLong(const QString &dateTime);
+
+    Q_PROPERTY(QString dateSeparator READ getDateSeparator NOTIFY sigLanguageChanged)
+    QString getDateSeparator() const;
+
     Q_PROPERTY(QDateTime dateTimeNow READ getDateTimeNow NOTIFY sigDateTimeNowSecondChanged)
     QDateTime getDateTimeNow();
+    Q_SIGNAL void sigDateTimeNowSecondChanged();
 
     Q_PROPERTY(QStringList localesModel READ getLocalesModel CONSTANT)
     QStringList getLocalesModel();
+
     Q_PROPERTY(QStringList flagsModel READ getFlagsModel CONSTANT)
     QStringList getFlagsModel();
 
 signals:
-    void sigLanguageChanged();
-    void sigDateTimeNowSecondChanged();
+
+
 
 private slots:
     void onDateTimePoll();
