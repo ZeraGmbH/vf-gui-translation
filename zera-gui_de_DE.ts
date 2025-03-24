@@ -1962,5 +1962,37 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Date/Time:</source>
         <translation>Datum/Uhrzeit:</translation>
     </message>
+    <message>
+        <source>Set timezone failed!</source>
+        <translation>Das Setzen der Zeitzone ist fehlgeschlagen!</translation>
+    </message>
+    <message>
+        <source>NTP activate failed!</source>
+        <translation>NTP konnte nicht eingeschaltet werden!</translation>
+    </message>
+    <message>
+        <source>NTP deactivate failed!</source>
+        <translation>NTP konnte nicht ausgeschaltet werden!</translation>
+    </message>
+    <message>
+        <source>Set date/time failed!</source>
+        <translation>Datum/Uhrzeit konnten nicht gesetzt werden!</translation>
+    </message>
+    <message>
+        <source>Time:</source>
+        <translation>Zeit:</translation>
+    </message>
+    <message>
+        <source>Date:</source>
+        <translation>Datum:</translation>
+    </message>
+    <message>
+        <source>Internal timebase</source>
+        <translation>Interne Zeitbasis</translation>
+    </message>
+    <message>
+        <source>Synchronize from network</source>
+        <translation>Synchronisation vom Netzwerk</translation>
+    </message>
 </context>
 </TS>

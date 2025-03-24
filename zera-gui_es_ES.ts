@@ -1960,5 +1960,37 @@ customer data delete file confirmation popup header</extracomment>
         <source>Date/Time:</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Set timezone failed!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>NTP activate failed!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>NTP deactivate failed!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set date/time failed!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Date:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Internal timebase</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Synchronize from network</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

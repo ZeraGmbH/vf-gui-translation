@@ -1960,5 +1960,37 @@ Please charge the device before it turns down</translation>
         <source>Date/Time:</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Set timezone failed!</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>NTP activate failed!</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>NTP deactivate failed!</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Set date/time failed!</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Time:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Date:</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Internal timebase</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Synchronize from network</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

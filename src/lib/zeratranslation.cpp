@@ -923,6 +923,14 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
 
     //: Timezone with no region info are marked as "\<other\>"
     tmpTranslations.insert("other", tr("other"));
+    tmpTranslations.insert("Time:", tr("Time:"));
+    tmpTranslations.insert("Date:", tr("Date:"));
+    tmpTranslations.insert("Internal timebase", tr("Internal timebase"));
+    tmpTranslations.insert("Synchronize from network", tr("Synchronize from network"));
+    tmpTranslations.insert("Set timezone failed!", tr("Set timezone failed!"));
+    tmpTranslations.insert("NTP activate failed!", tr("NTP activate failed!"));
+    tmpTranslations.insert("NTP deactivate failed!", tr("NTP deactivate failed!"));
+    tmpTranslations.insert("Set date/time failed!", tr("Set date/time failed!"));
 
     tmpTranslations.insert("Date/Time:", tr("Date/Time:"));
 
