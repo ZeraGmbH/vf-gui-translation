@@ -24,7 +24,7 @@ If all tests succeed: commit & push
 https://github.com/thurask/Qt-Linguist/releases
 
 ### Create a new translation 'language_REGION' e.g 'de_AT':
-* Create a document '''zera-gui_language_REGION''' with content:
+* Create a document '''zera-gui_language_REGION.ts''' with content:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
