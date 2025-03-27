@@ -40,15 +40,14 @@ public:
     QDateTime getDateTimeNow();
     Q_SIGNAL void sigDateTimeNowSecondChanged();
 
+    Q_PROPERTY(QStringList supportedLanguages READ getSupportedLanguages CONSTANT)
+    QStringList getSupportedLanguages() const;
+
     Q_PROPERTY(QStringList localesModel READ getLocalesModel CONSTANT)
     QStringList getLocalesModel();
 
     Q_PROPERTY(QStringList flagsModel READ getFlagsModel CONSTANT)
     QStringList getFlagsModel();
-
-signals:
-
-
 
 private slots:
     void onDateTimePoll();

@@ -126,6 +126,11 @@ QDateTime ZeraTranslation::getDateTimeNow()
     return QDateTime::currentDateTime();
 }
 
+QStringList ZeraTranslation::getSupportedLanguages() const
+{
+    return m_translationFilesModel.keys();
+}
+
 QStringList ZeraTranslation::getLocalesModel()
 {
     return m_translationFlagsModel.keys();
