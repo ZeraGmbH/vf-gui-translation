@@ -20,5 +20,23 @@
 If all tests succeed: commit & push
 
 
-Windows linguist download:
+### Windows linguist download:
 https://github.com/thurask/Qt-Linguist/releases
+
+### Create a new translation 'language_REGION' e.g 'de_AT':
+* Create a document '''zera-gui_language_REGION''' with content:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="<language>_<REGION>">
+</TS>
+```
+
+* Run CMake
+* Compile
+* As long as the translation is not ready for public, append "language_REGION" to https://github.com/ZeraGmbH/vf-gui-translation/blob/7e37dd7b40ae4537b043656a89b9b6d8d4b665ab/src/lib/zeratranslation.cpp#L152 as
+```cpp
+   QStringList ignoreList = QStringList() << "language_REGION";
+```
+* Once translation is ready for the wild don't forget to remove it from ```ignoreList```
