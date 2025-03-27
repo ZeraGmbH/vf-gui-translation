@@ -154,7 +154,7 @@ void ZeraTranslation::onDateTimePoll()
 void ZeraTranslation::setupTranslationFiles()
 {
     // Append translations not yet good enough to ship to ignoreList
-    QStringList ignoreList = QStringList() << "uk_UA" << "it_IT" << "el_GR";
+    QStringList ignoreList = QStringList();
 
     QDir searchDir(QString(ZERA_TRANSLATION_PATH));
     if(searchDir.exists() && searchDir.isReadable()) {
