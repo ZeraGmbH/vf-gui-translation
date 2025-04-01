@@ -394,7 +394,7 @@
         <source>Changing energy direction</source>
         <extracomment>changing energy direction session</extracomment>
         <translatorcomment>CED session</translatorcomment>
-        <translation type="unfinished">Comparação de Energia</translation>
+        <translation>Mudar a direção da energia</translation>
     </message>
     <message>
         <source>Reference</source>
@@ -989,7 +989,7 @@ Carregue o dispositivo antes que ele desligue</translation>
     <message>
         <source>Harmonics &amp; Curves</source>
         <extracomment>FFT bar diagrams or tables that show the harmonic component distribution of the measured values</extracomment>
-        <translation type="unfinished">Valores de potência harmônica</translation>
+        <translation>Harmónicos e Curvas</translation>
     </message>
     <message>
         <source>Power values</source>
@@ -1908,141 +1908,141 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Save logfile to USB</source>
-        <translation type="unfinished"></translation>
+        <translation>Guardar logfile em USB</translation>
     </message>
     <message>
         <source>No USB-stick inserted</source>
-        <translation type="unfinished"></translation>
+        <translation>Nenhum pendrive inserido</translation>
     </message>
     <message>
         <source>Screenshot taken and saved on USB-stick</source>
-        <translation type="unfinished"></translation>
+        <translation>Captura de ecrã feita e guardada no pendrive</translation>
     </message>
     <message>
         <source>Saving logs and dumps to external drive...</source>
-        <translation type="unfinished"></translation>
+        <translation>Guardar logs e dumps numa unidade externa...</translation>
     </message>
     <message>
         <source>Could not save logs and dumps</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível guardar logs e dumps</translation>
     </message>
     <message>
         <source>Accu PCB version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versão do Accu PCB</translation>
     </message>
     <message>
         <source>Accu controller version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versão do controlador Accu</translation>
     </message>
     <message>
         <source>Invert</source>
         <extracomment>when selected, the corresponding phases are inverted</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Invertida</translation>
     </message>
     <message>
         <source>Could not store snapshot in database. Please save logs and send them to service@zera.de.</source>
         <extracomment>save snapshot error message</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível armazenar o instantâneo na base de dados. Guarde os registos e envie-os para service@zera.de.</translation>
     </message>
     <message>
         <source>Starting update...</source>
-        <translation type="unfinished"></translation>
+        <translation>A iniciar atualização...</translation>
     </message>
     <message>
         <source>Could not update. Please check if necessary files are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível atualizar. Verifique se os ficheiros necessários estão disponíveis.</translation>
     </message>
     <message>
         <source>Update failed. Please save logs and send them to service@zera.de.</source>
-        <translation type="unfinished"></translation>
+        <translation>A atualização falhou. Guarde os registos e envie-os para service@zera.de.</translation>
     </message>
     <message>
         <source>Display:</source>
         <extracomment>used for the selection of GUI display mode</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ecrã:</translation>
     </message>
     <message>
         <source>Fullscreen</source>
         <extracomment>GUI display mode fullscreen</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Tela cheia</translation>
     </message>
     <message>
         <source>Desktop (slow)</source>
         <extracomment>GUI display mode desktop</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ambiente de trabalho (lento)</translation>
     </message>
     <message>
         <source>Recording</source>
         <extracomment>Transaction table: transaction type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Gravando</translation>
     </message>
     <message>
         <source>Web-Server:</source>
         <extracomment>Remote web label</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Servidor Web:</translation>
     </message>
     <message>
         <source>Delete transaction ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Apagar transação?</translation>
     </message>
     <message>
         <source>other</source>
         <extracomment>Timezone with no region info are marked as &quot;&lt;other&gt;&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>outra</translation>
     </message>
     <message>
         <source>Fixed Freq.</source>
         <extracomment>Measurememt mode / fixed frequency. Note too long texts ruin layout!!!</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Freq. fixa.</translation>
     </message>
     <message>
         <source>Relative to fundamental</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Em relação ao fundamental</translation>
     </message>
     <message>
         <source>Show angles</source>
-        <translation type="unfinished"></translation>
+        <translation>Show angles</translation>
     </message>
     <message>
         <source>Timezone:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fuso horário:</translation>
     </message>
     <message>
         <source>Date/Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Data/Hora:</translation>
     </message>
     <message>
         <source>Set timezone failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha ao definir fuso horário!</translation>
     </message>
     <message>
         <source>NTP activate failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha na ativação do NTP!</translation>
     </message>
     <message>
         <source>NTP deactivate failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha na desativação do NTP!</translation>
     </message>
     <message>
         <source>Set date/time failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha ao definir data/hora!</translation>
     </message>
     <message>
         <source>Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hora:</translation>
     </message>
     <message>
         <source>Date:</source>
-        <translation type="unfinished"></translation>
+        <translation>Data:</translation>
     </message>
     <message>
         <source>Internal timebase</source>
-        <translation type="unfinished"></translation>
+        <translation>Base de tempo interna</translation>
     </message>
     <message>
         <source>Synchronize from network</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 </TS>

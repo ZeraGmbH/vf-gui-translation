@@ -1860,27 +1860,27 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>No USB-stick inserted</source>
-        <translation type="unfinished"></translation>
+        <translation>No hay memoria USB insertada</translation>
     </message>
     <message>
         <source>Screenshot taken and saved on USB-stick</source>
-        <translation type="unfinished"></translation>
+        <translation>Captura de pantalla tomada y guardada en una memoria USB</translation>
     </message>
     <message>
         <source>Saving logs and dumps to external drive...</source>
-        <translation type="unfinished"></translation>
+        <translation>Guardando registros y volcados en disco externo...</translation>
     </message>
     <message>
         <source>Could not save logs and dumps</source>
-        <translation type="unfinished"></translation>
+        <translation>No se pudieron guardar los registros ni los volcados</translation>
     </message>
     <message>
         <source>Accu PCB version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versión de PCB Accu</translation>
     </message>
     <message>
         <source>Accu controller version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versión del controlador Accu</translation>
     </message>
     <message>
         <source>Invert</source>
@@ -1890,107 +1890,107 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Could not store snapshot in database. Please save logs and send them to service@zera.de.</source>
         <extracomment>save snapshot error message</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>No se pudo guardar la instantánea en la base de datos. Guarde los registros y envíelos a service@zera.de.</translation>
     </message>
     <message>
         <source>Starting update...</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciando actualización...</translation>
     </message>
     <message>
         <source>Could not update. Please check if necessary files are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>No se pudo actualizar. Por favor, compruebe si los archivos necesarios están disponibles.</translation>
     </message>
     <message>
         <source>Update failed. Please save logs and send them to service@zera.de.</source>
-        <translation type="unfinished"></translation>
+        <translation>Error en la actualización. Guarde los registros y envíelos a service@zera.de.</translation>
     </message>
     <message>
         <source>Display:</source>
         <extracomment>used for the selection of GUI display mode</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Pantalla:</translation>
     </message>
     <message>
         <source>Fullscreen</source>
         <extracomment>GUI display mode fullscreen</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Pantalla completa</translation>
     </message>
     <message>
         <source>Desktop (slow)</source>
         <extracomment>GUI display mode desktop</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Escritorio (lento)</translation>
     </message>
     <message>
         <source>Recording</source>
         <extracomment>Transaction table: transaction type</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Grabando</translation>
     </message>
     <message>
         <source>Web-Server:</source>
         <extracomment>Remote web label</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Servidor web:</translation>
     </message>
     <message>
         <source>Delete transaction ?</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Borrar transacción?</translation>
     </message>
     <message>
         <source>other</source>
         <extracomment>Timezone with no region info are marked as &quot;&lt;other&gt;&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>otra</translation>
     </message>
     <message>
         <source>Fixed Freq.</source>
         <extracomment>Measurememt mode / fixed frequency. Note too long texts ruin layout!!!</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Frec. fija.</translation>
     </message>
     <message>
         <source>Relative to fundamental</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Relativa a fundamental</translation>
     </message>
     <message>
         <source>Show angles</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar ángulos</translation>
     </message>
     <message>
         <source>Timezone:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zona horaria:</translation>
     </message>
     <message>
         <source>Date/Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fecha/Hora:</translation>
     </message>
     <message>
         <source>Set timezone failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Error al establecer la zona horaria!</translation>
     </message>
     <message>
         <source>NTP activate failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡La activación de NTP falló!</translation>
     </message>
     <message>
         <source>NTP deactivate failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡La desactivación de NTP falló!</translation>
     </message>
     <message>
         <source>Set date/time failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Error al establecer fecha y hora!</translation>
     </message>
     <message>
         <source>Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hora:</translation>
     </message>
     <message>
         <source>Date:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fecha:</translation>
     </message>
     <message>
         <source>Internal timebase</source>
-        <translation type="unfinished"></translation>
+        <translation>Base de tiempo interna</translation>
     </message>
     <message>
         <source>Synchronize from network</source>
-        <translation type="unfinished"></translation>
+        <translation>Sincronizar da rede</translation>
     </message>
 </context>
 </TS>
