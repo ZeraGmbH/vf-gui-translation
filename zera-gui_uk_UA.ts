@@ -6,182 +6,182 @@
     <message>
         <source>AC</source>
         <comment>Alternating current</comment>
-        <translation type="unfinished"></translation>
+        <translation>AC</translation>
     </message>
     <message>
         <source>U</source>
         <comment>Voltage</comment>
-        <translation type="unfinished"></translation>
+        <translation>U</translation>
     </message>
     <message>
         <source>W</source>
         <comment>Watt unit active</comment>
-        <translation type="unfinished"></translation>
+        <translation>Вт</translation>
     </message>
     <message>
         <source>VA</source>
         <comment>Watt unit reactive</comment>
-        <translation type="unfinished"></translation>
+        <translation>ВА</translation>
     </message>
     <message>
         <source>Var</source>
         <comment>Watt unit apparent</comment>
-        <translation type="unfinished"></translation>
+        <translation>ВАр</translation>
     </message>
     <message>
         <source>4LW</source>
         <comment>4 Leiter Wirkleistung = 4 wire active power</comment>
-        <translation type="unfinished"></translation>
+        <translation>4-пр/P</translation>
     </message>
     <message>
         <source>3LW</source>
         <comment>3 Leiter Wirkleistung = 3 wire active power</comment>
-        <translation type="unfinished"></translation>
+        <translation>3-пр/P</translation>
     </message>
     <message>
         <source>2LW</source>
         <comment>2 Leiter Wirkleistung = 2 wire active power</comment>
-        <translation type="unfinished"></translation>
+        <translation>2-пр/P</translation>
     </message>
     <message>
         <source>4LB</source>
         <comment>4 Leiter Blindleistung = 4 wire reactive power</comment>
-        <translation type="unfinished"></translation>
+        <translation>4-пр/Q</translation>
     </message>
     <message>
         <source>4LBK</source>
         <comment>4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial neutral conductor</comment>
-        <translation type="unfinished"></translation>
+        <translation>4-пр/Q&apos;</translation>
     </message>
     <message>
         <source>3LB</source>
         <comment>3 Leiter Blindleistung = 3 wire reactive power</comment>
-        <translation type="unfinished"></translation>
+        <translation>3-пр/Q</translation>
     </message>
     <message>
         <source>2LB</source>
         <comment>2 Leiter Blindleistung = 2 wire reactive power</comment>
-        <translation type="unfinished"></translation>
+        <translation>2-пр/Q</translation>
     </message>
     <message>
         <source>4LS</source>
         <comment>4 Leiter Scheinleistung = 4 wire apparent power</comment>
-        <translation type="unfinished"></translation>
+        <translation>4-пр/S</translation>
     </message>
     <message>
         <source>4LSg</source>
         <comment>4 Leiter Scheinleistung geometrisch = 4 wire apparent power geometric</comment>
-        <translation type="unfinished"></translation>
+        <translation>4-пр/S/геом.</translation>
     </message>
     <message>
         <source>2LS</source>
         <comment>2 Leiter Scheinleistung = 2 wire apparent power</comment>
-        <translation type="unfinished"></translation>
+        <translation>2-пр/S</translation>
     </message>
     <message>
         <source>2LSg</source>
         <comment>2 Leiter Scheinleistung geometrisch = 2 wire apparent power geometric</comment>
-        <translation type="unfinished"></translation>
+        <translation>2-пр/S/геом.</translation>
     </message>
     <message>
         <source>XLW</source>
         <comment>X Leiter Wirkleistung = X wire active power</comment>
-        <translation type="unfinished"></translation>
+        <translation>Х-пр/P</translation>
     </message>
     <message>
         <source>XLB</source>
         <comment>X Leiter Blindleistung = X wire reactive power</comment>
-        <translation type="unfinished"></translation>
+        <translation>Х-пр/Q</translation>
     </message>
     <message>
         <source>XLS</source>
         <comment>X Leiter Scheinleistung = X wire apparent power</comment>
-        <translation type="unfinished"></translation>
+        <translation>Х-пр/S</translation>
     </message>
     <message>
         <source>XLSg</source>
         <comment>X Leiter Scheinleistung geometrisch = X wire apparent power geometric</comment>
-        <translation type="unfinished"></translation>
+        <translation>Х-пр/S/геом.</translation>
     </message>
     <message>
         <source>QREF</source>
         <comment>Referenz-Modus = reference mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>QREF</translation>
     </message>
     <message>
         <source>ind</source>
         <comment>Power factor inductive load type</comment>
-        <translation type="unfinished"></translation>
+        <translation>інд.</translation>
     </message>
     <message>
         <source>cap</source>
         <comment>Power factor capacitive load type</comment>
-        <translation type="unfinished"></translation>
+        <translation>ємн.</translation>
     </message>
     <message>
         <source>L1</source>
         <comment>measuring system 1</comment>
-        <translation type="unfinished"></translation>
+        <translation>А</translation>
     </message>
     <message>
         <source>L2</source>
         <comment>measuring system 2</comment>
-        <translation type="unfinished"></translation>
+        <translation>В</translation>
     </message>
     <message>
         <source>L3</source>
         <comment>measuring system 3</comment>
-        <translation type="unfinished"></translation>
+        <translation>С</translation>
     </message>
     <message>
         <source>AUX</source>
         <comment>auxiliary measuring system</comment>
-        <translation type="unfinished"></translation>
+        <translation>Доп.</translation>
     </message>
     <message>
         <source>Phase1</source>
         <comment>Letter or number for phase e.g euro: 1 / us: A</comment>
-        <translation>1</translation>
+        <translation>Фаза А</translation>
     </message>
     <message>
         <source>Phase2</source>
         <comment>Letter or number for phase e.g euro: 2 / us: B</comment>
-        <translation>2</translation>
+        <translation>Фаза В</translation>
     </message>
     <message>
         <source>Phase3</source>
         <comment>Letter or number for phase e.g euro: 3 / us: C</comment>
-        <translation>3</translation>
+        <translation>Фаза С</translation>
     </message>
     <message>
         <source>P 1</source>
         <comment>Meter test power phase 1</comment>
-        <translation type="unfinished"></translation>
+        <translation>РА</translation>
     </message>
     <message>
         <source>P 2</source>
         <comment>Meter test power phase 2</comment>
-        <translation type="unfinished"></translation>
+        <translation>РВ</translation>
     </message>
     <message>
         <source>P 3</source>
         <comment>Meter test power phase 3</comment>
-        <translation type="unfinished"></translation>
+        <translation>РС</translation>
     </message>
     <message>
         <source>P AUX</source>
         <comment>Meter test power phase AUX</comment>
-        <translation type="unfinished"></translation>
+        <translation>РДоп.</translation>
     </message>
     <message>
         <source>P AC</source>
         <comment>Meter test power AC</comment>
-        <translation type="unfinished"></translation>
+        <translation>Р АС</translation>
     </message>
     <message>
         <source>P DC</source>
         <comment>Meter test power DC</comment>
-        <translation type="unfinished"></translation>
+        <translation>P DC</translation>
     </message>
     <message>
         <source>REF1</source>
@@ -216,70 +216,70 @@
     <message>
         <source>UPN</source>
         <comment>voltage pase to neutral</comment>
-        <translation type="unfinished"></translation>
+        <translation>Uф</translation>
     </message>
     <message>
         <source>UPP</source>
         <comment>voltage phase to phase</comment>
-        <translation type="unfinished"></translation>
+        <translation>Uл</translation>
     </message>
     <message>
         <source>kU</source>
         <comment>harmonic distortion on voltage</comment>
-        <translation type="unfinished"></translation>
+        <translation>кВ</translation>
     </message>
     <message>
         <source>I</source>
         <comment>current</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>kI</source>
         <comment>harmonic distortion on current</comment>
-        <translation type="unfinished"></translation>
+        <translation>кА</translation>
     </message>
     <message>
         <source>∠U</source>
         <comment>phase difference of voltage to reference channel</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>∠I</source>
         <comment>phase difference of current to reference channel</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>∠UI</source>
         <comment>phase difference</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>λ</source>
         <comment>power factor</comment>
-        <translation type="unfinished"></translation>
+        <translation>cos φ</translation>
     </message>
     <message>
         <source>P</source>
         <comment>active power</comment>
         <extracomment>needs to be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>P</translation>
     </message>
     <message>
         <source>Q</source>
         <comment>reactive power</comment>
         <extracomment>needs to be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Q</translation>
     </message>
     <message>
         <source>S</source>
         <comment>apparent power</comment>
         <extracomment>needs to be short enough to fit</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
     <message>
         <source>F</source>
         <comment>frequency</comment>
-        <translation type="unfinished"></translation>
+        <translation>F</translation>
     </message>
     <message>
         <source>Sb</source>
@@ -314,34 +314,34 @@
     <message>
         <source>OK</source>
         <extracomment>as in &quot;close this view&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>ОК</translation>
     </message>
     <message>
         <source>Close</source>
         <comment>not open</comment>
-        <translation type="unfinished"></translation>
+        <translation>Закрити</translation>
     </message>
     <message>
         <source>Accept</source>
-        <translation type="unfinished"></translation>
+        <translation>Прийняти</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Відмінити</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти</translation>
     </message>
     <message>
         <source>Default</source>
         <extracomment>default session</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>За замовчуванням</translation>
     </message>
     <message>
         <source>Changing energy direction</source>
         <extracomment>changing energy direction session</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Зміна напрямку енегрії</translation>
     </message>
     <message>
         <source>Reference</source>
@@ -359,100 +359,100 @@
     <message>
         <source>Range automatic</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Автодіапазон</translation>
     </message>
     <message>
         <source>Invert</source>
         <extracomment>when selected, the corresponding phases are inverted</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Зміна</translation>
     </message>
     <message>
         <source>Overload</source>
         <extracomment>measurement channel range overload, e.g. the range is configured for 5V measurement and the measured input voltage is &gt;5V</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Перенавантаження</translation>
     </message>
     <message>
         <source>Range grouping</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування діапазонів</translation>
     </message>
     <message>
         <source>Measurement modes</source>
         <extracomment>header text - can be multiline</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Схема підключення</translation>
     </message>
     <message>
         <source>Ratio</source>
         <extracomment>Ratio checkbox</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>К-ти тр-ції</translation>
     </message>
     <message>
         <source>Application</source>
         <extracomment>settings specific to the GUI application</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Застосування</translation>
     </message>
     <message>
         <source>Timezone:</source>
-        <translation type="unfinished"></translation>
+        <translation>Часовий пояс:</translation>
     </message>
     <message>
         <source>Relative to fundamental</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Відносно основної</translation>
     </message>
     <message>
         <source>Show angles</source>
-        <translation type="unfinished"></translation>
+        <translation>Відобразити кути</translation>
     </message>
     <message>
         <source>Max decimals total:</source>
         <extracomment>max number total decimals for displayed values</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Максимальне число знаків після коми</translation>
     </message>
     <message>
         <source>Max places after the decimal point:</source>
         <extracomment>max number of decimals after the decimal separator</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Максимальне число знаків після коми</translation>
     </message>
     <message>
         <source>Web-Server:</source>
         <extracomment>Remote web label</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>WEB-сервер:</translation>
     </message>
     <message>
         <source>Language:</source>
         <extracomment>used for the selection of language via country flag</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Мова:</translation>
     </message>
     <message>
         <source>Display:</source>
         <extracomment>used for the selection of GUI display mode</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Відобразити:</translation>
     </message>
     <message>
         <source>Fullscreen</source>
         <extracomment>GUI display mode fullscreen</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Повний екран</translation>
     </message>
     <message>
         <source>Desktop (slow)</source>
         <extracomment>GUI display mode desktop</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Робочий стіл</translation>
     </message>
     <message>
         <source>Device</source>
         <extracomment>settings specific to the hardware</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Прилад</translation>
     </message>
     <message>
         <source>Network</source>
         <extracomment>settings specific to the network</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Мережа</translation>
     </message>
     <message>
         <source>BLE sensor</source>
         <extracomment>settings specific to the Bluetooth sensors</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування Bluetooth</translation>
     </message>
     <message>
         <source>PLL channel:</source>
@@ -471,55 +471,55 @@
     </message>
     <message>
         <source>System colors:</source>
-        <translation type="unfinished"></translation>
+        <translation>Кольори фаз</translation>
     </message>
     <message>
         <source>Show AUX phase values</source>
         <extracomment>Settings show/hide AUX phases</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Відобразити дод.канал</translation>
     </message>
     <message>
         <source>Brightness currents:</source>
         <extracomment>Color themes popup adjust brightness for current</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Яркість для струмів:</translation>
     </message>
     <message>
         <source>Brightness black:</source>
         <extracomment>Color themes popup adjust brightness for current</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Яркість для чорного:</translation>
     </message>
     <message>
         <source>SCPI sequential mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим роботи SCPI:</translation>
     </message>
     <message>
         <source>Channel ignore limit [% of range]:</source>
-        <translation type="unfinished"></translation>
+        <translation>Межа ігнорування каналу [% від діапазону]:</translation>
     </message>
     <message>
         <source>Integration time interval</source>
         <extracomment>time based integration interval</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Період інтеграції</translation>
     </message>
     <message>
         <source>Integration period interval:</source>
         <extracomment>measurement period based integration interval</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Період інтеграції:</translation>
     </message>
     <message>
         <source>seconds</source>
         <comment>integration time interval unit</comment>
-        <translation type="unfinished"></translation>
+        <translation>секунди</translation>
     </message>
     <message>
         <source>periods</source>
         <comment>integration period interval unit</comment>
-        <translation type="unfinished"></translation>
+        <translation>періоди</translation>
     </message>
     <message>
         <source>Wifi Password</source>
         <extracomment>AvailableApDialog.qml Wifi password access point</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Пароль WiFi</translation>
     </message>
     <message>
         <source>Networks:</source>
@@ -1951,7 +1951,7 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Date/Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>рать/їжа:</translation>
     </message>
     <message>
         <source>Fixed Freq.</source>
