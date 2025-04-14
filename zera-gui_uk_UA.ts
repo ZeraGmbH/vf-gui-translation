@@ -71,7 +71,7 @@
     <message>
         <source>4LSg</source>
         <comment>4 Leiter Scheinleistung geometrisch = 4 wire apparent power geometric</comment>
-        <translation>4-пр.повн.геом.</translation>
+        <translation>4-пр.геом.</translation>
     </message>
     <message>
         <source>2LS</source>
@@ -81,7 +81,7 @@
     <message>
         <source>2LSg</source>
         <comment>2 Leiter Scheinleistung geometrisch = 2 wire apparent power geometric</comment>
-        <translation>2-пр.повна геом.</translation>
+        <translation>2-пр.геом.</translation>
     </message>
     <message>
         <source>XLW</source>
@@ -141,17 +141,17 @@
     <message>
         <source>Phase1</source>
         <comment>Letter or number for phase e.g euro: 1 / us: A</comment>
-        <translation>Фаза А</translation>
+        <translation>А</translation>
     </message>
     <message>
         <source>Phase2</source>
         <comment>Letter or number for phase e.g euro: 2 / us: B</comment>
-        <translation>Фаза В</translation>
+        <translation>В</translation>
     </message>
     <message>
         <source>Phase3</source>
         <comment>Letter or number for phase e.g euro: 3 / us: C</comment>
-        <translation>Фаза С</translation>
+        <translation>С</translation>
     </message>
     <message>
         <source>P 1</source>
@@ -299,17 +299,17 @@
     <message>
         <source>BRD1</source>
         <comment>burden system name</comment>
-        <translation>Навантаження А</translation>
+        <translation>А</translation>
     </message>
     <message>
         <source>BRD2</source>
         <comment>burden system name</comment>
-        <translation>Навантаження В</translation>
+        <translation>В</translation>
     </message>
     <message>
         <source>BRD3</source>
         <comment>burden system name</comment>
-        <translation>Навантаження С</translation>
+        <translation>С</translation>
     </message>
     <message>
         <source>OK</source>
@@ -389,7 +389,7 @@
     <message>
         <source>Application</source>
         <extracomment>settings specific to the GUI application</extracomment>
-        <translation>Застосування</translation>
+        <translation>Налаштування</translation>
     </message>
     <message>
         <source>Timezone:</source>
@@ -718,7 +718,7 @@ Please charge the device before it turns down</source>
     <message>
         <source>Reference input:</source>
         <extracomment>reference channel selection</extracomment>
-        <translation>Еталлонний сигнал:</translation>
+        <translation type="unfinished">Вид потужності:</translation>
     </message>
     <message>
         <source>Device input:</source>
@@ -758,7 +758,7 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>continuous</source>
-        <translation>безперервний</translation>
+        <translation type="unfinished">безперервнозаст</translation>
     </message>
     <message>
         <source>Count / Pause:</source>
@@ -766,7 +766,7 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>Duration:</source>
-        <translation>Тривалість:</translation>
+        <translation>Час:</translation>
     </message>
     <message>
         <source>Start/Stop</source>
@@ -774,7 +774,7 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>Duration</source>
-        <translation>Тривалість</translation>
+        <translation>Час</translation>
     </message>
     <message>
         <source>Start value:</source>
@@ -827,7 +827,7 @@ Please charge the device before it turns down</source>
         <source>Phase</source>
         <comment>Phase of the phasor</comment>
         <extracomment>text must be short enough to fit</extracomment>
-        <translation>Фаза</translation>
+        <translation>А</translation>
     </message>
     <message>
         <source>THDN:</source>
@@ -856,7 +856,7 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>Ext.</source>
-        <translation>Зовн.</translation>
+        <translation>fout</translation>
     </message>
     <message>
         <source>Harmonic power table</source>
@@ -1015,7 +1015,7 @@ Please charge the device before it turns down</source>
     <message>
         <source>Comparison measurements</source>
         <extracomment>shows energy comparison between the reference device and the device under test&apos;s registers/display</extracomment>
-        <translation>Тестування та вимірювання</translation>
+        <translation>Визначення похибки</translation>
     </message>
     <message>
         <source>Source control</source>
@@ -1087,7 +1087,7 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>Quartz reference measurement</source>
-        <translation>Еталонний сигнал кварцу</translation>
+        <translation type="unfinished">Тестування та вимірювання</translation>
     </message>
     <message>
         <source>CED power values</source>
