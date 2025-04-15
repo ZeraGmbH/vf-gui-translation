@@ -16,17 +16,17 @@
     <message>
         <source>W</source>
         <comment>Watt unit active</comment>
-        <translation>Вт</translation>
+        <translation>W</translation>
     </message>
     <message>
         <source>VA</source>
         <comment>Watt unit reactive</comment>
-        <translation>ВА</translation>
+        <translation>VA</translation>
     </message>
     <message>
         <source>Var</source>
         <comment>Watt unit apparent</comment>
-        <translation>ВАр</translation>
+        <translation type="unfinished">VAr</translation>
     </message>
     <message>
         <source>4LW</source>
@@ -262,7 +262,7 @@
         <source>P</source>
         <comment>active power</comment>
         <extracomment>needs to be short enough to fit</extracomment>
-        <translation type="unfinished">P</translation>
+        <translation>P</translation>
     </message>
     <message>
         <source>Q</source>
@@ -718,7 +718,7 @@ Please charge the device before it turns down</source>
     <message>
         <source>Reference input:</source>
         <extracomment>reference channel selection</extracomment>
-        <translation type="unfinished">Вид потужності:</translation>
+        <translation>Вид потужності:</translation>
     </message>
     <message>
         <source>Device input:</source>
@@ -758,7 +758,7 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>continuous</source>
-        <translation type="unfinished">безперервнозаст</translation>
+        <translation>безперервно</translation>
     </message>
     <message>
         <source>Count / Pause:</source>
@@ -1087,7 +1087,7 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>Quartz reference measurement</source>
-        <translation type="unfinished">Тестування та вимірювання</translation>
+        <translation>Тестування та вимірювання</translation>
     </message>
     <message>
         <source>CED power values</source>
@@ -1113,19 +1113,19 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>Ms-Prim:</source>
-        <translation>Ms-перв.:</translation>
+        <translation>Xc-перв.:</translation>
     </message>
     <message>
         <source>Ms-Sec:</source>
-        <translation>Ms-втор.:</translation>
+        <translation>Xc-втор.:</translation>
     </message>
     <message>
         <source>Mp-Prim:</source>
-        <translation>Mp-перв.:</translation>
+        <translation>N-перв.:</translation>
     </message>
     <message>
         <source>Mp-Sec:</source>
-        <translation>Mp-втор.:</translation>
+        <translation>N-втор.:</translation>
     </message>
     <message>
         <source>X-Ratio</source>
@@ -1146,12 +1146,12 @@ Please charge the device before it turns down</source>
     <message>
         <source>crad</source>
         <comment>centiradian</comment>
-        <translation>срад</translation>
+        <translation>crad</translation>
     </message>
     <message>
         <source>arcmin</source>
         <comment>arcminute</comment>
-        <translation>1&apos;</translation>
+        <translation>arcmin</translation>
     </message>
     <message>
         <source>Actual</source>
