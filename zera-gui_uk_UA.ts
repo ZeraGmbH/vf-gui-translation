@@ -26,82 +26,82 @@
     <message>
         <source>Var</source>
         <comment>Watt unit apparent</comment>
-        <translation type="unfinished">VAr</translation>
+        <translation>VAr</translation>
     </message>
     <message>
         <source>4LW</source>
         <comment>4 Leiter Wirkleistung = 4 wire active power</comment>
-        <translation>4-пр. акт.</translation>
+        <translation>4-пр.P</translation>
     </message>
     <message>
         <source>3LW</source>
         <comment>3 Leiter Wirkleistung = 3 wire active power</comment>
-        <translation>3-пр.акт.</translation>
+        <translation>3-пр.P</translation>
     </message>
     <message>
         <source>2LW</source>
         <comment>2 Leiter Wirkleistung = 2 wire active power</comment>
-        <translation>2-пр.акт.</translation>
+        <translation>2-пр.P</translation>
     </message>
     <message>
         <source>4LB</source>
         <comment>4 Leiter Blindleistung = 4 wire reactive power</comment>
-        <translation>4-пр.реакт.</translation>
+        <translation>4-пр.Q</translation>
     </message>
     <message>
         <source>4LBK</source>
         <comment>4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial neutral conductor</comment>
-        <translation>4-пр.реакт.&apos;</translation>
+        <translation>4-пр.Q&apos;</translation>
     </message>
     <message>
         <source>3LB</source>
         <comment>3 Leiter Blindleistung = 3 wire reactive power</comment>
-        <translation>3-пр.реакт.</translation>
+        <translation>3-пр.Q</translation>
     </message>
     <message>
         <source>2LB</source>
         <comment>2 Leiter Blindleistung = 2 wire reactive power</comment>
-        <translation>2-пр.реакт.</translation>
+        <translation>2-пр.Q</translation>
     </message>
     <message>
         <source>4LS</source>
         <comment>4 Leiter Scheinleistung = 4 wire apparent power</comment>
-        <translation>4-пр.повна</translation>
+        <translation>4-пр.S</translation>
     </message>
     <message>
         <source>4LSg</source>
         <comment>4 Leiter Scheinleistung geometrisch = 4 wire apparent power geometric</comment>
-        <translation>4-пр.геом.</translation>
+        <translation>4-пр.Sг.</translation>
     </message>
     <message>
         <source>2LS</source>
         <comment>2 Leiter Scheinleistung = 2 wire apparent power</comment>
-        <translation>2-пр.повна</translation>
+        <translation>2-пр.S</translation>
     </message>
     <message>
         <source>2LSg</source>
         <comment>2 Leiter Scheinleistung geometrisch = 2 wire apparent power geometric</comment>
-        <translation>2-пр.геом.</translation>
+        <translation>2-пр.Sг.</translation>
     </message>
     <message>
         <source>XLW</source>
         <comment>X Leiter Wirkleistung = X wire active power</comment>
-        <translation>Х-пр. акт.</translation>
+        <translation>Х-пр.P</translation>
     </message>
     <message>
         <source>XLB</source>
         <comment>X Leiter Blindleistung = X wire reactive power</comment>
-        <translation>Х-пр.реакт.</translation>
+        <translation>Х-пр.Q</translation>
     </message>
     <message>
         <source>XLS</source>
         <comment>X Leiter Scheinleistung = X wire apparent power</comment>
-        <translation>Х-пр. повна</translation>
+        <translation>Х-пр.S</translation>
     </message>
     <message>
         <source>XLSg</source>
         <comment>X Leiter Scheinleistung geometrisch = X wire apparent power geometric</comment>
-        <translation>Х-пр. повна геом.</translation>
+        <translation>Х-пр.Sг.</translation>
     </message>
     <message>
         <source>QREF</source>
@@ -374,7 +374,7 @@
     <message>
         <source>Range grouping</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation>Налаштування діапазонів</translation>
+        <translation>Вибір діапазонів</translation>
     </message>
     <message>
         <source>Measurement modes</source>
@@ -1062,7 +1062,7 @@ Please charge the device before it turns down</source>
     <message>
         <source>Current Burden</source>
         <comment>Tab title current burden</comment>
-        <translation>Навантаження ТТ</translation>
+        <translation>Навантаження ТС</translation>
     </message>
     <message>
         <source>Nominal burden:</source>
@@ -1551,7 +1551,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Custom data</source>
         <extracomment>menu radio button to select custom content-sets values</extracomment>
-        <translation>Особливі дані</translation>
+        <translation>Обрані дані</translation>
     </message>
     <message>
         <source>Customer</source>
