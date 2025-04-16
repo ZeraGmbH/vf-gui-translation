@@ -452,7 +452,7 @@
     <message>
         <source>BLE sensor</source>
         <extracomment>settings specific to the Bluetooth sensors</extracomment>
-        <translation>Налаштування Bluetooth</translation>
+        <translation>Bluetooth</translation>
     </message>
     <message>
         <source>PLL channel:</source>
@@ -856,7 +856,7 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>Ext.</source>
-        <translation>fout</translation>
+        <translation>f</translation>
     </message>
     <message>
         <source>Harmonic power table</source>
