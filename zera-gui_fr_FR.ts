@@ -1996,5 +1996,54 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Synchronize from network</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>API Trust requested</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Identity:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Allow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>API SSL Certificate (SHA1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Delete this Trust</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Trusted API Clients</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No trusted clients yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>API-Access:</source>
+        <extracomment>Remote API label</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No SSL Certificate available.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

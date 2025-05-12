@@ -1994,5 +1994,54 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Synchronize from network</source>
         <translation>Synchronisation vom Netzwerk</translation>
     </message>
+    <message>
+        <source>API Trust requested</source>
+        <translation>API Zugang angefordert</translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation>Name:</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation>Typ:</translation>
+    </message>
+    <message>
+        <source>Identity:</source>
+        <translation>Identität:</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Verweigern</translation>
+    </message>
+    <message>
+        <source>Allow</source>
+        <translation>Akzeptieren</translation>
+    </message>
+    <message>
+        <source>API SSL Certificate (SHA1)</source>
+        <translation>API SSL Zertifikat (SHA1)</translation>
+    </message>
+    <message>
+        <source>Delete this Trust</source>
+        <translation>Zugang löschen</translation>
+    </message>
+    <message>
+        <source>Trusted API Clients</source>
+        <translation>API Client Zugänge</translation>
+    </message>
+    <message>
+        <source>No trusted clients yet.</source>
+        <translation>Keine zugelassenen Clients vorhanden.</translation>
+    </message>
+    <message>
+        <source>API-Access:</source>
+        <extracomment>Remote API label</extracomment>
+        <translation>API-Zugang:</translation>
+    </message>
+    <message>
+        <source>No SSL Certificate available.</source>
+        <translation>Kein SSL Zertifikat verfügbar.</translation>
+    </message>
 </context>
 </TS>

@@ -334,6 +334,8 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Max places after the decimal point:", tr("Max places after the decimal point:"));
     //: Remote web label
     tmpTranslations.insert("Web-Server:", tr("Web-Server:"));
+    //: Remote API label
+    tmpTranslations.insert("API-Access:", tr("API-Access:"));
 
     //: used for the selection of language via country flag
     tmpTranslations.insert("Language:", tr("Language:"));
@@ -942,6 +944,24 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     //: Measurememt mode / fixed frequency. Note too long texts ruin layout!!!
     tmpTranslations.insert("Fixed Freq.", tr("Fixed Freq."));
 
+    // ApiConfirmationPopup.qml
+    tmpTranslations.insert("API Trust requested", tr("API Trust requested"));
+    tmpTranslations.insert("Name:", tr("Name:"));
+    tmpTranslations.insert("Type:", tr("Type:"));
+    tmpTranslations.insert("Identity:", tr("Identity:"));
+    tmpTranslations.insert("Deny", tr("Deny"));
+    tmpTranslations.insert("Allow", tr("Allow"));
+
+    // ApiInfoPopup.qml
+    tmpTranslations.insert("API SSL Certificate (SHA1)", tr("API SSL Certificate (SHA1)"));
+    tmpTranslations.insert("No SSL Certificate available.", tr("No SSL Certificate available."));
+
+    // TrustDeletePopup.qml
+    tmpTranslations.insert("Delete this Trust", tr("Delete this Trust"));
+
+    // TrustListPopup.qml
+    tmpTranslations.insert("Trusted API Clients", tr("Trusted API Clients"));
+    tmpTranslations.insert("No trusted clients yet.", tr("No trusted clients yet."));
 
     return tmpTranslations;
 }
