@@ -1427,7 +1427,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>-- no customer --</source>
         <extracomment>add new session view: list entry to select no customer data</extracomment>
-        <translation>-- немає споживача --</translation>
+        <translation>-- без назви --</translation>
     </message>
     <message>
         <source>no customer</source>
@@ -1560,7 +1560,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Meter information</source>
         <extracomment>power meter, not distance</extracomment>
-        <translation></translation>
+        <translation>Дані про лічильник</translation>
     </message>
     <message>
         <source>Location</source>
