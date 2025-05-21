@@ -2043,5 +2043,14 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>No SSL Certificate available.</source>
         <translation>Kein SSL Zertifikat verfügbar.</translation>
     </message>
+    <message>
+        <source>Switch off &apos;Range automatic&apos;</source>
+        <extracomment>popup if range automatic active in POWER/ENERGY REGISTER</extracomment>
+        <translation>Bitte Bereichsautomatik abschalten</translation>
+    </message>
+    <message>
+        <source>Select a matching range</source>
+        <translation>Optimalen Bereich auswählen</translation>
+    </message>
 </context>
 </TS>

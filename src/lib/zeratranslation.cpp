@@ -481,6 +481,9 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Upper error limit:", tr("Upper error limit:"));
     tmpTranslations.insert("continuous", tr("continuous"));
     tmpTranslations.insert("Count / Pause:", tr("Count / Pause:"));
+    //: popup if range automatic active in POWER/ENERGY REGISTER
+    tmpTranslations.insert("Switch off 'Range automatic'", tr("Switch off 'Range automatic'"));
+    tmpTranslations.insert("Select a matching range", tr("Select a matching range"));
 
     //ErrorRegisterModulePage.qml
     tmpTranslations.insert("Duration:", tr("Duration:"));

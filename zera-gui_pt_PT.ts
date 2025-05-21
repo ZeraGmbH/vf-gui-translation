@@ -2093,5 +2093,14 @@ customer data delete file confirmation popup header</extracomment>
         <source>No SSL Certificate available.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Switch off &apos;Range automatic&apos;</source>
+        <extracomment>popup if range automatic active in POWER/ENERGY REGISTER</extracomment>
+        <translation>Desativar &apos;Range automático&apos;</translation>
+    </message>
+    <message>
+        <source>Select a matching range</source>
+        <translation>Selecione a range adequada</translation>
+    </message>
 </context>
 </TS>

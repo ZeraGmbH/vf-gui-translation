@@ -2041,5 +2041,14 @@ Please charge the device before it turns down</translation>
         <source>No SSL Certificate available.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Switch off &apos;Range automatic&apos;</source>
+        <extracomment>popup if range automatic active in POWER/ENERGY REGISTER</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select a matching range</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
