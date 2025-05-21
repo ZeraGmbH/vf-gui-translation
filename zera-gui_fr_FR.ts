@@ -2045,5 +2045,14 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>No SSL Certificate available.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Switch off &apos;Range automatic&apos;</source>
+        <extracomment>popup if range automatic active in POWER/ENERGY REGISTER</extracomment>
+        <translation>Désactiver &apos;Plage automatique&apos;</translation>
+    </message>
+    <message>
+        <source>Select a matching range</source>
+        <translation>Sélectionner une plage correspondante</translation>
+    </message>
 </context>
 </TS>
