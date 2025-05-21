@@ -2044,7 +2044,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Switch off &apos;Range automatic&apos;</source>
         <extracomment>popup if range automatic active in POWER/ENERGY REGISTER</extracomment>
-        <translation>Desactivar Rango Automático</translation>
+        <translation>Desactivar &apos;Rango Automático&apos;</translation>
     </message>
     <message>
         <source>Select a matching range</source>
