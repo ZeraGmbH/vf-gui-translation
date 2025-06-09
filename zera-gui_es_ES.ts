@@ -2050,5 +2050,10 @@ customer data delete file confirmation popup header</extracomment>
         <source>Select a matching range</source>
         <translation>Seleccionar el rango adecuado</translation>
     </message>
+    <message>
+        <source>3LS</source>
+        <comment>3 Leiter Scheinleistung = 3 wire apparent power</comment>
+        <translation>3HAp</translation>
+    </message>
 </context>
 </TS>

@@ -2048,5 +2048,10 @@ customer data delete file confirmation popup header</extracomment>
         <source>Select a matching range</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>3LS</source>
+        <comment>3 Leiter Scheinleistung = 3 wire apparent power</comment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

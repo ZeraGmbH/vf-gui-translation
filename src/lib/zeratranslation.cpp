@@ -232,6 +232,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("4LS", tr("4LS", "4 Leiter Scheinleistung = 4 wire apparent power"));
     tmpTranslations.insert("4LSg", tr("4LSg", "4 Leiter Scheinleistung geometrisch = 4 wire apparent power geometric"));
     tmpTranslations.insert("2LS", tr("2LS", "2 Leiter Scheinleistung = 2 wire apparent power"));
+    tmpTranslations.insert("3LS", tr("3LS", "3 Leiter Scheinleistung = 3 wire apparent power"));
     tmpTranslations.insert("2LSg", tr("2LSg", "2 Leiter Scheinleistung geometrisch = 2 wire apparent power geometric"));
 
     tmpTranslations.insert("XLW", tr("XLW", "X Leiter Wirkleistung = X wire active power"));

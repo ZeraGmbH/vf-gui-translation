@@ -2054,5 +2054,10 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Select a matching range</source>
         <translation>Sélectionner une plage correspondante</translation>
     </message>
+    <message>
+        <source>3LS</source>
+        <comment>3 Leiter Scheinleistung = 3 wire apparent power</comment>
+        <translation>3FA</translation>
+    </message>
 </context>
 </TS>

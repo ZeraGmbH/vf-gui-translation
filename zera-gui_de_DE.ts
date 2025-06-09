@@ -2052,5 +2052,10 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Select a matching range</source>
         <translation>Optimalen Bereich auswählen</translation>
     </message>
+    <message>
+        <source>3LS</source>
+        <comment>3 Leiter Scheinleistung = 3 wire apparent power</comment>
+        <translation>3LS</translation>
+    </message>
 </context>
 </TS>
