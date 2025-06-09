@@ -2053,5 +2053,10 @@ customer data delete file confirmation popup header</extracomment>
         <comment>3 Leiter Scheinleistung = 3 wire apparent power</comment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>3LSg</source>
+        <comment>3 Leiter Scheinleistung geometrisch = 3 wire apparent power geometric</comment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

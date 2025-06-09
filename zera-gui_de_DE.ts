@@ -2057,5 +2057,10 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <comment>3 Leiter Scheinleistung = 3 wire apparent power</comment>
         <translation>3LS</translation>
     </message>
+    <message>
+        <source>3LSg</source>
+        <comment>3 Leiter Scheinleistung geometrisch = 3 wire apparent power geometric</comment>
+        <translation>3LSg</translation>
+    </message>
 </context>
 </TS>
