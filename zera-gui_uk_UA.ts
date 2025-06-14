@@ -2060,5 +2060,9 @@ customer data delete file confirmation popup header</extracomment>
         <comment>3 Leiter Scheinleistung geometrisch = 3 wire apparent power geometric</comment>
         <translation>3-пр.Sг.</translation>
     </message>
+    <message>
+        <source>Please wait...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

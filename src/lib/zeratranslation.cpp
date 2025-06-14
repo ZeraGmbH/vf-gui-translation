@@ -463,6 +463,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Loading: %1/%2", tr("Loading: %1/%2"));
     //: settings for range automatic etc.
     tmpTranslations.insert("Range", tr("Range", "measuring range"));
+    tmpTranslations.insert("Please wait...", tr("Please wait..."));
 
     //ErrorCalculatorModulePage.qml
     //: switch between time based and period based measurement

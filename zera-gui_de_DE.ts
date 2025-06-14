@@ -2062,5 +2062,9 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <comment>3 Leiter Scheinleistung geometrisch = 3 wire apparent power geometric</comment>
         <translation>3LSg</translation>
     </message>
+    <message>
+        <source>Please wait...</source>
+        <translation>Bitte warten...</translation>
+    </message>
 </context>
 </TS>

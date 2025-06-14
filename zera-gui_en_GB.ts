@@ -2060,5 +2060,9 @@ Please charge the device before it turns down</translation>
         <comment>3 Leiter Scheinleistung geometrisch = 3 wire apparent power geometric</comment>
         <translation>3WAPG</translation>
     </message>
+    <message>
+        <source>Please wait...</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

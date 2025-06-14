@@ -2064,5 +2064,9 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <comment>3 Leiter Scheinleistung geometrisch = 3 wire apparent power geometric</comment>
         <translation>3FAg</translation>
     </message>
+    <message>
+        <source>Please wait...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
