@@ -2068,5 +2068,13 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Please wait...</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Save/Send logs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Something went wrong</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

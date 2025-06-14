@@ -2064,5 +2064,13 @@ customer data delete file confirmation popup header</extracomment>
         <source>Please wait...</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Save/Send logs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Something went wrong</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
