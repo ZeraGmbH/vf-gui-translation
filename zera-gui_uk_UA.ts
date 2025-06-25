@@ -1994,52 +1994,52 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>API Trust requested</source>
-        <translation type="unfinished"></translation>
+        <translation>Запит до API Trust</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Назва:</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип:</translation>
     </message>
     <message>
         <source>Identity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ідентичність:</translation>
     </message>
     <message>
         <source>Deny</source>
-        <translation type="unfinished"></translation>
+        <translation>Відхилити</translation>
     </message>
     <message>
         <source>Allow</source>
-        <translation type="unfinished"></translation>
+        <translation>Дозволити</translation>
     </message>
     <message>
         <source>API SSL Certificate (SHA1)</source>
-        <translation type="unfinished"></translation>
+        <translation>SSL-сертифікат API (SHA1)</translation>
     </message>
     <message>
         <source>Delete this Trust</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити цей Trust</translation>
     </message>
     <message>
         <source>Trusted API Clients</source>
-        <translation type="unfinished"></translation>
+        <translation>Довірені клієнти API</translation>
     </message>
     <message>
         <source>No trusted clients yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Немає перевірених клієнтів.</translation>
     </message>
     <message>
         <source>API-Access:</source>
         <extracomment>Remote API label</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>API-доступ:</translation>
     </message>
     <message>
         <source>No SSL Certificate available.</source>
-        <translation type="unfinished"></translation>
+        <translation>SSL-сертифікат відсутній.</translation>
     </message>
     <message>
         <source>Switch off &apos;Range automatic&apos;</source>
@@ -2062,15 +2062,32 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Зачекайте...</translation>
     </message>
     <message>
         <source>Save/Send logs</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти/Надіслати LOG-файли</translation>
     </message>
     <message>
         <source>Something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Щось пішло не так</translation>
+    </message>
+    <message>
+        <source>NF (Nominal Frequency)</source>
+        <extracomment>add nominal frequency</extracomment>
+        <translation>fном. (номінальна частота)</translation>
+    </message>
+    <message>
+        <source>200 kHz</source>
+        <translation>200 кГц</translation>
+    </message>
+    <message>
+        <source>60 kHz</source>
+        <translation>60 кГц</translation>
+    </message>
+    <message>
+        <source>NF:</source>
+        <translation>fном.</translation>
     </message>
 </context>
 </TS>

@@ -1994,52 +1994,52 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>API Trust requested</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nombre:</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipo:</translation>
     </message>
     <message>
         <source>Identity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Identidad:</translation>
     </message>
     <message>
         <source>Deny</source>
-        <translation type="unfinished"></translation>
+        <translation>Denegar</translation>
     </message>
     <message>
         <source>Allow</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir</translation>
     </message>
     <message>
         <source>API SSL Certificate (SHA1)</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Delete this Trust</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Trusted API Clients</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>No trusted clients yet.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>API-Access:</source>
         <extracomment>Remote API label</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>No SSL Certificate available.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Switch off &apos;Range automatic&apos;</source>
@@ -2062,15 +2062,32 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Por favor espere...</translation>
     </message>
     <message>
         <source>Save/Send logs</source>
-        <translation type="unfinished"></translation>
+        <translation>Guardar/Enviar registros</translation>
     </message>
     <message>
         <source>Something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Algo salió mal</translation>
+    </message>
+    <message>
+        <source>NF (Nominal Frequency)</source>
+        <extracomment>add nominal frequency</extracomment>
+        <translation>FN (Frecuencia nominal)</translation>
+    </message>
+    <message>
+        <source>200 kHz</source>
+        <translation>200 kHz</translation>
+    </message>
+    <message>
+        <source>60 kHz</source>
+        <translation>60 kHz</translation>
+    </message>
+    <message>
+        <source>NF:</source>
+        <translation>FN:</translation>
     </message>
 </context>
 </TS>

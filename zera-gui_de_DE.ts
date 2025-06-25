@@ -2074,5 +2074,22 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Something went wrong</source>
         <translation>Etwas hat nicht funtioniert</translation>
     </message>
+    <message>
+        <source>NF (Nominal Frequency)</source>
+        <extracomment>add nominal frequency</extracomment>
+        <translation type="unfinished">NF (Nominalfrequenz)</translation>
+    </message>
+    <message>
+        <source>200 kHz</source>
+        <translation>200 kHz</translation>
+    </message>
+    <message>
+        <source>60 kHz</source>
+        <translation type="unfinished">60 kHz</translation>
+    </message>
+    <message>
+        <source>NF:</source>
+        <translation>NF:</translation>
+    </message>
 </context>
 </TS>
