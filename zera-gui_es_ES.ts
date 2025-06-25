@@ -2089,5 +2089,9 @@ customer data delete file confirmation popup header</extracomment>
         <source>NF:</source>
         <translation>FN:</translation>
     </message>
+    <message>
+        <source>Start Update</source>
+        <translation>Iniciar actualización</translation>
+    </message>
 </context>
 </TS>

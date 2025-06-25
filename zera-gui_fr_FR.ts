@@ -2093,5 +2093,9 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>NF:</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Start Update</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
