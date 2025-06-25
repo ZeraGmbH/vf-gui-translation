@@ -2076,5 +2076,22 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Something went wrong</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>NF (Nominal Frequency)</source>
+        <extracomment>add nominal frequency</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>200 kHz</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>60 kHz</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>NF:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

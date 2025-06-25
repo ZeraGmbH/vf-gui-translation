@@ -971,5 +971,11 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Trusted API Clients", tr("Trusted API Clients"));
     tmpTranslations.insert("No trusted clients yet.", tr("No trusted clients yet."));
 
+    //: add nominal frequency
+    tmpTranslations.insert("NF (Nominal Frequency)", tr("NF (Nominal Frequency)"));
+    tmpTranslations.insert("200 kHz", tr("200 kHz"));
+    tmpTranslations.insert("60 kHz", tr("60 kHz"));
+    tmpTranslations.insert("NF:", tr("NF:"));
+
     return tmpTranslations;
 }

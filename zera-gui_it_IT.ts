@@ -2070,5 +2070,22 @@ customer data delete file confirmation popup header</extracomment>
         <source>Something went wrong</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>NF (Nominal Frequency)</source>
+        <extracomment>add nominal frequency</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>200 kHz</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>60 kHz</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>NF:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

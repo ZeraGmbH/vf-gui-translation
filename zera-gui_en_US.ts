@@ -2072,5 +2072,22 @@ Please charge the device before it turns down</translation>
         <source>Something went wrong</source>
         <translation></translation>
     </message>
+    <message>
+        <source>NF (Nominal Frequency)</source>
+        <extracomment>add nominal frequency</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>200 kHz</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>60 kHz</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>NF:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
