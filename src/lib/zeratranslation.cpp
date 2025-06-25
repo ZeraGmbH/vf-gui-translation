@@ -670,6 +670,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Starting update...", tr("Starting update..."));
     tmpTranslations.insert("Could not update. Please check if necessary files are available.", tr("Could not update. Please check if necessary files are available."));
     tmpTranslations.insert("Update failed. Please save logs and send them to service@zera.de.", tr("Update failed. Please save logs and send them to service@zera.de."));
+    tmpTranslations.insert("Start Update", tr("Start Update"));
 
     //LoggerSettings.qml
     tmpTranslations.insert("Database Logging", tr("Database Logging"));

@@ -2077,7 +2077,7 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     <message>
         <source>NF (Nominal Frequency)</source>
         <extracomment>add nominal frequency</extracomment>
-        <translation type="unfinished">NF (Nominalfrequenz)</translation>
+        <translation>NF (Nominalfrequenz)</translation>
     </message>
     <message>
         <source>200 kHz</source>
@@ -2085,11 +2085,15 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     </message>
     <message>
         <source>60 kHz</source>
-        <translation type="unfinished">60 kHz</translation>
+        <translation>60 kHz</translation>
     </message>
     <message>
         <source>NF:</source>
         <translation>NF:</translation>
+    </message>
+    <message>
+        <source>Start Update</source>
+        <translation>Update starten</translation>
     </message>
 </context>
 </TS>

@@ -2087,7 +2087,11 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>NF:</source>
-        <translation>fном.</translation>
+        <translation>fном.:</translation>
+    </message>
+    <message>
+        <source>Start Update</source>
+        <translation>ПОЧАТИ ОНОВЛЕННЯ</translation>
     </message>
 </context>
 </TS>

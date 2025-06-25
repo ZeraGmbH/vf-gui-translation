@@ -2075,19 +2075,23 @@ Please charge the device before it turns down</translation>
     <message>
         <source>NF (Nominal Frequency)</source>
         <extracomment>add nominal frequency</extracomment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>200 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>60 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>NF:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Start Update</source>
+        <translation></translation>
     </message>
 </context>
 </TS>
