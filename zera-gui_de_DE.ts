@@ -2095,5 +2095,102 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Start Update</source>
         <translation>Update starten</translation>
     </message>
+    <message>
+        <source>Value</source>
+        <translation>Wert</translation>
+    </message>
+    <message>
+        <source>Web server app title</source>
+        <translation>Web-Server für ZENUX Geräte</translation>
+    </message>
+    <message>
+        <source>Error occurred !</source>
+        <translation>Ein Fehler ist aufgetreten</translation>
+    </message>
+    <message>
+        <source>Remote control</source>
+        <translation>Fernsteuerung</translation>
+    </message>
+    <message>
+        <source>ZERA SCPI documentation</source>
+        <translation>ZERA SCPI Dokumentation</translation>
+    </message>
+    <message>
+        <source>Database schema</source>
+        <translation>Datenbankschema</translation>
+    </message>
+    <message>
+        <source>Reports</source>
+        <translation>Protokoll</translation>
+    </message>
+    <message>
+        <source>Start time</source>
+        <translation>Startzeit</translation>
+    </message>
+    <message>
+        <source>Display all</source>
+        <translation>Alle anzeigen</translation>
+    </message>
+    <message>
+        <source>Export as PDF</source>
+        <translation>PDF exportieren</translation>
+    </message>
+    <message>
+        <source>Back to overview</source>
+        <translation>Zur Übersicht</translation>
+    </message>
+    <message>
+        <source>Update documentation</source>
+        <translation>Update Dokumentation</translation>
+    </message>
+    <message>
+        <source>(4LW) P</source>
+        <translation>(4LW) P</translation>
+    </message>
+    <message>
+        <source>(4LB) Q</source>
+        <translation>(4LB) Q</translation>
+    </message>
+    <message>
+        <source>(4LS) S</source>
+        <translation>(4LS) S</translation>
+    </message>
+    <message>
+        <source>Std. deviation</source>
+        <translation>Standardabweichung</translation>
+    </message>
+    <message>
+        <source>Power</source>
+        <translation>Leistung</translation>
+    </message>
+    <message>
+        <source>Mean value</source>
+        <translation>Durchschnittswert</translation>
+    </message>
+    <message>
+        <source>Stop time</source>
+        <translation>Endezeit</translation>
+    </message>
+    <message>
+        <source>Measurement duration</source>
+        <translation>Messdauer</translation>
+    </message>
+    <message>
+        <source>Pulse count</source>
+        <translation>Anzahl Pulse</translation>
+    </message>
+    <message>
+        <source>Measurement time</source>
+        <translatorcomment>Messdauer</translatorcomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Measurements</source>
+        <translation>Messungen</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Einstellungen</translation>
+    </message>
 </context>
 </TS>

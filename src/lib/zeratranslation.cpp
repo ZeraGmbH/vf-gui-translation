@@ -978,5 +978,34 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("60 kHz", tr("60 kHz"));
     tmpTranslations.insert("NF:", tr("NF:"));
 
+    // Keys for reportjs-vue project
+
+    tmpTranslations.insert("Remote control", tr("Remote control"));
+    tmpTranslations.insert("Update documentation", tr("Update documentation"));
+    tmpTranslations.insert("ZERA SCPI documentation", tr("ZERA SCPI documentation"));
+    tmpTranslations.insert("Database schema", tr("Database schema"));
+    tmpTranslations.insert("Reports", tr("Reports"));
+    tmpTranslations.insert("Display all", tr("Display all"));
+    tmpTranslations.insert("Export as PDF", tr("Export as PDF"));
+    tmpTranslations.insert("Back to overview", tr("Back to overview"));
+    tmpTranslations.insert("Web server app title", tr("Web server app title"));
+    tmpTranslations.insert("Error occurred !", tr("Error occurred !"));
+
+    tmpTranslations.insert("(4LW) P", tr("(4LW) P"));
+    tmpTranslations.insert("(4LB) Q", tr("(4LB) Q"));
+    tmpTranslations.insert("(4LS) S", tr("(4LS) S"));
+    tmpTranslations.insert("Settings", tr("Settings"));
+    tmpTranslations.insert("Value", tr("Value"));
+
+    tmpTranslations.insert("Start time", tr("Start time"));
+    tmpTranslations.insert("Stop time", tr("Stop time"));
+    tmpTranslations.insert("Measurements", tr("Measurements"));
+    tmpTranslations.insert("Measurement duration", tr("Measurement duration"));
+    tmpTranslations.insert("Measurement time", tr("Measurement time"));
+    tmpTranslations.insert("Pulse count", tr("Pulse count"));
+    tmpTranslations.insert("Power", tr("Power"));
+    tmpTranslations.insert("Std. Deviation", tr("Std. deviation"));
+    tmpTranslations.insert("Mean value", tr("Mean value"));
+
     return tmpTranslations;
 }
