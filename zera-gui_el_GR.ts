@@ -2091,5 +2091,101 @@ customer data delete file confirmation popup header</extracomment>
         <source>Start Update</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Web server app title</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error occurred !</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remote control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ZERA SCPI documentation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Database schema</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reports</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Start time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Export as PDF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back to overview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update documentation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(4LW) P</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(4LB) Q</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(4LS) S</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Std. deviation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Power</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mean value</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stop time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Measurement duration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pulse count</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Measurement time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Measurements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
