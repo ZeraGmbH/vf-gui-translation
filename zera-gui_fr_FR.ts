@@ -308,8 +308,8 @@
         <translation>TFD canal de référence:</translation>
     </message>
     <message>
-        <source>System colors:</source>
-        <translation>Couleurs du système:</translation>
+        <source>Colors:</source>
+        <translation>Couleurs:</translation>
     </message>
     <message>
         <source>Show AUX phase values</source>

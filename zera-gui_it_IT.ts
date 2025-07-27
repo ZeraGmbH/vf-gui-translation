@@ -470,7 +470,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>System colors:</source>
+        <source>Colors:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

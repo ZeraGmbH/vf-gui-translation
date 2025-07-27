@@ -220,8 +220,8 @@
         <translation>DFT-Referenzkanal:</translation>
     </message>
     <message>
-        <source>System colors:</source>
-        <translation>Phasenfarben:</translation>
+        <source>Colors:</source>
+        <translation>Farben:</translation>
     </message>
     <message>
         <source>Integration time interval</source>

@@ -470,8 +470,8 @@
         <translation>Еталонний канал ДПФ</translation>
     </message>
     <message>
-        <source>System colors:</source>
-        <translation>Кольори фаз</translation>
+        <source>Colors:</source>
+        <translation>Кольори:</translation>
     </message>
     <message>
         <source>Show AUX phase values</source>

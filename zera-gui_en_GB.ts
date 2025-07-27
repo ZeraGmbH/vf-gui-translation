@@ -220,9 +220,9 @@
         <translation>DFT reference channel:</translation>
     </message>
     <message>
-        <source>System colors:</source>
+        <source>Colors:</source>
         <translatorcomment>Britisches Englisch: colours (mit U)</translatorcomment>
-        <translation>Phase colours:</translation>
+        <translation>Colours:</translation>
     </message>
     <message>
         <source>Integration time interval</source>

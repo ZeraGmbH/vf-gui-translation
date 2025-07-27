@@ -465,8 +465,8 @@
         <translation>Canal de referência DFT:</translation>
     </message>
     <message>
-        <source>System colors:</source>
-        <translation>Sistema de cores:</translation>
+        <source>Colors:</source>
+        <translation>Cores:</translation>
     </message>
     <message>
         <source>Show AUX phase values</source>
