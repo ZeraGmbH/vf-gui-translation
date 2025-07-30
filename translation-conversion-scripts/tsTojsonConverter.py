@@ -1,5 +1,9 @@
 import xml.etree.ElementTree as ET
-import json
+import json, sys, os
+
+def getArguments():
+    global tsFiles
+    tsFiles = sys.argv[1:]
 
 def ts_to_json(ts_file_path, json_file_path):
     # Parse the XML file
@@ -24,5 +28,13 @@ def ts_to_json(ts_file_path, json_file_path):
 
     print(f"Successfully converted {ts_file_path} to {json_file_path}")
 
-ts_to_json('zera-gui_de_DE.ts', 'de_DE.json')
-ts_to_json('zera-gui_en_GB.ts', 'en_GB.json')
+def main():
+    getArguments()
+    for tsFilePath in tsFiles:
+        tsFileName = os.path.basename(tsFilePath)
+        localeWithExt = tsFileName.split('_', 1)[1]
+        jsonFileName = localeWithExt.replace('.ts', '.json')
+        ts_to_json(tsFilePath, jsonFileName)
+
+if __name__ == "__main__":
+    main()
