@@ -29,6 +29,7 @@ add_custom_target(ts_files ALL
     COMMAND mv ${CMAKE_CURRENT_SOURCE_DIR}/*.qm ${CMAKE_CURRENT_BINARY_DIR}/translations
     COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/flag_copy.sh ${CMAKE_CURRENT_SOURCE_DIR}/region-flags ${CMAKE_CURRENT_BINARY_DIR}/translations
     COMMAND python3 ${CMAKE_CURRENT_SOURCE_DIR}/translation-conversion-scripts/tsTojsonConverter.py ${TS_FILES}
+    COMMAND mv ${CMAKE_CURRENT_BINARY_DIR}/*.json ${CMAKE_CURRENT_BINARY_DIR}/translations
 )
 
 install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/translations
