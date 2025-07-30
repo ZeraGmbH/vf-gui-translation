@@ -5,7 +5,7 @@ def getArguments():
     global tsFiles
     tsFiles = sys.argv[1:]
 
-def ts_to_json(ts_file_path, json_file_path):
+def tsToJson(ts_file_path, json_file_path):
     # Parse the XML file
     tree = ET.parse(ts_file_path)
     root = tree.getroot()
@@ -28,13 +28,16 @@ def ts_to_json(ts_file_path, json_file_path):
 
     print(f"Successfully converted {ts_file_path} to {json_file_path}")
 
-def main():
-    getArguments()
+def convertAllTsToJson(tsFiles):
     for tsFilePath in tsFiles:
         tsFileName = os.path.basename(tsFilePath)
         localeWithExt = tsFileName.split('_', 1)[1]
         jsonFileName = localeWithExt.replace('.ts', '.json')
-        ts_to_json(tsFilePath, jsonFileName)
+        tsToJson(tsFilePath, jsonFileName)
+
+def main():
+    getArguments()
+    convertAllTsToJson(tsFiles)
 
 if __name__ == "__main__":
     main()
