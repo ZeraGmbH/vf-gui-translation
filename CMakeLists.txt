@@ -13,6 +13,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
 find_package(Qt5 "5.14.0" COMPONENTS Qml Quick LinguistTools CONFIG REQUIRED)
+find_package(Python REQUIRED)
 find_program(LRELEASE NAMES lrelease lrelease-qt5 NO_CACHE REQUIRED)
 find_program(LUPDATE NAMES lupdate lupdate-qt5 NO_CACHE REQUIRED)
 
