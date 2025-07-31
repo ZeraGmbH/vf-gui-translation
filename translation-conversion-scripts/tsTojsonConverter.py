@@ -1,13 +1,11 @@
 import xml.etree.ElementTree as ET
-import json, sys, os
+import json, os, argparse
 
-def tsToJson(ts_file_path, json_file_path):
+def tsToJson(tsFileNameWithPath, jsonFileNameWithPath):
     # Parse the XML file
-    tree = ET.parse(ts_file_path)
+    tree = ET.parse(tsFileNameWithPath)
     root = tree.getroot()
-
     translations = {}
-
     # Loop through the XML structure
     for context in root.findall('context'):
         for message in context.findall('message'):
@@ -17,25 +15,33 @@ def tsToJson(ts_file_path, json_file_path):
                 translations[source] = translation
             else:
                 translations[source] = source
-
     # Write to JSON
-    with open(json_file_path, 'w', encoding='utf-8') as json_file:
+    with open(jsonFileNameWithPath, 'w', encoding='utf-8') as json_file:
         json.dump(translations, json_file, ensure_ascii=False, indent=4)
+    print(f"Successfully converted {tsFileNameWithPath} to {jsonFileNameWithPath}")
 
-    print(f"Successfully converted {ts_file_path} to {json_file_path}")
+def prepareJsonName(tsName):
+    localeWithExt = tsName.split('_', 1)[1]
+    return localeWithExt.replace('.ts', '.json')
 
-def convertAllTsToJson(tsFiles, outputDir):
-    for tsFilePath in tsFiles:
-        tsFileName = os.path.basename(tsFilePath)
-        localeWithExt = tsFileName.split('_', 1)[1]
-        jsonFileName = localeWithExt.replace('.ts', '.json')
-        jsonFilePath = os.path.join(outputDir, jsonFileName)
-        tsToJson(tsFilePath, jsonFilePath)
+def convertAllTsToJson(tsFiles, jsonDir):
+    for tsFile in tsFiles:
+        tsName = os.path.basename(tsFile)
+        jsonFile = os.path.join(jsonDir, prepareJsonName(tsName))
+        tsToJson(tsFile, jsonFile)
+
+def parseArguments():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("tsFiles", type=str, help="A string with all .ts files separated by comma")
+    parser.add_argument("outputDir", type=str, help="The directory for generated json files")
+    args = parser.parse_args()
+    # Split the string on commas and strip whitespace
+    args.tsFiles = args.tsFiles.split(',')
+    return args.tsFiles, args.outputDir
 
 def main():
-    tsFiles = sys.argv[1].split(',')
-    outputDir = sys.argv[2]
-    convertAllTsToJson(tsFiles, outputDir)
+    tsFiles, jsonDir = parseArguments()
+    convertAllTsToJson(tsFiles, jsonDir)
 
 if __name__ == "__main__":
     main()
