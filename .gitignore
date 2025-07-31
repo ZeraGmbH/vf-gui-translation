@@ -11,3 +11,6 @@ Thumbs.db
 *.png
 *.svg
 CMakeLists.txt.user*
+
+# Python generated folder
+__pycache__/
