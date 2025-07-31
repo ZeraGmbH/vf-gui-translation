@@ -39,6 +39,8 @@ install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/translations
 )
 add_definitions(-DZERA_TRANSLATION_PATH="${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_DATADIR}/zera/translations")
 
+enable_testing()
+
 add_subdirectory(src)
 add_subdirectory(translation-conversion-scripts)
 

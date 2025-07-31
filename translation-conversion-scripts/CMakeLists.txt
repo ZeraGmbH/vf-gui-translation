@@ -6,3 +6,5 @@ add_custom_target(
     python-scripts
     SOURCES ${SCRIPTS}
 )
+
+add_subdirectory(tests)
