@@ -21,6 +21,8 @@ file(GLOB TS_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/*.ts
     )
 
+string(JOIN "," TS_FILES_STR ${TS_FILES})
+
 add_custom_target(ts_files ALL
     DEPENDS ${TS_FILES} flag_copy.sh
     SOURCES ${TS_FILES} flag_copy.sh
@@ -29,8 +31,7 @@ add_custom_target(ts_files ALL
     COMMAND mkdir -p ${CMAKE_CURRENT_BINARY_DIR}/translations
     COMMAND mv ${CMAKE_CURRENT_SOURCE_DIR}/*.qm ${CMAKE_CURRENT_BINARY_DIR}/translations
     COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/flag_copy.sh ${CMAKE_CURRENT_SOURCE_DIR}/region-flags ${CMAKE_CURRENT_BINARY_DIR}/translations
-    COMMAND python3 ${CMAKE_CURRENT_SOURCE_DIR}/translation-conversion-scripts/tsTojsonConverter.py ${TS_FILES}
-    COMMAND mv ${CMAKE_CURRENT_BINARY_DIR}/*.json ${CMAKE_CURRENT_BINARY_DIR}/translations
+    COMMAND python3 ${CMAKE_CURRENT_SOURCE_DIR}/translation-conversion-scripts/tsTojsonConverter.py ${TS_FILES_STR} ${CMAKE_CURRENT_BINARY_DIR}/translations
 )
 
 install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/translations
