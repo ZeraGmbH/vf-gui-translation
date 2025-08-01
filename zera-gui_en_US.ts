@@ -938,11 +938,6 @@
         <translation></translation>
     </message>
     <message>
-        <source>Mode:</source>
-        <extracomment>connection mode DHCP/Manual</extracomment>
-        <translation>Mode:</translation>
-    </message>
-    <message>
         <source>IP:</source>
         <extracomment>connection Manual fixed IP address</extracomment>
         <translation></translation>
@@ -2187,6 +2182,11 @@ Please charge the device before it turns down</translation>
     <message>
         <source>Settings</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ConnectionMode:</source>
+        <extracomment>connection mode DHCP/Manual</extracomment>
+        <translation>Mode:</translation>
     </message>
 </context>
 </TS>

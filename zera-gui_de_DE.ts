@@ -941,11 +941,6 @@
         <translation>Netzwerke:</translation>
     </message>
     <message>
-        <source>Mode:</source>
-        <extracomment>connection mode DHCP/Manual</extracomment>
-        <translation>Modus:</translation>
-    </message>
-    <message>
         <source>IP:</source>
         <extracomment>connection Manual fixed IP address</extracomment>
         <translation>IP:</translation>
@@ -2191,6 +2186,11 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     <message>
         <source>Settings</source>
         <translation>Einstellungen</translation>
+    </message>
+    <message>
+        <source>ConnectionMode:</source>
+        <extracomment>connection mode DHCP/Manual</extracomment>
+        <translation>Modus:</translation>
     </message>
 </context>
 </TS>

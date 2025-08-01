@@ -537,11 +537,6 @@
         <translation>IPv4</translation>
     </message>
     <message>
-        <source>Mode:</source>
-        <extracomment>connection mode DHCP/Manual</extracomment>
-        <translation>Modo:</translation>
-    </message>
-    <message>
         <source>IP:</source>
         <extracomment>connection Manual fixed IP address</extracomment>
         <translation>IP:</translation>
@@ -2240,6 +2235,11 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Settings</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ConnectionMode:</source>
+        <extracomment>connection mode DHCP/Manual</extracomment>
+        <translation>Modo:</translation>
     </message>
 </context>
 </TS>
