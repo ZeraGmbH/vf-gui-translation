@@ -389,8 +389,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Connection name:", tr("Connection name:"));
     //: EthernetSettings.qml IPv4 sub-header
     tmpTranslations.insert("IPv4", tr("IPv4"));
-    //: connection mode DHCP/Manual
-    tmpTranslations.insert("Mode:", tr("ConnectionMode:"));
     //: connection Manual fixed IP address
     tmpTranslations.insert("IP:", tr("IP:"));
     //: connection Manual fixed IP subnetmask

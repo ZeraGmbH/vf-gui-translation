@@ -2236,10 +2236,5 @@ customer data delete file confirmation popup header</extracomment>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>ConnectionMode:</source>
-        <extracomment>connection mode DHCP/Manual</extracomment>
-        <translation>Modo:</translation>
-    </message>
 </context>
 </TS>

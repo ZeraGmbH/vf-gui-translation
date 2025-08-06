@@ -2183,10 +2183,5 @@ Please charge the device before it turns down</translation>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>ConnectionMode:</source>
-        <extracomment>connection mode DHCP/Manual</extracomment>
-        <translation>Mode:</translation>
-    </message>
 </context>
 </TS>
