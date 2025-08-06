@@ -293,6 +293,9 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("BRD2", tr("BRD2", "burden system name"));
     tmpTranslations.insert("BRD3", tr("BRD3", "burden system name"));
 
+    //: In error calculator, switch between time based and period based measurement. In Network settings, connection mode DHCP/Manual
+    tmpTranslations.insert("Mode:", tr("Mode:"));
+
     //PagePathView.qml
     //: as in "close this view"
     tmpTranslations.insert("OK", tr("OK"));
@@ -466,8 +469,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Something went wrong", tr("Something went wrong"));
 
     //ErrorCalculatorModulePage.qml
-    //: switch between time based and period based measurement
-    tmpTranslations.insert("Mode:", tr("Mode:", "error calculator"));
     //: reference channel selection
     tmpTranslations.insert("Reference input:", tr("Reference input:"));
     //: device input selection (e.g. scanning head)
@@ -977,7 +978,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("NF:", tr("NF:"));
 
     // Keys for reportjs-vue project
-
     tmpTranslations.insert("Remote control", tr("Remote control"));
     tmpTranslations.insert("Update documentation", tr("Update documentation"));
     tmpTranslations.insert("ZERA SCPI documentation", tr("ZERA SCPI documentation"));

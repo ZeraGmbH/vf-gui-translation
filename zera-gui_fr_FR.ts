@@ -529,12 +529,6 @@ ConnectionTree.qml group Hotspot</extracomment>
         <translation>Plage</translation>
     </message>
     <message>
-        <source>Mode:</source>
-        <comment>error calculator</comment>
-        <extracomment>switch between time based and period based measurement</extracomment>
-        <translation>Mode:</translation>
-    </message>
-    <message>
         <source>Reference input:</source>
         <extracomment>reference channel selection</extracomment>
         <translation>Entrée de référence:</translation>
@@ -2187,6 +2181,11 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>Settings</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mode:</source>
+        <extracomment>In error calculator, switch between time based and period based measurement. In Network settings, connection mode DHCP/Manual</extracomment>
+        <translation>Mode:</translation>
     </message>
 </context>
 </TS>

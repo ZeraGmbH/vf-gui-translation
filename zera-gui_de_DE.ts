@@ -249,12 +249,6 @@
         <translation>Bereich</translation>
     </message>
     <message>
-        <source>Mode:</source>
-        <comment>error calculator</comment>
-        <extracomment>switch between time based and period based measurement</extracomment>
-        <translation>Modus:</translation>
-    </message>
-    <message>
         <source>Reference input:</source>
         <extracomment>reference channel selection</extracomment>
         <translation>Referenzeingang:</translation>
@@ -2186,6 +2180,11 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     <message>
         <source>Settings</source>
         <translation>Einstellungen</translation>
+    </message>
+    <message>
+        <source>Mode:</source>
+        <extracomment>In error calculator, switch between time based and period based measurement. In Network settings, connection mode DHCP/Manual</extracomment>
+        <translation>Modus:</translation>
     </message>
 </context>
 </TS>
