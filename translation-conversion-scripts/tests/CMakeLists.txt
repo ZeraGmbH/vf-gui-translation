@@ -8,7 +8,7 @@
 #####################################################################
 
 add_test (NAME python-script-tests
-  COMMAND python3 ${CMAKE_CURRENT_SOURCE_DIR}/test_tsTojsonConverter.py ${TS_FILES_STR} ${CMAKE_CURRENT_BINARY_DIR}/translations
+  COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/test_tsTojsonConverter.py ${TS_FILES_STR} ${CMAKE_CURRENT_BINARY_DIR}/translations
   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
