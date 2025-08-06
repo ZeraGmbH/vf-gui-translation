@@ -15,19 +15,17 @@ from tsTojsonConverter import prepare_json_name, convert_all_ts_to_json, ts_to_j
 #                                                                   #
 #####################################################################
 
-def get_test_files():
-    return ["test-data/zera-gui_test_1.ts", "test-data/zera-gui_test_2.ts"]
-
 def get_and_prepare_json_dir():
-    global json_dir
-    json_dir = sys.argv[1]
+    global json_dir, ts_files
+    ts_files = sys.argv[1].split(',')
+    json_dir = sys.argv[2]
     if os.path.exists(json_dir):
         shutil.rmtree(json_dir) #cleanup the directory
     os.makedirs(json_dir)
     # unittest.main() parses sys.argv to discover which tests to run and with what verbosity.
     # Extra unknown arguments cause errors (unittest tries to interpret them as tests).
-    # so delete argument before unittest.main()
-    del sys.argv[1]
+    # so delete arguments before unittest.main()
+    sys.argv = [sys.argv[0]]
 
 def count_xml_entries(xmlFile):
     tree = ET.parse(xmlFile)
@@ -41,21 +39,21 @@ def count_xml_entries(xmlFile):
 class Test_tsTojsonConverter(unittest.TestCase):
 
     def test_json_name(self):
-        json_name = prepare_json_name(get_test_files()[0])
-        self.assertEqual("test_1.json", json_name)
+        json_name = prepare_json_name(os.path.basename(ts_files[0]))
+        self.assertEqual("de_DE.json", json_name)
 
     def test_file_count(self):
-        convert_all_ts_to_json(get_test_files(), json_dir)
+        convert_all_ts_to_json(ts_files, json_dir)
         jsons_count = 0
         for entry in os.listdir(json_dir):
             if os.path.isfile(os.path.join(json_dir, entry)):
                 jsons_count += 1
-        self.assertEqual(len(get_test_files()), jsons_count)
+        self.assertEqual(len(ts_files), jsons_count)
 
     def test_json_content(self):
-        dumped_json_file = os.path.join(json_dir, "test_1_dumped.json")
-        ts_to_json(get_test_files()[0], dumped_json_file)
-        xml_entries = count_xml_entries(get_test_files()[0])
+        dumped_json_file = os.path.join(json_dir, "de_DE.json")
+        ts_to_json(ts_files[0], dumped_json_file)
+        xml_entries = count_xml_entries(ts_files[0])
         with open(dumped_json_file, 'r') as file:
             data = json.load(file)
             json_entries = len(data)

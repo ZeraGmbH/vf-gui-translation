@@ -8,13 +8,12 @@
 #####################################################################
 
 add_test (NAME python-script-tests
-  COMMAND python3 ${CMAKE_CURRENT_SOURCE_DIR}/test_tsTojsonConverter.py ${CMAKE_CURRENT_BINARY_DIR}/translations
+  COMMAND python3 ${CMAKE_CURRENT_SOURCE_DIR}/test_tsTojsonConverter.py ${TS_FILES_STR} ${CMAKE_CURRENT_BINARY_DIR}/translations
   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
 file(GLOB TESTS
     ${CMAKE_CURRENT_SOURCE_DIR}/*.py
-    ${CMAKE_CURRENT_SOURCE_DIR}/test-data/*
 )
 
 add_custom_target(
