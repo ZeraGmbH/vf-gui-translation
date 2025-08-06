@@ -700,12 +700,6 @@ Carregue o dispositivo antes que ele desligue</translation>
         <translation>Range</translation>
     </message>
     <message>
-        <source>Mode:</source>
-        <comment>error calculator</comment>
-        <extracomment>switch between time based and period based measurement</extracomment>
-        <translation>Modo:</translation>
-    </message>
-    <message>
         <source>Reference input:</source>
         <extracomment>reference channel selection</extracomment>
         <translation>Entrada de referência:</translation>
@@ -2235,6 +2229,11 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Settings</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mode:</source>
+        <extracomment>In error calculator, switch between time based and period based measurement. In Network settings, connection mode DHCP/Manual</extracomment>
+        <translation>Modo:</translation>
     </message>
 </context>
 </TS>
