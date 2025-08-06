@@ -2188,10 +2188,5 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>ConnectionMode:</source>
-        <extracomment>connection mode DHCP/Manual</extracomment>
-        <translation>Mode:</translation>
-    </message>
 </context>
 </TS>

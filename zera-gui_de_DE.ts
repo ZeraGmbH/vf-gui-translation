@@ -2187,10 +2187,5 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Settings</source>
         <translation>Einstellungen</translation>
     </message>
-    <message>
-        <source>ConnectionMode:</source>
-        <extracomment>connection mode DHCP/Manual</extracomment>
-        <translation>Modus:</translation>
-    </message>
 </context>
 </TS>
