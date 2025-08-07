@@ -24,6 +24,8 @@ If all tests succeed: commit & push
 https://github.com/thurask/Qt-Linguist/releases
 
 ### Create a new translation 'language_REGION' e.g 'de_AT':
+Following 3 steps should be done:
+#### 1. vf-gui-translation
 * Create a document '''zera-gui_language_REGION.ts''' with content:
 
 ```xml
@@ -40,3 +42,9 @@ https://github.com/thurask/Qt-Linguist/releases
    QStringList ignoreList = QStringList() << "language_REGION";
 ```
 * Once translation is ready for the wild don't forget to remove it from ```ignoreList```
+
+#### 2. vf-qmllibs
+* Update [Timezone translations](https://github.com/ZeraGmbH/vf-qmllibs/blob/master/libs/datetime-setter/timezone-translations/lib/README.md)
+
+#### 3. reportjs-vue
+* See [this document](https://github.com/ZeraGmbH/reportjs-vue?tab=readme-ov-file#translations) for more information
