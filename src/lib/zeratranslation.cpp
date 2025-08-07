@@ -1002,7 +1002,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Measurement time", tr("Measurement time"));
     tmpTranslations.insert("Pulse count", tr("Pulse count"));
     tmpTranslations.insert("Power", tr("Power"));
-    tmpTranslations.insert("Std. Deviation", tr("Std. deviation"));
+    tmpTranslations.insert("Std. deviation", tr("Std. deviation"));
     tmpTranslations.insert("Mean value", tr("Mean value"));
 
     return tmpTranslations;
