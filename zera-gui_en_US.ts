@@ -2182,5 +2182,13 @@ Please charge the device before it turns down</translation>
         <extracomment>In error calculator, switch between time based and period based measurement. In Network settings, connection mode DHCP/Manual</extracomment>
         <translation>Mode:</translation>
     </message>
+    <message>
+        <source>Content</source>
+        <translation>Content</translation>
+    </message>
+    <message>
+        <source>Measurement mode</source>
+        <translation>Measurement mode</translation>
+    </message>
 </context>
 </TS>

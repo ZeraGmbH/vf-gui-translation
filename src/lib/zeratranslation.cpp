@@ -983,6 +983,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("ZERA SCPI documentation", tr("ZERA SCPI documentation"));
     tmpTranslations.insert("Database schema", tr("Database schema"));
     tmpTranslations.insert("Reports", tr("Reports"));
+    tmpTranslations.insert("Content", tr("Content"));
     tmpTranslations.insert("Display all", tr("Display all"));
     tmpTranslations.insert("Export as PDF", tr("Export as PDF"));
     tmpTranslations.insert("Back to overview", tr("Back to overview"));
@@ -995,6 +996,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Settings", tr("Settings"));
     tmpTranslations.insert("Value", tr("Value"));
 
+    tmpTranslations.insert("Measurement mode", tr("Measurement mode"));
     tmpTranslations.insert("Start time", tr("Start time"));
     tmpTranslations.insert("Stop time", tr("Stop time"));
     tmpTranslations.insert("Measurements", tr("Measurements"));
