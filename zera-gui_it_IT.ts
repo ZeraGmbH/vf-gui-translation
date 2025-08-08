@@ -2181,5 +2181,13 @@ customer data delete file confirmation popup header</extracomment>
         <extracomment>In error calculator, switch between time based and period based measurement. In Network settings, connection mode DHCP/Manual</extracomment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Measurement mode</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

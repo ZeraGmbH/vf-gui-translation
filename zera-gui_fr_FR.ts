@@ -2187,5 +2187,13 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <extracomment>In error calculator, switch between time based and period based measurement. In Network settings, connection mode DHCP/Manual</extracomment>
         <translation>Mode:</translation>
     </message>
+    <message>
+        <source>Content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Measurement mode</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

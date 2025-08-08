@@ -2186,5 +2186,13 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <extracomment>In error calculator, switch between time based and period based measurement. In Network settings, connection mode DHCP/Manual</extracomment>
         <translation>Modus:</translation>
     </message>
+    <message>
+        <source>Content</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Measurement mode</source>
+        <translation>Messart</translation>
+    </message>
 </context>
 </TS>
