@@ -2133,18 +2133,6 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <translation>Update Dokumentation</translation>
     </message>
     <message>
-        <source>(4LW) P</source>
-        <translation>(4LW) P</translation>
-    </message>
-    <message>
-        <source>(4LB) Q</source>
-        <translation>(4LB) Q</translation>
-    </message>
-    <message>
-        <source>(4LS) S</source>
-        <translation>(4LS) S</translation>
-    </message>
-    <message>
         <source>Std. deviation</source>
         <translation>Standardabweichung</translation>
     </message>
