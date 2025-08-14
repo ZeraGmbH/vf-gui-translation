@@ -2179,5 +2179,9 @@ Please charge the device before it turns down</translation>
         <source>Web Server for ZENUX Devices</source>
         <translation>Web Server for ZENUX Devices</translation>
     </message>
+    <message>
+        <source>Status</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

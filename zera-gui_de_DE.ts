@@ -2182,5 +2182,9 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Web Server for ZENUX Devices</source>
         <translation>Web-Server für ZENUX Geräte</translation>
     </message>
+    <message>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
 </context>
 </TS>
