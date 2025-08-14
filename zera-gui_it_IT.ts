@@ -2085,10 +2085,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Web server app title</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Error occurred !</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2175,6 +2171,10 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Measurement mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Web Server for ZENUX Devices</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

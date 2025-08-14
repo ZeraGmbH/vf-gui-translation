@@ -2091,10 +2091,6 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Web server app title</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Error occurred !</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2181,6 +2177,10 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     </message>
     <message>
         <source>Measurement mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Web Server for ZENUX Devices</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

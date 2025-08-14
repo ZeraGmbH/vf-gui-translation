@@ -987,7 +987,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Display all", tr("Display all"));
     tmpTranslations.insert("Export as PDF", tr("Export as PDF"));
     tmpTranslations.insert("Back to overview", tr("Back to overview"));
-    tmpTranslations.insert("Web server app title", tr("Web server app title"));
+    tmpTranslations.insert("Web Server for ZENUX Devices", tr("Web Server for ZENUX Devices"));
     tmpTranslations.insert("Error occurred !", tr("Error occurred !"));
 
     tmpTranslations.insert("Settings", tr("Settings"));

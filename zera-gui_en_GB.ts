@@ -2087,10 +2087,6 @@ Please charge the device before it turns down</translation>
         <translation>Value</translation>
     </message>
     <message>
-        <source>Web server app title</source>
-        <translation>Web Server for ZENUX Devices</translation>
-    </message>
-    <message>
         <source>Error occurred !</source>
         <translation>Error occured!</translation>
     </message>
@@ -2178,6 +2174,10 @@ Please charge the device before it turns down</translation>
     <message>
         <source>Measurement mode</source>
         <translation>Measurement mode</translation>
+    </message>
+    <message>
+        <source>Web Server for ZENUX Devices</source>
+        <translation>Web Server for ZENUX Devices</translation>
     </message>
 </context>
 </TS>

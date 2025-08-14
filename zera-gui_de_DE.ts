@@ -2089,10 +2089,6 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <translation>Wert</translation>
     </message>
     <message>
-        <source>Web server app title</source>
-        <translation>Web-Server für ZENUX Geräte</translation>
-    </message>
-    <message>
         <source>Error occurred !</source>
         <translation>Ein Fehler ist aufgetreten</translation>
     </message>
@@ -2181,6 +2177,10 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     <message>
         <source>Measurement mode</source>
         <translation>Messart</translation>
+    </message>
+    <message>
+        <source>Web Server for ZENUX Devices</source>
+        <translation>Web-Server für ZENUX Geräte</translation>
     </message>
 </context>
 </TS>
