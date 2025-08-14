@@ -2231,5 +2231,9 @@ customer data delete file confirmation popup header</extracomment>
         <source>Web Server for ZENUX Devices</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Status</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

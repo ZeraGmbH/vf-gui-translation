@@ -993,6 +993,8 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Settings", tr("Settings"));
     tmpTranslations.insert("Value", tr("Value"));
 
+    tmpTranslations.insert("Status", tr("Status"));
+
     tmpTranslations.insert("Measurement mode", tr("Measurement mode"));
     tmpTranslations.insert("Start time", tr("Start time"));
     tmpTranslations.insert("Stop time", tr("Stop time"));
