@@ -990,9 +990,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Web server app title", tr("Web server app title"));
     tmpTranslations.insert("Error occurred !", tr("Error occurred !"));
 
-    tmpTranslations.insert("(4LW) P", tr("(4LW) P"));
-    tmpTranslations.insert("(4LB) Q", tr("(4LB) Q"));
-    tmpTranslations.insert("(4LS) S", tr("(4LS) S"));
     tmpTranslations.insert("Settings", tr("Settings"));
     tmpTranslations.insert("Value", tr("Value"));
 

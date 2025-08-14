@@ -2131,18 +2131,6 @@ Please charge the device before it turns down</translation>
         <translation>Update documentation</translation>
     </message>
     <message>
-        <source>(4LW) P</source>
-        <translation>(4WA) P</translation>
-    </message>
-    <message>
-        <source>(4LB) Q</source>
-        <translation>(4WR) Q</translation>
-    </message>
-    <message>
-        <source>(4LS) S</source>
-        <translation>(4WAP) S</translation>
-    </message>
-    <message>
         <source>Std. deviation</source>
         <translation>Std. deviation</translation>
     </message>

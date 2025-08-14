@@ -2135,18 +2135,6 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>(4LW) P</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>(4LB) Q</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>(4LS) S</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Std. deviation</source>
         <translation type="unfinished"></translation>
     </message>
