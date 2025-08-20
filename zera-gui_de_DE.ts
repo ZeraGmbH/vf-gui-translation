@@ -558,7 +558,7 @@
     </message>
     <message>
         <source>Customer First name:</source>
-        <translation>Vorname (Kd.)::</translation>
+        <translation>Vorname (Kd.):</translation>
     </message>
     <message>
         <source>Customer Last name:</source>
@@ -566,7 +566,7 @@
     </message>
     <message>
         <source>Customer Country:</source>
-        <translation>Land (Kd.)::</translation>
+        <translation>Land (Kd.):</translation>
     </message>
     <message>
         <source>Customer City:</source>
