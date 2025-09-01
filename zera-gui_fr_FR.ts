@@ -610,11 +610,11 @@ ConnectionTree.qml group Hotspot</extracomment>
     </message>
     <message>
         <source>Stddev. n:</source>
-        <translation>Stddev. n:</translation>
+        <translation>Dev Std n:</translation>
     </message>
     <message>
         <source>Stddev. n-1:</source>
-        <translation>Stddev. n-1:</translation>
+        <translation>Dev Std. n-1:</translation>
     </message>
     <message>
         <source>Amp</source>
@@ -1929,17 +1929,17 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>other</source>
         <extracomment>Timezone with no region info are marked as &quot;&lt;other&gt;&quot;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>autre</translation>
     </message>
     <message>
         <source>Fixed Freq.</source>
         <extracomment>Measurememt mode / fixed frequency. Note too long texts ruin layout!!!</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Fréq. Fixe</translation>
     </message>
     <message>
         <source>Relative to fundamental</source>
         <extracomment>used for a yes / no configuration element</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Relatif au fondamental</translation>
     </message>
     <message>
         <source>Show angles</source>
@@ -1947,92 +1947,92 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     </message>
     <message>
         <source>Timezone:</source>
-        <translation>Zone horaire:</translation>
+        <translation>Fuseau horaire:</translation>
     </message>
     <message>
         <source>Date/Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Date/Heure:</translation>
     </message>
     <message>
         <source>Set timezone failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Échec de configuration du fuseau horaire!</translation>
     </message>
     <message>
         <source>NTP activate failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Échec de l&apos;activation du NTP!</translation>
     </message>
     <message>
         <source>NTP deactivate failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Échec de la désactivation du NTP!</translation>
     </message>
     <message>
         <source>Set date/time failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Échec de configuration de la date/heure!</translation>
     </message>
     <message>
         <source>Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Heure:</translation>
     </message>
     <message>
         <source>Date:</source>
-        <translation type="unfinished"></translation>
+        <translation>Date:</translation>
     </message>
     <message>
         <source>Internal timebase</source>
-        <translation type="unfinished"></translation>
+        <translation>Base de temps interne</translation>
     </message>
     <message>
         <source>Synchronize from network</source>
-        <translation type="unfinished"></translation>
+        <translation>Synchroniser depuis le réseau</translation>
     </message>
     <message>
         <source>API Trust requested</source>
-        <translation type="unfinished"></translation>
+        <translation>Autorisation API demandée</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom:</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Type:</translation>
     </message>
     <message>
         <source>Identity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Identité:</translation>
     </message>
     <message>
         <source>Deny</source>
-        <translation type="unfinished"></translation>
+        <translation>Refuser</translation>
     </message>
     <message>
         <source>Allow</source>
-        <translation type="unfinished"></translation>
+        <translation>Autoriser</translation>
     </message>
     <message>
         <source>API SSL Certificate (SHA1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Certificat SSL API (SHA1)</translation>
     </message>
     <message>
         <source>Delete this Trust</source>
-        <translation type="unfinished"></translation>
+        <translation>Supprimer cette confiance</translation>
     </message>
     <message>
         <source>Trusted API Clients</source>
-        <translation type="unfinished"></translation>
+        <translation>Clients API fiables</translation>
     </message>
     <message>
         <source>No trusted clients yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aucun client fiable pour le moment.</translation>
     </message>
     <message>
         <source>API-Access:</source>
         <extracomment>Remote API label</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Accès API:</translation>
     </message>
     <message>
         <source>No SSL Certificate available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aucun certificat SSL disponible.</translation>
     </message>
     <message>
         <source>Switch off &apos;Range automatic&apos;</source>
@@ -2055,116 +2055,104 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     </message>
     <message>
         <source>Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Veuillez patienter...</translation>
     </message>
     <message>
         <source>Save/Send logs</source>
-        <translation type="unfinished"></translation>
+        <translation>Enregister/Envoyer les journaux</translation>
     </message>
     <message>
         <source>Something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Une erreur s&apos;est produite</translation>
     </message>
     <message>
         <source>NF (Nominal Frequency)</source>
         <extracomment>add nominal frequency</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>200 kHz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>60 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>NF (fréquence nominale)</translation>
     </message>
     <message>
         <source>NF:</source>
-        <translation type="unfinished"></translation>
+        <translation>NF:</translation>
     </message>
     <message>
         <source>Start Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Démarrer la mise à jour</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>Valeur</translation>
     </message>
     <message>
         <source>Error occurred !</source>
-        <translation type="unfinished"></translation>
+        <translation>Une erreur s&apos;est produite !</translation>
     </message>
     <message>
         <source>Remote control</source>
-        <translation type="unfinished"></translation>
+        <translation>Contrôle à distance</translation>
     </message>
     <message>
         <source>ZERA SCPI documentation</source>
-        <translation type="unfinished"></translation>
+        <translation>Documentation ZERA SCPI</translation>
     </message>
     <message>
         <source>Database schema</source>
-        <translation type="unfinished"></translation>
+        <translation>Schéma de base de données</translation>
     </message>
     <message>
         <source>Reports</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapports</translation>
     </message>
     <message>
         <source>Start time</source>
-        <translation type="unfinished"></translation>
+        <translation>Heure de départ</translation>
     </message>
     <message>
         <source>Display all</source>
-        <translation type="unfinished"></translation>
+        <translation>Tout afficher</translation>
     </message>
     <message>
         <source>Export as PDF</source>
-        <translation type="unfinished"></translation>
+        <translation>Exporter au format PDF</translation>
     </message>
     <message>
         <source>Back to overview</source>
-        <translation type="unfinished"></translation>
+        <translation>Retour à l&apos;aperçu</translation>
     </message>
     <message>
         <source>Update documentation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Std. deviation</source>
-        <translation type="unfinished"></translation>
+        <translation>Mettre à jour la documentation</translation>
     </message>
     <message>
         <source>Power</source>
-        <translation type="unfinished"></translation>
+        <translation>Puissance</translation>
     </message>
     <message>
         <source>Mean value</source>
-        <translation type="unfinished"></translation>
+        <translation>Valeur moyenne</translation>
     </message>
     <message>
         <source>Stop time</source>
-        <translation type="unfinished"></translation>
+        <translation>Heure de fin</translation>
     </message>
     <message>
         <source>Measurement duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Durée de mesure</translation>
     </message>
     <message>
         <source>Pulse count</source>
-        <translation type="unfinished"></translation>
+        <translation>Nombre d&apos;impulsions</translation>
     </message>
     <message>
         <source>Measurement time</source>
-        <translation type="unfinished"></translation>
+        <translation>Temps de mesure</translation>
     </message>
     <message>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Mesures</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Paramètres</translation>
     </message>
     <message>
         <source>Mode:</source>
@@ -2173,19 +2161,31 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     </message>
     <message>
         <source>Content</source>
-        <translation type="unfinished"></translation>
+        <translation>Contenu</translation>
     </message>
     <message>
         <source>Measurement mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Mode de mesure</translation>
     </message>
     <message>
         <source>Web Server for ZENUX Devices</source>
-        <translation type="unfinished"></translation>
+        <translation>Serveur Web pour appareils ZENUX</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Statut</translation>
+    </message>
+    <message>
+        <source>FileSelected</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Multiple measurements</source>
+        <translation>Mesures multiples</translation>
+    </message>
+    <message>
+        <source>Unfinished</source>
+        <translation>Incomplet</translation>
     </message>
 </context>
 </TS>

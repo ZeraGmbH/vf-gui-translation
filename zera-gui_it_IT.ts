@@ -2065,14 +2065,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>200 kHz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>60 kHz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>NF:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2122,10 +2114,6 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Update documentation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Std. deviation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2179,6 +2167,18 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>FileSelected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Multiple measurements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unfinished</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

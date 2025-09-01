@@ -2067,14 +2067,6 @@ Please charge the device before it turns down</translation>
         <translation></translation>
     </message>
     <message>
-        <source>200 kHz</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>60 kHz</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>NF:</source>
         <translation></translation>
     </message>
@@ -2125,10 +2117,6 @@ Please charge the device before it turns down</translation>
     <message>
         <source>Update documentation</source>
         <translation>Update documentation</translation>
-    </message>
-    <message>
-        <source>Std. deviation</source>
-        <translation>Std. deviation</translation>
     </message>
     <message>
         <source>Power</source>
@@ -2182,6 +2170,18 @@ Please charge the device before it turns down</translation>
     <message>
         <source>Status</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>FileSelected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Multiple measurements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unfinished</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

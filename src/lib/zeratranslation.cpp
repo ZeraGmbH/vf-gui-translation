@@ -973,8 +973,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
 
     //: add nominal frequency
     tmpTranslations.insert("NF (Nominal Frequency)", tr("NF (Nominal Frequency)"));
-    tmpTranslations.insert("200 kHz", tr("200 kHz"));
-    tmpTranslations.insert("60 kHz", tr("60 kHz"));
     tmpTranslations.insert("NF:", tr("NF:"));
 
     // Keys for reportjs-vue project
@@ -1003,8 +1001,10 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Measurement time", tr("Measurement time"));
     tmpTranslations.insert("Pulse count", tr("Pulse count"));
     tmpTranslations.insert("Power", tr("Power"));
-    tmpTranslations.insert("Std. deviation", tr("Std. deviation"));
     tmpTranslations.insert("Mean value", tr("Mean value"));
+    tmpTranslations.insert("FileSelected", tr("FileSelected"));
+    tmpTranslations.insert("Multiple measurements", tr("Multiple measurements"));
+    tmpTranslations.insert("Unfinished", tr("Unfinished"));
 
     return tmpTranslations;
 }

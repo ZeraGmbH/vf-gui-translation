@@ -2069,14 +2069,6 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <translation>NF (Nominalfrequenz)</translation>
     </message>
     <message>
-        <source>200 kHz</source>
-        <translation>200 kHz</translation>
-    </message>
-    <message>
-        <source>60 kHz</source>
-        <translation>60 kHz</translation>
-    </message>
-    <message>
         <source>NF:</source>
         <translation>NF:</translation>
     </message>
@@ -2127,10 +2119,6 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     <message>
         <source>Update documentation</source>
         <translation>Update Dokumentation</translation>
-    </message>
-    <message>
-        <source>Std. deviation</source>
-        <translation>Standardabweichung</translation>
     </message>
     <message>
         <source>Power</source>
@@ -2185,6 +2173,18 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     <message>
         <source>Status</source>
         <translation>Status</translation>
+    </message>
+    <message>
+        <source>FileSelected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Multiple measurements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unfinished</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
