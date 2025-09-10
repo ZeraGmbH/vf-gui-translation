@@ -2176,10 +2176,6 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Statut</translation>
     </message>
     <message>
-        <source>FileSelected</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>Multiple measurements</source>
         <translation>Mesures multiples</translation>
     </message>

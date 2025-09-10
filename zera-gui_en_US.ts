@@ -2171,10 +2171,6 @@ Please charge the device before it turns down</translation>
         <translation>Status</translation>
     </message>
     <message>
-        <source>FileSelected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Multiple measurements</source>
         <translation type="unfinished"></translation>
     </message>

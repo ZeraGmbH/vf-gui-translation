@@ -2175,10 +2175,6 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <translation>Status</translation>
     </message>
     <message>
-        <source>FileSelected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Multiple measurements</source>
         <translation type="unfinished"></translation>
     </message>

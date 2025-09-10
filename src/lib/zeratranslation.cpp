@@ -1002,7 +1002,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Pulse count", tr("Pulse count"));
     tmpTranslations.insert("Power", tr("Power"));
     tmpTranslations.insert("Mean value", tr("Mean value"));
-    tmpTranslations.insert("FileSelected", tr("FileSelected"));
     tmpTranslations.insert("Multiple measurements", tr("Multiple measurements"));
     tmpTranslations.insert("Unfinished", tr("Unfinished"));
 
