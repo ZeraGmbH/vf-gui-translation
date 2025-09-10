@@ -2172,10 +2172,6 @@ customer data delete file confirmation popup header</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>FileSelected</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Multiple measurements</source>
         <translation type="unfinished"></translation>
     </message>
