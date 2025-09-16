@@ -2183,5 +2183,13 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Unfinished</source>
         <translation>Incomplet</translation>
     </message>
+    <message>
+        <source>Report all transactions in </source>
+        <translation>Afficher toutes les transactions dans </translation>
+    </message>
+    <message>
+        <source>Report one transaction in </source>
+        <translation>Afficher une transaction dans </translation>
+    </message>
 </context>
 </TS>

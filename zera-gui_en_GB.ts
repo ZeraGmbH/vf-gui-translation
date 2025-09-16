@@ -2173,11 +2173,19 @@ Please charge the device before it turns down</translation>
     </message>
     <message>
         <source>Multiple measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Multiple measurements</translation>
     </message>
     <message>
         <source>Unfinished</source>
-        <translation type="unfinished"></translation>
+        <translation>Unfinished</translation>
+    </message>
+    <message>
+        <source>Report all transactions in </source>
+        <translation>Report all transactions in </translation>
+    </message>
+    <message>
+        <source>Report one transaction in </source>
+        <translation>Report one transaction in </translation>
     </message>
 </context>
 </TS>
