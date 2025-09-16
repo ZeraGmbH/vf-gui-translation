@@ -2231,5 +2231,13 @@ customer data delete file confirmation popup header</extracomment>
         <source>Unfinished</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Report all transactions in </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Report one transaction in </source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

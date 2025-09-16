@@ -1005,5 +1005,8 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Multiple measurements", tr("Multiple measurements"));
     tmpTranslations.insert("Unfinished", tr("Unfinished"));
 
+    tmpTranslations.insert("Report all transactions in ", tr("Report all transactions in "));
+    tmpTranslations.insert("Report one transaction in ", tr("Report one transaction in "));
+
     return tmpTranslations;
 }
