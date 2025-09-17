@@ -2082,7 +2082,7 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     </message>
     <message>
         <source>Error occurred !</source>
-        <translation>Ein Fehler ist aufgetreten</translation>
+        <translation>Ein Fehler ist aufgetreten!</translation>
     </message>
     <message>
         <source>Remote control</source>
@@ -2142,8 +2142,7 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     </message>
     <message>
         <source>Measurement time</source>
-        <translatorcomment>Messdauer</translatorcomment>
-        <translation type="unfinished"></translation>
+        <translation>Messdauer</translation>
     </message>
     <message>
         <source>Measurements</source>
@@ -2160,7 +2159,7 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     </message>
     <message>
         <source>Content</source>
-        <translation type="unfinished"></translation>
+        <translation>Inhalt</translation>
     </message>
     <message>
         <source>Measurement mode</source>
@@ -2176,19 +2175,19 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     </message>
     <message>
         <source>Multiple measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>Mehrfachmessungen</translation>
     </message>
     <message>
         <source>Unfinished</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht beendet</translation>
     </message>
     <message>
         <source>Report all transactions in </source>
-        <translation type="unfinished"></translation>
+        <translation>Protokoll für alle Transaktionen in </translation>
     </message>
     <message>
         <source>Report one transaction in </source>
-        <translation type="unfinished"></translation>
+        <translation>Protokoll für eine Transaktionen in </translation>
     </message>
 </context>
 </TS>
