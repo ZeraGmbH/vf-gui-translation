@@ -1395,12 +1395,12 @@ customer data delete file confirmation popup header</extracomment>
     </message>
     <message>
         <source>Quartz reference measurement</source>
-        <translation>Quartz-Referenzmessung</translation>
+        <translation>Quarz-Referenzmessung</translation>
     </message>
     <message>
         <source>Quartz reference values</source>
         <extracomment>button to select content-set dc-reference values</extracomment>
-        <translation>Quartz-Referenzwerte</translation>
+        <translation>Quarz-Referenzwerte</translation>
     </message>
     <message>
         <source>DC reference values only</source>
@@ -1410,7 +1410,7 @@ customer data delete file confirmation popup header</extracomment>
     <message>
         <source>Quartz reference values only</source>
         <extracomment>menu radio button to select content-set dc-reference values</extracomment>
-        <translation>Nur Quartz-Referenzwerte</translation>
+        <translation>Nur Quarz-Referenzwerte</translation>
     </message>
     <message>
         <source>Frequency:</source>
