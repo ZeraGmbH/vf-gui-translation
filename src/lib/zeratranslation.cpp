@@ -977,7 +977,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
 
     // Keys for reportjs-vue project
     tmpTranslations.insert("Remote control", tr("Remote control"));
-    tmpTranslations.insert("Update documentation", tr("Update documentation"));
+    tmpTranslations.insert("Download update", tr("Download update"));
     tmpTranslations.insert("ZERA SCPI documentation", tr("ZERA SCPI documentation"));
     tmpTranslations.insert("Database schema", tr("Database schema"));
     tmpTranslations.insert("Reports", tr("Reports"));

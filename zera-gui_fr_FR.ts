@@ -2119,8 +2119,8 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Retour à l&apos;aperçu</translation>
     </message>
     <message>
-        <source>Update documentation</source>
-        <translation>Mettre à jour la documentation</translation>
+        <source>Download update</source>
+        <translation>Télécharger la mise à jour</translation>
     </message>
     <message>
         <source>Power</source>

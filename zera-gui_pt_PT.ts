@@ -2167,7 +2167,7 @@ customer data delete file confirmation popup header</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Update documentation</source>
+        <source>Download update</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -2117,8 +2117,8 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <translation>Zur Übersicht</translation>
     </message>
     <message>
-        <source>Update documentation</source>
-        <translation>Update Dokumentation</translation>
+        <source>Download update</source>
+        <translation>Update herunterladen</translation>
     </message>
     <message>
         <source>Power</source>

@@ -2114,7 +2114,7 @@ Please charge the device before it turns down</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Update documentation</source>
+        <source>Download update</source>
         <translation></translation>
     </message>
     <message>
