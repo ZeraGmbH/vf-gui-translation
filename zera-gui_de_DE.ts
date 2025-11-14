@@ -2189,5 +2189,11 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <source>Report one transaction in </source>
         <translation>Protokoll für eine Transaktionen in </translation>
     </message>
+    <message>
+        <source>Firmware update is running.
+Do not switch off the device!</source>
+        <translation type="unfinished">Die Firmware wird aktualisiert.
+Schalten Sie das Gerät nicht aus!</translation>
+    </message>
 </context>
 </TS>

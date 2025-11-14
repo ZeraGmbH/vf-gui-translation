@@ -2187,5 +2187,10 @@ Please charge the device before it turns down</translation>
         <source>Report one transaction in </source>
         <translation>Report one transaction in </translation>
     </message>
+    <message>
+        <source>Firmware update is running.
+Do not switch off the device!</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

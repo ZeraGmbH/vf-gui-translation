@@ -2191,5 +2191,10 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <source>Report one transaction in </source>
         <translation>Afficher une transaction dans </translation>
     </message>
+    <message>
+        <source>Firmware update is running.
+Do not switch off the device!</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

@@ -467,6 +467,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Please wait...", tr("Please wait..."));
     tmpTranslations.insert("Save/Send logs", tr("Save/Send logs"));
     tmpTranslations.insert("Something went wrong", tr("Something went wrong"));
+    tmpTranslations.insert("Firmware update is running.\nDo not switch off the device!", tr("Firmware update is running.\nDo not switch off the device!"));
 
     //ErrorCalculatorModulePage.qml
     //: reference channel selection

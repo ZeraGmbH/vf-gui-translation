@@ -2187,5 +2187,10 @@ customer data delete file confirmation popup header</extracomment>
         <source>Report one transaction in </source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Firmware update is running.
+Do not switch off the device!</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
