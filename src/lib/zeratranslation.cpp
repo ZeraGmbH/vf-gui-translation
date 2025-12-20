@@ -187,7 +187,7 @@ void ZeraTranslation::reloadStringTable()
 
     qInfo("Reload translation string table...");
     QVariantHash tmpTranslations = loadTranslationHash();
-    qInfo("Translation string table with %i entries reloaded within %lldms.", tmpTranslations.count(), elapsed.elapsed());
+    qInfo("Translation string table with %lli entries reloaded within %lldms.", qsizetype(tmpTranslations.count()), elapsed.elapsed());
 
     for(auto iter=tmpTranslations.cbegin(); iter!=tmpTranslations.cend(); iter++)
         m_currentTranslations.insert(iter.key(), iter.value());
