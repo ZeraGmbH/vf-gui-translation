@@ -1,12 +1,14 @@
-find_package(Qt5QuickCompiler CONFIG REQUIRED)
-
-# Hmm - is this really helpful?
-if("${CMAKE_BUILD_TYPE}" STREQUAL "Debug")
-    qt5_add_resources(PLUGIN_RESOURCES ${CMAKE_CURRENT_LIST_DIR}/zeratranslation.qrc)
+if("${QT_MAJOR_VER}" STREQUAL "6")
+    qt6_add_resources(PLUGIN_RESOURCES ${CMAKE_CURRENT_LIST_DIR}/zeratranslation.qrc)
 else()
-    qtquick_compiler_add_resources(PLUGIN_RESOURCES ${CMAKE_CURRENT_LIST_DIR}/zeratranslation.qrc)
+    find_package(${QTX}QuickCompiler CONFIG REQUIRED)
+    # Hmm - is this really helpful?
+    if("${CMAKE_BUILD_TYPE}" STREQUAL "Debug")
+        qt5_add_resources(PLUGIN_RESOURCES ${CMAKE_CURRENT_LIST_DIR}/zeratranslation.qrc)
+    else()
+        qtquick_compiler_add_resources(PLUGIN_RESOURCES ${CMAKE_CURRENT_LIST_DIR}/zeratranslation.qrc)
+    endif()
 endif()
-
 file(GLOB SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
     )
@@ -48,8 +50,8 @@ target_compile_definitions(ZeraTranslation PRIVATE $<$<CONFIG:Debug>:QT_QML_DEBU
 
 target_link_libraries(ZeraTranslation
     PRIVATE
-        Qt5::Core
-        Qt5::Qml
+        ${QTX}::Core
+        ${QTX}::Qml
         # ask linker to help us finding unresolved symbols
         "-Wl,--no-undefined"
 )

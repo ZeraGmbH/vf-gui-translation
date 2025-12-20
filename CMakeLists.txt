@@ -12,10 +12,18 @@ include(GNUInstallDirs)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-find_package(Qt5 "5.14.0" COMPONENTS Qml Quick LinguistTools CONFIG REQUIRED)
+set(QT_MAJOR_VER "5" CACHE STRING "Qt major version")
+set(QTX "Qt${QT_MAJOR_VER}")
+
+find_package(${QTX} COMPONENTS Qml Quick LinguistTools CONFIG REQUIRED)
 find_package(Python REQUIRED)
-find_program(LRELEASE NAMES lrelease lrelease-qt5 NO_CACHE REQUIRED)
-find_program(LUPDATE NAMES lupdate lupdate-qt5 NO_CACHE REQUIRED)
+if("${QT_MAJOR_VER}" STREQUAL "6")
+    find_program(LRELEASE NAMES lrelease lrelease-qt6 NO_CACHE REQUIRED)
+    find_program(LUPDATE NAMES lupdate lupdate-qt6 NO_CACHE REQUIRED)
+else()
+    find_program(LRELEASE NAMES lrelease lrelease-qt5 NO_CACHE REQUIRED)
+    find_program(LUPDATE NAMES lupdate lupdate-qt5 NO_CACHE REQUIRED)
+endif()
 
 file(GLOB TS_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/*.ts

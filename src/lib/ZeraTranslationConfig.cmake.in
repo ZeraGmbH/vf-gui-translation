@@ -1,5 +1,9 @@
 include(CMakeFindDependencyMacro)
 
-find_dependency(Qt5 REQUIRED COMPONENTS Core Qml)
+if("${QT_MAJOR_VER}" STREQUAL "6")
+    find_dependency(Qt6 REQUIRED COMPONENTS Core Qml)
+else()
+    find_dependency(Qt5 REQUIRED COMPONENTS Core Qml)
+endif()
 
 include("${CMAKE_CURRENT_LIST_DIR}/ZeraTranslationTargets.cmake")
