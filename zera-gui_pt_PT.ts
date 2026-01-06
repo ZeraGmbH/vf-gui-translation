@@ -964,6 +964,10 @@ Carregue o dispositivo antes que ele desligue</translation>
         <translation>Valores Atuais</translation>
     </message>
     <message>
+        <source>Actual values AC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Actual values DC</source>
         <translation>Valores Atuais CC</translation>
     </message>

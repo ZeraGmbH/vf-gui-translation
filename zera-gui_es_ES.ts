@@ -911,6 +911,10 @@ Cargue el dispositivo antes de que se apague.</translation>
         <translation>Valores actuales</translation>
     </message>
     <message>
+        <source>Actual values AC</source>
+        <translation>Valores actuales CA</translation>
+    </message>
+    <message>
         <source>Actual values DC</source>
         <translation>Valores actuales CC</translation>
     </message>

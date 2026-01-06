@@ -574,6 +574,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     //: polar (amplitude and phase) phasor diagram
     tmpTranslations.insert("Vector diagram", tr("Vector diagram"));
     tmpTranslations.insert("Actual values", tr("Actual values"));
+    tmpTranslations.insert("Actual values AC", tr("Actual values AC"));
     tmpTranslations.insert("Actual values DC", tr("Actual values DC"));
     tmpTranslations.insert("Actual values & Meter tests", tr("Actual values & Meter tests"));
     tmpTranslations.insert("Oscilloscope plot", tr("Oscilloscope plot"));

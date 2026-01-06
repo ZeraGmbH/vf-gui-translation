@@ -968,6 +968,10 @@ Please charge the device before it turns down</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Actual values AC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Actual values DC</source>
         <translation type="unfinished"></translation>
     </message>

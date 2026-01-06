@@ -970,6 +970,10 @@ Please charge the device before it turns down</source>
         <translation>Діючі значення</translation>
     </message>
     <message>
+        <source>Actual values AC</source>
+        <translation>Діючі значення AC</translation>
+    </message>
+    <message>
         <source>Actual values DC</source>
         <translation>Діючі значення DC</translation>
     </message>

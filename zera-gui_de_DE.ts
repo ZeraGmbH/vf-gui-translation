@@ -1609,6 +1609,10 @@ customer data delete file confirmation popup header</extracomment>
         <translation></translation>
     </message>
     <message>
+        <source>Actual values AC</source>
+        <translation>Istwerte AC</translation>
+    </message>
+    <message>
         <source>Actual values DC</source>
         <translation>Istwerte DC</translation>
     </message>

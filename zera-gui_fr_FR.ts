@@ -1611,6 +1611,10 @@ customer data delete file confirmation popup header</extracomment>
         <translation>Off</translation>
     </message>
     <message>
+        <source>Actual values AC</source>
+        <translation>Valeurs actuelles AC</translation>
+    </message>
+    <message>
         <source>Actual values DC</source>
         <translation>Valeurs actuelles DC</translation>
     </message>

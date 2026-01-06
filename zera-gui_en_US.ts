@@ -1606,6 +1606,10 @@ customer data delete file confirmation popup header</extracomment>
         <translation>Sc</translation>
     </message>
     <message>
+        <source>Actual values AC</source>
+        <translation></translation>
+    </message>
+    <message>
         <source>Actual values DC</source>
         <translation></translation>
     </message>
