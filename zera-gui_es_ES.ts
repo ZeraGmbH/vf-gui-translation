@@ -958,6 +958,11 @@ Cargue el dispositivo antes de que se apague.</translation>
         <translation>Control de la fuente</translation>
     </message>
     <message>
+        <source>Select phase to display:</source>
+        <extracomment>Energy / charge plot: Select phases to display label</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Meter test</source>
         <extracomment>Comparison tabs label texts</extracomment>
         <translation>Prueba del contador</translation>

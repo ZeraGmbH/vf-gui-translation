@@ -366,6 +366,11 @@
         <translation>Fehlerwerte</translation>
     </message>
     <message>
+        <source>Select phase to display:</source>
+        <extracomment>Energy / charge plot: Select phases to display label</extracomment>
+        <translation>Angezeigte Phasen:</translation>
+    </message>
+    <message>
         <source>Burden values</source>
         <extracomment>button to select content-set burden values</extracomment>
         <translation>Bürdenwerte</translation>
@@ -2196,7 +2201,7 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     <message>
         <source>Firmware update is running.
 Do not switch off the device!</source>
-        <translation type="unfinished">Die Firmware wird aktualisiert.
+        <translation>Die Firmware wird aktualisiert.
 Schalten Sie das Gerät nicht aus!</translation>
     </message>
 </context>

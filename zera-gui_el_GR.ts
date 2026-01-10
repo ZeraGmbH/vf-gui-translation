@@ -1014,6 +1014,11 @@ Please charge the device before it turns down</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Select phase to display:</source>
+        <extracomment>Energy / charge plot: Select phases to display label</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Meter test</source>
         <extracomment>Comparison tabs label texts</extracomment>
         <translation type="unfinished"></translation>

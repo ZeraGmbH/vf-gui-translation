@@ -591,6 +591,10 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     //: control one or more source devices
     tmpTranslations.insert("Source control", tr("Source control"));
 
+    // EnergyGraphs.qml
+    //: Energy / charge plot: Select phases to display label
+    tmpTranslations.insert("Select phase to display:", tr("Select phase to display:"));
+
     //ComparisonTabsView.qml
     //: Comparison tabs label texts
     tmpTranslations.insert("Meter test", tr("Meter test"));

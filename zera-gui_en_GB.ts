@@ -367,6 +367,11 @@
         <translation>Error values</translation>
     </message>
     <message>
+        <source>Select phase to display:</source>
+        <extracomment>Energy / charge plot: Select phases to display label</extracomment>
+        <translation></translation>
+    </message>
+    <message>
         <source>Burden values</source>
         <extracomment>button to select content-set burden values</extracomment>
         <translation>Burden values</translation>
