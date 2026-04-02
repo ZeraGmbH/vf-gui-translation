@@ -117,7 +117,7 @@ QString ZeraTranslation::getDateSeparator() const
                                 .remove("m", Qt::CaseInsensitive)
                                 .remove("y", Qt::CaseInsensitive);
     if(dateSeparator.length() == 2)
-        return dateSeparator.left(1);
+        return dateSeparator.at(1);
     return "/";
 }
 
