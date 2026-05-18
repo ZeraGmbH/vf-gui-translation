@@ -649,7 +649,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Device info", tr("Device info"));
     tmpTranslations.insert("Device log", tr("Device log"));
     tmpTranslations.insert("License information", tr("License information"));
-    tmpTranslations.insert("Save logfile to USB", tr("Save logfile to USB"));
     tmpTranslations.insert("Serial number", tr("Serial number"));
     tmpTranslations.insert("Operating system version", tr("Operating system version"));
     tmpTranslations.insert("Emob PCB version", tr("Emob PCB version"));
@@ -676,6 +675,10 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Starting update...", tr("Starting update..."));
     tmpTranslations.insert("Could not update. Please check if necessary files are available.", tr("Could not update. Please check if necessary files are available."));
     tmpTranslations.insert("Update failed. Please save logs and send them to service@zera.de.", tr("Update failed. Please save logs and send them to service@zera.de."));
+
+    // ServiceSupport.qml
+    tmpTranslations.insert("Service Support", tr("Service Support"));
+    tmpTranslations.insert("Save logfile to USB", tr("Save logfile to USB"));
     tmpTranslations.insert("Start Update", tr("Start Update"));
 
     //LoggerSettings.qml

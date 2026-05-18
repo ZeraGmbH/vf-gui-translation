@@ -2204,5 +2204,9 @@ Do not switch off the device!</source>
         <translation>Die Firmware wird aktualisiert.
 Schalten Sie das Gerät nicht aus!</translation>
     </message>
+    <message>
+        <source>Service Support</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

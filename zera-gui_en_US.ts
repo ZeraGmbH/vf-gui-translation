@@ -2200,5 +2200,9 @@ Please charge the device before it turns down</translation>
 Do not switch off the device!</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Service Support</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

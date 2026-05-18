@@ -2253,5 +2253,9 @@ customer data delete file confirmation popup header</extracomment>
 Do not switch off the device!</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Service Support</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
