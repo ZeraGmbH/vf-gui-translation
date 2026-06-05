@@ -391,12 +391,18 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Ethernet Connection Settings", tr("Ethernet Connection Settings"));
     //: EthernetSettings.qml Ethernet connection name
     tmpTranslations.insert("Connection name:", tr("Connection name:"));
+    //: EthernetSettings.qml Ethernet connection name hint
+    tmpTranslations.insert("Enter connection name displayed", tr("Enter connection name displayed"));
     //: EthernetSettings.qml IPv4 sub-header
     tmpTranslations.insert("IPv4", tr("IPv4"));
     //: connection Manual fixed IP address
     tmpTranslations.insert("IP:", tr("IP:"));
+    //: connection Manual fixed IP address hint
+    tmpTranslations.insert("Enter IP address e.g 192.168.1.1", tr("Enter IP address e.g 192.168.1.1"));
     //: connection Manual fixed IP subnetmask
     tmpTranslations.insert("Subnetmask:", tr("Subnetmask:"));
+    //: connection Manual fixed IP subnetmask hint
+    tmpTranslations.insert("Enter subnet mask e.g 255.255.255.0", tr("Enter subnet mask e.g 255.255.255.0"));
     //: EthernetSettings.qml IPv6 sub-header
     tmpTranslations.insert("IPv6", tr("IPv6"));
     //: EthernetSettings.qml IPv6 error field IP
@@ -421,14 +427,18 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("Wifi Settings", tr("Wifi Settings"));
     //: WifiSettings.qml SSID field
     tmpTranslations.insert("SSID:", tr("SSID:"));
+    //: WifiSettings.qml SSID field hint
+    tmpTranslations.insert("SSID: the public hotspot name", tr("SSID: the public hotspot name"));
     //: WifiSettings.qml SSID select dialog header
     tmpTranslations.insert("Wifi SSID", tr("Wifi SSID"));
     //: WifiSettings.qml Mode ComboBox
     tmpTranslations.insert("Hotspot", tr("Hotspot"));
     //: EthernetSettings.qml error SSID
     tmpTranslations.insert("SSID", tr("SSID"));
-    //: EthernetSettings.qml error SSID
+    //: EthernetSettings.qml password
     tmpTranslations.insert("Password", tr("Password"));
+    //: EthernetSettings.qml password hint
+    tmpTranslations.insert("Enter password (minimum 8 characters)", tr("Enter password (minimum 8 characters)"));
     //: EthernetSettings.qml Mode ComboBox
     tmpTranslations.insert("Automatic (DHCP)", tr("Automatic (DHCP)"));
     //: EthernetSettings.qml Mode ComboBox

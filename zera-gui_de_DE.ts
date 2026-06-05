@@ -961,7 +961,7 @@
     </message>
     <message>
         <source>Password</source>
-        <extracomment>EthernetSettings.qml error SSID</extracomment>
+        <extracomment>EthernetSettings.qml password</extracomment>
         <translation>Passwort</translation>
     </message>
     <message>
@@ -2206,7 +2206,32 @@ Schalten Sie das Gerät nicht aus!</translation>
     </message>
     <message>
         <source>Service Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Service Unterstützung</translation>
+    </message>
+    <message>
+        <source>Enter connection name displayed</source>
+        <extracomment>EthernetSettings.qml Ethernet connection name hint</extracomment>
+        <translation>Angezeigter Verbindungsname</translation>
+    </message>
+    <message>
+        <source>Enter IP address e.g 192.168.1.1</source>
+        <extracomment>connection Manual fixed IP address hint</extracomment>
+        <translation>IP Adresse z.B 192.168.1.1</translation>
+    </message>
+    <message>
+        <source>Enter subnet mask e.g 255.255.255.0</source>
+        <extracomment>connection Manual fixed IP subnetmask hint</extracomment>
+        <translation>Subnetzmaske z.B. 255.255.255.0</translation>
+    </message>
+    <message>
+        <source>SSID: the public hotspot name</source>
+        <extracomment>WifiSettings.qml SSID field hint</extracomment>
+        <translation>SSID: Der öffentliche Name des Hotspots</translation>
+    </message>
+    <message>
+        <source>Enter password (minimum 8 characters)</source>
+        <extracomment>EthernetSettings.qml password hint</extracomment>
+        <translation>Passwort (minimal 8 Zeichen)</translation>
     </message>
 </context>
 </TS>
