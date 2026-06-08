@@ -57,6 +57,7 @@ private:
     void reloadStringTable();
     static QString getTimeDateFormatShort(const QLocale &locale);
 
+    static void addTranslation(QVariantHash &translationHash, const QString &labelInSoure, const QString &labelInTranslation);
     static const QVariantHash loadTranslationHash();
 
     static ZeraTranslation *m_instance;

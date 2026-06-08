@@ -209,829 +209,836 @@ QString ZeraTranslation::getTimeDateFormatShort(const QLocale &locale)
     return formatStr;
 }
 
+void ZeraTranslation::addTranslation(QVariantHash &translationHash, const QString &labelInSoure, const QString &labelInTranslation)
+{
+    if (translationHash.contains(labelInSoure))
+        qWarning("Translation: Double entry '%s'", qPrintable(labelInSoure));
+    translationHash.insert(labelInSoure, labelInTranslation);
+}
+
 const QVariantHash ZeraTranslation::loadTranslationHash()
 {
-    //tmpTranslations.insert("something %1", tr("something %1"))...
+    //addTranslation(tmpTranslations, "something %1", tr("something %1"))...
 
     QVariantHash tmpTranslations;
     // common translations
-    tmpTranslations.insert("AC", tr("AC", "Alternating current"));
-    tmpTranslations.insert("U", tr("U", "Voltage"));
-    tmpTranslations.insert("W", tr("W", "Watt unit active"));
-    tmpTranslations.insert("VA", tr("VA", "Watt unit reactive"));
-    tmpTranslations.insert("Var", tr("Var", "Watt unit apparent"));
+    addTranslation(tmpTranslations, "AC", tr("AC", "Alternating current"));
+    addTranslation(tmpTranslations, "U", tr("U", "Voltage"));
+    addTranslation(tmpTranslations, "W", tr("W", "Watt unit active"));
+    addTranslation(tmpTranslations, "VA", tr("VA", "Watt unit reactive"));
+    addTranslation(tmpTranslations, "Var", tr("Var", "Watt unit apparent"));
 
-    tmpTranslations.insert("4LW", tr("4LW", "4 Leiter Wirkleistung = 4 wire active power"));
-    tmpTranslations.insert("3LW", tr("3LW", "3 Leiter Wirkleistung = 3 wire active power"));
-    tmpTranslations.insert("2LW", tr("2LW", "2 Leiter Wirkleistung = 2 wire active power"));
+    addTranslation(tmpTranslations, "4LW", tr("4LW", "4 Leiter Wirkleistung = 4 wire active power"));
+    addTranslation(tmpTranslations, "3LW", tr("3LW", "3 Leiter Wirkleistung = 3 wire active power"));
+    addTranslation(tmpTranslations, "2LW", tr("2LW", "2 Leiter Wirkleistung = 2 wire active power"));
 
-    tmpTranslations.insert("4LB", tr("4LB", "4 Leiter Blindleistung = 4 wire reactive power"));
-    tmpTranslations.insert("4LBK", tr("4LBK", "4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial neutral conductor"));
-    tmpTranslations.insert("3LB", tr("3LB", "3 Leiter Blindleistung = 3 wire reactive power"));
-    tmpTranslations.insert("2LB", tr("2LB", "2 Leiter Blindleistung = 2 wire reactive power"));
+    addTranslation(tmpTranslations, "4LB", tr("4LB", "4 Leiter Blindleistung = 4 wire reactive power"));
+    addTranslation(tmpTranslations, "4LBK", tr("4LBK", "4 Leiter Blindleistung künstlicher Nulleiter = 4 wire reactive power artificial neutral conductor"));
+    addTranslation(tmpTranslations, "3LB", tr("3LB", "3 Leiter Blindleistung = 3 wire reactive power"));
+    addTranslation(tmpTranslations, "2LB", tr("2LB", "2 Leiter Blindleistung = 2 wire reactive power"));
 
-    tmpTranslations.insert("4LS", tr("4LS", "4 Leiter Scheinleistung = 4 wire apparent power"));
-    tmpTranslations.insert("4LSg", tr("4LSg", "4 Leiter Scheinleistung geometrisch = 4 wire apparent power geometric"));
-    tmpTranslations.insert("3LS", tr("3LS", "3 Leiter Scheinleistung = 3 wire apparent power"));
-    tmpTranslations.insert("3LSg", tr("3LSg", "3 Leiter Scheinleistung geometrisch = 3 wire apparent power geometric"));
-    tmpTranslations.insert("2LS", tr("2LS", "2 Leiter Scheinleistung = 2 wire apparent power"));
-    tmpTranslations.insert("2LSg", tr("2LSg", "2 Leiter Scheinleistung geometrisch = 2 wire apparent power geometric"));
+    addTranslation(tmpTranslations, "4LS", tr("4LS", "4 Leiter Scheinleistung = 4 wire apparent power"));
+    addTranslation(tmpTranslations, "4LSg", tr("4LSg", "4 Leiter Scheinleistung geometrisch = 4 wire apparent power geometric"));
+    addTranslation(tmpTranslations, "3LS", tr("3LS", "3 Leiter Scheinleistung = 3 wire apparent power"));
+    addTranslation(tmpTranslations, "3LSg", tr("3LSg", "3 Leiter Scheinleistung geometrisch = 3 wire apparent power geometric"));
+    addTranslation(tmpTranslations, "2LS", tr("2LS", "2 Leiter Scheinleistung = 2 wire apparent power"));
+    addTranslation(tmpTranslations, "2LSg", tr("2LSg", "2 Leiter Scheinleistung geometrisch = 2 wire apparent power geometric"));
 
-    tmpTranslations.insert("XLW", tr("XLW", "X Leiter Wirkleistung = X wire active power"));
-    tmpTranslations.insert("XLB", tr("XLB", "X Leiter Blindleistung = X wire reactive power"));
-    tmpTranslations.insert("XLS", tr("XLS", "X Leiter Scheinleistung = X wire apparent power"));
-    tmpTranslations.insert("XLSg", tr("XLSg", "X Leiter Scheinleistung geometrisch = X wire apparent power geometric"));
+    addTranslation(tmpTranslations, "XLW", tr("XLW", "X Leiter Wirkleistung = X wire active power"));
+    addTranslation(tmpTranslations, "XLB", tr("XLB", "X Leiter Blindleistung = X wire reactive power"));
+    addTranslation(tmpTranslations, "XLS", tr("XLS", "X Leiter Scheinleistung = X wire apparent power"));
+    addTranslation(tmpTranslations, "XLSg", tr("XLSg", "X Leiter Scheinleistung geometrisch = X wire apparent power geometric"));
 
-    tmpTranslations.insert("QREF", tr("QREF", "Referenz-Modus = reference mode"));
+    addTranslation(tmpTranslations, "QREF", tr("QREF", "Referenz-Modus = reference mode"));
 
-    tmpTranslations.insert("ind", tr("ind", "Power factor inductive load type"));
-    tmpTranslations.insert("cap", tr("cap", "Power factor capacitive load type"));
+    addTranslation(tmpTranslations, "ind", tr("ind", "Power factor inductive load type"));
+    addTranslation(tmpTranslations, "cap", tr("cap", "Power factor capacitive load type"));
 
-    tmpTranslations.insert("L1", tr("L1", "measuring system 1"));
-    tmpTranslations.insert("L2", tr("L2", "measuring system 2"));
-    tmpTranslations.insert("L3", tr("L3", "measuring system 3"));
-    tmpTranslations.insert("AUX", tr("AUX", "auxiliary measuring system"));
+    addTranslation(tmpTranslations, "L1", tr("L1", "measuring system 1"));
+    addTranslation(tmpTranslations, "L2", tr("L2", "measuring system 2"));
+    addTranslation(tmpTranslations, "L3", tr("L3", "measuring system 3"));
+    addTranslation(tmpTranslations, "AUX", tr("AUX", "auxiliary measuring system"));
 
-    tmpTranslations.insert("Phase1", tr("Phase1", "Letter or number for phase e.g euro: 1 / us: A"));
-    tmpTranslations.insert("Phase2", tr("Phase2", "Letter or number for phase e.g euro: 2 / us: B"));
-    tmpTranslations.insert("Phase3", tr("Phase3", "Letter or number for phase e.g euro: 3 / us: C"));
+    addTranslation(tmpTranslations, "Phase1", tr("Phase1", "Letter or number for phase e.g euro: 1 / us: A"));
+    addTranslation(tmpTranslations, "Phase2", tr("Phase2", "Letter or number for phase e.g euro: 2 / us: B"));
+    addTranslation(tmpTranslations, "Phase3", tr("Phase3", "Letter or number for phase e.g euro: 3 / us: C"));
 
-    tmpTranslations.insert("P 1", tr("P 1", "Meter test power phase 1"));
-    tmpTranslations.insert("P 2", tr("P 2", "Meter test power phase 2"));
-    tmpTranslations.insert("P 3", tr("P 3", "Meter test power phase 3"));
-    tmpTranslations.insert("P AUX", tr("P AUX", "Meter test power phase AUX"));
-    tmpTranslations.insert("P AC", tr("P AC", "Meter test power AC"));
-    tmpTranslations.insert("P DC", tr("P DC", "Meter test power DC"));
+    addTranslation(tmpTranslations, "P 1", tr("P 1", "Meter test power phase 1"));
+    addTranslation(tmpTranslations, "P 2", tr("P 2", "Meter test power phase 2"));
+    addTranslation(tmpTranslations, "P 3", tr("P 3", "Meter test power phase 3"));
+    addTranslation(tmpTranslations, "P AUX", tr("P AUX", "Meter test power phase AUX"));
+    addTranslation(tmpTranslations, "P AC", tr("P AC", "Meter test power AC"));
+    addTranslation(tmpTranslations, "P DC", tr("P DC", "Meter test power DC"));
 
-    tmpTranslations.insert("REF1", tr("REF1", "reference channel 1"));
-    tmpTranslations.insert("REF2", tr("REF2", "reference channel 2"));
-    tmpTranslations.insert("REF3", tr("REF3", "reference channel 3"));
-    tmpTranslations.insert("REF4", tr("REF4", "reference channel 4"));
-    tmpTranslations.insert("REF5", tr("REF5", "reference channel 5"));
-    tmpTranslations.insert("REF6", tr("REF6", "reference channel 6"));
+    addTranslation(tmpTranslations, "REF1", tr("REF1", "reference channel 1"));
+    addTranslation(tmpTranslations, "REF2", tr("REF2", "reference channel 2"));
+    addTranslation(tmpTranslations, "REF3", tr("REF3", "reference channel 3"));
+    addTranslation(tmpTranslations, "REF4", tr("REF4", "reference channel 4"));
+    addTranslation(tmpTranslations, "REF5", tr("REF5", "reference channel 5"));
+    addTranslation(tmpTranslations, "REF6", tr("REF6", "reference channel 6"));
 
-    tmpTranslations.insert("UPN", tr("UPN","voltage pase to neutral"));
-    tmpTranslations.insert("UPP", tr("UPP","voltage phase to phase"));
-    tmpTranslations.insert("kU", tr("kU","harmonic distortion on voltage"));
-    tmpTranslations.insert("I", tr("I","current"));
-    tmpTranslations.insert("kI", tr("kI","harmonic distortion on current"));
-    tmpTranslations.insert("∠U", tr("∠U","phase difference of voltage to reference channel"));
-    tmpTranslations.insert("∠I", tr("∠I","phase difference of current to reference channel"));
-    tmpTranslations.insert("∠UI", tr("∠UI","phase difference"));
-    tmpTranslations.insert("λ", tr("λ","power factor"));
+    addTranslation(tmpTranslations, "UPN", tr("UPN","voltage pase to neutral"));
+    addTranslation(tmpTranslations, "UPP", tr("UPP","voltage phase to phase"));
+    addTranslation(tmpTranslations, "kU", tr("kU","harmonic distortion on voltage"));
+    addTranslation(tmpTranslations, "I", tr("I","current"));
+    addTranslation(tmpTranslations, "kI", tr("kI","harmonic distortion on current"));
+    addTranslation(tmpTranslations, "∠U", tr("∠U","phase difference of voltage to reference channel"));
+    addTranslation(tmpTranslations, "∠I", tr("∠I","phase difference of current to reference channel"));
+    addTranslation(tmpTranslations, "∠UI", tr("∠UI","phase difference"));
+    addTranslation(tmpTranslations, "λ", tr("λ","power factor"));
     //: needs to be short enough to fit
-    tmpTranslations.insert("P", tr("P","active power"));
+    addTranslation(tmpTranslations, "P", tr("P","active power"));
     //: needs to be short enough to fit
-    tmpTranslations.insert("Q", tr("Q","reactive power"));
+    addTranslation(tmpTranslations, "Q", tr("Q","reactive power"));
     //: needs to be short enough to fit
-    tmpTranslations.insert("S", tr("S","apparent power"));
-    tmpTranslations.insert("F", tr("F","frequency"));
+    addTranslation(tmpTranslations, "S", tr("S","apparent power"));
+    addTranslation(tmpTranslations, "F", tr("F","frequency"));
 
-    tmpTranslations.insert("Sb", tr("Sb", "standard burden"));
-    tmpTranslations.insert("cos(β)", tr("cos(β)", "cosinus beta"));
-    tmpTranslations.insert("Sn", tr("Sn", "operating burden in %, relative to the nominal burden"));
-    tmpTranslations.insert("BRD1", tr("BRD1", "burden system name"));
-    tmpTranslations.insert("BRD2", tr("BRD2", "burden system name"));
-    tmpTranslations.insert("BRD3", tr("BRD3", "burden system name"));
+    addTranslation(tmpTranslations, "Sb", tr("Sb", "standard burden"));
+    addTranslation(tmpTranslations, "cos(β)", tr("cos(β)", "cosinus beta"));
+    addTranslation(tmpTranslations, "Sn", tr("Sn", "operating burden in %, relative to the nominal burden"));
+    addTranslation(tmpTranslations, "BRD1", tr("BRD1", "burden system name"));
+    addTranslation(tmpTranslations, "BRD2", tr("BRD2", "burden system name"));
+    addTranslation(tmpTranslations, "BRD3", tr("BRD3", "burden system name"));
 
     //: In error calculator, switch between time based and period based measurement. In Network settings, connection mode DHCP/Manual
-    tmpTranslations.insert("Mode:", tr("Mode:"));
+    addTranslation(tmpTranslations, "Mode:", tr("Mode:"));
 
     //PagePathView.qml
     //: as in "close this view"
-    tmpTranslations.insert("OK", tr("OK"));
-    tmpTranslations.insert("Close", tr("Close", "not open"));
-    tmpTranslations.insert("Accept", tr("Accept"));
-    tmpTranslations.insert("Cancel", tr("Cancel"));
-    tmpTranslations.insert("Save", tr("Save"));
+    addTranslation(tmpTranslations, "OK", tr("OK"));
+    addTranslation(tmpTranslations, "Close", tr("Close", "not open"));
+    addTranslation(tmpTranslations, "Accept", tr("Accept"));
+    addTranslation(tmpTranslations, "Cancel", tr("Cancel"));
+    addTranslation(tmpTranslations, "Save", tr("Save"));
     //: default session
-    tmpTranslations.insert("Default", tr("Default"));
+    addTranslation(tmpTranslations, "Default", tr("Default"));
     //: changing energy direction session
-    tmpTranslations.insert("Changing energy direction", tr("Changing energy direction"));
+    addTranslation(tmpTranslations, "Changing energy direction", tr("Changing energy direction"));
     //: changing energy direction session
-    tmpTranslations.insert("Reference", tr("Reference"));
-    tmpTranslations.insert("3 Systems / 2 Wires", tr("3 Systems / 2 Wires"));
-    tmpTranslations.insert("DC: 4*Voltage / 1*Current", tr("DC: 4*Voltage / 1*Current"));
+    addTranslation(tmpTranslations, "Reference", tr("Reference"));
+    addTranslation(tmpTranslations, "3 Systems / 2 Wires", tr("3 Systems / 2 Wires"));
+    addTranslation(tmpTranslations, "DC: 4*Voltage / 1*Current", tr("DC: 4*Voltage / 1*Current"));
 
     //RangeMenu.qml
     //: used for a yes / no configuration element
-    tmpTranslations.insert("Range automatic", tr("Range automatic"));
+    addTranslation(tmpTranslations, "Range automatic", tr("Range automatic"));
     //: when selected, the corresponding phases are inverted
-    tmpTranslations.insert("Invert", tr("Invert"));
+    addTranslation(tmpTranslations, "Invert", tr("Invert"));
     //: measurement channel range overload, e.g. the range is configured for 5V measurement and the measured input voltage is >5V
-    tmpTranslations.insert("Overload", tr("Overload"));
+    addTranslation(tmpTranslations, "Overload", tr("Overload"));
     //: used for a yes / no configuration element
-    tmpTranslations.insert("Range grouping", tr("Range grouping"));
+    addTranslation(tmpTranslations, "Range grouping", tr("Range grouping"));
     //: header text - can be multiline
-    tmpTranslations.insert("Measurement modes", tr("Measurement modes"));
+    addTranslation(tmpTranslations, "Measurement modes", tr("Measurement modes"));
     //: Ratio checkbox
-    tmpTranslations.insert("Ratio", tr("Ratio"));
+    addTranslation(tmpTranslations, "Ratio", tr("Ratio"));
 
     //Settings.qml
     //: settings specific to the GUI application
-    tmpTranslations.insert("Application", tr("Application"));
-    tmpTranslations.insert("Timezone:", tr("Timezone:"));
+    addTranslation(tmpTranslations, "Application", tr("Application"));
+    addTranslation(tmpTranslations, "Timezone:", tr("Timezone:"));
     //: used for a yes / no configuration element
-    tmpTranslations.insert("Relative to fundamental", tr("Relative to fundamental"));
-    tmpTranslations.insert("Show angles", tr("Show angles"));
+    addTranslation(tmpTranslations, "Relative to fundamental", tr("Relative to fundamental"));
+    addTranslation(tmpTranslations, "Show angles", tr("Show angles"));
     //: max number total decimals for displayed values
-    tmpTranslations.insert("Max decimals total:", tr("Max decimals total:"));
+    addTranslation(tmpTranslations, "Max decimals total:", tr("Max decimals total:"));
     //: max number of decimals after the decimal separator
-    tmpTranslations.insert("Max places after the decimal point:", tr("Max places after the decimal point:"));
+    addTranslation(tmpTranslations, "Max places after the decimal point:", tr("Max places after the decimal point:"));
     //: Remote web label
-    tmpTranslations.insert("Web-Server:", tr("Web-Server:"));
+    addTranslation(tmpTranslations, "Web-Server:", tr("Web-Server:"));
     //: Remote API label
-    tmpTranslations.insert("API-Access:", tr("API-Access:"));
+    addTranslation(tmpTranslations, "API-Access:", tr("API-Access:"));
 
     //: used for the selection of language via country flag
-    tmpTranslations.insert("Language:", tr("Language:"));
+    addTranslation(tmpTranslations, "Language:", tr("Language:"));
     //: used for the selection of GUI display mode
-    tmpTranslations.insert("Display:", tr("Display:"));
+    addTranslation(tmpTranslations, "Display:", tr("Display:"));
     //: GUI display mode fullscreen
-    tmpTranslations.insert("Fullscreen", tr("Fullscreen"));
+    addTranslation(tmpTranslations, "Fullscreen", tr("Fullscreen"));
     //: GUI display mode desktop
-    tmpTranslations.insert("Desktop (slow)", tr("Desktop (slow)"));
+    addTranslation(tmpTranslations, "Desktop (slow)", tr("Desktop (slow)"));
     //: settings specific to the hardware
-    tmpTranslations.insert("Device", tr("Device"));
+    addTranslation(tmpTranslations, "Device", tr("Device"));
     //: settings specific to the network
-    tmpTranslations.insert("Network", tr("Network"));
+    addTranslation(tmpTranslations, "Network", tr("Network"));
     //: settings specific to the Bluetooth sensors
-    tmpTranslations.insert("BLE sensor", tr("BLE sensor"));
+    addTranslation(tmpTranslations, "BLE sensor", tr("BLE sensor"));
     //: measurement channel the phase locked loop uses as base
-    tmpTranslations.insert("PLL channel:", tr("PLL channel:"));
+    addTranslation(tmpTranslations, "PLL channel:", tr("PLL channel:"));
     //: automatic phase locked loop channel selection
-    tmpTranslations.insert("PLL channel automatic:", tr("PLL channel automatic:"));
+    addTranslation(tmpTranslations, "PLL channel automatic:", tr("PLL channel automatic:"));
     //: dft phase reference channel
-    tmpTranslations.insert("DFT reference channel:", tr("DFT reference channel:"));
-    tmpTranslations.insert("Colors:", tr("Colors:"));
+    addTranslation(tmpTranslations, "DFT reference channel:", tr("DFT reference channel:"));
+    addTranslation(tmpTranslations, "Colors:", tr("Colors:"));
     //: Settings show/hide AUX phases
-    tmpTranslations.insert("Show AUX phase values", tr("Show AUX phase values"));
+    addTranslation(tmpTranslations, "Show AUX phase values", tr("Show AUX phase values"));
     //: Color themes popup adjust brightness for current
-    tmpTranslations.insert("Brightness currents:", tr("Brightness currents:"));
+    addTranslation(tmpTranslations, "Brightness currents:", tr("Brightness currents:"));
     //: Color themes popup adjust brightness for current
-    tmpTranslations.insert("Brightness black:", tr("Brightness black:"));
-    tmpTranslations.insert("SCPI sequential mode:", tr("SCPI sequential mode:"));
-    tmpTranslations.insert("Channel ignore limit [% of range]:", tr("Channel ignore limit [% of range]:"));
+    addTranslation(tmpTranslations, "Brightness black:", tr("Brightness black:"));
+    addTranslation(tmpTranslations, "SCPI sequential mode:", tr("SCPI sequential mode:"));
+    addTranslation(tmpTranslations, "Channel ignore limit [% of range]:", tr("Channel ignore limit [% of range]:"));
 
     //SettingsInterval.qml
     //: time based integration interval
-    tmpTranslations.insert("Integration time interval", tr("Integration time interval"));
+    addTranslation(tmpTranslations, "Integration time interval", tr("Integration time interval"));
     //: measurement period based integration interval
-    tmpTranslations.insert("Integration period interval:", tr("Integration period interval:"));
+    addTranslation(tmpTranslations, "Integration period interval:", tr("Integration period interval:"));
     //displayed under settings
-    tmpTranslations.insert("seconds", tr("seconds", "integration time interval unit"));
-    tmpTranslations.insert("periods", tr("periods", "integration period interval unit"));
+    addTranslation(tmpTranslations, "seconds", tr("seconds", "integration time interval unit"));
+    addTranslation(tmpTranslations, "periods", tr("periods", "integration period interval unit"));
 
     //: ZDeleteConfirmPopup.qml Delete confirm dialog %1 is type e.g 'network connection' %2 is instance e.g 'Hotspot 1'
-    tmpTranslations.insert("Delete %1 <b>'%2'</b>?", tr("Delete %1 <b>'%2'</b>?"));
+    addTranslation(tmpTranslations, "Delete %1 <b>'%2'</b>?", tr("Delete %1 <b>'%2'</b>?"));
 
     // Network settings
     //: AvailableApDialog.qml Wifi password access point
-    tmpTranslations.insert("Wifi Password", tr("Wifi Password"));
+    addTranslation(tmpTranslations, "Wifi Password", tr("Wifi Password"));
     //: AvailableApDialog.qml Networks?
-    tmpTranslations.insert("Networks:", tr("Networks:"));
+    addTranslation(tmpTranslations, "Networks:", tr("Networks:"));
     //: EthernetSettings.qml Header text
-    tmpTranslations.insert("Ethernet Connection Settings", tr("Ethernet Connection Settings"));
+    addTranslation(tmpTranslations, "Ethernet Connection Settings", tr("Ethernet Connection Settings"));
     //: EthernetSettings.qml Ethernet connection name
-    tmpTranslations.insert("Connection name:", tr("Connection name:"));
+    addTranslation(tmpTranslations, "Connection name:", tr("Connection name:"));
     //: EthernetSettings.qml Ethernet connection name hint
-    tmpTranslations.insert("Enter connection name displayed", tr("Enter connection name displayed"));
+    addTranslation(tmpTranslations, "Enter connection name displayed", tr("Enter connection name displayed"));
     //: EthernetSettings.qml IPv4 sub-header
-    tmpTranslations.insert("IPv4", tr("IPv4"));
+    addTranslation(tmpTranslations, "IPv4", tr("IPv4"));
     //: connection Manual fixed IP address
-    tmpTranslations.insert("IP:", tr("IP:"));
+    addTranslation(tmpTranslations, "IP:", tr("IP:"));
     //: connection Manual fixed IP address hint
-    tmpTranslations.insert("Enter IP address e.g 192.168.1.1", tr("Enter IP address e.g 192.168.1.1"));
+    addTranslation(tmpTranslations, "Enter IP address e.g 192.168.1.1", tr("Enter IP address e.g 192.168.1.1"));
     //: connection Manual fixed IP subnetmask
-    tmpTranslations.insert("Subnetmask:", tr("Subnetmask:"));
+    addTranslation(tmpTranslations, "Subnetmask:", tr("Subnetmask:"));
     //: connection Manual fixed IP subnetmask hint
-    tmpTranslations.insert("Enter subnet mask e.g 255.255.255.0", tr("Enter subnet mask e.g 255.255.255.0"));
+    addTranslation(tmpTranslations, "Enter subnet mask e.g 255.255.255.0", tr("Enter subnet mask e.g 255.255.255.0"));
     //: EthernetSettings.qml IPv6 sub-header
-    tmpTranslations.insert("IPv6", tr("IPv6"));
+    addTranslation(tmpTranslations, "IPv6", tr("IPv6"));
     //: EthernetSettings.qml IPv6 error field IP
-    tmpTranslations.insert("IPV6 IP", tr("IPV6 IP"));
+    addTranslation(tmpTranslations, "IPV6 IP", tr("IPV6 IP"));
     //: EthernetSettings.qml IPv6 error field subnetmask
-    tmpTranslations.insert("IPV6 Subnetmask", tr("IPV6 Subnetmask"));
+    addTranslation(tmpTranslations, "IPV6 Subnetmask", tr("IPV6 Subnetmask"));
     //: EthernetSettings.qml IPv4 error field IP
-    tmpTranslations.insert("IPV4 IP", tr("IPV4 IP"));
+    addTranslation(tmpTranslations, "IPV4 IP", tr("IPV4 IP"));
     //: EthernetSettings.qml IPv4 error field subnetmask
-    tmpTranslations.insert("IPV4 Subnetmask", tr("IPV4 Subnetmask"));
+    addTranslation(tmpTranslations, "IPV4 Subnetmask", tr("IPV4 Subnetmask"));
 
     //: SmartConnect.qml Wifi password header
-    tmpTranslations.insert("Wifi password", tr("Wifi password"));
+    addTranslation(tmpTranslations, "Wifi password", tr("Wifi password"));
     //: SmartConnect.qml Wifi password
-    tmpTranslations.insert("Password:", tr("Password:"));
+    addTranslation(tmpTranslations, "Password:", tr("Password:"));
     //: SmartConnect.qml Wifi password
-    tmpTranslations.insert("Device:", tr("Device:"));
+    addTranslation(tmpTranslations, "Device:", tr("Device:"));
 
     //: WifiSettings.qml Header text hotspot
-    tmpTranslations.insert("Hotspot Settings", tr("Hotspot Settings"));
+    addTranslation(tmpTranslations, "Hotspot Settings", tr("Hotspot Settings"));
     //: WifiSettings.qml Header text wifi
-    tmpTranslations.insert("Wifi Settings", tr("Wifi Settings"));
+    addTranslation(tmpTranslations, "Wifi Settings", tr("Wifi Settings"));
     //: WifiSettings.qml SSID field
-    tmpTranslations.insert("SSID:", tr("SSID:"));
+    addTranslation(tmpTranslations, "SSID:", tr("SSID:"));
     //: WifiSettings.qml SSID field hint
-    tmpTranslations.insert("SSID: the public hotspot name", tr("SSID: the public hotspot name"));
+    addTranslation(tmpTranslations, "SSID: the public hotspot name", tr("SSID: the public hotspot name"));
     //: WifiSettings.qml SSID select dialog header
-    tmpTranslations.insert("Wifi SSID", tr("Wifi SSID"));
+    addTranslation(tmpTranslations, "Wifi SSID", tr("Wifi SSID"));
     //: WifiSettings.qml Mode ComboBox
-    tmpTranslations.insert("Hotspot", tr("Hotspot"));
+    addTranslation(tmpTranslations, "Hotspot", tr("Hotspot"));
     //: EthernetSettings.qml error SSID
-    tmpTranslations.insert("SSID", tr("SSID"));
+    addTranslation(tmpTranslations, "SSID", tr("SSID"));
     //: EthernetSettings.qml password
-    tmpTranslations.insert("Password", tr("Password"));
+    addTranslation(tmpTranslations, "Password", tr("Password"));
     //: EthernetSettings.qml password hint
-    tmpTranslations.insert("Enter password (minimum 8 characters)", tr("Enter password (minimum 8 characters)"));
+    addTranslation(tmpTranslations, "Enter password (minimum 8 characters)", tr("Enter password (minimum 8 characters)"));
     //: EthernetSettings.qml Mode ComboBox
-    tmpTranslations.insert("Automatic (DHCP)", tr("Automatic (DHCP)"));
+    addTranslation(tmpTranslations, "Automatic (DHCP)", tr("Automatic (DHCP)"));
     //: EthernetSettings.qml Mode ComboBox
-    tmpTranslations.insert("Manual", tr("Manual"));
+    addTranslation(tmpTranslations, "Manual", tr("Manual"));
     //: SUggested default
-    tmpTranslations.insert("Wifi", tr("Wifi"));
+    addTranslation(tmpTranslations, "Wifi", tr("Wifi"));
     //: Checkbox for auto-connection
-    tmpTranslations.insert("Autoconnect:", tr("Autoconnect:"));
+    addTranslation(tmpTranslations, "Autoconnect:", tr("Autoconnect:"));
 
     //: ConnectionTree.qml group Ethernet
-    tmpTranslations.insert("ETHERNET", tr("Ethernet"));
+    addTranslation(tmpTranslations, "ETHERNET", tr("Ethernet"));
     //: ConnectionTree.qml group Wifi
-    tmpTranslations.insert("WIFI", tr("WIFI"));
+    addTranslation(tmpTranslations, "WIFI", tr("WIFI"));
     //: ConnectionTree.qml group Hotspot
-    tmpTranslations.insert("HOTSPOT", tr("Hotspot"));
+    addTranslation(tmpTranslations, "HOTSPOT", tr("Hotspot"));
     //: ConnectionTree.qml type in connection delete confirm popup
-    tmpTranslations.insert("network connection", tr("network connection"));
+    addTranslation(tmpTranslations, "network connection", tr("network connection"));
 
     //: ConnectionInfo.qml header
-    tmpTranslations.insert("Connection Information", tr("Connection Information"));
+    addTranslation(tmpTranslations, "Connection Information", tr("Connection Information"));
     //: ConnectionTree.qml netmask header
-    tmpTranslations.insert("Netmask:", tr("Netmask:"));
+    addTranslation(tmpTranslations, "Netmask:", tr("Netmask:"));
     //: ConnectionTree.qml add entry
-    tmpTranslations.insert("Add Ethernet...", tr("Add Ethernet..."));
+    addTranslation(tmpTranslations, "Add Ethernet...", tr("Add Ethernet..."));
     //: ConnectionTree.qml add entry
-    tmpTranslations.insert("Add Hotspot...", tr("Add Hotspot..."));
+    addTranslation(tmpTranslations, "Add Hotspot...", tr("Add Hotspot..."));
     //: ConnectionTree.qml add entry
-    tmpTranslations.insert("Add Wifi...", tr("Add Wifi..."));
+    addTranslation(tmpTranslations, "Add Wifi...", tr("Add Wifi..."));
 
     //MainToolBar.qml
-    tmpTranslations.insert("Battery low !\nPlease charge the device before it turns down", tr("Battery low !\nPlease charge the device before it turns down"));
+    addTranslation(tmpTranslations, "Battery low !\nPlease charge the device before it turns down", tr("Battery low !\nPlease charge the device before it turns down"));
 
     //main.qml
-    tmpTranslations.insert("Loading...", tr("Loading..."));
+    addTranslation(tmpTranslations, "Loading...", tr("Loading..."));
     //: progress of loading %1 of %2 objects
-    tmpTranslations.insert("Loading: %1/%2", tr("Loading: %1/%2"));
+    addTranslation(tmpTranslations, "Loading: %1/%2", tr("Loading: %1/%2"));
     //: settings for range automatic etc.
-    tmpTranslations.insert("Range", tr("Range", "measuring range"));
-    tmpTranslations.insert("Please wait...", tr("Please wait..."));
-    tmpTranslations.insert("Save/Send logs", tr("Save/Send logs"));
-    tmpTranslations.insert("Something went wrong", tr("Something went wrong"));
-    tmpTranslations.insert("Firmware update is running.\nDo not switch off the device!", tr("Firmware update is running.\nDo not switch off the device!"));
+    addTranslation(tmpTranslations, "Range", tr("Range", "measuring range"));
+    addTranslation(tmpTranslations, "Please wait...", tr("Please wait..."));
+    addTranslation(tmpTranslations, "Save/Send logs", tr("Save/Send logs"));
+    addTranslation(tmpTranslations, "Something went wrong", tr("Something went wrong"));
+    addTranslation(tmpTranslations, "Firmware update is running.\nDo not switch off the device!", tr("Firmware update is running.\nDo not switch off the device!"));
 
     //ErrorCalculatorModulePage.qml
     //: reference channel selection
-    tmpTranslations.insert("Reference input:", tr("Reference input:"));
+    addTranslation(tmpTranslations, "Reference input:", tr("Reference input:"));
     //: device input selection (e.g. scanning head)
-    tmpTranslations.insert("Device input:", tr("Device input:"));
+    addTranslation(tmpTranslations, "Device input:", tr("Device input:"));
     //: device under test constant
-    tmpTranslations.insert("Constant", tr("Constant"));
+    addTranslation(tmpTranslations, "Constant", tr("Constant"));
     //: energy to compare
-    tmpTranslations.insert("Energy:", tr("Energy:"));
+    addTranslation(tmpTranslations, "Energy:", tr("Energy:"));
     //: value based on the DUT constant
-    tmpTranslations.insert("Pulse:", tr("Pulse:"));
-    tmpTranslations.insert("Start", tr("Start"));
-    tmpTranslations.insert("Stop", tr("Stop"));
-    tmpTranslations.insert("Lower error limit:", tr("Lower error limit:"));
-    tmpTranslations.insert("Upper error limit:", tr("Upper error limit:"));
-    tmpTranslations.insert("continuous", tr("continuous"));
-    tmpTranslations.insert("Count / Pause:", tr("Count / Pause:"));
+    addTranslation(tmpTranslations, "Pulse:", tr("Pulse:"));
+    addTranslation(tmpTranslations, "Start", tr("Start"));
+    addTranslation(tmpTranslations, "Stop", tr("Stop"));
+    addTranslation(tmpTranslations, "Lower error limit:", tr("Lower error limit:"));
+    addTranslation(tmpTranslations, "Upper error limit:", tr("Upper error limit:"));
+    addTranslation(tmpTranslations, "continuous", tr("continuous"));
+    addTranslation(tmpTranslations, "Count / Pause:", tr("Count / Pause:"));
     //: popup if range automatic active in POWER/ENERGY REGISTER
-    tmpTranslations.insert("Switch off 'Range automatic'", tr("Switch off 'Range automatic'"));
-    tmpTranslations.insert("Select a matching range", tr("Select a matching range"));
+    addTranslation(tmpTranslations, "Switch off 'Range automatic'", tr("Switch off 'Range automatic'"));
+    addTranslation(tmpTranslations, "Select a matching range", tr("Select a matching range"));
 
     //ErrorRegisterModulePage.qml
-    tmpTranslations.insert("Duration:", tr("Duration:"));
-    tmpTranslations.insert("Start/Stop", tr("Start/Stop"));
-    tmpTranslations.insert("Duration", tr("Duration"));
-    tmpTranslations.insert("Start value:", tr("Start value:"));
-    tmpTranslations.insert("End value:", tr("End value:"));
+    addTranslation(tmpTranslations, "Duration:", tr("Duration:"));
+    addTranslation(tmpTranslations, "Start/Stop", tr("Start/Stop"));
+    addTranslation(tmpTranslations, "Duration", tr("Duration"));
+    addTranslation(tmpTranslations, "Start value:", tr("Start value:"));
+    addTranslation(tmpTranslations, "End value:", tr("End value:"));
 
     //ErrorCalculatorModulePage.qml
-    tmpTranslations.insert("Frequency:", tr("Frequency:"));
+    addTranslation(tmpTranslations, "Frequency:", tr("Frequency:"));
 
     //ErrorRegisterModulePage.qml
-    tmpTranslations.insert("Count:", tr("Count:"));
-    tmpTranslations.insert("Passed:", tr("Passed:"));
-    tmpTranslations.insert("Failed:", tr("Failed:"));
-    tmpTranslations.insert("Mean:", tr("Mean:"));
-    tmpTranslations.insert("Range:", tr("Range:"));
-    tmpTranslations.insert("Stddev. n:", tr("Stddev. n:"));
-    tmpTranslations.insert("Stddev. n-1:", tr("Stddev. n-1:"));
+    addTranslation(tmpTranslations, "Count:", tr("Count:"));
+    addTranslation(tmpTranslations, "Passed:", tr("Passed:"));
+    addTranslation(tmpTranslations, "Failed:", tr("Failed:"));
+    addTranslation(tmpTranslations, "Mean:", tr("Mean:"));
+    addTranslation(tmpTranslations, "Range:", tr("Range:"));
+    addTranslation(tmpTranslations, "Stddev. n:", tr("Stddev. n:"));
+    addTranslation(tmpTranslations, "Stddev. n-1:", tr("Stddev. n-1:"));
 
     //FftTabPage.qml
     //: text must be short enough to fit
-    tmpTranslations.insert("Amp", tr("Amp", "Amplitude of the phasor"));
+    addTranslation(tmpTranslations, "Amp", tr("Amp", "Amplitude of the phasor"));
     //: text must be short enough to fit
-    tmpTranslations.insert("Phase", tr("Phase","Phase of the phasor"));
+    addTranslation(tmpTranslations, "Phase", tr("Phase","Phase of the phasor"));
     //: total harmonic distortion with noise
-    tmpTranslations.insert("THDN:", tr("THDN:"));
-    tmpTranslations.insert("Harmonic table", tr("Harmonic table", "Tab text harmonic table"));
-    tmpTranslations.insert("Harmonic chart", tr("Harmonic chart", "Tab text harmonic chart"));
+    addTranslation(tmpTranslations, "THDN:", tr("THDN:"));
+    addTranslation(tmpTranslations, "Harmonic table", tr("Harmonic table", "Tab text harmonic table"));
+    addTranslation(tmpTranslations, "Harmonic chart", tr("Harmonic chart", "Tab text harmonic chart"));
 
     //VectorModulePage.qml
     //: ComboBox: Scale to max. range
-    tmpTranslations.insert("Ranges", tr("Ranges"));
+    addTranslation(tmpTranslations, "Ranges", tr("Ranges"));
     //: ComboBox: Scale to max. value
-    tmpTranslations.insert("Maximum", tr("Maximum"));
+    addTranslation(tmpTranslations, "Maximum", tr("Maximum"));
 
     //PowerModulePage.qml
-    tmpTranslations.insert("Ext.", tr("Ext."));
+    addTranslation(tmpTranslations, "Ext.", tr("Ext."));
 
     //HarmonicPowerTabPage.qml
-    tmpTranslations.insert("Harmonic power table", tr("Harmonic power table", "Tab text harmonic power table"));
-    tmpTranslations.insert("Harmonic power chart", tr("Harmonic power chart", "Tab text harmonic power chart"));
+    addTranslation(tmpTranslations, "Harmonic power table", tr("Harmonic power table", "Tab text harmonic power table"));
+    addTranslation(tmpTranslations, "Harmonic power chart", tr("Harmonic power chart", "Tab text harmonic power chart"));
 
 
     //: text must be short enough to fit
-    tmpTranslations.insert("UL1", tr("UL1", "channel name"));
+    addTranslation(tmpTranslations, "UL1", tr("UL1", "channel name"));
     //: text must be short enough to fit
-    tmpTranslations.insert("UL2", tr("UL2", "channel name"));
+    addTranslation(tmpTranslations, "UL2", tr("UL2", "channel name"));
     //: text must be short enough to fit
-    tmpTranslations.insert("UL3", tr("UL3", "channel name"));
+    addTranslation(tmpTranslations, "UL3", tr("UL3", "channel name"));
     //: text must be short enough to fit
-    tmpTranslations.insert("IL1", tr("IL1", "channel name"));
+    addTranslation(tmpTranslations, "IL1", tr("IL1", "channel name"));
     //: text must be short enough to fit
-    tmpTranslations.insert("IL2", tr("IL2", "channel name"));
+    addTranslation(tmpTranslations, "IL2", tr("IL2", "channel name"));
     //: text must be short enough to fit
-    tmpTranslations.insert("IL3", tr("IL3", "channel name"));
+    addTranslation(tmpTranslations, "IL3", tr("IL3", "channel name"));
     //: text must be short enough to fit
-    tmpTranslations.insert("UAUX", tr("UAUX", "channel name"));
+    addTranslation(tmpTranslations, "UAUX", tr("UAUX", "channel name"));
     //: text must be short enough to fit
-    tmpTranslations.insert("IAUX", tr("IAUX", "channel name"));
+    addTranslation(tmpTranslations, "IAUX", tr("IAUX", "channel name"));
 
     //: text must be short enough to fit
-    tmpTranslations.insert("P1", tr("P1", "harmonic power label active / phase 1"));
+    addTranslation(tmpTranslations, "P1", tr("P1", "harmonic power label active / phase 1"));
     //: text must be short enough to fit
-    tmpTranslations.insert("Q1", tr("Q1", "harmonic power label reactive / phase 1"));
+    addTranslation(tmpTranslations, "Q1", tr("Q1", "harmonic power label reactive / phase 1"));
     //: text must be short enough to fit
-    tmpTranslations.insert("S1", tr("S1", "harmonic power label aparent / phase 1"));
+    addTranslation(tmpTranslations, "S1", tr("S1", "harmonic power label aparent / phase 1"));
     //: text must be short enough to fit
-    tmpTranslations.insert("P2", tr("P2", "harmonic power label active / phase 2"));
+    addTranslation(tmpTranslations, "P2", tr("P2", "harmonic power label active / phase 2"));
     //: text must be short enough to fit
-    tmpTranslations.insert("Q2", tr("Q2", "harmonic power label reactive / phase 2"));
+    addTranslation(tmpTranslations, "Q2", tr("Q2", "harmonic power label reactive / phase 2"));
     //: text must be short enough to fit
-    tmpTranslations.insert("S2", tr("S2", "harmonic power label aparent / phase 2"));
+    addTranslation(tmpTranslations, "S2", tr("S2", "harmonic power label aparent / phase 2"));
     //: text must be short enough to fit
-    tmpTranslations.insert("P3", tr("P3", "harmonic power label active / phase 3"));
+    addTranslation(tmpTranslations, "P3", tr("P3", "harmonic power label active / phase 3"));
     //: text must be short enough to fit
-    tmpTranslations.insert("Q3", tr("Q3", "harmonic power label reactive / phase 3"));
+    addTranslation(tmpTranslations, "Q3", tr("Q3", "harmonic power label reactive / phase 3"));
     //: text must be short enough to fit
-    tmpTranslations.insert("S3", tr("S3", "harmonic power label aparent / phase 3"));
+    addTranslation(tmpTranslations, "S3", tr("S3", "harmonic power label aparent / phase 3"));
 
     //MeasurementPageModel.qml
     //: polar (amplitude and phase) phasor diagram
-    tmpTranslations.insert("Vector diagram", tr("Vector diagram"));
-    tmpTranslations.insert("Actual values", tr("Actual values"));
-    tmpTranslations.insert("Actual values AC", tr("Actual values AC"));
-    tmpTranslations.insert("Actual values DC", tr("Actual values DC"));
-    tmpTranslations.insert("Actual values & Meter tests", tr("Actual values & Meter tests"));
-    tmpTranslations.insert("Oscilloscope plot", tr("Oscilloscope plot"));
+    addTranslation(tmpTranslations, "Vector diagram", tr("Vector diagram"));
+    addTranslation(tmpTranslations, "Actual values", tr("Actual values"));
+    addTranslation(tmpTranslations, "Actual values AC", tr("Actual values AC"));
+    addTranslation(tmpTranslations, "Actual values DC", tr("Actual values DC"));
+    addTranslation(tmpTranslations, "Actual values & Meter tests", tr("Actual values & Meter tests"));
+    addTranslation(tmpTranslations, "Oscilloscope plot", tr("Oscilloscope plot"));
     //: FFT bar diagrams or tables that show the harmonic component distribution of the measured values
-    tmpTranslations.insert("Harmonics & Curves", tr("Harmonics & Curves"));
+    addTranslation(tmpTranslations, "Harmonics & Curves", tr("Harmonics & Curves"));
     //: measuring mode dependent power values
-    tmpTranslations.insert("Power values", tr("Power values"));
+    addTranslation(tmpTranslations, "Power values", tr("Power values"));
     //: FFT tables that show the real and imaginary parts of the measured power values
-    tmpTranslations.insert("Harmonic power values", tr("Harmonic power values"));
+    addTranslation(tmpTranslations, "Harmonic power values", tr("Harmonic power values"));
     //: shows the deviation of measured energy between the reference device and the device under test
-    tmpTranslations.insert("Error calculator", tr("Error calculator"));
+    addTranslation(tmpTranslations, "Error calculator", tr("Error calculator"));
     //: shows energy comparison between the reference device and the device under test's registers/display
-    tmpTranslations.insert("Comparison measurements", tr("Comparison measurements"));
+    addTranslation(tmpTranslations, "Comparison measurements", tr("Comparison measurements"));
     //: control one or more source devices
-    tmpTranslations.insert("Source control", tr("Source control"));
+    addTranslation(tmpTranslations, "Source control", tr("Source control"));
 
     // EnergyGraphs.qml
     //: Energy / charge plot: Select phases to display label
-    tmpTranslations.insert("Select phase to display:", tr("Select phase to display:"));
+    addTranslation(tmpTranslations, "Select phase to display:", tr("Select phase to display:"));
 
     //ComparisonTabsView.qml
     //: Comparison tabs label texts
-    tmpTranslations.insert("Meter test", tr("Meter test"));
-    tmpTranslations.insert("Energy comparison", tr("Energy comparison"));
-    tmpTranslations.insert("Energy register", tr("Energy register"));
-    tmpTranslations.insert("Power register", tr("Power register"));
+    addTranslation(tmpTranslations, "Meter test", tr("Meter test"));
+    addTranslation(tmpTranslations, "Energy comparison", tr("Energy comparison"));
+    addTranslation(tmpTranslations, "Energy register", tr("Energy register"));
+    addTranslation(tmpTranslations, "Power register", tr("Power register"));
 
-    tmpTranslations.insert("Burden values", tr("Burden values"));
-    tmpTranslations.insert("Transformer values", tr("Transformer values"));
+    addTranslation(tmpTranslations, "Burden values", tr("Burden values"));
+    addTranslation(tmpTranslations, "Transformer values", tr("Transformer values"));
     //: effective values
-    tmpTranslations.insert("RMS values", tr("RMS values"));
+    addTranslation(tmpTranslations, "RMS values", tr("RMS values"));
 
     //BurdenModulePage.qml
-    tmpTranslations.insert("Voltage Burden", tr("Voltage Burden", "Tab title current burden"));
-    tmpTranslations.insert("Current Burden", tr("Current Burden", "Tab title current burden"));
-    tmpTranslations.insert("Nominal burden:", tr("Nominal burden:"));
-    tmpTranslations.insert("Nominal range:", tr("Nominal range:"));
-    tmpTranslations.insert("Wire crosssection:", tr("Wire crosssection:"));
-    tmpTranslations.insert("Wire length:", tr("Wire length:"));
+    addTranslation(tmpTranslations, "Voltage Burden", tr("Voltage Burden", "Tab title current burden"));
+    addTranslation(tmpTranslations, "Current Burden", tr("Current Burden", "Tab title current burden"));
+    addTranslation(tmpTranslations, "Nominal burden:", tr("Nominal burden:"));
+    addTranslation(tmpTranslations, "Nominal range:", tr("Nominal range:"));
+    addTranslation(tmpTranslations, "Wire crosssection:", tr("Wire crosssection:"));
+    addTranslation(tmpTranslations, "Wire length:", tr("Wire length:"));
 
     //ReferencePageModel.qml
-    tmpTranslations.insert("DC reference values", tr("DC reference values"));
+    addTranslation(tmpTranslations, "DC reference values", tr("DC reference values"));
     //QuartzModulePage.qml
-    tmpTranslations.insert("Quartz reference measurement", tr("Quartz reference measurement"));
+    addTranslation(tmpTranslations, "Quartz reference measurement", tr("Quartz reference measurement"));
 
     //CEDPageModel.qml
-    tmpTranslations.insert("CED power values", tr("CED power values"));
+    addTranslation(tmpTranslations, "CED power values", tr("CED power values"));
 
     //HarmonicPowerTabPage.qml
-    tmpTranslations.insert("Measuring modes:", tr("Measuring modes:", "label for measuring mode selectors"));
+    addTranslation(tmpTranslations, "Measuring modes:", tr("Measuring modes:", "label for measuring mode selectors"));
 
     //TransformerModulePage.qml
-    tmpTranslations.insert("TR1", tr("TR1", "transformer system 1"));
-    tmpTranslations.insert("X-Prim:", tr("X-Prim:"));
-    tmpTranslations.insert("X-Sec:", tr("X-Sec:"));
-    tmpTranslations.insert("Ms-Prim:", tr("Ms-Prim:"));
-    tmpTranslations.insert("Ms-Sec:", tr("Ms-Sec:"));
-    tmpTranslations.insert("Mp-Prim:", tr("Mp-Prim:"));
-    tmpTranslations.insert("Mp-Sec:", tr("Mp-Sec:"));
-    tmpTranslations.insert("X-Ratio", tr("X-Ratio"));
-    tmpTranslations.insert("N-Sec", tr("N-Sec"));
-    tmpTranslations.insert("X-Prim", tr("X-Prim"));
-    tmpTranslations.insert("X-Sec", tr("X-Sec"));
-    tmpTranslations.insert("crad", tr("crad", "centiradian"));
-    tmpTranslations.insert("arcmin", tr("arcmin", "arcminute"));
+    addTranslation(tmpTranslations, "TR1", tr("TR1", "transformer system 1"));
+    addTranslation(tmpTranslations, "X-Prim:", tr("X-Prim:"));
+    addTranslation(tmpTranslations, "X-Sec:", tr("X-Sec:"));
+    addTranslation(tmpTranslations, "Ms-Prim:", tr("Ms-Prim:"));
+    addTranslation(tmpTranslations, "Ms-Sec:", tr("Ms-Sec:"));
+    addTranslation(tmpTranslations, "Mp-Prim:", tr("Mp-Prim:"));
+    addTranslation(tmpTranslations, "Mp-Sec:", tr("Mp-Sec:"));
+    addTranslation(tmpTranslations, "X-Ratio", tr("X-Ratio"));
+    addTranslation(tmpTranslations, "N-Sec", tr("N-Sec"));
+    addTranslation(tmpTranslations, "X-Prim", tr("X-Prim"));
+    addTranslation(tmpTranslations, "X-Sec", tr("X-Sec"));
+    addTranslation(tmpTranslations, "crad", tr("crad", "centiradian"));
+    addTranslation(tmpTranslations, "arcmin", tr("arcmin", "arcminute"));
 
     // SourceModulePage.qml
-    tmpTranslations.insert("Actual", tr("Actual", "Source/Vector view indicator label: actual values mode"));
-    tmpTranslations.insert("Target", tr("Target", "Source/Vector view indicator label: target values mode"));
+    addTranslation(tmpTranslations, "Actual", tr("Actual", "Source/Vector view indicator label: actual values mode"));
+    addTranslation(tmpTranslations, "Target", tr("Target", "Source/Vector view indicator label: target values mode"));
 
     //DeviceInformation.qml
-    tmpTranslations.insert("Device info", tr("Device info"));
-    tmpTranslations.insert("Device log", tr("Device log"));
-    tmpTranslations.insert("License information", tr("License information"));
-    tmpTranslations.insert("Serial number", tr("Serial number"));
-    tmpTranslations.insert("Operating system version", tr("Operating system version"));
-    tmpTranslations.insert("Emob PCB version", tr("Emob PCB version"));
-    tmpTranslations.insert("Accu PCB version", tr("Accu PCB version"));
-    tmpTranslations.insert("Relay PCB version", tr("Relay PCB version"));
-    tmpTranslations.insert("System PCB version", tr("System PCB version"));
-    tmpTranslations.insert("PCB server version", tr("PCB server version"));
-    tmpTranslations.insert("DSP server version", tr("DSP server version"));
-    tmpTranslations.insert("DSP firmware version", tr("DSP firmware version"));
-    tmpTranslations.insert("FPGA firmware version", tr("FPGA firmware version"));
-    tmpTranslations.insert("System controller version", tr("System controller version"));
-    tmpTranslations.insert("Relay controller version", tr("Relay controller version"));
-    tmpTranslations.insert("Emob controller version", tr("Emob controller version"));
-    tmpTranslations.insert("Accu controller version", tr("Accu controller version"));
-    tmpTranslations.insert("Adjustment status", tr("Adjustment status"));
-    tmpTranslations.insert("Not adjusted", tr("Not adjusted"));
-    tmpTranslations.insert("Wrong version", tr("Wrong version"));
-    tmpTranslations.insert("Wrong serial number", tr("Wrong serial number"));
-    tmpTranslations.insert("CPU-board number", tr("CPU-board number"));
-    tmpTranslations.insert("CPU-board assembly", tr("CPU-board assembly"));
-    tmpTranslations.insert("CPU-board date", tr("CPU-board date"));
-    tmpTranslations.insert("Saving logs and dumps to external drive...", tr("Saving logs and dumps to external drive..."));
-    tmpTranslations.insert("Could not save logs and dumps", tr("Could not save logs and dumps"));
-    tmpTranslations.insert("Starting update...", tr("Starting update..."));
-    tmpTranslations.insert("Could not update. Please check if necessary files are available.", tr("Could not update. Please check if necessary files are available."));
-    tmpTranslations.insert("Update failed. Please save logs and send them to service@zera.de.", tr("Update failed. Please save logs and send them to service@zera.de."));
+    addTranslation(tmpTranslations, "Device info", tr("Device info"));
+    addTranslation(tmpTranslations, "Device log", tr("Device log"));
+    addTranslation(tmpTranslations, "License information", tr("License information"));
+    addTranslation(tmpTranslations, "Serial number", tr("Serial number"));
+    addTranslation(tmpTranslations, "Operating system version", tr("Operating system version"));
+    addTranslation(tmpTranslations, "Emob PCB version", tr("Emob PCB version"));
+    addTranslation(tmpTranslations, "Accu PCB version", tr("Accu PCB version"));
+    addTranslation(tmpTranslations, "Relay PCB version", tr("Relay PCB version"));
+    addTranslation(tmpTranslations, "System PCB version", tr("System PCB version"));
+    addTranslation(tmpTranslations, "PCB server version", tr("PCB server version"));
+    addTranslation(tmpTranslations, "DSP server version", tr("DSP server version"));
+    addTranslation(tmpTranslations, "DSP firmware version", tr("DSP firmware version"));
+    addTranslation(tmpTranslations, "FPGA firmware version", tr("FPGA firmware version"));
+    addTranslation(tmpTranslations, "System controller version", tr("System controller version"));
+    addTranslation(tmpTranslations, "Relay controller version", tr("Relay controller version"));
+    addTranslation(tmpTranslations, "Emob controller version", tr("Emob controller version"));
+    addTranslation(tmpTranslations, "Accu controller version", tr("Accu controller version"));
+    addTranslation(tmpTranslations, "Adjustment status", tr("Adjustment status"));
+    addTranslation(tmpTranslations, "Not adjusted", tr("Not adjusted"));
+    addTranslation(tmpTranslations, "Wrong version", tr("Wrong version"));
+    addTranslation(tmpTranslations, "Wrong serial number", tr("Wrong serial number"));
+    addTranslation(tmpTranslations, "CPU-board number", tr("CPU-board number"));
+    addTranslation(tmpTranslations, "CPU-board assembly", tr("CPU-board assembly"));
+    addTranslation(tmpTranslations, "CPU-board date", tr("CPU-board date"));
+    addTranslation(tmpTranslations, "Saving logs and dumps to external drive...", tr("Saving logs and dumps to external drive..."));
+    addTranslation(tmpTranslations, "Could not save logs and dumps", tr("Could not save logs and dumps"));
+    addTranslation(tmpTranslations, "Starting update...", tr("Starting update..."));
+    addTranslation(tmpTranslations, "Could not update. Please check if necessary files are available.", tr("Could not update. Please check if necessary files are available."));
+    addTranslation(tmpTranslations, "Update failed. Please save logs and send them to service@zera.de.", tr("Update failed. Please save logs and send them to service@zera.de."));
 
     // ServiceSupport.qml
-    tmpTranslations.insert("Service Support", tr("Service Support"));
-    tmpTranslations.insert("Save logfile to USB", tr("Save logfile to USB"));
-    tmpTranslations.insert("Start Update", tr("Start Update"));
+    addTranslation(tmpTranslations, "Service Support", tr("Service Support"));
+    addTranslation(tmpTranslations, "Save logfile to USB", tr("Save logfile to USB"));
+    addTranslation(tmpTranslations, "Start Update", tr("Start Update"));
 
     //LoggerSettings.qml
-    tmpTranslations.insert("Database Logging", tr("Database Logging"));
-    tmpTranslations.insert("Logging enabled:", tr("Logging enabled:"));
-    tmpTranslations.insert("DB location:", tr("DB location:"));
+    addTranslation(tmpTranslations, "Database Logging", tr("Database Logging"));
+    addTranslation(tmpTranslations, "Logging enabled:", tr("Logging enabled:"));
+    addTranslation(tmpTranslations, "DB location:", tr("DB location:"));
     //: describes the duration of the recording
-    tmpTranslations.insert("Logging Duration [hh:mm:ss]:", tr("Logging Duration [hh:mm:ss]:"));
-    tmpTranslations.insert("Logger status:", tr("Logger status:"));
+    addTranslation(tmpTranslations, "Logging Duration [hh:mm:ss]:", tr("Logging Duration [hh:mm:ss]:"));
+    addTranslation(tmpTranslations, "Logger status:", tr("Logger status:"));
     //: describes the ongoing task of recording data into a database
-    tmpTranslations.insert("Logging data", tr("Logging data"));
-    tmpTranslations.insert("Logging disabled", tr("Logging disabled"));
-    tmpTranslations.insert("No database selected", tr("No database selected"));
-    tmpTranslations.insert("Database loaded", tr("Database loaded"));
-    tmpTranslations.insert("Database error", tr("Database error"));
-    tmpTranslations.insert("Manage customer data:", tr("Manage customer data:"));
-    tmpTranslations.insert("Snapshot", tr("Snapshot"));
+    addTranslation(tmpTranslations, "Logging data", tr("Logging data"));
+    addTranslation(tmpTranslations, "Logging disabled", tr("Logging disabled"));
+    addTranslation(tmpTranslations, "No database selected", tr("No database selected"));
+    addTranslation(tmpTranslations, "Database loaded", tr("Database loaded"));
+    addTranslation(tmpTranslations, "Database error", tr("Database error"));
+    addTranslation(tmpTranslations, "Manage customer data:", tr("Manage customer data:"));
+    addTranslation(tmpTranslations, "Snapshot", tr("Snapshot"));
     //: when the system disabled the customer data management, the brackets are for visual distinction from other text
-    tmpTranslations.insert("[customer data is not available]", tr("[customer data is not available]"));
+    addTranslation(tmpTranslations, "[customer data is not available]", tr("[customer data is not available]"));
     //: when the customer id is empty, the brackets are for visual distinction from other text
-    tmpTranslations.insert("[customer id is not set]", tr("[customer id is not set]"));
+    addTranslation(tmpTranslations, "[customer id is not set]", tr("[customer id is not set]"));
     //: when the customer number is empty, the brackets are for visual distinction from other text
-    tmpTranslations.insert("[customer number is not set]", tr("[customer number is not set]"));
+    addTranslation(tmpTranslations, "[customer number is not set]", tr("[customer number is not set]"));
     //: placeholder text for the database filename
-    tmpTranslations.insert("filename", tr("filename"));
+    addTranslation(tmpTranslations, "filename", tr("filename"));
     //: popup create database header
-    tmpTranslations.insert("Create database", tr("Create database"));
-    tmpTranslations.insert("Show", tr("Show"));
-    tmpTranslations.insert("Basic", tr("Basic"));
+    addTranslation(tmpTranslations, "Create database", tr("Create database"));
+    addTranslation(tmpTranslations, "Show", tr("Show"));
+    addTranslation(tmpTranslations, "Basic", tr("Basic"));
 
     //LoggerDbSearchDialog.qml
     //:Select db location: internal storage
-    tmpTranslations.insert("internal", tr("internal"));
+    addTranslation(tmpTranslations, "internal", tr("internal"));
     //:Select db location: external storage e.g memory stick
-    tmpTranslations.insert("external", tr("external"));
+    addTranslation(tmpTranslations, "external", tr("external"));
     //:Delete database confirmation text - %1 is replaced by database filename
-    tmpTranslations.insert("Delete database <b>'%1'</b>?", tr("Delete database <b>'%1'</b>?"));
+    addTranslation(tmpTranslations, "Delete database <b>'%1'</b>?", tr("Delete database <b>'%1'</b>?"));
 
     //LoggerSessionNameSelector.qml
     //: displayed in logger session name popup, visible when the user presses start or snapshot in the logger
     //: the session name is a database field that the user can use to search / filter different sessions
-    tmpTranslations.insert("Select session name", tr("Select session name"));
+    addTranslation(tmpTranslations, "Select session name", tr("Select session name"));
     //: label for current session name
-    tmpTranslations.insert("Current name:", tr("Current name:"));
+    addTranslation(tmpTranslations, "Current name:", tr("Current name:"));
     //: header for list of existing session names. Operator can select one of them to make it current session name
-    tmpTranslations.insert("Select existing:", tr("Select existing:"));
-    tmpTranslations.insert("Preview", tr("Preview"));
+    addTranslation(tmpTranslations, "Select existing:", tr("Select existing:"));
+    addTranslation(tmpTranslations, "Preview", tr("Preview"));
     //: delete session confirmation popup header
-    tmpTranslations.insert("Confirmation", tr("Confirmation"));
+    addTranslation(tmpTranslations, "Confirmation", tr("Confirmation"));
     //: delete session confirmation popup header
-    tmpTranslations.insert("Delete session <b>'%1'</b>?", tr("Delete session <b>'%1'</b>?"));
+    addTranslation(tmpTranslations, "Delete session <b>'%1'</b>?", tr("Delete session <b>'%1'</b>?"));
 
     // LoggerSessionNew.qml
     //: header view 'Add new session'
-    tmpTranslations.insert("Add new session", tr("Add new session"));
+    addTranslation(tmpTranslations, "Add new session", tr("Add new session"));
     //: add new session view: label session name
-    tmpTranslations.insert("Session name:", tr("Session name:"));
+    addTranslation(tmpTranslations, "Session name:", tr("Session name:"));
     //: add new session view: label list cutomer data to select entry from
-    tmpTranslations.insert("Select customer data:", tr("Select customer data:"));
+    addTranslation(tmpTranslations, "Select customer data:", tr("Select customer data:"));
     //: add new session view: list entry to select no customer data
-    tmpTranslations.insert("-- no customer --", tr("-- no customer --"));
-    tmpTranslations.insert("no customer", tr("no customer"));
+    addTranslation(tmpTranslations, "-- no customer --", tr("-- no customer --"));
+    addTranslation(tmpTranslations, "no customer", tr("no customer"));
 
     // LoggerSessionNameWithMacrosPopup.qml
     //: default prefix for auto session name
-    tmpTranslations.insert("Session ", tr("Session "));
+    addTranslation(tmpTranslations, "Session ", tr("Session "));
 
     //LoggerCustomDataSelector.qml
     //: logger custom data selector view header
-    tmpTranslations.insert("Select custom data contents", tr("Select custom data contents"));
+    addTranslation(tmpTranslations, "Select custom data contents", tr("Select custom data contents"));
     //: button to select content-set actual values
-    tmpTranslations.insert("ZeraActualValues", tr("Actual values"));
+    addTranslation(tmpTranslations, "ZeraActualValues", tr("Actual values"));
     //: button to select content-set harmonic values
-    tmpTranslations.insert("ZeraHarmonics", tr("Harmonic values"));
+    addTranslation(tmpTranslations, "ZeraHarmonics", tr("Harmonic values"));
     //: button to select content-set sample values
-    tmpTranslations.insert("ZeraCurves", tr("Sample values"));
-    tmpTranslations.insert("ZeraComparison", tr("Comparison measurements"));
+    addTranslation(tmpTranslations, "ZeraCurves", tr("Sample values"));
+    addTranslation(tmpTranslations, "ZeraComparison", tr("Comparison measurements"));
     //: button to select content-set burden values
-    tmpTranslations.insert("ZeraBurden", tr("Burden values"));
+    addTranslation(tmpTranslations, "ZeraBurden", tr("Burden values"));
     //: button to select content-set transformer values
-    tmpTranslations.insert("ZeraTransformer", tr("Transformer values"));
+    addTranslation(tmpTranslations, "ZeraTransformer", tr("Transformer values"));
     //: button to select content-set dc-reference values
-    tmpTranslations.insert("ZeraDCReference", tr("DC reference values"));
+    addTranslation(tmpTranslations, "ZeraDCReference", tr("DC reference values"));
     //: button to select content-set dc-reference values
-    tmpTranslations.insert("ZeraQuartzReference", tr("Quartz reference values"));
+    addTranslation(tmpTranslations, "ZeraQuartzReference", tr("Quartz reference values"));
     //: button to select content-set dc-reference values
-    tmpTranslations.insert("ZeraAll", tr("All"));
+    addTranslation(tmpTranslations, "ZeraAll", tr("All"));
     //: logger custom data selector get back to menu button
-    tmpTranslations.insert("Back", tr("Back"));
+    addTranslation(tmpTranslations, "Back", tr("Back"));
 
     //LoggerMenu.qml
     //: displayed when user presses logger button
     //: text displayed in session name menu entry when no session was set yet
-    tmpTranslations.insert("-- no session --", tr("-- no session --"));
+    addTranslation(tmpTranslations, "-- no session --", tr("-- no session --"));
     //: take snapshot menu entry
-    tmpTranslations.insert("Take snapshot", tr("Take snapshot"));
+    addTranslation(tmpTranslations, "Take snapshot", tr("Take snapshot"));
     //: save snapshot error message
-    tmpTranslations.insert("Could not store snapshot in database. Please save logs and send them to service@zera.de.", tr("Could not store snapshot in database. Please save logs and send them to service@zera.de."));
+    addTranslation(tmpTranslations, "Could not store snapshot in database. Please save logs and send them to service@zera.de.", tr("Could not store snapshot in database. Please save logs and send them to service@zera.de."));
     //: start logging menu entry
-    tmpTranslations.insert("Start logging", tr("Start logging"));
+    addTranslation(tmpTranslations, "Start logging", tr("Start logging"));
     //: stop logging menu entry
-    tmpTranslations.insert("Stop logging", tr("Stop logging"));
+    addTranslation(tmpTranslations, "Stop logging", tr("Stop logging"));
     //: menu entry to open logger settings
-    tmpTranslations.insert("Settings...", tr("Settings..."));
+    addTranslation(tmpTranslations, "Settings...", tr("Settings..."));
     //: Logger menu entry export
-    tmpTranslations.insert("Export...", tr("Export..."));
+    addTranslation(tmpTranslations, "Export...", tr("Export..."));
     //: menu radio button to select content-set actual values
-    tmpTranslations.insert("MenuZeraActualValues", tr("Actual values only"));
+    addTranslation(tmpTranslations, "MenuZeraActualValues", tr("Actual values only"));
     //: menu radio button to select content-set harmonic values
-    tmpTranslations.insert("MenuZeraHarmonics", tr("Harmonic values only"));
+    addTranslation(tmpTranslations, "MenuZeraHarmonics", tr("Harmonic values only"));
     //: menu radio button to select content-set sample values
-    tmpTranslations.insert("MenuZeraCurves", tr("Sample values only"));
+    addTranslation(tmpTranslations, "MenuZeraCurves", tr("Sample values only"));
     //: menu radio button to select content-set comparison measurement values
-    tmpTranslations.insert("MenuZeraComparison", tr("Comparison measurements only"));
+    addTranslation(tmpTranslations, "MenuZeraComparison", tr("Comparison measurements only"));
     //: menu radio button to select content-set burden values
-    tmpTranslations.insert("MenuZeraBurden", tr("Burden values only"));
+    addTranslation(tmpTranslations, "MenuZeraBurden", tr("Burden values only"));
     //: menu radio button to select content-set transformer values
-    tmpTranslations.insert("MenuZeraTransformer", tr("Transformer values only"));
+    addTranslation(tmpTranslations, "MenuZeraTransformer", tr("Transformer values only"));
     //: menu radio button to select content-set dc-reference values
-    tmpTranslations.insert("MenuZeraDCReference", tr("DC reference values only"));
+    addTranslation(tmpTranslations, "MenuZeraDCReference", tr("DC reference values only"));
     //: menu radio button to select content-set dc-reference values
-    tmpTranslations.insert("MenuZeraQuartzReference", tr("Quartz reference values only"));
+    addTranslation(tmpTranslations, "MenuZeraQuartzReference", tr("Quartz reference values only"));
     //: menu radio button to select all values
-    tmpTranslations.insert("MenuZeraAll", tr("All data"));
+    addTranslation(tmpTranslations, "MenuZeraAll", tr("All data"));
     //: menu radio button to select custom content-sets values
-    tmpTranslations.insert("MenuZeraCustom", tr("Custom data"));
+    addTranslation(tmpTranslations, "MenuZeraCustom", tr("Custom data"));
 
     //CustomerDataEntry.qml
-    tmpTranslations.insert("Customer", tr("Customer"));
+    addTranslation(tmpTranslations, "Customer", tr("Customer"));
     //: power meter, not distance
-    tmpTranslations.insert("Meter information", tr("Meter information"));
-    tmpTranslations.insert("Location", tr("Location"));
-    tmpTranslations.insert("Power grid", tr("Power grid"));
-    tmpTranslations.insert("PAR_DatasetIdentifier", tr("Data Identifier:"));
-    tmpTranslations.insert("PAR_DatasetComment", tr("Data Comment:"));
-    tmpTranslations.insert("PAR_CustomerNumber", tr("Customer number:"));
-    tmpTranslations.insert("PAR_CustomerFirstName", tr("Customer First name:"));
-    tmpTranslations.insert("PAR_CustomerLastName", tr("Customer Last name:"));
-    tmpTranslations.insert("PAR_CustomerCountry", tr("Customer Country:"));
-    tmpTranslations.insert("PAR_CustomerCity", tr("Customer City:"));
-    tmpTranslations.insert("PAR_CustomerPostalCode", tr("Customer ZIP code:", "Postal code"));
-    tmpTranslations.insert("PAR_CustomerStreet", tr("Customer Street:"));
-    tmpTranslations.insert("PAR_CustomerComment", tr("Customer Comment:"));
-    tmpTranslations.insert("PAR_LocationNumber", tr("Location Identifier:"));
-    tmpTranslations.insert("PAR_LocationFirstName", tr("Location First name:"));
-    tmpTranslations.insert("PAR_LocationLastName", tr("Location Last name:"));
-    tmpTranslations.insert("PAR_LocationCountry", tr("LocationCountry:"));
-    tmpTranslations.insert("PAR_LocationCity", tr("Location City:"));
-    tmpTranslations.insert("PAR_LocationPostalCode", tr("Location ZIP code:", "Postal code"));
-    tmpTranslations.insert("PAR_LocationStreet", tr("Location Street:"));
-    tmpTranslations.insert("PAR_LocationComment", tr("Location Comment:"));
-    tmpTranslations.insert("PAR_MeterFactoryNumber", tr("Meter Factory number:"));
-    tmpTranslations.insert("PAR_MeterManufacturer", tr("Meter Manufacturer:"));
-    tmpTranslations.insert("PAR_MeterOwner", tr("Meter Owner:"));
-    tmpTranslations.insert("PAR_MeterComment", tr("Meter Comment:"));
-    tmpTranslations.insert("PAR_PowerGridOperator", tr("Power grid Operator:"));
-    tmpTranslations.insert("PAR_PowerGridSupplier", tr("Power grid Supplier:"));
-    tmpTranslations.insert("PAR_PowerGridComment", tr("Power grid Comment:"));
+    addTranslation(tmpTranslations, "Meter information", tr("Meter information"));
+    addTranslation(tmpTranslations, "Location", tr("Location"));
+    addTranslation(tmpTranslations, "Power grid", tr("Power grid"));
+    addTranslation(tmpTranslations, "PAR_DatasetIdentifier", tr("Data Identifier:"));
+    addTranslation(tmpTranslations, "PAR_DatasetComment", tr("Data Comment:"));
+    addTranslation(tmpTranslations, "PAR_CustomerNumber", tr("Customer number:"));
+    addTranslation(tmpTranslations, "PAR_CustomerFirstName", tr("Customer First name:"));
+    addTranslation(tmpTranslations, "PAR_CustomerLastName", tr("Customer Last name:"));
+    addTranslation(tmpTranslations, "PAR_CustomerCountry", tr("Customer Country:"));
+    addTranslation(tmpTranslations, "PAR_CustomerCity", tr("Customer City:"));
+    addTranslation(tmpTranslations, "PAR_CustomerPostalCode", tr("Customer ZIP code:", "Postal code"));
+    addTranslation(tmpTranslations, "PAR_CustomerStreet", tr("Customer Street:"));
+    addTranslation(tmpTranslations, "PAR_CustomerComment", tr("Customer Comment:"));
+    addTranslation(tmpTranslations, "PAR_LocationNumber", tr("Location Identifier:"));
+    addTranslation(tmpTranslations, "PAR_LocationFirstName", tr("Location First name:"));
+    addTranslation(tmpTranslations, "PAR_LocationLastName", tr("Location Last name:"));
+    addTranslation(tmpTranslations, "PAR_LocationCountry", tr("LocationCountry:"));
+    addTranslation(tmpTranslations, "PAR_LocationCity", tr("Location City:"));
+    addTranslation(tmpTranslations, "PAR_LocationPostalCode", tr("Location ZIP code:", "Postal code"));
+    addTranslation(tmpTranslations, "PAR_LocationStreet", tr("Location Street:"));
+    addTranslation(tmpTranslations, "PAR_LocationComment", tr("Location Comment:"));
+    addTranslation(tmpTranslations, "PAR_MeterFactoryNumber", tr("Meter Factory number:"));
+    addTranslation(tmpTranslations, "PAR_MeterManufacturer", tr("Meter Manufacturer:"));
+    addTranslation(tmpTranslations, "PAR_MeterOwner", tr("Meter Owner:"));
+    addTranslation(tmpTranslations, "PAR_MeterComment", tr("Meter Comment:"));
+    addTranslation(tmpTranslations, "PAR_PowerGridOperator", tr("Power grid Operator:"));
+    addTranslation(tmpTranslations, "PAR_PowerGridSupplier", tr("Power grid Supplier:"));
+    addTranslation(tmpTranslations, "PAR_PowerGridComment", tr("Power grid Comment:"));
 
     //CustomerDataBrowser.qml
     //: header text customer data browser
-    tmpTranslations.insert("Customer data", tr("Customer data"));
+    addTranslation(tmpTranslations, "Customer data", tr("Customer data"));
     //: button import cutomer data
-    tmpTranslations.insert("Import", tr("Import"));
+    addTranslation(tmpTranslations, "Import", tr("Import"));
     //: button import cutomer data
-    tmpTranslations.insert("Export", tr("Export"));
+    addTranslation(tmpTranslations, "Export", tr("Export"));
     //: label text add customer data
-    tmpTranslations.insert("File name:", tr("File name:", "customerdata filename"));
-    tmpTranslations.insert("Search", tr("Search", "search for customerdata files"));
+    addTranslation(tmpTranslations, "File name:", tr("File name:", "customerdata filename"));
+    addTranslation(tmpTranslations, "Search", tr("Search", "search for customerdata files"));
     //: header import customer data popup
-    tmpTranslations.insert("Import customer data", tr("Import customer data"));
+    addTranslation(tmpTranslations, "Import customer data", tr("Import customer data"));
     //: label import customer data device select combo
-    tmpTranslations.insert("Files found from device:", tr("Files found from device:"));
+    addTranslation(tmpTranslations, "Files found from device:", tr("Files found from device:"));
     //: import customer data popup option checkbox text
-    tmpTranslations.insert("Delete current files first", tr("Delete current files first"));
+    addTranslation(tmpTranslations, "Delete current files first", tr("Delete current files first"));
     //: import customer data popup option checkbox text
-    tmpTranslations.insert("Overwrite current files with imported ones", tr("Overwrite current files with imported ones"));
+    addTranslation(tmpTranslations, "Overwrite current files with imported ones", tr("Overwrite current files with imported ones"));
     //: customer data delete file confirmation popup header
-    tmpTranslations.insert("Confirmation", tr("Confirmation"));
+    addTranslation(tmpTranslations, "Confirmation", tr("Confirmation"));
     //: customer data delete file confirmation text
-    tmpTranslations.insert("Delete <b>'%1'</b>?", tr("Delete <b>'%1'</b>?"));
+    addTranslation(tmpTranslations, "Delete <b>'%1'</b>?", tr("Delete <b>'%1'</b>?"));
     //: customer data delete file button text
-    tmpTranslations.insert("Delete", tr("Delete"));
-    tmpTranslations.insert("Delete transaction ?", tr("Delete transaction ?"));
+    addTranslation(tmpTranslations, "Delete", tr("Delete"));
+    addTranslation(tmpTranslations, "Delete transaction ?", tr("Delete transaction ?"));
 
     //: header text popup new customer data
-    tmpTranslations.insert("Create Customer data file", tr("Create Customer data file"));
+    addTranslation(tmpTranslations, "Create Customer data file", tr("Create Customer data file"));
 
     // LoggerExport.qml
     //: header text view export data
-    tmpTranslations.insert("Export stored data", tr("Export stored data"));
+    addTranslation(tmpTranslations, "Export stored data", tr("Export stored data"));
     //: label combobox export type (MTVisXML/SQLiteDB...)
-    tmpTranslations.insert("Export type:", tr("Export type:"));
+    addTranslation(tmpTranslations, "Export type:", tr("Export type:"));
     //: entry combobox export type MTVis Part 1
-    tmpTranslations.insert("MtVis XML", tr("MtVis XML"));
+    addTranslation(tmpTranslations, "MtVis XML", tr("MtVis XML"));
     //: entry combobox export type MTVis Part 2
-    tmpTranslations.insert("Session:", tr("Session:"));
+    addTranslation(tmpTranslations, "Session:", tr("Session:"));
     //: entry combobox export type in case no sessions stored yet
-    tmpTranslations.insert("MtVis XML - requires stored sessions", tr("MtVis XML - requires stored sessions"));
+    addTranslation(tmpTranslations, "MtVis XML - requires stored sessions", tr("MtVis XML - requires stored sessions"));
     //: label edit field export name
-    tmpTranslations.insert("Export name:", tr("Export name:"));
+    addTranslation(tmpTranslations, "Export name:", tr("Export name:"));
     //: edit field export name: Text displayed in case MTVis export is selected and field is empty (placeholder text)
-    tmpTranslations.insert("Name of export path", tr("Name of export path"));
+    addTranslation(tmpTranslations, "Name of export path", tr("Name of export path"));
     //: label combobox target drive (visible only if multiple sicks / partitions are mounted)
-    tmpTranslations.insert("Target drive:", tr("Target drive:"));
+    addTranslation(tmpTranslations, "Target drive:", tr("Target drive:"));
     //: button text MTVis export type selected but no session active currently
-    tmpTranslations.insert("Please select a session first...", tr("Please select a session first..."));
+    addTranslation(tmpTranslations, "Please select a session first...", tr("Please select a session first..."));
     //: Text set in case MTVis export failed
-    tmpTranslations.insert("Export failed - drive full or removed?", tr("Export failed - drive full or removed?"));
+    addTranslation(tmpTranslations, "Export failed - drive full or removed?", tr("Export failed - drive full or removed?"));
     //: Text set in case MTVis export failed
-    tmpTranslations.insert("Import failed - drive removed?", tr("Import failed - drive removed?"));
+    addTranslation(tmpTranslations, "Import failed - drive removed?", tr("Import failed - drive removed?"));
     //: Text set in case SQLite file export (copy) failed
-    tmpTranslations.insert("Copy failed - drive full or removed?", tr("Copy failed - drive full or removed?"));
+    addTranslation(tmpTranslations, "Copy failed - drive full or removed?", tr("Copy failed - drive full or removed?"));
     //: Header text in wait export popup
-    tmpTranslations.insert("Exporting customer data...", tr("Exporting customer data..."));
+    addTranslation(tmpTranslations, "Exporting customer data...", tr("Exporting customer data..."));
     //: Header text in wait import popup
-    tmpTranslations.insert("Importing customer data...", tr("Importing customer data..."));
+    addTranslation(tmpTranslations, "Importing customer data...", tr("Importing customer data..."));
     //: Header text in wait export popup
-    tmpTranslations.insert("Exporting MTVis XML...", tr("Exporting MTVis XML..."));
+    addTranslation(tmpTranslations, "Exporting MTVis XML...", tr("Exporting MTVis XML..."));
     //: Header text in wait export popup
-    tmpTranslations.insert("Exporting database...", tr("Exporting database..."));
+    addTranslation(tmpTranslations, "Exporting database...", tr("Exporting database..."));
     //: warning prefix
-    tmpTranslations.insert("Warning:", tr("Warning:"));
+    addTranslation(tmpTranslations, "Warning:", tr("Warning:"));
     //: error prefix
-    tmpTranslations.insert("Error:", tr("Error:"));
+    addTranslation(tmpTranslations, "Error:", tr("Error:"));
     //: Transaction table: transaction type
-    tmpTranslations.insert("Recording", tr("Recording"));
+    addTranslation(tmpTranslations, "Recording", tr("Recording"));
 
     // MountedDrivesCombo.qml
     //: in drive select combo for partitions without name
-    tmpTranslations.insert("unnamed", tr("unnamed"));
+    addTranslation(tmpTranslations, "unnamed", tr("unnamed"));
     //: in drive select combo free memory label
-    tmpTranslations.insert("free", tr("free"));
+    addTranslation(tmpTranslations, "free", tr("free"));
 
     // SerialSettings.qml
-    tmpTranslations.insert("Not connected", tr("Not connected"));
-    tmpTranslations.insert("Serial SCPI", tr("Serial SCPI"));
-    tmpTranslations.insert("Serial SCPI", tr("Serial SCPI"));
-    tmpTranslations.insert("Source device", tr("Source device"));
-    tmpTranslations.insert("Scanning for source device...", tr("Scanning for source device..."));
-    tmpTranslations.insert("Opening SCPI serial...", tr("Opening SCPI serial..."));
-    tmpTranslations.insert("Disconnect source...", tr("Disconnect source..."));
-    tmpTranslations.insert("Disconnect SCPI serial...", tr("Disconnect SCPI serial..."));
-    tmpTranslations.insert("No source found", tr("No source found"));
-    tmpTranslations.insert("Source switch off failed", tr("Source switch off failed"));
-    tmpTranslations.insert("Switch on failed", tr("Switch on failed"));
-    tmpTranslations.insert("Switch off failed", tr("Switch off failed"));
-    tmpTranslations.insert("Switching on %1...", tr("Switching on %1..."));
-    tmpTranslations.insert("Switching off %1...", tr("Switching off %1..."));
-    tmpTranslations.insert("none", tr("none"));
-    tmpTranslations.insert("On", tr("On"));
-    tmpTranslations.insert("symmetric", tr("symmetric"));
-    tmpTranslations.insert("Off", tr("Off"));
-    tmpTranslations.insert("Frequency:", tr("Frequency:"));
+    addTranslation(tmpTranslations, "Not connected", tr("Not connected"));
+    addTranslation(tmpTranslations, "Serial SCPI", tr("Serial SCPI"));
+    addTranslation(tmpTranslations, "Serial SCPI", tr("Serial SCPI"));
+    addTranslation(tmpTranslations, "Source device", tr("Source device"));
+    addTranslation(tmpTranslations, "Scanning for source device...", tr("Scanning for source device..."));
+    addTranslation(tmpTranslations, "Opening SCPI serial...", tr("Opening SCPI serial..."));
+    addTranslation(tmpTranslations, "Disconnect source...", tr("Disconnect source..."));
+    addTranslation(tmpTranslations, "Disconnect SCPI serial...", tr("Disconnect SCPI serial..."));
+    addTranslation(tmpTranslations, "No source found", tr("No source found"));
+    addTranslation(tmpTranslations, "Source switch off failed", tr("Source switch off failed"));
+    addTranslation(tmpTranslations, "Switch on failed", tr("Switch on failed"));
+    addTranslation(tmpTranslations, "Switch off failed", tr("Switch off failed"));
+    addTranslation(tmpTranslations, "Switching on %1...", tr("Switching on %1..."));
+    addTranslation(tmpTranslations, "Switching off %1...", tr("Switching off %1..."));
+    addTranslation(tmpTranslations, "none", tr("none"));
+    addTranslation(tmpTranslations, "On", tr("On"));
+    addTranslation(tmpTranslations, "symmetric", tr("symmetric"));
+    addTranslation(tmpTranslations, "Off", tr("Off"));
+    addTranslation(tmpTranslations, "Frequency:", tr("Frequency:"));
 
     // SensorSettings.qml
-    tmpTranslations.insert("Bluetooth:", tr("Bluetooth:"));
-    tmpTranslations.insert("MAC address:", tr("MAC address:"));
-    tmpTranslations.insert("Temperature [°C]:", tr("Temperature [°C]:"));
-    tmpTranslations.insert("T [°C]", tr("T [°C]"));
-    tmpTranslations.insert("Temperature [°F]:", tr("Temperature [°F]:"));
-    tmpTranslations.insert("Humidity [%]:", tr("Humidity [%]:"));
-    tmpTranslations.insert("Air pressure [hPa]:", tr("Air pressure [hPa]:"));
+    addTranslation(tmpTranslations, "Bluetooth:", tr("Bluetooth:"));
+    addTranslation(tmpTranslations, "MAC address:", tr("MAC address:"));
+    addTranslation(tmpTranslations, "Temperature [°C]:", tr("Temperature [°C]:"));
+    addTranslation(tmpTranslations, "T [°C]", tr("T [°C]"));
+    addTranslation(tmpTranslations, "Temperature [°F]:", tr("Temperature [°F]:"));
+    addTranslation(tmpTranslations, "Humidity [%]:", tr("Humidity [%]:"));
+    addTranslation(tmpTranslations, "Air pressure [hPa]:", tr("Air pressure [hPa]:"));
 
-    tmpTranslations.insert("No USB-stick inserted", tr("No USB-stick inserted"));
-    tmpTranslations.insert("Screenshot taken and saved on USB-stick", tr("Screenshot taken and saved on USB-stick"));
+    addTranslation(tmpTranslations, "No USB-stick inserted", tr("No USB-stick inserted"));
+    addTranslation(tmpTranslations, "Screenshot taken and saved on USB-stick", tr("Screenshot taken and saved on USB-stick"));
 
     //: Timezone with no region info are marked as "\<other\>"
-    tmpTranslations.insert("other", tr("other"));
-    tmpTranslations.insert("Time:", tr("Time:"));
-    tmpTranslations.insert("Date:", tr("Date:"));
-    tmpTranslations.insert("Internal timebase", tr("Internal timebase"));
-    tmpTranslations.insert("Synchronize from network", tr("Synchronize from network"));
-    tmpTranslations.insert("Set timezone failed!", tr("Set timezone failed!"));
-    tmpTranslations.insert("NTP activate failed!", tr("NTP activate failed!"));
-    tmpTranslations.insert("NTP deactivate failed!", tr("NTP deactivate failed!"));
-    tmpTranslations.insert("Set date/time failed!", tr("Set date/time failed!"));
+    addTranslation(tmpTranslations, "other", tr("other"));
+    addTranslation(tmpTranslations, "Time:", tr("Time:"));
+    addTranslation(tmpTranslations, "Date:", tr("Date:"));
+    addTranslation(tmpTranslations, "Internal timebase", tr("Internal timebase"));
+    addTranslation(tmpTranslations, "Synchronize from network", tr("Synchronize from network"));
+    addTranslation(tmpTranslations, "Set timezone failed!", tr("Set timezone failed!"));
+    addTranslation(tmpTranslations, "NTP activate failed!", tr("NTP activate failed!"));
+    addTranslation(tmpTranslations, "NTP deactivate failed!", tr("NTP deactivate failed!"));
+    addTranslation(tmpTranslations, "Set date/time failed!", tr("Set date/time failed!"));
 
-    tmpTranslations.insert("Date/Time:", tr("Date/Time:"));
+    addTranslation(tmpTranslations, "Date/Time:", tr("Date/Time:"));
 
     //: Measurememt mode / fixed frequency. Note too long texts ruin layout!!!
-    tmpTranslations.insert("Fixed Freq.", tr("Fixed Freq."));
+    addTranslation(tmpTranslations, "Fixed Freq.", tr("Fixed Freq."));
 
     // ApiConfirmationPopup.qml
-    tmpTranslations.insert("API Trust requested", tr("API Trust requested"));
-    tmpTranslations.insert("Name:", tr("Name:"));
-    tmpTranslations.insert("Type:", tr("Type:"));
-    tmpTranslations.insert("Identity:", tr("Identity:"));
-    tmpTranslations.insert("Deny", tr("Deny"));
-    tmpTranslations.insert("Allow", tr("Allow"));
+    addTranslation(tmpTranslations, "API Trust requested", tr("API Trust requested"));
+    addTranslation(tmpTranslations, "Name:", tr("Name:"));
+    addTranslation(tmpTranslations, "Type:", tr("Type:"));
+    addTranslation(tmpTranslations, "Identity:", tr("Identity:"));
+    addTranslation(tmpTranslations, "Deny", tr("Deny"));
+    addTranslation(tmpTranslations, "Allow", tr("Allow"));
 
     // ApiInfoPopup.qml
-    tmpTranslations.insert("API SSL Certificate (SHA1)", tr("API SSL Certificate (SHA1)"));
-    tmpTranslations.insert("No SSL Certificate available.", tr("No SSL Certificate available."));
+    addTranslation(tmpTranslations, "API SSL Certificate (SHA1)", tr("API SSL Certificate (SHA1)"));
+    addTranslation(tmpTranslations, "No SSL Certificate available.", tr("No SSL Certificate available."));
 
     // TrustDeletePopup.qml
-    tmpTranslations.insert("Delete this Trust", tr("Delete this Trust"));
+    addTranslation(tmpTranslations, "Delete this Trust", tr("Delete this Trust"));
 
     // TrustListPopup.qml
-    tmpTranslations.insert("Trusted API Clients", tr("Trusted API Clients"));
-    tmpTranslations.insert("No trusted clients yet.", tr("No trusted clients yet."));
+    addTranslation(tmpTranslations, "Trusted API Clients", tr("Trusted API Clients"));
+    addTranslation(tmpTranslations, "No trusted clients yet.", tr("No trusted clients yet."));
 
     //: add nominal frequency
-    tmpTranslations.insert("NF (Nominal Frequency)", tr("NF (Nominal Frequency)"));
-    tmpTranslations.insert("NF:", tr("NF:"));
+    addTranslation(tmpTranslations, "NF (Nominal Frequency)", tr("NF (Nominal Frequency)"));
+    addTranslation(tmpTranslations, "NF:", tr("NF:"));
 
     // Keys for reportjs-vue project
-    tmpTranslations.insert("Remote control", tr("Remote control"));
-    tmpTranslations.insert("Download update", tr("Download update"));
-    tmpTranslations.insert("ZERA SCPI documentation", tr("ZERA SCPI documentation"));
-    tmpTranslations.insert("Database schema", tr("Database schema"));
-    tmpTranslations.insert("Reports", tr("Reports"));
-    tmpTranslations.insert("Content", tr("Content"));
-    tmpTranslations.insert("Display all", tr("Display all"));
-    tmpTranslations.insert("Export as PDF", tr("Export as PDF"));
-    tmpTranslations.insert("Back to overview", tr("Back to overview"));
-    tmpTranslations.insert("Web Server for ZENUX Devices", tr("Web Server for ZENUX Devices"));
-    tmpTranslations.insert("Error occurred !", tr("Error occurred !"));
+    addTranslation(tmpTranslations, "Remote control", tr("Remote control"));
+    addTranslation(tmpTranslations, "Download update", tr("Download update"));
+    addTranslation(tmpTranslations, "ZERA SCPI documentation", tr("ZERA SCPI documentation"));
+    addTranslation(tmpTranslations, "Database schema", tr("Database schema"));
+    addTranslation(tmpTranslations, "Reports", tr("Reports"));
+    addTranslation(tmpTranslations, "Content", tr("Content"));
+    addTranslation(tmpTranslations, "Display all", tr("Display all"));
+    addTranslation(tmpTranslations, "Export as PDF", tr("Export as PDF"));
+    addTranslation(tmpTranslations, "Back to overview", tr("Back to overview"));
+    addTranslation(tmpTranslations, "Web Server for ZENUX Devices", tr("Web Server for ZENUX Devices"));
+    addTranslation(tmpTranslations, "Error occurred !", tr("Error occurred !"));
 
-    tmpTranslations.insert("Settings", tr("Settings"));
-    tmpTranslations.insert("Value", tr("Value"));
+    addTranslation(tmpTranslations, "Settings", tr("Settings"));
+    addTranslation(tmpTranslations, "Value", tr("Value"));
 
-    tmpTranslations.insert("Status", tr("Status"));
+    addTranslation(tmpTranslations, "Status", tr("Status"));
 
-    tmpTranslations.insert("Measurement mode", tr("Measurement mode"));
-    tmpTranslations.insert("Start time", tr("Start time"));
-    tmpTranslations.insert("Stop time", tr("Stop time"));
-    tmpTranslations.insert("Measurements", tr("Measurements"));
-    tmpTranslations.insert("Measurement duration", tr("Measurement duration"));
-    tmpTranslations.insert("Measurement time", tr("Measurement time"));
-    tmpTranslations.insert("Pulse count", tr("Pulse count"));
-    tmpTranslations.insert("Power", tr("Power"));
-    tmpTranslations.insert("Mean value", tr("Mean value"));
-    tmpTranslations.insert("Multiple measurements", tr("Multiple measurements"));
-    tmpTranslations.insert("Unfinished", tr("Unfinished"));
+    addTranslation(tmpTranslations, "Measurement mode", tr("Measurement mode"));
+    addTranslation(tmpTranslations, "Start time", tr("Start time"));
+    addTranslation(tmpTranslations, "Stop time", tr("Stop time"));
+    addTranslation(tmpTranslations, "Measurements", tr("Measurements"));
+    addTranslation(tmpTranslations, "Measurement duration", tr("Measurement duration"));
+    addTranslation(tmpTranslations, "Measurement time", tr("Measurement time"));
+    addTranslation(tmpTranslations, "Pulse count", tr("Pulse count"));
+    addTranslation(tmpTranslations, "Power", tr("Power"));
+    addTranslation(tmpTranslations, "Mean value", tr("Mean value"));
+    addTranslation(tmpTranslations, "Multiple measurements", tr("Multiple measurements"));
+    addTranslation(tmpTranslations, "Unfinished", tr("Unfinished"));
 
-    tmpTranslations.insert("Report all transactions in ", tr("Report all transactions in "));
-    tmpTranslations.insert("Report one transaction in ", tr("Report one transaction in "));
+    addTranslation(tmpTranslations, "Report all transactions in ", tr("Report all transactions in "));
+    addTranslation(tmpTranslations, "Report one transaction in ", tr("Report one transaction in "));
 
     return tmpTranslations;
 }
