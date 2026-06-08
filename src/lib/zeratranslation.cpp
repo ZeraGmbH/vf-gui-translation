@@ -391,8 +391,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
 
     //: ZDeleteConfirmPopup.qml Delete confirmation popup header
     addTranslation(tmpTranslations, "Confirmation", tr("Confirmation"));
-    //: ZDeleteConfirmPopup.qml Delete confirm dialog %1 is type e.g 'network connection' %2 is instance e.g 'Hotspot 1'
-    addTranslation(tmpTranslations, "Delete %1 <b>'%2'</b>?", tr("Delete %1 <b>'%2'</b>?"));
 
     // Network settings
     //: AvailableApDialog.qml Wifi password access point
@@ -467,7 +465,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     //: ConnectionTree.qml group Hotspot
     addTranslation(tmpTranslations, "HOTSPOT", tr("Hotspot"));
     //: ConnectionTree.qml type in connection delete confirm popup
-    addTranslation(tmpTranslations, "network connection", tr("network connection"));
+    addTranslation(tmpTranslations, "Delete network connection <b>'%1'</b>?", tr("Delete network connection <b>'%1'</b>?"));
 
     //: ConnectionInfo.qml header
     addTranslation(tmpTranslations, "Connection Information", tr("Connection Information"));
