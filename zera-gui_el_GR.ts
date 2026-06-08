@@ -1395,9 +1395,7 @@ Please charge the device before it turns down</source>
     </message>
     <message>
         <source>Confirmation</source>
-        <extracomment>delete session confirmation popup header
-----------
-customer data delete file confirmation popup header</extracomment>
+        <extracomment>ZDeleteConfirmPopup.qml Delete confirmation popup header</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>

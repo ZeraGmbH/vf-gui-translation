@@ -389,6 +389,8 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     addTranslation(tmpTranslations, "seconds", tr("seconds", "integration time interval unit"));
     addTranslation(tmpTranslations, "periods", tr("periods", "integration period interval unit"));
 
+    //: ZDeleteConfirmPopup.qml Delete confirmation popup header
+    addTranslation(tmpTranslations, "Confirmation", tr("Confirmation"));
     //: ZDeleteConfirmPopup.qml Delete confirm dialog %1 is type e.g 'network connection' %2 is instance e.g 'Hotspot 1'
     addTranslation(tmpTranslations, "Delete %1 <b>'%2'</b>?", tr("Delete %1 <b>'%2'</b>?"));
 
@@ -749,8 +751,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     addTranslation(tmpTranslations, "Select existing:", tr("Select existing:"));
     addTranslation(tmpTranslations, "Preview", tr("Preview"));
     //: delete session confirmation popup header
-    addTranslation(tmpTranslations, "Confirmation", tr("Confirmation"));
-    //: delete session confirmation popup header
     addTranslation(tmpTranslations, "Delete session <b>'%1'</b>?", tr("Delete session <b>'%1'</b>?"));
 
     // LoggerSessionNew.qml
@@ -878,8 +878,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     addTranslation(tmpTranslations, "Delete current files first", tr("Delete current files first"));
     //: import customer data popup option checkbox text
     addTranslation(tmpTranslations, "Overwrite current files with imported ones", tr("Overwrite current files with imported ones"));
-    //: customer data delete file confirmation popup header
-    addTranslation(tmpTranslations, "Confirmation", tr("Confirmation"));
     //: customer data delete file confirmation text
     addTranslation(tmpTranslations, "Delete <b>'%1'</b>?", tr("Delete <b>'%1'</b>?"));
     //: customer data delete file button text
@@ -938,7 +936,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     // SerialSettings.qml
     addTranslation(tmpTranslations, "Not connected", tr("Not connected"));
     addTranslation(tmpTranslations, "Serial SCPI", tr("Serial SCPI"));
-    addTranslation(tmpTranslations, "Serial SCPI", tr("Serial SCPI"));
     addTranslation(tmpTranslations, "Source device", tr("Source device"));
     addTranslation(tmpTranslations, "Scanning for source device...", tr("Scanning for source device..."));
     addTranslation(tmpTranslations, "Opening SCPI serial...", tr("Opening SCPI serial..."));
@@ -954,7 +951,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     addTranslation(tmpTranslations, "On", tr("On"));
     addTranslation(tmpTranslations, "symmetric", tr("symmetric"));
     addTranslation(tmpTranslations, "Off", tr("Off"));
-    addTranslation(tmpTranslations, "Frequency:", tr("Frequency:"));
 
     // SensorSettings.qml
     addTranslation(tmpTranslations, "Bluetooth:", tr("Bluetooth:"));

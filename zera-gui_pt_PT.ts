@@ -1359,9 +1359,7 @@ Carregue o dispositivo antes que ele desligue</translation>
     </message>
     <message>
         <source>Confirmation</source>
-        <extracomment>delete session confirmation popup header
-----------
-customer data delete file confirmation popup header</extracomment>
+        <extracomment>ZDeleteConfirmPopup.qml Delete confirmation popup header</extracomment>
         <translation>Confirmação</translation>
     </message>
     <message>
