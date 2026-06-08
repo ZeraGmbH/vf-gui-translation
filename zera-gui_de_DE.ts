@@ -2233,5 +2233,15 @@ Schalten Sie das Gerät nicht aus!</translation>
         <extracomment>EthernetSettings.qml password hint</extracomment>
         <translation>Passwort (minimal 8 Zeichen)</translation>
     </message>
+    <message>
+        <source>Delete %1 &lt;b&gt;&apos;%2&apos;&lt;/b&gt;?</source>
+        <extracomment>ZDeleteConfirmPopup.qml Delete confirm dialog %1 is type e.g &apos;network connection&apos; %2 is instance e.g &apos;Hotspot 1&apos;</extracomment>
+        <translation>%1 &lt;b&gt;&apos;%2&apos;&lt;/b&gt; löschen?</translation>
+    </message>
+    <message>
+        <source>network connection</source>
+        <extracomment>ConnectionTree.qml type in connection delete confirm popup</extracomment>
+        <translation>Netzwerkverbindung</translation>
+    </message>
 </context>
 </TS>

@@ -382,6 +382,9 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("seconds", tr("seconds", "integration time interval unit"));
     tmpTranslations.insert("periods", tr("periods", "integration period interval unit"));
 
+    //: ZDeleteConfirmPopup.qml Delete confirm dialog %1 is type e.g 'network connection' %2 is instance e.g 'Hotspot 1'
+    tmpTranslations.insert("Delete %1 <b>'%2'</b>?", tr("Delete %1 <b>'%2'</b>?"));
+
     // Network settings
     //: AvailableApDialog.qml Wifi password access point
     tmpTranslations.insert("Wifi Password", tr("Wifi Password"));
@@ -454,6 +457,8 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     tmpTranslations.insert("WIFI", tr("WIFI"));
     //: ConnectionTree.qml group Hotspot
     tmpTranslations.insert("HOTSPOT", tr("Hotspot"));
+    //: ConnectionTree.qml type in connection delete confirm popup
+    tmpTranslations.insert("network connection", tr("network connection"));
 
     //: ConnectionInfo.qml header
     tmpTranslations.insert("Connection Information", tr("Connection Information"));
