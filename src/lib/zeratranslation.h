@@ -49,6 +49,9 @@ public:
     Q_PROPERTY(QStringList flagsModel READ getFlagsModel CONSTANT)
     QStringList getFlagsModel();
 
+    Q_PROPERTY(QStringList flagsModelSvg READ getFlagsModelSvg CONSTANT)
+    QStringList getFlagsModelSvg();
+
 private slots:
     void onDateTimePoll();
 private:

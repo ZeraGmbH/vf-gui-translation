@@ -32,4 +32,5 @@ Item {
 
     readonly property var localesModel: ZTR.localesModel
     readonly property var flagsModel: ZTR.flagsModel
+    readonly property var flagsModelSvg: ZTR.flagsModelSvg
 }

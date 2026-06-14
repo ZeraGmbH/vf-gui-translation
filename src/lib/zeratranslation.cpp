@@ -141,6 +141,14 @@ QStringList ZeraTranslation::getFlagsModel()
     return m_translationFlagsModel.values();
 }
 
+QStringList ZeraTranslation::getFlagsModelSvg()
+{
+    QStringList flagsModelSvg = getFlagsModel();
+    for (QString &flag : flagsModelSvg)
+        flag.replace(".png", ".svg");
+    return flagsModelSvg;
+}
+
 void ZeraTranslation::onDateTimePoll()
 {
     QTime nowTime = getDateTimeNow().time();
