@@ -19,18 +19,4 @@ Item {
     function changeLanguage(language: string) {
         ZTR.setLanguage(language)
     }
-    function trDateTimeShort(dateTimeString: string) : string {
-        return ZTR.trDateTimeShort(dateTimeString)
-    }
-    function trDateTimeTz(dateTimeString: string) : string {
-        return ZTR.trDateTimeTz(dateTimeString)
-    }
-    function trDateTimeLong(dateTimeString: string) : string {
-        return ZTR.trDateTimeLong(dateTimeString)
-    }
-    readonly property var dateTimeNow: ZTR.dateTimeNow
-
-    readonly property var localesModel: ZTR.localesModel
-    readonly property var flagsModel: ZTR.flagsModel
-    readonly property var flagsModelSvg: ZTR.flagsModelSvg
 }
