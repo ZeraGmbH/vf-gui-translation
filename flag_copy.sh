@@ -33,9 +33,30 @@ copy_flags()
     done
 }
 
+flag_width=256
+
+create_pngs_from_svgs()
+{
+    for file in `find "$DESTDIR_WITH_TRANSLATION" -name '*.qm'`; do
+        filename=`basename $file`
+        language=`echo $filename | sed -e 's:zera-gui_::' -e 's:.qm::'`
+        region=`echo $language | tr -d [:lower:] | tr -d '_'`
+        echo "Create png from svg $language / $region..."
+        svgfile="$FLAGS_SOURCE_DIR/svg/${region}.svg"
+        if [ ! -e "$svgfile" ]; then
+            echo "Could not find $svgfile" >&2
+            exit 1
+        fi
+        if ! rsvg-convert --width=${flag_width} --format=png $svgfile > "${DESTDIR_WITH_TRANSLATION}/flag_${language}.png"; then
+            echo "Could not create flag_${language}.png from $svgfile" >&2
+            exit 1
+        fi
+    done
+}
+
+
 format='svg'
 copy_flags
 
-format='png'
-copy_flags
+create_pngs_from_svgs
 

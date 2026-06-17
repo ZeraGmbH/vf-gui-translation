@@ -17,6 +17,7 @@ set(QTX "Qt${QT_MAJOR_VER}")
 
 find_package(${QTX} COMPONENTS Qml Quick LinguistTools CONFIG REQUIRED)
 find_package(Python REQUIRED)
+find_program(RSVG_CONVERT NAMES rsvg-convert NO_CACHE REQUIRED)
 if("${QT_MAJOR_VER}" STREQUAL "6")
     find_program(LRELEASE NAMES lrelease lrelease-qt6 NO_CACHE REQUIRED)
     find_program(LUPDATE NAMES lupdate lupdate-qt6 NO_CACHE REQUIRED)
