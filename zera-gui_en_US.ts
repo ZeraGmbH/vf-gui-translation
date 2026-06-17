@@ -2232,5 +2232,13 @@ Do not switch off the device!</source>
         <extracomment>ConnectionTree.qml type in connection delete confirm popup</extracomment>
         <translation></translation>
     </message>
+    <message>
+        <source>Harmonic UI Charts</source>
+        <translation>Harmonic VI Charts</translation>
+    </message>
+    <message>
+        <source>Energy charts</source>
+        <translation>Energy charts</translation>
+    </message>
 </context>
 </TS>

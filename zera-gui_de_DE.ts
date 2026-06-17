@@ -2236,5 +2236,13 @@ Schalten Sie das Gerät nicht aus!</translation>
         <extracomment>ConnectionTree.qml type in connection delete confirm popup</extracomment>
         <translation>Netzwerkverbindung &lt;b&gt;&apos;%1&apos;&lt;/b&gt; löschen?</translation>
     </message>
+    <message>
+        <source>Harmonic UI Charts</source>
+        <translation>Diagramme U/I Harmonische</translation>
+    </message>
+    <message>
+        <source>Energy charts</source>
+        <translation>Energiediagramme</translation>
+    </message>
 </context>
 </TS>

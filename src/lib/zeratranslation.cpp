@@ -1042,5 +1042,8 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     addTranslation(tmpTranslations, "Report all transactions in ", tr("Report all transactions in "));
     addTranslation(tmpTranslations, "Report one transaction in ", tr("Report one transaction in "));
 
+    addTranslation(tmpTranslations, "Harmonic UI Charts", tr("Harmonic UI Charts"));
+    addTranslation(tmpTranslations, "Energy charts", tr("Energy charts"));
+
     return tmpTranslations;
 }
