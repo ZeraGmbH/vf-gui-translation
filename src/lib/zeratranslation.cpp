@@ -1015,6 +1015,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     addTranslation(tmpTranslations, "ZERA SCPI documentation", tr("ZERA SCPI documentation"));
     addTranslation(tmpTranslations, "Database schema", tr("Database schema"));
     addTranslation(tmpTranslations, "Reports", tr("Reports"));
+    addTranslation(tmpTranslations, "Download logfiles", tr("Download logfiles"));
     addTranslation(tmpTranslations, "Content", tr("Content"));
     addTranslation(tmpTranslations, "Display all", tr("Display all"));
     addTranslation(tmpTranslations, "Export as PDF", tr("Export as PDF"));

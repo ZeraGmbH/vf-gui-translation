@@ -2244,5 +2244,9 @@ Schalten Sie das Gerät nicht aus!</translation>
         <source>Energy charts</source>
         <translation>Energiediagramme</translation>
     </message>
+    <message>
+        <source>Download logfiles</source>
+        <translation>Logdateien herunterladen</translation>
+    </message>
 </context>
 </TS>

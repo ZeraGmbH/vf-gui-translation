@@ -2240,5 +2240,9 @@ Do not switch off the device!</source>
         <source>Energy charts</source>
         <translation>Energy charts</translation>
     </message>
+    <message>
+        <source>Download logfiles</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>
