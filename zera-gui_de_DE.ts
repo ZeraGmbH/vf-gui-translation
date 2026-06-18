@@ -1733,10 +1733,6 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <translation>DC: 4*Spannung / 1*Strom</translation>
     </message>
     <message>
-        <source>SCPI sequential mode:</source>
-        <translation>SCPI sequentieller Modus:</translation>
-    </message>
-    <message>
         <source>Ratio</source>
         <extracomment>Ratio checkbox</extracomment>
         <translation>Übersetzungsverhältnis</translation>

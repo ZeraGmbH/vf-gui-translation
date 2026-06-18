@@ -484,10 +484,6 @@
         <translation>Brilho preto:</translation>
     </message>
     <message>
-        <source>SCPI sequential mode:</source>
-        <translation>Modo sequencial SCPI:</translation>
-    </message>
-    <message>
         <source>Channel ignore limit [% of range]:</source>
         <translation>Limite de ignorar canal [% do intervalo]:</translation>
     </message>

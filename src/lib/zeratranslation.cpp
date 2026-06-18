@@ -385,7 +385,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     addTranslation(tmpTranslations, "Brightness currents:", tr("Brightness currents:"));
     //: Color themes popup adjust brightness for current
     addTranslation(tmpTranslations, "Brightness black:", tr("Brightness black:"));
-    addTranslation(tmpTranslations, "SCPI sequential mode:", tr("SCPI sequential mode:"));
     addTranslation(tmpTranslations, "Channel ignore limit [% of range]:", tr("Channel ignore limit [% of range]:"));
 
     //SettingsInterval.qml

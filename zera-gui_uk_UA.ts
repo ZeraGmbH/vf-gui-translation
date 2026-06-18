@@ -489,10 +489,6 @@
         <translation>Яркість для чорного:</translation>
     </message>
     <message>
-        <source>SCPI sequential mode:</source>
-        <translation>Режим роботи SCPI:</translation>
-    </message>
-    <message>
         <source>Channel ignore limit [% of range]:</source>
         <translation>Межа ігнорування каналу [% від діапазону]:</translation>
     </message>

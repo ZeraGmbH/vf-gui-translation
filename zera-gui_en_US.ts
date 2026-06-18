@@ -1730,10 +1730,6 @@ Please charge the device before it turns down</translation>
         <translation></translation>
     </message>
     <message>
-        <source>SCPI sequential mode:</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>Ratio</source>
         <extracomment>Ratio checkbox</extracomment>
         <translation></translation>

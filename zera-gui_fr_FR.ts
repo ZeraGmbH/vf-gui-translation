@@ -1735,10 +1735,6 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>DC: 4*Tension / 1*Courant</translation>
     </message>
     <message>
-        <source>SCPI sequential mode:</source>
-        <translation>SCPI mode séquentiel:</translation>
-    </message>
-    <message>
         <source>Ratio</source>
         <extracomment>Ratio checkbox</extracomment>
         <translation>Rapport</translation>

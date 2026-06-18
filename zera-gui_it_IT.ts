@@ -489,10 +489,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>SCPI sequential mode:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Channel ignore limit [% of range]:</source>
         <translation type="unfinished"></translation>
     </message>

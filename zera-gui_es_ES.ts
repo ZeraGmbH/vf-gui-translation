@@ -431,10 +431,6 @@
         <translation>Brillo negro:</translation>
     </message>
     <message>
-        <source>SCPI sequential mode:</source>
-        <translation>Modo secuencial SCPI:</translation>
-    </message>
-    <message>
         <source>Channel ignore limit [% of range]:</source>
         <translation>Límite de ignorar canal [% del rango]:</translation>
     </message>
