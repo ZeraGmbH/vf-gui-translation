@@ -816,7 +816,7 @@ ConnectionTree.qml group Hotspot</extracomment>
     <message>
         <source>Select phase to display:</source>
         <extracomment>Energy / charge plot: Select phases to display label</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez la phase à afficher:</translation>
     </message>
     <message>
         <source>Meter test</source>
@@ -2201,53 +2201,54 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
     <message>
         <source>Firmware update is running.
 Do not switch off the device!</source>
-        <translation type="unfinished"></translation>
+        <translation>La mise à jour du micrologiciel est en cours.
+N&apos;éteignez pas l&apos;appareil!</translation>
     </message>
     <message>
         <source>Service Support</source>
-        <translation type="unfinished"></translation>
+        <translation>Service de support</translation>
     </message>
     <message>
         <source>Enter connection name displayed</source>
         <extracomment>EthernetSettings.qml Ethernet connection name hint</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Entrez le nom de la connexion affiché</translation>
     </message>
     <message>
         <source>Enter IP address e.g 192.168.1.1</source>
         <extracomment>connection Manual fixed IP address hint</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Entrez une adresse IP p.ex 192.168.1.1</translation>
     </message>
     <message>
         <source>Enter subnet mask e.g 255.255.255.0</source>
         <extracomment>connection Manual fixed IP subnetmask hint</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Entrez masque de sous-réseau p.ex.255.255.255.0</translation>
     </message>
     <message>
         <source>SSID: the public hotspot name</source>
         <extracomment>WifiSettings.qml SSID field hint</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>SSID: nom du point d&apos;accès public</translation>
     </message>
     <message>
         <source>Enter password (minimum 8 characters)</source>
         <extracomment>EthernetSettings.qml password hint</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Entrez un mot de passe (8 caractères minimum)</translation>
     </message>
     <message>
         <source>Delete network connection &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</source>
         <extracomment>ConnectionTree.qml type in connection delete confirm popup</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Supprimer la connexion réseau &lt;b&gt;&apos;%1&apos;&lt;/b&gt;?</translation>
     </message>
     <message>
         <source>Harmonic UI Charts</source>
-        <translation type="unfinished"></translation>
+        <translation>Graphiques UI harmonique</translation>
     </message>
     <message>
         <source>Energy charts</source>
-        <translation type="unfinished"></translation>
+        <translation>Graphiques de l&apos;énergie</translation>
     </message>
     <message>
         <source>Download logfiles</source>
-        <translation type="unfinished"></translation>
+        <translation>Télécharger les fichiers journaux</translation>
     </message>
 </context>
 </TS>
