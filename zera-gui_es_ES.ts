@@ -2241,5 +2241,17 @@ Do not switch off the device!</source>
         <source>Download logfiles</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Start Update using USB stick</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Device has the latest release version</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Update device </source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

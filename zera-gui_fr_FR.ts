@@ -2246,5 +2246,17 @@ N&apos;éteignez pas l&apos;appareil!</translation>
         <source>Download logfiles</source>
         <translation>Télécharger les fichiers journaux</translation>
     </message>
+    <message>
+        <source>Start Update using USB stick</source>
+        <translation>Démarer la mise à jour à l&apos;aide d&apos;une USB</translation>
+    </message>
+    <message>
+        <source>Update device</source>
+        <translation>Mettre à jour </translation>
+    </message>
+    <message>
+        <source>Device has the latest release version</source>
+        <translation>L&apos;appareil dispose de la dernière version disponible</translation>
+    </message>
 </context>
 </TS>

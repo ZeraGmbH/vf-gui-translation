@@ -2240,5 +2240,17 @@ Do not switch off the device!</source>
         <source>Download logfiles</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Start Update using USB stick</source>
+        <translation>Start Update using USB stick</translation>
+    </message>
+    <message>
+        <source>Device has the latest release version</source>
+        <translation>Device has the latest release version</translation>
+    </message>
+    <message>
+        <source>Update device </source>
+        <translation>Update device </translation>
+    </message>
 </context>
 </TS>
