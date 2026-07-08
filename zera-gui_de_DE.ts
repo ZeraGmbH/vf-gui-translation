@@ -2246,15 +2246,16 @@ Schalten Sie das Gerät nicht aus!</translation>
     </message>
     <message>
         <source>Start Update using USB stick</source>
-        <translation type="unfinished"></translation>
+        <translation>Update von USB starten</translation>
     </message>
     <message>
         <source>Device has the latest release version</source>
-        <translation type="unfinished"></translation>
+        <translation>Die aktuelle Version ist bereits installiert</translation>
     </message>
     <message>
-        <source>Update device </source>
-        <translation type="unfinished"></translation>
+        <source>Update </source>
+        <extracomment>Update confirmation / first part of: &apos;Update current version -&gt; version to update&apos;</extracomment>
+        <translation>Aktualisiere </translation>
     </message>
 </context>
 </TS>

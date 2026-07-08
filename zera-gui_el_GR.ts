@@ -2248,7 +2248,8 @@ Do not switch off the device!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Update device </source>
+        <source>Update </source>
+        <extracomment>Update confirmation / first part of: &apos;Update current version -&gt; version to update&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
 </context>

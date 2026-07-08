@@ -2251,12 +2251,13 @@ N&apos;éteignez pas l&apos;appareil!</translation>
         <translation>Démarer la mise à jour à l&apos;aide d&apos;une USB</translation>
     </message>
     <message>
-        <source>Update device</source>
-        <translation>Mettre à jour </translation>
-    </message>
-    <message>
         <source>Device has the latest release version</source>
         <translation>L&apos;appareil dispose de la dernière version disponible</translation>
+    </message>
+    <message>
+        <source>Update </source>
+        <extracomment>Update confirmation / first part of: &apos;Update current version -&gt; version to update&apos;</extracomment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

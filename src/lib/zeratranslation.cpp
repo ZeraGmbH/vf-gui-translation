@@ -710,7 +710,8 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     addTranslation(tmpTranslations, "Save logfile to USB", tr("Save logfile to USB"));
     addTranslation(tmpTranslations, "Start Update", tr("Start Update"));
     addTranslation(tmpTranslations, "Start Update using USB stick", tr("Start Update using USB stick"));
-    addTranslation(tmpTranslations, "Update device ", tr("Update device "));
+    //: Update confirmation / first part of: 'Update current version -> version to update'
+    addTranslation(tmpTranslations, "Update ", tr("Update "));
     addTranslation(tmpTranslations, "Device has the latest release version", tr("Device has the latest release version"));
 
     //LoggerSettings.qml

@@ -2249,8 +2249,9 @@ Do not switch off the device!</source>
         <translation>Device has the latest release version</translation>
     </message>
     <message>
-        <source>Update device </source>
-        <translation>Update device </translation>
+        <source>Update </source>
+        <extracomment>Update confirmation / first part of: &apos;Update current version -&gt; version to update&apos;</extracomment>
+        <translation>Update </translation>
     </message>
 </context>
 </TS>
