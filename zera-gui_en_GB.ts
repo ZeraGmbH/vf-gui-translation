@@ -2090,8 +2090,8 @@ Please charge the device before it turns down</translation>
         <translation>Remote control</translation>
     </message>
     <message>
-        <source>ZERA SCPI documentation</source>
-        <translation>ZERA SCPI documentation</translation>
+        <source>SCPI documentation</source>
+        <translation>SCPI documentation</translation>
     </message>
     <message>
         <source>Database schema</source>

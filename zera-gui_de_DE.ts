@@ -2092,8 +2092,8 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <translation>Fernsteuerung</translation>
     </message>
     <message>
-        <source>ZERA SCPI documentation</source>
-        <translation>ZERA SCPI Dokumentation</translation>
+        <source>SCPI documentation</source>
+        <translation>SCPI Dokumentation</translation>
     </message>
     <message>
         <source>Database schema</source>

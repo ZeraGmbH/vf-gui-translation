@@ -2090,7 +2090,7 @@ Cargue el dispositivo antes de que se apague.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>ZERA SCPI documentation</source>
+        <source>SCPI documentation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

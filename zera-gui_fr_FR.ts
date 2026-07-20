@@ -2094,8 +2094,8 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Contrôle à distance</translation>
     </message>
     <message>
-        <source>ZERA SCPI documentation</source>
-        <translation>Documentation ZERA SCPI</translation>
+        <source>SCPI documentation</source>
+        <translation>Documentation SCPI</translation>
     </message>
     <message>
         <source>Database schema</source>

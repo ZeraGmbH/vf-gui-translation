@@ -2090,7 +2090,7 @@ Please charge the device before it turns down</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>ZERA SCPI documentation</source>
+        <source>SCPI documentation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
