@@ -2101,7 +2101,7 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
     </message>
     <message>
         <source>Reports</source>
-        <translation>Protokoll</translation>
+        <translation>Protokolle</translation>
     </message>
     <message>
         <source>Start time</source>
