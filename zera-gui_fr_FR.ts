@@ -2259,5 +2259,10 @@ N&apos;éteignez pas l&apos;appareil!</translation>
         <extracomment>Update confirmation / first part of: &apos;Update current version -&gt; version to update&apos;</extracomment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Sort SCPI query responses:</source>
+        <extracomment>Device settings: Sort SCPI responses in the sequence of incoming queries</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

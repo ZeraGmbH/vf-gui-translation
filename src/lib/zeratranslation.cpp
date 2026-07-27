@@ -387,6 +387,10 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     addTranslation(tmpTranslations, "Brightness black:", tr("Brightness black:"));
     addTranslation(tmpTranslations, "Channel ignore limit [% of range]:", tr("Channel ignore limit [% of range]:"));
 
+    //: Device settings: Sort SCPI responses in the sequence of incoming queries
+    addTranslation(tmpTranslations, "Sort SCPI query responses:", tr("Sort SCPI query responses:"));
+
+
     //SettingsInterval.qml
     //: time based integration interval
     addTranslation(tmpTranslations, "Integration time interval", tr("Integration time interval"));

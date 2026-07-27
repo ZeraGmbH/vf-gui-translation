@@ -2257,5 +2257,10 @@ Schalten Sie das Gerät nicht aus!</translation>
         <extracomment>Update confirmation / first part of: &apos;Update current version -&gt; version to update&apos;</extracomment>
         <translation>Aktualisiere </translation>
     </message>
+    <message>
+        <source>Sort SCPI query responses:</source>
+        <extracomment>Device settings: Sort SCPI responses in the sequence of incoming queries</extracomment>
+        <translation>SCPI Query Antworten sortiert:</translation>
+    </message>
 </context>
 </TS>

@@ -2253,5 +2253,10 @@ Do not switch off the device!</source>
         <extracomment>Update confirmation / first part of: &apos;Update current version -&gt; version to update&apos;</extracomment>
         <translation>Update </translation>
     </message>
+    <message>
+        <source>Sort SCPI query responses:</source>
+        <extracomment>Device settings: Sort SCPI responses in the sequence of incoming queries</extracomment>
+        <translation></translation>
+    </message>
 </context>
 </TS>
