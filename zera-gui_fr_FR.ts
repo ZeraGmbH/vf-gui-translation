@@ -2257,12 +2257,36 @@ N&apos;éteignez pas l&apos;appareil!</translation>
     <message>
         <source>Update </source>
         <extracomment>Update confirmation / first part of: &apos;Update current version -&gt; version to update&apos;</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Mettre à jour </translation>
     </message>
     <message>
         <source>Sort SCPI query responses:</source>
         <extracomment>Device settings: Sort SCPI responses in the sequence of incoming queries</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Trier les réponses aux requêtes SCPI:</translation>
+    </message>
+    <message>
+        <source>Notify on new releases: </source>
+        <translation>M&apos;avertir des nouvelles versions: </translation>
+    </message>
+    <message>
+        <source>Remind me later</source>
+        <translation>Me rappeler plus tard</translation>
+    </message>
+    <message>
+        <source>Disable</source>
+        <translation>Désactiver</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Savoir plus</translation>
+    </message>
+    <message>
+        <source>Install</source>
+        <translation>Installer</translation>
+    </message>
+    <message>
+        <source>New Release version has been published !</source>
+        <translation>Nouvelle version a été publié !</translation>
     </message>
 </context>
 </TS>

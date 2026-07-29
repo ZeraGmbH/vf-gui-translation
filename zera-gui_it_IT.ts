@@ -2257,5 +2257,29 @@ Do not switch off the device!</source>
         <extracomment>Device settings: Sort SCPI responses in the sequence of incoming queries</extracomment>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Notify on new releases: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remind me later</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Install</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Release version has been published !</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
