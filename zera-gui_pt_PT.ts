@@ -2126,8 +2126,8 @@ Carregue o dispositivo antes que ele desligue</translation>
         <translation>FN:</translation>
     </message>
     <message>
-        <source>Start Update</source>
-        <translation>Iniciar atualização</translation>
+        <source>Start update by network</source>
+        <translation>Iniciar a atualização através da rede</translation>
     </message>
     <message>
         <source>Value</source>
@@ -2294,7 +2294,7 @@ Do not switch off the device!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Start Update using USB stick</source>
+        <source>Start update by USB stick</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

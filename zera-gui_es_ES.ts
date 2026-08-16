@@ -2074,8 +2074,8 @@ Cargue el dispositivo antes de que se apague.</translation>
         <translation>FN:</translation>
     </message>
     <message>
-        <source>Start Update</source>
-        <translation>Iniciar actualización</translation>
+        <source>Start update by network</source>
+        <translation>Iniciar la actualización a través de la red</translation>
     </message>
     <message>
         <source>Value</source>
@@ -2242,7 +2242,7 @@ Do not switch off the device!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Start Update using USB stick</source>
+        <source>Start update by USB stick</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

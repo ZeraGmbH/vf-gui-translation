@@ -2074,8 +2074,8 @@ Please charge the device before it turns down</source>
         <translation>fном.:</translation>
     </message>
     <message>
-        <source>Start Update</source>
-        <translation>ПОЧАТИ ОНОВЛЕННЯ</translation>
+        <source>Start update by network</source>
+        <translation>Почати оновлення через мережу</translation>
     </message>
     <message>
         <source>Value</source>
@@ -2242,8 +2242,8 @@ Do not switch off the device!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Start Update using USB stick</source>
-        <translation type="unfinished"></translation>
+        <source>Start update by USB stick</source>
+        <translation>Запустити оновлення з USB-накопичувача</translation>
     </message>
     <message>
         <source>Device has the latest release version</source>
@@ -2281,7 +2281,7 @@ Do not switch off the device!</source>
     </message>
     <message>
         <source>New Release version has been published !</source>
-        <translation type="unfinished"></translation>
+        <translation>Опубліковано нову версію!</translation>
     </message>
 </context>
 </TS>

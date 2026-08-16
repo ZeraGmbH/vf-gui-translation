@@ -2073,7 +2073,7 @@ Please charge the device before it turns down</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Start Update</source>
+        <source>Start update by network</source>
         <translation></translation>
     </message>
     <message>
@@ -2241,8 +2241,8 @@ Do not switch off the device!</source>
         <translation></translation>
     </message>
     <message>
-        <source>Start Update using USB stick</source>
-        <translation>Start Update using USB stick</translation>
+        <source>Start update by USB stick</source>
+        <translation>Start update by USB stick</translation>
     </message>
     <message>
         <source>Device has the latest release version</source>

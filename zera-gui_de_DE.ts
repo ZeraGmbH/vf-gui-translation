@@ -2076,8 +2076,8 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <translation>NF:</translation>
     </message>
     <message>
-        <source>Start Update</source>
-        <translation>Update starten</translation>
+        <source>Start update by network</source>
+        <translation>Update über Netzwerk starten</translation>
     </message>
     <message>
         <source>Value</source>
@@ -2245,7 +2245,7 @@ Schalten Sie das Gerät nicht aus!</translation>
         <translation>Logdateien herunterladen</translation>
     </message>
     <message>
-        <source>Start Update using USB stick</source>
+        <source>Start update by USB stick</source>
         <translation>Update von USB starten</translation>
     </message>
     <message>

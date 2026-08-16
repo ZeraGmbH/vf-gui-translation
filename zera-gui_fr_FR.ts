@@ -2078,8 +2078,8 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>NF:</translation>
     </message>
     <message>
-        <source>Start Update</source>
-        <translation>Démarrer la mise à jour</translation>
+        <source>Start update by network</source>
+        <translation>Démarrer la mise à jour via le réseau</translation>
     </message>
     <message>
         <source>Value</source>
@@ -2247,7 +2247,7 @@ N&apos;éteignez pas l&apos;appareil!</translation>
         <translation>Télécharger les fichiers journaux</translation>
     </message>
     <message>
-        <source>Start Update using USB stick</source>
+        <source>Start update by USB stick</source>
         <translation>Démarer la mise à jour à l&apos;aide d&apos;une USB</translation>
     </message>
     <message>
