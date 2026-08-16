@@ -2263,23 +2263,7 @@ Do not switch off the device!</source>
         <translation></translation>
     </message>
     <message>
-        <source>Remind me later</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Disable</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>More</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>Install</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>New Release version has been published !</source>
         <translation></translation>
     </message>
 </context>

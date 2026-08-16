@@ -2264,24 +2264,8 @@ Do not switch off the device!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Remind me later</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Disable</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>More</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Install</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>New Release version has been published !</source>
-        <translation>Опубліковано нову версію!</translation>
     </message>
 </context>
 </TS>

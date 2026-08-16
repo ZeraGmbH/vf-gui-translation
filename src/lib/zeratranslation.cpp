@@ -719,11 +719,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     addTranslation(tmpTranslations, "Device has the latest release version", tr("Device has the latest release version"));
 
     addTranslation(tmpTranslations, "Notify on new releases: ", tr("Notify on new releases: "));
-    addTranslation(tmpTranslations, "Remind me later", tr("Remind me later"));
-    addTranslation(tmpTranslations, "Disable", tr("Disable"));
-    addTranslation(tmpTranslations, "More", tr("More"));
     addTranslation(tmpTranslations, "Install", tr("Install"));
-    addTranslation(tmpTranslations, "New Release version has been published !", tr("New Release version has been published !"));
 
     //LoggerSettings.qml
     addTranslation(tmpTranslations, "Database Logging", tr("Database Logging"));

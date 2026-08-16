@@ -2269,24 +2269,8 @@ N&apos;éteignez pas l&apos;appareil!</translation>
         <translation>M&apos;avertir des nouvelles versions: </translation>
     </message>
     <message>
-        <source>Remind me later</source>
-        <translation>Me rappeler plus tard</translation>
-    </message>
-    <message>
-        <source>Disable</source>
-        <translation>Désactiver</translation>
-    </message>
-    <message>
-        <source>More</source>
-        <translation>Savoir plus</translation>
-    </message>
-    <message>
         <source>Install</source>
         <translation>Installer</translation>
-    </message>
-    <message>
-        <source>New Release version has been published !</source>
-        <translation>Nouvelle version a été publié !</translation>
     </message>
 </context>
 </TS>
