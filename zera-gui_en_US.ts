@@ -2267,7 +2267,7 @@ Do not switch off the device!</source>
         <translation></translation>
     </message>
     <message>
-        <source>An error occurred getting release info.
+        <source>An error occurred retrieving release info.
 Please check your network connection or try again later.</source>
         <translation></translation>
     </message>

@@ -2271,7 +2271,7 @@ Schalten Sie das Gerät nicht aus!</translation>
         <translation>Installieren</translation>
     </message>
     <message>
-        <source>An error occurred getting release info.
+        <source>An error occurred retrieving release info.
 Please check your network connection or try again later.</source>
         <translation>Beim Abholen der Versionsinformationen ist ein Fehler aufgetreten.\nBitte überprüfen Sie die Netwerkverbindung oder versuchen es später noch einmal.</translation>
     </message>

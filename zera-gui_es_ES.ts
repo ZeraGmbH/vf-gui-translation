@@ -2243,11 +2243,11 @@ Do not switch off the device!</source>
     </message>
     <message>
         <source>Start update by USB stick</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar la actualización mediante USB</translation>
     </message>
     <message>
         <source>Device has the latest release version</source>
-        <translation type="unfinished"></translation>
+        <translation>El dispositivo tiene la última versión disponible</translation>
     </message>
     <message>
         <source>Update </source>
@@ -2261,16 +2261,16 @@ Do not switch off the device!</source>
     </message>
     <message>
         <source>Notify on new releases:</source>
-        <translation type="unfinished"></translation>
+        <translation>Notificarme cuando haya nuevas versiones:</translation>
     </message>
     <message>
         <source>Install</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>An error occurred getting release info.
+        <source>An error occurred retrieving release info.
 Please check your network connection or try again later.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ha producido un error al recuperar la información de la versión.\nComprueba tu conexión a Internet o vuelve a intentarlo más tarde.</translation>
     </message>
 </context>
 </TS>

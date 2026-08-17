@@ -2273,7 +2273,7 @@ N&apos;éteignez pas l&apos;appareil!</translation>
         <translation>Installer</translation>
     </message>
     <message>
-        <source>An error occurred getting release info.
+        <source>An error occurred retrieving release info.
 Please check your network connection or try again later.</source>
         <translation>Une erreur s&apos;est produite lors de la récupération des informations sur la version.\nVeuillez vérifier votre connexion réseau ou réessayer plus tard.</translation>
     </message>
