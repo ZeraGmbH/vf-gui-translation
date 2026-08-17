@@ -717,8 +717,9 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     //: Update confirmation / first part of: 'Update current version -> version to update'
     addTranslation(tmpTranslations, "Update ", tr("Update "));
     addTranslation(tmpTranslations, "Device has the latest release version", tr("Device has the latest release version"));
+    addTranslation(tmpTranslations, "An error occurred retrieving release info.\nPlease check your network connection or try again later.", tr("An error occurred retrieving release info.\nPlease check your network connection or try again later."));
 
-    addTranslation(tmpTranslations, "Notify on new releases: ", tr("Notify on new releases: "));
+    addTranslation(tmpTranslations, "Notify on new releases:", tr("Notify on new releases:"));
     addTranslation(tmpTranslations, "Install", tr("Install"));
 
     //LoggerSettings.qml

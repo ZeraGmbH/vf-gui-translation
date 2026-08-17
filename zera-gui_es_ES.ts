@@ -2260,11 +2260,16 @@ Do not switch off the device!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Notify on new releases: </source>
+        <source>Notify on new releases:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Install</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An error occurred getting release info.
+Please check your network connection or try again later.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

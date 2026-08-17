@@ -2263,12 +2263,17 @@ Schalten Sie das Gerät nicht aus!</translation>
         <translation>SCPI Query Antworten sortiert:</translation>
     </message>
     <message>
-        <source>Notify on new releases: </source>
-        <translation type="unfinished"></translation>
+        <source>Notify on new releases:</source>
+        <translation>Bei neuen Versionen benachrichtigen:</translation>
     </message>
     <message>
         <source>Install</source>
-        <translation type="unfinished"></translation>
+        <translation>Installieren</translation>
+    </message>
+    <message>
+        <source>An error occurred getting release info.
+Please check your network connection or try again later.</source>
+        <translation>Beim Abholen der Versionsinformationen ist ein Fehler aufgetreten.\nBitte überprüfen Sie die Netwerkverbindung oder versuchen es später noch einmal.</translation>
     </message>
 </context>
 </TS>

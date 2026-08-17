@@ -2265,12 +2265,17 @@ N&apos;éteignez pas l&apos;appareil!</translation>
         <translation>Trier les réponses aux requêtes SCPI:</translation>
     </message>
     <message>
-        <source>Notify on new releases: </source>
-        <translation>M&apos;avertir des nouvelles versions: </translation>
+        <source>Notify on new releases:</source>
+        <translation>M&apos;avertir des nouvelles versions:</translation>
     </message>
     <message>
         <source>Install</source>
         <translation>Installer</translation>
+    </message>
+    <message>
+        <source>An error occurred getting release info.
+Please check your network connection or try again later.</source>
+        <translation>Une erreur s&apos;est produite lors de la récupération des informations sur la version.\nVeuillez vérifier votre connexion réseau ou réessayer plus tard.</translation>
     </message>
 </context>
 </TS>
