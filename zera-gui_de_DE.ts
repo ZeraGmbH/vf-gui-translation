@@ -2059,10 +2059,6 @@ Bitte schließen Sie das Gerät ans Stromnetz an, um den Akku zu laden</translat
         <translation>Bitte warten...</translation>
     </message>
     <message>
-        <source>Save/Send logs</source>
-        <translation>Logs speichern/senden</translation>
-    </message>
-    <message>
         <source>Something went wrong</source>
         <translation>Etwas hat nicht funtioniert</translation>
     </message>

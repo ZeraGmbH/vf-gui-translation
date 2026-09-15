@@ -2109,10 +2109,6 @@ Carregue o dispositivo antes que ele desligue</translation>
         <translation>Por favor, aguarde...</translation>
     </message>
     <message>
-        <source>Save/Send logs</source>
-        <translation>Salvar/Enviar registros</translation>
-    </message>
-    <message>
         <source>Something went wrong</source>
         <translation>Algo deu errado</translation>
     </message>

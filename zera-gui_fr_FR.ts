@@ -2061,10 +2061,6 @@ Veuillez charger l&apos;appareil avant qu&apos;il ne s&apos;éteigne</translatio
         <translation>Veuillez patienter...</translation>
     </message>
     <message>
-        <source>Save/Send logs</source>
-        <translation>Enregister/Envoyer les journaux</translation>
-    </message>
-    <message>
         <source>Something went wrong</source>
         <translation>Une erreur s&apos;est produite</translation>
     </message>

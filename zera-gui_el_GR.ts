@@ -2055,10 +2055,6 @@ Please charge the device before it turns down</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Save/Send logs</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Something went wrong</source>
         <translation type="unfinished"></translation>
     </message>

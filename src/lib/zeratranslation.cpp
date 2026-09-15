@@ -499,7 +499,6 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     //: settings for range automatic etc.
     addTranslation(tmpTranslations, "Range", tr("Range", "measuring range"));
     addTranslation(tmpTranslations, "Please wait...", tr("Please wait..."));
-    addTranslation(tmpTranslations, "Save/Send logs", tr("Save/Send logs"));
     addTranslation(tmpTranslations, "Something went wrong", tr("Something went wrong"));
     addTranslation(tmpTranslations, "Firmware update is running.\nDo not switch off the device!", tr("Firmware update is running.\nDo not switch off the device!"));
 

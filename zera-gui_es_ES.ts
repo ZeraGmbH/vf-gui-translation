@@ -2057,10 +2057,6 @@ Cargue el dispositivo antes de que se apague.</translation>
         <translation>Por favor espere...</translation>
     </message>
     <message>
-        <source>Save/Send logs</source>
-        <translation>Guardar/Enviar registros</translation>
-    </message>
-    <message>
         <source>Something went wrong</source>
         <translation>Algo salió mal</translation>
     </message>
