@@ -2268,5 +2268,9 @@ Do not switch off the device!</source>
 Please check your network connection or try again later.</source>
         <translation></translation>
     </message>
+    <message>
+        <source>End:</source>
+        <translation></translation>
+    </message>
 </context>
 </TS>

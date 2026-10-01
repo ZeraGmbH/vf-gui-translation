@@ -529,6 +529,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     addTranslation(tmpTranslations, "Duration", tr("Duration"));
     addTranslation(tmpTranslations, "Start value:", tr("Start value:"));
     addTranslation(tmpTranslations, "End value:", tr("End value:"));
+    addTranslation(tmpTranslations, "End:", tr("End:"));
 
     //ErrorCalculatorModulePage.qml
     addTranslation(tmpTranslations, "Frequency:", tr("Frequency:"));

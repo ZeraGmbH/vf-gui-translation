@@ -2268,5 +2268,9 @@ Do not switch off the device!</source>
 Please check your network connection or try again later.</source>
         <translation>Se ha producido un error al recuperar la información de la versión.\nComprueba tu conexión a Internet o vuelve a intentarlo más tarde.</translation>
     </message>
+    <message>
+        <source>End:</source>
+        <translation>Fin:</translation>
+    </message>
 </context>
 </TS>

@@ -2271,5 +2271,9 @@ Schalten Sie das Gerät nicht aus!</translation>
 Please check your network connection or try again later.</source>
         <translation>Beim Abholen der Versionsinformationen ist ein Fehler aufgetreten.\nBitte überprüfen Sie die Netwerkverbindung oder versuchen es später noch einmal.</translation>
     </message>
+    <message>
+        <source>End:</source>
+        <translation>Ende:</translation>
+    </message>
 </context>
 </TS>
