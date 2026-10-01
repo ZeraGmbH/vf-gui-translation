@@ -82,9 +82,9 @@ QVariant ZeraTranslation::trValue(const QString &key)
     return iter.value();
 }
 
-QString ZeraTranslation::trDateTimeShort(const QString &dateTime)
+QString ZeraTranslation::trDateTimeShort(const QString &dateTime, const QString &dateTimeFormat)
 {
-    QDateTime dTime = QDateTime::fromString(dateTime);
+    QDateTime dTime = dateTimeFormat == "" ? QDateTime::fromString(dateTime) : QDateTime::fromString(dateTime, dateTimeFormat);
     QLocale locale(m_currentLanguage);
     const QString formatStr = getTimeDateFormatShort(locale);
     return locale.toString(dTime, formatStr);
