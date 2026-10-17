@@ -341,6 +341,7 @@ const QVariantHash ZeraTranslation::loadTranslationHash()
     addTranslation(tmpTranslations, "Measurement modes", tr("Measurement modes"));
     //: Ratio checkbox
     addTranslation(tmpTranslations, "Ratio", tr("Ratio"));
+    addTranslation(tmpTranslations, "> 200 kHz for internal tests only!", tr("> 200 kHz for internal tests only!"));
 
     //Settings.qml
     //: settings specific to the GUI application

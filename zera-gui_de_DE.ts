@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.0" language="de_DE">
 <context>
     <name>ZeraTranslation</name>
     <message>
@@ -2274,6 +2274,10 @@ Please check your network connection or try again later.</source>
     <message>
         <source>End:</source>
         <translation>Ende:</translation>
+    </message>
+    <message>
+        <source>&gt; 200 kHz for internal tests only!</source>
+        <translation>&gt; 200 kHz Nur für interne Tests!</translation>
     </message>
 </context>
 </TS>

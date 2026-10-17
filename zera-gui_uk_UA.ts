@@ -2272,5 +2272,9 @@ Please check your network connection or try again later.</source>
         <source>End:</source>
         <translation>Кінець:</translation>
     </message>
+    <message>
+        <source>&gt; 200 kHz for internal tests only!</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
